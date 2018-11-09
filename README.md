@@ -10,7 +10,7 @@ If you haven't already, please install Git for Windows https://git-scm.com/downl
 Open a GIT Bash in your client folder. Run the following commands:
 
 	git init .
-	git remote add -f origin https://someone@bitbucket.org/theswgsource/client-1.2.git
+	git remote add -f origin https://someone@bitbucket.org/theswgsource/client-assets-1.2.git
 	git checkout master
 
 You may now get updates to your client by opening a GIT Bash and running:
