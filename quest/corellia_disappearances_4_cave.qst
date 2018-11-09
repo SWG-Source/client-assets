@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="21" >
+            <task type="Go to Location" id="18" taskOnFail="false" >
+                <data value="0" name="Time To Complete" />
+                <data value="25" name="Radius(m)" />
+                <data value="Last Known Location" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="6637" name="LocationZ(m)" />
+                <data value="420" name="LocationY(m)" />
+                <data value="3641" name="LocationX(m)" />
+                <data value="corellia" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Another group of people disappeared. Go to their last known location." name="journalEntryDescription" />
+                <data value="Find the Spot Where the Others Disappeared" name="journalEntryTitle" />
+                <task type="Destroy Multiple" id="19" taskOnFail="false" >
+                    <data value="Kill 5 Hunters" name="journalEntryTitle" />
+                    <data value="Looks like a small group of hunters remained at the location to cover the tracks." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="killhunters" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="3641" name="LocationX(m)" />
+                    <data value="420" name="LocationY(m)" />
+                    <data value="6637" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Last Known Location" name="waypointName" />
+                    <data value="" name="Target Server Template" />
+                    <data value="disappearances" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="5" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Comm Player" id="20" taskOnFail="false" >
+                        <data value="Commander Talte Sends a Message" name="journalEntryTitle" />
+                        <data value="One had a communicator. We have antennae in the area and will be able to track that signal. I need you to activate those antennae and add in the coordinates." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="One had a communicator. We have antennae in the area and will be able to track that signal. I need you to activate those antennae and add in the coordinates." name="Comm Message Text" />
+                        <data value="object/mobile/dressed_disappearances_questgiver.iff" name="NPC Appearance Server Template" />
+                        <task type="Retrieve Item" id="9" taskOnFail="false" >
+                            <data value="0" name="Time To Complete" />
+                            <data value="Input the Signal Frequency" name="retrieveMenuText" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Antenna Active" name="ItemName" />
+                            <data value="1" name="Count" />
+                            <data value="object/tangible/quest/corellia_disappearances_4_first_antenna.iff" name="Server Object Template" />
+                            <data value="First Antenna Location" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="6404" name="LocationZ(m)" />
+                            <data value="474" name="LocationY(m)" />
+                            <data value="3965" name="LocationX(m)" />
+                            <data value="corellia" name="Planet" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="Go to the first antenna, activate it and input the signal frequency." name="journalEntryDescription" />
+                            <data value="Activate the First Antenna" name="journalEntryTitle" />
+                            <task type="Comm Player" id="10" taskOnFail="false" >
+                                <data value="A Message from Talte" name="journalEntryTitle" />
+                                <data value="Good. Activate the next two signals." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="Good. Activate the next two signals." name="Comm Message Text" />
+                                <data value="object/mobile/dressed_disappearances_questgiver.iff" name="NPC Appearance Server Template" />
+                                <task type="Retrieve Item" id="11" taskOnFail="false" >
+                                    <data value="Activate the Second Antenna" name="journalEntryTitle" />
+                                    <data value="Go to the second antenna, activate it and input the signal frequency." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="corellia" name="Planet" />
+                                    <data value="3947" name="LocationX(m)" />
+                                    <data value="459" name="LocationY(m)" />
+                                    <data value="6622" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Second Antenna" name="waypointName" />
+                                    <data value="object/tangible/quest/corellia_disappearances_4_second_antenna.iff" name="Server Object Template" />
+                                    <data value="1" name="Count" />
+                                    <data value="Antenna Active" name="ItemName" />
+                                    <data value="100" name="LootDropPercent" />
+                                    <data value="Input the Signal Frequency" name="retrieveMenuText" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Comm Player" id="12" taskOnFail="false" >
+                                        <data value="Another Message from Talte" name="journalEntryTitle" />
+                                        <data value="I should be able to triangulate the signal once you get the third antenna working." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="I should be able to triangulate the signal once you get the third antenna working." name="Comm Message Text" />
+                                        <data value="object/mobile/dressed_disappearances_questgiver.iff" name="NPC Appearance Server Template" />
+                                        <task type="Retrieve Item" id="13" taskOnFail="false" >
+                                            <data value="Activate the Third Antenna" name="journalEntryTitle" />
+                                            <data value="Go to the third antenna, activate it and input the signal frequency." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="corellia" name="Planet" />
+                                            <data value="4123" name="LocationX(m)" />
+                                            <data value="437" name="LocationY(m)" />
+                                            <data value="6650" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Third Antenna" name="waypointName" />
+                                            <data value="object/tangible/quest/corellia_disappearances_4_third_antenna.iff" name="Server Object Template" />
+                                            <data value="1" name="Count" />
+                                            <data value="Antenna Active" name="ItemName" />
+                                            <data value="100" name="LootDropPercent" />
+                                            <data value="Input the Signal Frequency" name="retrieveMenuText" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Comm Player" id="14" taskOnFail="false" >
+                                                <data value="Success!" name="journalEntryTitle" />
+                                                <data value="I have the signal! Great work. Follow the coordinates and see what's there." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="I have the signal! Great work. Follow the coordinates and see what's there." name="Comm Message Text" />
+                                                <data value="object/mobile/dressed_disappearances_questgiver.iff" name="NPC Appearance Server Template" />
+                                                <task type="Go to Location" id="15" taskOnFail="false" >
+                                                    <data value="Go to the Signal's Origination Point" name="journalEntryTitle" />
+                                                    <data value="You have a location where the signal originates. Go there." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="taskName" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="corellia" name="Planet" />
+                                                    <data value="3868" name="LocationX(m)" />
+                                                    <data value="371" name="LocationY(m)" />
+                                                    <data value="6504" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="Signal Origination Point" name="waypointName" />
+                                                    <data value="30" name="Radius(m)" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Destroy Multiple" id="16" taskOnFail="false" >
+                                                        <data value="Kill the Guards" name="journalEntryTitle" />
+                                                        <data value="You need to get into the cave. Kill the guards." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="killguards" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="true" name="createWaypoint" />
+                                                        <data value="corellia" name="Planet" />
+                                                        <data value="3860" name="LocationX(m)" />
+                                                        <data value="381" name="LocationY(m)" />
+                                                        <data value="6519" name="LocationZ(m)" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="Hostage Cave" name="waypointName" />
+                                                        <data value="" name="Target Server Template" />
+                                                        <data value="disappearances" name="Social Group" />
+                                                        <data value="" name="requiredRegion" />
+                                                        <data value="2" name="Count" />
+                                                        <data value="0" name="RewardCredits" />
+                                                        <data value="0" name="Time To Complete" />
+                                                        <task type="Comm Player" id="17" taskOnFail="false" >
+                                                            <data value="Instructions" name="journalEntryTitle" />
+                                                            <data value="Listen, they know that they are in trouble. A transmission just came from there threatening to kill their hostages. Do whatever you must to save them." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="quest/corellia_disappearances_5_rescue" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="Listen, they know that they are in trouble. A transmission just came from there threatening to kill their hostages. Do whatever you must to save them. I'll transfer all the information that I have to you." name="Comm Message Text" />
+                                                            <data value="object/mobile/dressed_disappearances_questgiver.iff" name="NPC Appearance Server Template" />
+                                                        </task>
+                                                    </task>
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="36" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Disappearances: Finding the Culprits" name="journalEntryTitle" />
+            <data value="Another kidnapping has occurred. Try to locate where these people are." name="journalEntryDescription" />
+            <data value="Corellia" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="The hostages' location has been found! You traveled to a cave in the mountains near Doaba Guerfel. Free the kidnapped victims!" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

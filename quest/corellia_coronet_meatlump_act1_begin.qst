@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Nothing" id="2" taskOnFail="false" >
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="meatlumpsAct1_begin" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Show Message Box" id="0" taskOnFail="false" >
+                    <data value="-1" name="messageBoxLocationY" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="When you pick up the view screen, the Corellia Times logo begins to slowly animate and a chime sounds. You fail to get it to respond in any other way despite your best efforts. The obvious course of action is to return it to its owner. Maybe you should try finding the Corellia Times building in Coronet." name="messageBoxText" />
+                    <data value="Find the View Screen's Owner" name="messageBoxTitle" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="" name="journalEntryTitle" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <task type="Wait for Signal" id="4" taskOnFail="false" >
+                    <data value="Find Someone at the Corellia Times Building" name="journalEntryTitle" />
+                    <data value="Find someone at the Corellia Times building and find out if they know to whom the view screen belongs." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="meatlumpsAct1_timesEditor" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="-175.440002441406" name="LocationX(m)" />
+                    <data value="28" name="LocationY(m)" />
+                    <data value="-4445.14990234375" name="LocationZ(m)" />
+                    <data value="Corellia Times Building" name="waypointName" />
+                    <data value="meatlumpsAct1_timesEditor" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <task type="Wait for Signal" id="3" taskOnFail="false" >
+                        <data value="Go Find Vani Korr" name="journalEntryTitle" />
+                        <data value="Go to the Coronet Hospital and find Vani Korr. The view screen belongs to her." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="meatlumpsAct1_vaniKorr" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="corellia" name="Planet" />
+                        <data value="-107" name="LocationX(m)" />
+                        <data value="28" name="LocationY(m)" />
+                        <data value="-4465" name="LocationZ(m)" />
+                        <data value="Coronet Hospital Entrance" name="waypointName" />
+                        <data value="meatlumpsAct1_vaniKorr" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <task type="Immediately Complete Quest" id="5" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="corellia_coronet_meatlump_act1_part2" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="false" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <task type="Wait for Signal" id="6" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="meatlumpsAct1_refused" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="meatlumpsAct1_refused" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <task type="Wait for Signal" id="10" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="meatlumpsAct1_refusedDatapads" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="meatlumpsAct1_neveSend" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Find the owner of the view screen." name="journalEntryTitle" />
+            <data value="Find the person to whom the view screen belongs." name="journalEntryDescription" />
+            <data value="Corellia Times Investigations" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="30" name="Level" />
+            <data value="-1" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

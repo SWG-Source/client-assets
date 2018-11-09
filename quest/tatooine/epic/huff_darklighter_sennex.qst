@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Nothing" id="8" taskOnFail="false" >
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="0" name="chanceToActivate" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Wait for Tasks" id="9" taskOnFail="false" >
+                    <data value="End the Sennex Slave Trade" name="journalEntryTitle" />
+                    <data value="Huff Darklighter is very perturbed with the state of affairs on Tatooine, particularly that slaving is going on again, right under the nose of the law enforcement agencies. He's decided to put a stop to it himself and has chosen you as his instrument of change. He knows of a Sennex slave bunker near Anchorhead that attempts to pass itself off as a research facility. Go put an end to their days of slave trading." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/huff_darklighter_sennex" name="Task1 Quest Filename" />
+                    <data value="defeatSennexSlaveDrivers" name="Task1 taskName" />
+                    <data value="Interfere with the Sennex Slave Trade" name="Task1 Display String" />
+                    <data value="quest/huff_darklighter_sennex" name="Task2 Quest Filename" />
+                    <data value="defeatSennexSlaverVeterans" name="Task2 taskName" />
+                    <data value="Defeat Sennex Slaver Veterans" name="Task2 Display String" />
+                    <data value="quest/huff_darklighter_sennex" name="Task3 Quest Filename" />
+                    <data value="defeatSennexSlaverOverlord" name="Task3 taskName" />
+                    <data value="Defeat the Sennex Slaver Overlord" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Wait for Signal" id="4" taskOnFail="false" >
+                        <data value="Go Back and See Huff" name="journalEntryTitle" />
+                        <data value="Huff wants you to return. He's very pleased with the work you've done and says he has an item of particular beauty that he'd like to give you." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="finishedSennex" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-713" name="LocationX(m)" />
+                        <data value="7" name="LocationY(m)" />
+                        <data value="-6677" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="Darklighter Estate" name="waypointName" />
+                        <data value="finishedSennex" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                </task>
+                <task type="Destroy Multiple" id="10" taskOnFail="false" >
+                    <data value="Sennex Slaver Overlord" name="journalEntryTitle" />
+                    <data value="Defeat the Sennex slaver overlord for this area." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="defeatSennexSlaverOverlord" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="huff_sennex_slaver_overlord" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="1" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Destroy Multiple" id="0" taskOnFail="false" >
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="13" name="Count" />
+                    <data value="" name="requiredRegion" />
+                    <data value="" name="Social Group" />
+                    <data value="huff_sennex_slaver_veteran" name="Target Server Template" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="defeatSennexSlaverVeterans" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="Take out some Sennex slaver veterans." name="journalEntryDescription" />
+                    <data value="Sennex Slaver Veterans" name="journalEntryTitle" />
+                </task>
+                <task type="Retrieve Item" id="2" taskOnFail="false" >
+                    <data value="Sennex Databanks" name="journalEntryTitle" />
+                    <data value="Huff has heard rumors that Jabba has been fighting against the Sennex as well, and while Huff is curious as to how he and the Hutt ended up on the same side of an issue, he's more interested in downloading the information the Sennex have about where they're holding their enslaved prisoners." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="downloadDatabase" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="object/tangible/terminal/terminal_sennex_huff_computer.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Atempting to access the Sennex database.." name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Download Files" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Comm Player" id="7" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="Someone's already wiped the Sennex databanks? How very bizarre. It must have been Jabba's men. Well, since that's a dead end perhaps we should simply console ourselves by destroying some of the Sennex slave drivers." name="Comm Message Text" />
+                        <data value="object/mobile/dressed_huff_darklighter_2.iff" name="NPC Appearance Server Template" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                    <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                    <data value="0" name="CountdownTimer" />
+                    <task type="Destroy Multiple" id="3" taskOnFail="false" >
+                        <data value="Sennex Slave Drivers" name="journalEntryTitle" />
+                        <data value="Since there's no information to be gained on their slave trade from the database here, Huff wants you to defeat some of the Sennex slave drivers." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="defeatSennexSlaveDrivers" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="huff_sennex_slave_driver" name="Target Server Template" />
+                        <data value="" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="13" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="26" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Darklighter Estate" name="journalEntryTitle" />
+            <data value="You're helping Huff Darklighter out with some problems he's having with the Sennex Slavers." name="journalEntryDescription" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="object/tangible/loot/quest/frn_quest_krayt_skull_01.iff" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="3" name="Tier" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

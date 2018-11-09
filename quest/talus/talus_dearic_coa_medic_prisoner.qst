@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="12" >
+            <task type="Retrieve Item" id="9" taskOnFail="false" >
+                <data value="0" name="Time To Complete" />
+                <data value="Slice Mainframe" name="retrieveMenuText" />
+                <data value="100" name="LootDropPercent" />
+                <data value="N.S.H. Mainframe Terminal" name="ItemName" />
+                <data value="1" name="Count" />
+                <data value="object/tangible/quest/talus_dearic_lag_mainframe.iff" name="Server Object Template" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="N.S.H. base" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="-3248" name="LocationZ(m)" />
+                <data value="18" name="LocationY(m)" />
+                <data value="-4600" name="LocationX(m)" />
+                <data value="talus" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="talus_dearic_coa_slice_mainframe_rti" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Trezya has a good friend, a wookiee medical officer named Syirlabradawk, who has been captured by the Nightstrike Soldier Hegemony.  He will soon be transferred to Imperial custody and likely enslaved or executed.  Trezya desperately want him to be rescued. Find an N.S.H. mainframe access terminal and slice it to find where they are holding the wookiee." name="journalEntryDescription" />
+                <data value="Slice the N.S.H. mainframe" name="journalEntryTitle" />
+                <task type="Show Message Box" id="11" taskOnFail="false" >
+                    <data value="Mainframe Message" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="talus_dearic_coa_mainframe_message_cmp" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="Mainframe Information" name="messageBoxTitle" />
+                    <data value="The N.S.H. network is slow and moments tick by as the slicing routines run their course.  Finally the location of Syirlabradawk, the Wookiee medical officer Trezya is looking for, spools onto the screen.  He is being held on this level in the dention block.  After a few more tedious moments slicing through N.S.H.'s incredibly slow network, the security screens in the cells have come down, though there are still guards stationed there." name="messageBoxText" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <task type="Wait for Signal" id="0" taskOnFail="false" >
+                        <data value="0" name="Time To Complete" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="talus_dearic_coa_syir_found" name="Signal Name" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="N.S.H. base" name="waypointName" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="-3248" name="LocationZ(m)" />
+                        <data value="18" name="LocationY(m)" />
+                        <data value="-4600" name="LocationX(m)" />
+                        <data value="talus" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="talus_dearic_coa_find_syir_wfs" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="true" name="isVisible" />
+                        <data value="The N.S.H. mainframe indicated that Syirlabradawk was being held in the prison pens on the primary level of the base." name="journalEntryDescription" />
+                        <data value="Speak with Syirlabradawk" name="journalEntryTitle" />
+                        <task type="Wait for Tasks" id="5" taskOnFail="false" >
+                            <data value="Help Syirlabradawk" name="journalEntryTitle" />
+                            <data value="Find Syirlabradawks medical tools so he can treat his fellow prisoners before he escapes." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="talus_dearic_coa_help_syirlabradawk_wft" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="talus" name="Planet" />
+                            <data value="-4600" name="LocationX(m)" />
+                            <data value="18" name="LocationY(m)" />
+                            <data value="-3248" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="N.S.H. base" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="quest/talus_dearic_coa_medic_prisoner" name="Task1 Quest Filename" />
+                            <data value="talus_dearic_coa_bio_analyzer_dml" name="Task1 taskName" />
+                            <data value="Bio Analyzer Retrieved" name="Task1 Display String" />
+                            <data value="quest/talus_dearic_coa_medic_prisoner" name="Task2 Quest Filename" />
+                            <data value="talus_dearic_coa_surgical_tools_rti" name="Task2 taskName" />
+                            <data value="Surgical Tools Retrieved" name="Task2 Display String" />
+                            <data value="quest/talus_dearic_coa_medic_prisoner" name="Task3 Quest Filename" />
+                            <data value="talus_dearic_coa_chemicals_bag_dml" name="Task3 taskName" />
+                            <data value="Chemicals Bag Retrieved" name="Task3 Display String" />
+                            <data value="" name="Task4 Quest Filename" />
+                            <data value="" name="Task4 taskName" />
+                            <data value="" name="Task4 Display String" />
+                            <data value="" name="Task5 Quest Filename" />
+                            <data value="" name="Task5 taskName" />
+                            <data value="" name="Task5 Display String" />
+                            <data value="" name="Task6 Quest Filename" />
+                            <data value="" name="Task6 taskName" />
+                            <data value="" name="Task6 Display String" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Wait for Signal" id="6" taskOnFail="false" >
+                                <data value="Return to Syir" name="journalEntryTitle" />
+                                <data value="Return to Syirlabradawk with the tools." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="talus_dearic_coa_return_to_syir_wfs" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="talus" name="Planet" />
+                                <data value="-4600" name="LocationX(m)" />
+                                <data value="18" name="LocationY(m)" />
+                                <data value="-3248" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="N.S.H. base" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="talus_dearic_coa_rescue_syir" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Immediately Complete Quest" id="7" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="talus_dearic_coa_medic_prisoner_qcm" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                </task>
+                            </task>
+                        </task>
+                        <task type="Destroy Multiple and Loot" id="2" taskOnFail="false" >
+                            <data value="Chemicals Bag" name="journalEntryTitle" />
+                            <data value="A supply officer in the base has Syir's chemicals bag." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="talus_dearic_coa_chemicals_bag_dml" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="talus_dearic_coa_lag_supply_officer" name="CreatureType" />
+                            <data value="" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="Chemicals Bag" name="LootItemName" />
+                            <data value="1" name="NumberItemsRequired" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="0" name="RewardCredits" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                        <task type="Retrieve Item" id="8" taskOnFail="false" >
+                            <data value="Surgical Tools" name="journalEntryTitle" />
+                            <data value="Syir suggested finding an EmDee droid in the base as they usually carry surgical tools on them." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="talus_dearic_coa_surgical_tools_rti" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="object/tangible/quest/talus_dearic_lag_medical_droid.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Surgical Tools" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Removing Tool Pack" name="retrieveMenuText" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="3" name="CountdownTimer" />
+                        </task>
+                        <task type="Destroy Multiple and Loot" id="4" taskOnFail="false" >
+                            <data value="Bio Analyzer" name="journalEntryTitle" />
+                            <data value="Syir said that an officer in the torture chamber has his bio analyzer." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="talus_dearic_coa_bio_analyzer_dml" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="talus_dearic_coa_lag_torture_officer" name="CreatureType" />
+                            <data value="" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="Bio Analyzer" name="LootItemName" />
+                            <data value="1" name="NumberItemsRequired" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="0" name="RewardCredits" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                    </task>
+                </task>
+                <data value="8" name="CountdownTimer" />
+            </task>
+        </tasks>
+        <list>
+            <data value="41" name="Level" />
+            <data value="2" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Medical Officer" name="journalEntryTitle" />
+            <data value="Trezya Nenei has asked that her friend, Syirlabradawk, a medical officer recently captured by the N.S.H., be rescued." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="Syirlabradawk has been rescued from the forces of the N.S.H. and has made his way to safety." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Destroy Multiple" id="6" taskOnFail="false" >
+                <data value="Eliminate 15 Ragtag Thugs" name="journalEntryTitle" />
+                <data value="Jark wants you to kill 15 Ragtag Thugs that are loitering to the south." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="cb_side_2_thugs" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="corellia" name="Planet" />
+                <data value="-5684" name="LocationX(m)" />
+                <data value="16" name="LocationY(m)" />
+                <data value="-2843" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="Ragtag Disturbance" name="waypointName" />
+                <data value="ragtag_thug" name="Target Server Template" />
+                <data value="" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="15" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <data value="0" name="Time To Complete" />
+                <task type="Destroy Multiple" id="7" taskOnFail="false" >
+                    <data value="Eliminate 10 Ragtag Mercenaries" name="journalEntryTitle" />
+                    <data value="Jark wants you to kill 15 Ragtag Mercenaries that are loitering to the south." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="cb_side_2_mercs" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="-5684" name="LocationX(m)" />
+                    <data value="16" name="LocationY(m)" />
+                    <data value="-2843" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Ragtag Disturbance" name="waypointName" />
+                    <data value="ragtag_mercenary" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="10" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Comm Player" id="8" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="cb_side_2_comm" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="Great work! That should slow them down.  This buys us time to get the troops trained with the weapons and be prepared for them if they decide to try anything.  " name="Comm Message Text" />
+                        <data value="object/mobile/cb_jark.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="10" taskOnFail="false" >
+                            <data value="Return to Jark" name="journalEntryTitle" />
+                            <data value="Speak with Jark again." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="cb_4_jark_side" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="corellia" name="Planet" />
+                            <data value="-5173" name="LocationX(m)" />
+                            <data value="21" name="LocationY(m)" />
+                            <data value="-2545" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Jark" name="waypointName" />
+                            <data value="cb_4_jark_done" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="35" name="Level" />
+            <data value="2" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Ragtag First Strike" name="journalEntryTitle" />
+            <data value="Jark wants you to kill Ragtag Thugs and Mercenaries." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="3000" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="4" >
+            <task type="Retrieve Item" id="0" name="Retrieve Item" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Find the Supply Crate" name="journalEntryTitle" />
+                <data value="Find the supply crate of stolen Nak'tra Crystal Rifles at the Imperial camp in Kkowir Forest and bring it back to Shady Pers." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="sound/mus_wookiee_quest_accept.snd" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="object/tangible/quest/naktra_weapons.iff" name="Server Object Template" />
+                <data value="1" name="Count" />
+                <data value="Crate of Nak'tra Weapons" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <task type="Wait for Signal" id="1" name="Wait for Signal" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="giveLewtSmug" name="Signal Name" />
+                    <task type="Reward" id="2" name="Reward" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Reward Issued" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="sound/mus_wookiee_quest_sucess.snd" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="3000" name="Bank Credits" />
+                        <data value="" name="Item" />
+                        <data value="" name="taskName" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="waypointName" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="1" name="Count" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="1" name="CountItem" />
+                        <data value="1" name="Elemental Value" />
+                        <data value="1" name="Efficiency" />
+                        <data value="1" name="Damage" />
+                        <data value="1" name="Speed" />
+                        <data value="1" name="CountWeapon" />
+                        <data value="object/weapon/ranged/pistol/ep3_loot_blackfalcon.iff" name="Weapon" />
+                        <data value="0.1" name="Quality" />
+                        <data value="1" name="CountArmor" />
+                        <data value="" name="Armor" />
+                    </task>
+                    <data value="" name="taskName" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                </task>
+                <data value="" name="taskName" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="retrieveMenuText" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="The Art of Smuggling" name="journalEntryTitle" />
+            <data value="&quot;Shady&quot; Pers, according to the Myyydril, is the local chef. Unfortuately for them, he doesn't know the difference between Muon Gold and Bofa Treats. Pers needs you to find the Imperial camp in the forest and retrieve his stolen Nak'tra Crystal Rifles." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Myyydril Caverns" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="38" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

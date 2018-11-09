@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="9" >
+            <task type="Retrieve Item" id="5" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Myyydril Trust - Nawika's Jewelry Box" name="journalEntryTitle" />
+                <data value="Find Nawika's Jewelry box. Look in the Crystal Gardens and the entrance to the Deep Depths." name="journalEntryDescription" />
+                <data value="" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="sound/mus_wookiee_quest_accept.snd" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="object/tangible/quest/nawika_jewel_box.iff" name="Server Object Template" />
+                <data value="1" name="Count" />
+                <data value="Nawika's Jewelry Box" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <task type="Wait for Signal" id="6" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="The Necklace" name="journalEntryTitle" />
+                    <data value="Find Nawika's Necklace and bring it back to her." name="journalEntryDescription" />
+                    <data value="" name="taskName" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="giveReward" name="Signal Name" />
+                    <task type="Reward" id="7" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Reward Issued" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="sound/mus_wookiee_quest_sucess.snd" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="2000" name="Bank Credits" />
+                        <data value="object/tangible/furniture/ep3_rewards/wookiee_totem_crafter.iff" name="Item" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="1" name="Count" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="1" name="lootCount" />
+                        <data value="" name="lootName" />
+                        <data value="1" name="CountItem" />
+                        <data value="0.1" name="Elemental Value" />
+                        <data value="0.1" name="Efficiency" />
+                        <data value="0.1" name="Damage" />
+                        <data value="0.1" name="Speed" />
+                        <data value="1" name="CountWeapon" />
+                        <data value="" name="Weapon" />
+                        <data value="1" name="Quality" />
+                        <data value="1" name="CountArmor" />
+                        <data value="" name="Armor" />
+                        <data value="" name="Reward Badge" />
+                    </task>
+                </task>
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="retrieveMenuText" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Myyydril Trust - Nawika's Jewelry Box" name="journalEntryTitle" />
+            <data value="Nawika mentioned her lost jewelry box. She only remembers visiting her husband in the crystal garden right outside the village. She suspects it could be found there. It would be wise, however, to extend your search further. Check out the entrance to the Deep Depths just in case." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Myyydril Caverns" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="78" name="Level" />
+            <data value="1" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

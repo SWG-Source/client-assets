@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Go to Location" id="0" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Go to the coordinates on Rori" name="journalEntryTitle" />
+                <data value="Go to (0, 2012) on Rori and find out what happened to the missing pilot." name="journalEntryDescription" />
+                <data value="gotocrash" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="rori" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="2012" name="LocationZ(m)" />
+                <data value="20" name="Radius(m)" />
+                <task type="Go to Location" id="1" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Search the Crash Site" name="journalEntryTitle" />
+                    <data value="Search around the crash site for some kind of information." name="journalEntryDescription" />
+                    <data value="search" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="rori" name="Planet" />
+                    <data value="-6" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="1999" name="LocationZ(m)" />
+                    <data value="3" name="Radius(m)" />
+                    <task type="Reward" id="8" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Found Datapad" name="journalEntryTitle" />
+                        <data value="You found a locked datapad." name="journalEntryDescription" />
+                        <data value="datapad" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="0" name="Bank Credits" />
+                        <data value="object/tangible/mission/quest_item/syren1_locked_data.iff" name="Item" />
+                        <task type="Wait for Signal" id="2" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Return to Veega Madish" name="journalEntryTitle" />
+                            <data value="Bring the locked datapad and the sample of spice back to Veega Madish in Tyrena." name="journalEntryDescription" />
+                            <data value="unlock" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="c_story1_1_reb_unlockeddata" name="Signal Name" />
+                            <task type="Wait for Signal" id="3" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Talk to Doctor Vang" name="journalEntryTitle" />
+                                <data value="Doctor Edvar Vang should be able to analyze the spice sample and give you information." name="journalEntryDescription" />
+                                <data value="doctor" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="c_story1_1_reb_doctorinfo" name="Signal Name" />
+                                <task type="Go to Location" id="5" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Go talk to Moxxar Krieg" name="journalEntryTitle" />
+                                    <data value="Talk to Moxxar Krieg about the spice sample." name="journalEntryDescription" />
+                                    <data value="corpse" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="3292" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="-4542" name="LocationZ(m)" />
+                                    <data value="2" name="Radius(m)" />
+                                    <task type="Reward" id="6" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Too Late" name="journalEntryTitle" />
+                                        <data value="Someone killed Moxxar Krieg before you could talk to him.  A datapad was laying on the corpse with a message addressed to you." name="journalEntryDescription" />
+                                        <data value="reward" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="" name="Experience Type" />
+                                        <data value="0" name="Experience Amount" />
+                                        <data value="Rebel" name="Faction Name" />
+                                        <data value="0" name="Faction Amount" />
+                                        <data value="0" name="Bank Credits" />
+                                        <data value="object/tangible/mission/quest_item/syren1_warning.iff" name="Item" />
+                                        <task type="Wait for Signal" id="10" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Return to Veega Madish" name="journalEntryTitle" />
+                                            <data value="You found a corpse and a datapad with a message, apparently to you.  You need more information and hopefully Veega has something for you in Tyrena." name="journalEntryDescription" />
+                                            <data value="cliffhanger" name="taskName" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="c_story1_1_reb_cliffhanger" name="Signal Name" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="Veega Madish" name="waypointName" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="-2574" name="LocationZ(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="-5199" name="LocationX(m)" />
+                                            <data value="corellia" name="Planet" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="0" name="Time To Complete" />
+                                        </task>
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="waypointName" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="1" name="lootCount" />
+                                        <data value="" name="lootName" />
+                                        <data value="1" name="CountItem" />
+                                        <data value="0.1" name="Elemental Value" />
+                                        <data value="0.1" name="Efficiency" />
+                                        <data value="0.1" name="Damage" />
+                                        <data value="0.1" name="Speed" />
+                                        <data value="1" name="CountWeapon" />
+                                        <data value="" name="Weapon" />
+                                        <data value="1" name="Quality" />
+                                        <data value="1" name="CountArmor" />
+                                        <data value="" name="Armor" />
+                                        <data value="" name="Reward Badge" />
+                                    </task>
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="Moxxar Krieg's Home" name="waypointName" />
+                                    <data value="livingroom1" name="buildingCellName" />
+                                    <data value="tatooine" name="interiorWaypointAppearance" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="0" name="Time To Complete" />
+                                </task>
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="Doctor Vang's Medical Center" name="waypointName" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="-2237" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="-5109" name="LocationX(m)" />
+                                <data value="rori" name="Planet" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="Veega Madish" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="-2545" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="-5237" name="LocationX(m)" />
+                            <data value="corellia" name="Planet" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="1" name="lootCount" />
+                        <data value="" name="lootName" />
+                        <data value="1" name="CountItem" />
+                        <data value="0.1" name="Elemental Value" />
+                        <data value="0.1" name="Efficiency" />
+                        <data value="0.1" name="Damage" />
+                        <data value="0.1" name="Speed" />
+                        <data value="1" name="CountWeapon" />
+                        <data value="" name="Weapon" />
+                        <data value="1" name="Quality" />
+                        <data value="1" name="CountArmor" />
+                        <data value="" name="Armor" />
+                        <data value="" name="Reward Badge" />
+                    </task>
+                    <task type="Reward" id="9" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Found Sample" name="journalEntryTitle" />
+                        <data value="You found a sample of some kind." name="journalEntryDescription" />
+                        <data value="sample" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="0" name="Bank Credits" />
+                        <data value="object/tangible/mission/quest_item/syren1_spice.iff" name="Item" />
+                    </task>
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="Crash Site" name="waypointName" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="Crash Site" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="true" name="createWaypoint" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Man Down!" name="journalEntryTitle" />
+            <data value="A pilot is lost.  Find out what happened and what he was transporting." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Secrets of the Syren" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="55" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="18" >
+            <task type="Comm Player" id="0" taskOnFail="false" >
+                <data value="Billingsly Sent You a Message" name="journalEntryTitle" />
+                <data value="You got a message from Billingsly: There's a serious medical situation on Naboo. A family that is living in the relative wilderness of Naboo has been attacked by a number of feral creatures. Several of the family members need tending." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="There's a serious medical situation on Naboo. A family that is living in the relative wilderness of Naboo has been attacked by a number of feral creatures. Several of the family members need tending." name="Comm Message Text" />
+                <data value="object/mobile/dressed_npe_21b.iff" name="NPC Appearance Server Template" />
+                <task type="Go to Location" id="1" taskOnFail="false" >
+                    <data value="Go to the  Zaprin Estate" name="journalEntryTitle" />
+                    <data value="The Zaprin family has a small estate in the mountains of Naboo. Their home has been surrounded by sick animals and they need help." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="gotoestate" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="naboo" name="Planet" />
+                    <data value="-2575" name="LocationX(m)" />
+                    <data value="134" name="LocationY(m)" />
+                    <data value="-903" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Zaprin Estate" name="waypointName" />
+                    <data value="50" name="Radius(m)" />
+                    <task type="Wait for Signal" id="3" taskOnFail="false" >
+                        <data value="Talk to Larence Zaprin" name="journalEntryTitle" />
+                        <data value="Talk to Larence Zaprin and find out which of his family members needs tending." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="talktolarence" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="naboo" name="Planet" />
+                        <data value="-2571" name="LocationX(m)" />
+                        <data value="134" name="LocationY(m)" />
+                        <data value="-890" name="LocationZ(m)" />
+                        <data value="naboo" name="interiorWaypointAppearance" />
+                        <data value="mainchamber" name="buildingCellName" />
+                        <data value="Larence Zaprin" name="waypointName" />
+                        <data value="prof_medic_21_larence" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Wait for Signal" id="16" taskOnFail="false" >
+                            <data value="Tend to Mia Zaprin" name="journalEntryTitle" />
+                            <data value="Talk to Mia Zaprin and tend to her illness." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="mia1" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="naboo" name="Planet" />
+                            <data value="-2573" name="LocationX(m)" />
+                            <data value="128" name="LocationY(m)" />
+                            <data value="-890" name="LocationZ(m)" />
+                            <data value="naboo" name="interiorWaypointAppearance" />
+                            <data value="roomb1" name="buildingCellName" />
+                            <data value="Mia Zaprin" name="waypointName" />
+                            <data value="npe_medic_21_mia_failed" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Destroy Multiple and Loot" id="7" taskOnFail="false" >
+                                <data value="Collect 6 Blood Samples" name="journalEntryTitle" />
+                                <data value="Mia's infection does not appear to react to the treatment. Collect 6 blood samples from the creatures outside to try to make an antidote." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="killcreatures" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="naboo" name="Planet" />
+                                <data value="-2575" name="LocationX(m)" />
+                                <data value="134" name="LocationY(m)" />
+                                <data value="-903" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Zaprin Estate" name="waypointName" />
+                                <data value="" name="CreatureType" />
+                                <data value="rabid" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="Blood Sample" name="LootItemName" />
+                                <data value="6" name="NumberItemsRequired" />
+                                <data value="70" name="LootDropPercent" />
+                                <data value="0" name="RewardCredits" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Comm Player" id="15" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="Comm Message Text" />
+                                    <data value="" name="NPC Appearance Server Template" />
+                                    <task type="Wait for Signal" id="9" taskOnFail="false" >
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="prof_medic_21_mia" name="Signal Name" />
+                                        <data value="Mia Zaprin" name="waypointName" />
+                                        <data value="roomb1" name="buildingCellName" />
+                                        <data value="naboo" name="interiorWaypointAppearance" />
+                                        <data value="-890" name="LocationZ(m)" />
+                                        <data value="128" name="LocationY(m)" />
+                                        <data value="-2573" name="LocationX(m)" />
+                                        <data value="naboo" name="Planet" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="target" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="talktomia" name="taskName" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="Now that you have an anti-toxin, administer it to Mia and explain the possible side effects." name="journalEntryDescription" />
+                                        <data value="Talk to Mia and Administer the Antitoxin" name="journalEntryTitle" />
+                                        <task type="Wait for Signal" id="10" taskOnFail="false" >
+                                            <data value="Talk to Jowres and Administer the Antitoxin" name="journalEntryTitle" />
+                                            <data value="Now that you have an anti-toxin, administer it to Jowres and explain the possible side effects." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="talktojowres" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="naboo" name="Planet" />
+                                            <data value="-2579" name="LocationX(m)" />
+                                            <data value="139" name="LocationY(m)" />
+                                            <data value="-892" name="LocationZ(m)" />
+                                            <data value="naboo" name="interiorWaypointAppearance" />
+                                            <data value="roomf2" name="buildingCellName" />
+                                            <data value="Jowres Zaprin" name="waypointName" />
+                                            <data value="prof_medic_21_jowres" name="Signal Name" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Timer" id="11" taskOnFail="false" >
+                                                <data value="" name="journalEntryTitle" />
+                                                <data value="" name="journalEntryDescription" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="3" name="Min Time" />
+                                                <data value="5" name="Max Time" />
+                                                <task type="Comm Player" id="13" taskOnFail="false" >
+                                                    <data value="A Message from Billingsly" name="journalEntryTitle" />
+                                                    <data value="Very good. You saved these people's lives. Don't forget to collect your deserved payment from Larence." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="billcomm" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="Very good. You saved these people's lives. Don't forget to collect your deserved payment from Larence." name="Comm Message Text" />
+                                                    <data value="object/mobile/dressed_npe_21b.iff" name="NPC Appearance Server Template" />
+                                                    <task type="Wait for Signal" id="14" taskOnFail="false" >
+                                                        <data value="Collect Your Payment From Larence" name="journalEntryTitle" />
+                                                        <data value="Larence asked for a medic to make a house call. It's time to collect your fee." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="getreward" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="true" name="createWaypoint" />
+                                                        <data value="naboo" name="Planet" />
+                                                        <data value="-2571" name="LocationX(m)" />
+                                                        <data value="134" name="LocationY(m)" />
+                                                        <data value="-890" name="LocationZ(m)" />
+                                                        <data value="naboo" name="interiorWaypointAppearance" />
+                                                        <data value="mainchamber" name="buildingCellName" />
+                                                        <data value="Larence Zaprin" name="waypointName" />
+                                                        <data value="prof_medic_21_reward" name="Signal Name" />
+                                                        <data value="0" name="waitMarkerCreate" />
+                                                        <data value="" name="waitMarkerTemplate" />
+                                                        <data value="" name="waitMarkerPlanetName" />
+                                                        <data value="0" name="waitMarkerBuilding" />
+                                                        <data value="" name="waitMarkerCellName" />
+                                                        <data value="0" name="waitMarkerX" />
+                                                        <data value="0" name="waitMarkerY" />
+                                                        <data value="0" name="waitMarkerZ" />
+                                                        <data value="0" name="Time To Complete" />
+                                                    </task>
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                    <data value="0" name="Time To Complete" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="26" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="House Call" name="journalEntryTitle" />
+            <data value="A frantic request came in from the mountains of Naboo for a doctor. Head out to Naboo and help the family there." name="journalEntryDescription" />
+            <data value="Profession" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="5500" name="Bank Credits" />
+            <data value="weapon_content_pistol_medic_03_01" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="5" name="Tier" />
+        </list>
+    </quest>

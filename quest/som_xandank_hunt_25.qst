@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="3" >
+            <task type="Nothing" id="0" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="true" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="sound/mus_mustafar_quest_exception.snd" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <task type="Destroy Multiple" id="1" taskOnFail="false" >
+                    <data value="Kill 25 Xandank" name="journalEntryTitle" />
+                    <data value="Large Xandank packs are very dangerous and cause a serious hazard to the miners in the region. Culling the numbers of adult Xandank will go a long way to protecting the miners." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="true" name="allowRepeats" />
+                    <data value="mustafar_xandank_hunt_one" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="Target Server Template" />
+                    <data value="xandank" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="25" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <task type="Reward" id="2" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="sound/mus_mustafar_quest_success.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="6500" name="Bank Credits" />
+                        <data value="" name="Item" />
+                        <data value="1" name="CountItem" />
+                        <data value="" name="Weapon" />
+                        <data value="1" name="CountWeapon" />
+                        <data value="0.1" name="Speed" />
+                        <data value="0.1" name="Damage" />
+                        <data value="0.1" name="Efficiency" />
+                        <data value="0.1" name="Elemental Value" />
+                        <data value="" name="Armor" />
+                        <data value="1" name="CountArmor" />
+                        <data value="0.1" name="Quality" />
+                        <data value="1" name="lootCount" />
+                        <data value="" name="lootName" />
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Hunter Becomes the Hunted" name="journalEntryTitle" />
+            <data value="Xandank generally avoid the miners but when they get into large enough packs they become fearless. For the safety of the miners it is important to cull the numbers of Xandank that are roaming the area." name="journalEntryDescription" />
+            <data value="Mustafar" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="75" name="Level" />
+            <data value="-1" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="1000" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="12" >
+            <task type="Nothing" id="8" taskOnFail="false" >
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Destroy Multiple and Loot" id="1" taskOnFail="false" >
+                    <data value="0" name="Time To Complete" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="75" name="LootDropPercent" />
+                    <data value="5" name="NumberItemsRequired" />
+                    <data value="Intact Bones" name="LootItemName" />
+                    <data value="" name="requiredRegion" />
+                    <data value="worrt" name="Social Group" />
+                    <data value="" name="CreatureType" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="newbie_scout_e41" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="Entha needs to collect bones from older worrts. Kill worrts in the infested areas around the city." name="journalEntryDescription" />
+                    <data value="Worrt Bones" name="journalEntryTitle" />
+                    <task type="Comm Player" id="3" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="newbie_scout_e42" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="You seem to have a large enough supply of worrt bones for me. Come on back and I will pay you for them. " name="Comm Message Text" />
+                        <data value="object/mobile/dressed_entha_kandela.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="4" taskOnFail="false" >
+                            <data value="Return to Entha" name="journalEntryTitle" />
+                            <data value="You have Entha's bones. Go back to her for payment." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="newbie_scout_e43" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="3511" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="-4785" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Entha" name="waypointName" />
+                            <data value="newbie_scout_launch_e44" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Immediately Complete Quest" id="5" taskOnFail="false" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="newbie_scout_e44" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                            </task>
+                        </task>
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                    </task>
+                    <task type="Timer" id="6" taskOnFail="false" >
+                        <data value="Incoming Message" name="journalEntryTitle" />
+                        <data value="You seem to be getting a message from Jabba's Palace." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="20" name="Min Time" />
+                        <data value="23" name="Max Time" />
+                        <task type="Comm Player" id="7" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="If we'd known it would take you this long to get things done we would have just killed you. Speed things up, for your own good!" name="Comm Message Text" />
+                            <data value="object/mobile/bib_fortuna.iff" name="NPC Appearance Server Template" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                        </task>
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                    </task>
+                    <data value="" name="signalsOnFail" />
+                    <data value="worrtBonesDone" name="signalsOnComplete" />
+                </task>
+                <task type="Wait for Signal" id="10" taskOnFail="false" >
+                    <data value="Location with Worrts" name="journalEntryTitle" />
+                    <data value="Try looking here for some Worrts." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="location2" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="3115" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="-4758" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Possible Location" name="waypointName" />
+                    <data value="worrtBonesDone" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <task type="Wait for Signal" id="11" taskOnFail="false" >
+                    <data value="Location with Worrts" name="journalEntryTitle" />
+                    <data value="Try looking here for some Worrts." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="location1" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="3153" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="-4945" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Possible Location" name="waypointName" />
+                    <data value="worrtBonesDone" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="8" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Dem Bones" name="journalEntryTitle" />
+            <data value="Entha Kandela contracts with creature specialists to trap and kill the larger animals in the area. But traditionally she supplies them with bones to construct their traps. She has run out of bones and needs you to collect some from worrts. She needs five sets of intact bones from tame and normal worrts." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You gathered enough intact Wort bones to restock Entha's supplies." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="3000" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="2150" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="5" name="Tier" />
+        </list>
+    </quest>

@@ -1,0 +1,738 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="18" >
+            <task type="Comm Player" id="16" taskOnFail="false" >
+                <data value="object/mobile/boba_fett.iff" name="NPC Appearance Server Template" />
+                <data value="Glad you decided to take me up on the offer. That shows promise. A thug named Faeto is having some problems. He camps himself at the Lucky Despot in Mos Eisley. Go there and see what he needs." name="Comm Message Text" />
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="bounty_hunter_kill_1_e99" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Wait for Signal" id="15" taskOnFail="false" >
+                    <data value="Talk to Faeto" name="journalEntryTitle" />
+                    <data value="Boba Fett has contacted you. He is keeping an eye on you during your professional development. He has suggested that you contact someone named Faeto at the Lucky Despot in Mos Eisley." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="bounty_hunter_kill_1_e100" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="3407" name="LocationX(m)" />
+                    <data value="12" name="LocationY(m)" />
+                    <data value="-4587" name="LocationZ(m)" />
+                    <data value="tatooine" name="interiorWaypointAppearance" />
+                    <data value="lounge01" name="buildingCellName" />
+                    <data value="Faeto" name="waypointName" />
+                    <data value="bounty_hunter_kill_1_launch_e0" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Reward" id="14" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="bounty_hunter_kill_1_e0" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="0" name="Bank Credits" />
+                        <data value="" name="lootName" />
+                        <data value="1" name="lootCount" />
+                        <data value="object/tangible/quest/bounty_hunter_1_death.iff" name="Item" />
+                        <data value="1" name="CountItem" />
+                        <data value="" name="Weapon" />
+                        <data value="1" name="CountWeapon" />
+                        <data value="0.1" name="Speed" />
+                        <data value="0.1" name="Damage" />
+                        <data value="0.1" name="Efficiency" />
+                        <data value="0.1" name="Elemental Value" />
+                        <data value="" name="Armor" />
+                        <data value="1" name="CountArmor" />
+                        <data value="0.1" name="Quality" />
+                        <data value="" name="Reward Badge" />
+                        <task type="Wait for Signal" id="0" taskOnFail="false" >
+                            <data value="0" name="Time To Complete" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="bounty_hunter_kill_1_launch_e2" name="Signal Name" />
+                            <data value="Taibela" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="-4871" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="3490" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="bounty_hunter_kill_1_e1" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="According to Faeto, Taibela might have some information regarding Untas and his whereabouts." name="journalEntryDescription" />
+                            <data value="Speak with Taibela" name="journalEntryTitle" />
+                            <task type="Reward" id="11" taskOnFail="false" >
+                                <data value="flower" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="bounty_hunter_kill_1_e2" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="Experience Type" />
+                                <data value="0" name="Experience Amount" />
+                                <data value="Rebel" name="Faction Name" />
+                                <data value="0" name="Faction Amount" />
+                                <data value="0" name="Bank Credits" />
+                                <data value="" name="lootName" />
+                                <data value="1" name="lootCount" />
+                                <data value="object/tangible/quest/bounty_hunter_1_flower.iff" name="Item" />
+                                <data value="1" name="CountItem" />
+                                <data value="" name="Weapon" />
+                                <data value="1" name="CountWeapon" />
+                                <data value="0.1" name="Speed" />
+                                <data value="0.1" name="Damage" />
+                                <data value="0.1" name="Efficiency" />
+                                <data value="0.1" name="Elemental Value" />
+                                <data value="" name="Armor" />
+                                <data value="1" name="CountArmor" />
+                                <data value="0.1" name="Quality" />
+                                <data value="" name="Reward Badge" />
+                                <task type="Go to Location" id="9" taskOnFail="false" >
+                                    <data value="Go to Krayt Cult Cave" name="journalEntryTitle" />
+                                    <data value="Taibela says that her lover Oldksam might have information on Untas. But Oldksam has gone into hiding somewhere in the Krayt Dragon Cult cave. She has given you a pressed flower to prove that she sent you to him.  " name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="bounty_hunter_kill_1_e3" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="3447" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="-4186" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Krayt Cult Cave" name="waypointName" />
+                                    <data value="10.0" name="Radius(m)" />
+                                    <task type="Give Item To NPC" id="10" taskOnFail="false" >
+                                        <data value="Find Oldksam and Give Flower" name="journalEntryTitle" />
+                                        <data value="You have located the cave. Now its time for you to find Oldksam and see what he can tell you about Untas." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="bounty_hunter_kill_1_e4" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="object/tangible/quest/bounty_hunter_1_flower.iff" name="itemToGive" />
+                                        <data value="1" name="itemCount" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Wait for Signal" id="1" taskOnFail="false" >
+                                            <data value="0" name="Time To Complete" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="bounty_hunter_kill_1_launch_e6" name="Signal Name" />
+                                            <data value="" name="waypointName" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="target" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="bounty_hunter_kill_1_e5" name="taskName" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="The flower has convinced Oldksam that you come from his lover Taibela and can be trusted." name="journalEntryDescription" />
+                                            <data value="Speak with Oldksam" name="journalEntryTitle" />
+                                            <task type="Reward" id="12" taskOnFail="false" >
+                                                <data value="" name="Reward Badge" />
+                                                <data value="0.1" name="Quality" />
+                                                <data value="1" name="CountArmor" />
+                                                <data value="" name="Armor" />
+                                                <data value="0.1" name="Elemental Value" />
+                                                <data value="0.1" name="Efficiency" />
+                                                <data value="0.1" name="Damage" />
+                                                <data value="0.1" name="Speed" />
+                                                <data value="1" name="CountWeapon" />
+                                                <data value="" name="Weapon" />
+                                                <data value="1" name="CountItem" />
+                                                <data value="object/tangible/quest/bounty_hunter_1_drugs.iff" name="Item" />
+                                                <data value="1" name="lootCount" />
+                                                <data value="" name="lootName" />
+                                                <data value="0" name="Bank Credits" />
+                                                <data value="0" name="Faction Amount" />
+                                                <data value="Rebel" name="Faction Name" />
+                                                <data value="0" name="Experience Amount" />
+                                                <data value="" name="Experience Type" />
+                                                <data value="" name="waypointName" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="target" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="bounty_hunter_kill_1_e6" name="taskName" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="" name="journalEntryDescription" />
+                                                <data value="" name="journalEntryTitle" />
+                                                <task type="Give Item To NPC" id="7" taskOnFail="false" >
+                                                    <data value="Find and Give Spice to Sleash" name="journalEntryTitle" />
+                                                    <data value="Sleash has a sweet tooth. He loves a rare cooking spice called Dar' Kel. You need to give it to him before he will talk with you." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="bounty_hunter_kill_1_e8" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="3412.39990234375" name="LocationX(m)" />
+                                                    <data value="7.90000009536743" name="LocationY(m)" />
+                                                    <data value="-5473.7998046875" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="Sleash" name="waypointName" />
+                                                    <data value="object/tangible/quest/bounty_hunter_1_drugs.iff" name="itemToGive" />
+                                                    <data value="1" name="itemCount" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Wait for Signal" id="2" taskOnFail="false" >
+                                                        <data value="Speak with Sleash" name="journalEntryTitle" />
+                                                        <data value="Oldksam doesn't want to get involved. He suggested to speak with Sleash. He might know where Untas might be hiding. After bribing him with the Dar'Kel spice Sleash seems to be willing to talk." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="bounty_hunter_kill_1_e9" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="bounty_hunter_kill_1_launch_e10" name="Signal Name" />
+                                                        <data value="0" name="waitMarkerCreate" />
+                                                        <data value="" name="waitMarkerTemplate" />
+                                                        <data value="" name="waitMarkerPlanetName" />
+                                                        <data value="0" name="waitMarkerBuilding" />
+                                                        <data value="" name="waitMarkerCellName" />
+                                                        <data value="0" name="waitMarkerX" />
+                                                        <data value="0" name="waitMarkerY" />
+                                                        <data value="0" name="waitMarkerZ" />
+                                                        <data value="0" name="Time To Complete" />
+                                                        <task type="Give Item To NPC" id="13" taskOnFail="false" >
+                                                            <data value="Find and Give Untas  his Death Mark" name="journalEntryTitle" />
+                                                            <data value="Untas can be found deep within the White Thranta labs. Find him, give him the Death Mark and then eliminate him." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="bounty_hunter_kill_1_e10" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="true" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="3727" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="-4182" name="LocationZ(m)" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="White Thranta Shipping Company" name="waypointName" />
+                                                            <data value="object/tangible/quest/bounty_hunter_1_death.iff" name="itemToGive" />
+                                                            <data value="1" name="itemCount" />
+                                                            <data value="0" name="Time To Complete" />
+                                                            <task type="Destroy Multiple" id="3" taskOnFail="false" >
+                                                                <data value="Kill  Untas" name="journalEntryTitle" />
+                                                                <data value="Untas has the death mark. Time to redeem it and kill him." name="journalEntryDescription" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="bounty_hunter_kill_1_e11" name="taskName" />
+                                                                <data value="true" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="true" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="3727" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="-4182" name="LocationZ(m)" />
+                                                                <data value="" name="interiorWaypointAppearance" />
+                                                                <data value="" name="buildingCellName" />
+                                                                <data value="White Thranta Shipping Company" name="waypointName" />
+                                                                <data value="legacy_untas" name="Target Server Template" />
+                                                                <data value="" name="Social Group" />
+                                                                <data value="" name="requiredRegion" />
+                                                                <data value="1" name="Count" />
+                                                                <data value="0" name="RewardCredits" />
+                                                                <data value="0" name="Time To Complete" />
+                                                                <task type="Comm Player" id="4" taskOnFail="false" >
+                                                                    <data value="" name="journalEntryTitle" />
+                                                                    <data value="" name="journalEntryDescription" />
+                                                                    <data value="false" name="isVisible" />
+                                                                    <data value="" name="prerequisiteTasks" />
+                                                                    <data value="" name="exclusionTasks" />
+                                                                    <data value="0" name="allowRepeats" />
+                                                                    <data value="bounty_hunter_kill_1_e12" name="taskName" />
+                                                                    <data value="0" name="showSystemMessages" />
+                                                                    <data value="" name="musicOnActivate" />
+                                                                    <data value="" name="musicOnComplete" />
+                                                                    <data value="" name="musicOnFail" />
+                                                                    <data value="" name="target" />
+                                                                    <data value="" name="parameter" />
+                                                                    <data value="" name="grantQuestOnComplete" />
+                                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                    <data value="" name="grantQuestOnFail" />
+                                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                    <data value="0" name="createWaypoint" />
+                                                                    <data value="tatooine" name="Planet" />
+                                                                    <data value="0.0" name="LocationX(m)" />
+                                                                    <data value="0.0" name="LocationY(m)" />
+                                                                    <data value="0.0" name="LocationZ(m)" />
+                                                                    <data value="" name="interiorWaypointAppearance" />
+                                                                    <data value="" name="buildingCellName" />
+                                                                    <data value="" name="waypointName" />
+                                                                    <data value="Untas shoulda paid me back. He ain't gonna owe nobody no more. Get back here and we'll talk, scrub." name="Comm Message Text" />
+                                                                    <data value="object/mobile/beginner_brawler_client_1.iff" name="NPC Appearance Server Template" />
+                                                                    <task type="Wait for Signal" id="5" taskOnFail="false" >
+                                                                        <data value="Return to Faeto" name="journalEntryTitle" />
+                                                                        <data value="Now that the deed has been done, return to Faeto." name="journalEntryDescription" />
+                                                                        <data value="true" name="isVisible" />
+                                                                        <data value="" name="prerequisiteTasks" />
+                                                                        <data value="" name="exclusionTasks" />
+                                                                        <data value="0" name="allowRepeats" />
+                                                                        <data value="bounty_hunter_kill_1_e13" name="taskName" />
+                                                                        <data value="0" name="showSystemMessages" />
+                                                                        <data value="" name="musicOnActivate" />
+                                                                        <data value="" name="musicOnComplete" />
+                                                                        <data value="" name="musicOnFail" />
+                                                                        <data value="" name="target" />
+                                                                        <data value="" name="parameter" />
+                                                                        <data value="" name="grantQuestOnComplete" />
+                                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                        <data value="" name="grantQuestOnFail" />
+                                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                        <data value="true" name="createWaypoint" />
+                                                                        <data value="tatooine" name="Planet" />
+                                                                        <data value="3407" name="LocationX(m)" />
+                                                                        <data value="12" name="LocationY(m)" />
+                                                                        <data value="-4587" name="LocationZ(m)" />
+                                                                        <data value="" name="interiorWaypointAppearance" />
+                                                                        <data value="lounge01" name="buildingCellName" />
+                                                                        <data value="Faeto" name="waypointName" />
+                                                                        <data value="bounty_hunter_kill_1_launch_e14" name="Signal Name" />
+                                                                        <data value="0" name="waitMarkerCreate" />
+                                                                        <data value="" name="waitMarkerTemplate" />
+                                                                        <data value="" name="waitMarkerPlanetName" />
+                                                                        <data value="0" name="waitMarkerBuilding" />
+                                                                        <data value="" name="waitMarkerCellName" />
+                                                                        <data value="0" name="waitMarkerX" />
+                                                                        <data value="0" name="waitMarkerY" />
+                                                                        <data value="0" name="waitMarkerZ" />
+                                                                        <data value="0" name="Time To Complete" />
+                                                                        <task type="Immediately Complete Quest" id="17" taskOnFail="false" >
+                                                                            <data value="" name="journalEntryTitle" />
+                                                                            <data value="" name="journalEntryDescription" />
+                                                                            <data value="false" name="isVisible" />
+                                                                            <data value="" name="prerequisiteTasks" />
+                                                                            <data value="" name="exclusionTasks" />
+                                                                            <data value="0" name="allowRepeats" />
+                                                                            <data value="bounty_hunter_kill_1_e14" name="taskName" />
+                                                                            <data value="0" name="showSystemMessages" />
+                                                                            <data value="" name="musicOnActivate" />
+                                                                            <data value="" name="musicOnComplete" />
+                                                                            <data value="" name="musicOnFail" />
+                                                                            <data value="" name="target" />
+                                                                            <data value="" name="parameter" />
+                                                                            <data value="" name="grantQuestOnComplete" />
+                                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                            <data value="" name="grantQuestOnFail" />
+                                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                            <data value="0" name="createWaypoint" />
+                                                                            <data value="tatooine" name="Planet" />
+                                                                            <data value="0.0" name="LocationX(m)" />
+                                                                            <data value="0.0" name="LocationY(m)" />
+                                                                            <data value="0.0" name="LocationZ(m)" />
+                                                                            <data value="" name="interiorWaypointAppearance" />
+                                                                            <data value="" name="buildingCellName" />
+                                                                            <data value="" name="waypointName" />
+                                                                            <data value="" name="signalsOnFail" />
+                                                                            <data value="" name="signalsOnComplete" />
+                                                                            <data value="" name="entranceWaypointName" />
+                                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                                            <data value="0" name="createEntranceWaypoint" />
+                                                                        </task>
+                                                                        <data value="" name="signalsOnFail" />
+                                                                        <data value="" name="signalsOnComplete" />
+                                                                        <data value="" name="entranceWaypointName" />
+                                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                                        <data value="0" name="createEntranceWaypoint" />
+                                                                    </task>
+                                                                    <data value="" name="signalsOnFail" />
+                                                                    <data value="" name="signalsOnComplete" />
+                                                                    <data value="" name="entranceWaypointName" />
+                                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                                    <data value="0" name="createEntranceWaypoint" />
+                                                                </task>
+                                                                <data value="" name="signalsOnFail" />
+                                                                <data value="" name="signalsOnComplete" />
+                                                                <data value="" name="entranceWaypointName" />
+                                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                                <data value="0" name="createEntranceWaypoint" />
+                                                            </task>
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="entranceWaypointName" />
+                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                            <data value="0" name="createEntranceWaypoint" />
+                                                        </task>
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                    </task>
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                </task>
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                            </task>
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                        </task>
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="14" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Faeto's Job" name="journalEntryTitle" />
+            <data value="Untas owes Faeto money and the Bosshand is tired of waiting. Time has run out for Untas. You are to track him down through his friends and kill him, but not before you give him the Death Mark so he knows that it was Faeto who did him in. " name="journalEntryDescription" />
+            <data value="Profession" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="5287" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="4880" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

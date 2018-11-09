@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="7" >
+            <task type="Nothing" id="0" name="Nothing" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="taskName" />
+                <data value="false" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <task type="Wait for Signal" id="1" name="Wait for Signal" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Seek out Ehartt Brihnt" name="journalEntryTitle" />
+                    <data value="Go speak with Ehartt Brihnt at the primary Rodian hunting camp." name="journalEntryDescription" />
+                    <data value="ehartt_talkToEhartt" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="sound/mus_rodian_quest_accept.snd" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="ehartt_speakWithEhartt" name="Signal Name" />
+                    <task type="Destroy Multiple and Loot" id="4" name="Destroy Multiple and Loot" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Collect Perfect Walluga Claws" name="journalEntryTitle" />
+                        <data value="Ehartt wants you to collect 21 perfect walluga claws. Any wallugas in Etyyy could have them." name="journalEntryDescription" />
+                        <data value="ehartt_collectingWallugaClaws" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="CreatureType" />
+                        <data value="walluga_etyyy" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="perfect walluga claws" name="LootItemName" />
+                        <data value="21" name="NumberItemsRequired" />
+                        <data value="70" name="LootDropPercent" />
+                        <data value="0" name="RewardCredits" />
+                        <task type="Wait for Signal" id="3" name="Wait for Signal" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Return to Ehartt Brihnt" name="journalEntryTitle" />
+                            <data value="You've collected the perfect walluga claws. Now return to Ehartt at the main Rodian hunting camp." name="journalEntryDescription" />
+                            <data value="ehartt_wallugaClaws" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="ehartt_wallugaClaws" name="Signal Name" />
+                            <data value="" name="waypointName" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <task type="Reward" id="5" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="" name="taskName" />
+                                <data value="false" name="isVisible" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="Experience Type" />
+                                <data value="0" name="Experience Amount" />
+                                <data value="Rebel" name="Faction Name" />
+                                <data value="0" name="Faction Amount" />
+                                <data value="0" name="Bank Credits" />
+                                <data value="object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_walluga.iff" name="Item" />
+                                <data value="1" name="CountItem" />
+                                <data value="" name="Weapon" />
+                                <data value="1" name="CountWeapon" />
+                                <data value="0.1" name="Speed" />
+                                <data value="0.1" name="Damage" />
+                                <data value="0.1" name="Efficiency" />
+                                <data value="0.1" name="Elemental Value" />
+                                <data value="" name="Armor" />
+                                <data value="1" name="CountArmor" />
+                                <data value="0.1" name="Quality" />
+                                <task type="Immediately Complete Quest" id="6" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="" name="taskName" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                </task>
+                            </task>
+                        </task>
+                        <data value="" name="waypointName" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="sound/mus_rodian_quest_sucess.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                </task>
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Hunting Wallugas" name="journalEntryTitle" />
+            <data value="Ehartt Brihnt will test your hunting abilities by asking you to hunt wallugas in Etyyy." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Kashyyyk Hunting Grounds" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="46" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="10" >
+            <task type="Go to Location" id="0" name="Go to Location" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Counter attack" name="journalEntryTitle" />
+                <data value="The Empire's scouts have spotted a Rebel supply convoy in what's known as Kkowir forest. The scout troopers will provide you with a waypoint to their location. Make sure that convoy never reaches its destination. When you're done, return to Admiral Krieg." name="journalEntryDescription" />
+                <data value="" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="kashyyyk_dead_forest" name="Planet" />
+                <data value="274" name="LocationX(m)" />
+                <data value="8" name="LocationY(m)" />
+                <data value="-26" name="LocationZ(m)" />
+                <data value="30.0" name="Radius(m)" />
+                <task type="Encounter" id="1" name="Encounter" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="encounter3" name="taskName" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="rebel_trooper" name="Creature Type" />
+                    <data value="8" name="Count" />
+                    <data value="5" name="Min Distance" />
+                    <data value="10" name="Max Distance" />
+                    <data value="Any" name="Direction" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="0.0" name="Spawn Offset Location Z(m)" />
+                    <data value="0.0" name="Spawn Offset Location X(m)" />
+                    <task type="Immediately Clear Quest" id="6" name="Immediately Clear Quest" taskOnFail="true" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="false" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="sound/music_themequest_fail_imperial.snd" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                    </task>
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <task type="Encounter" id="2" name="Encounter" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="encounter2" name="taskName" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="rebel_medic" name="Creature Type" />
+                    <data value="2" name="Count" />
+                    <data value="5" name="Min Distance" />
+                    <data value="10" name="Max Distance" />
+                    <data value="Any" name="Direction" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="0.0" name="Spawn Offset Location Z(m)" />
+                    <data value="0.0" name="Spawn Offset Location X(m)" />
+                    <task type="Immediately Clear Quest" id="5" name="Immediately Clear Quest" taskOnFail="true" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="false" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="sound/music_themequest_fail_imperial.snd" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                    </task>
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <task type="Encounter" id="3" name="Encounter" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="encounter1" name="taskName" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="rebel_first_lieutenant" name="Creature Type" />
+                    <data value="1" name="Count" />
+                    <data value="5" name="Min Distance" />
+                    <data value="10" name="Max Distance" />
+                    <data value="Any" name="Direction" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="0.0" name="Spawn Offset Location Z(m)" />
+                    <data value="0.0" name="Spawn Offset Location X(m)" />
+                    <task type="Immediately Clear Quest" id="4" name="Immediately Clear Quest" taskOnFail="true" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="false" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="sound/music_themequest_fail_imperial.snd" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                    </task>
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <data value="Scout trooper location" name="waypointName" />
+                <data value="true" name="createWaypoint" />
+                <task type="Wait for Tasks" id="7" name="Wait for Tasks" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Defeat the Rebels" name="journalEntryTitle" />
+                    <data value="Take care of the Rebels in the name of the Emperor!" name="journalEntryDescription" />
+                    <data value="" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="quest/ep3_clone_relics_jedi_starfighter_3" name="Task1 Quest Filename" />
+                    <data value="encounter1" name="Task1 taskName" />
+                    <data value="Rebel officer defeated" name="Task1 Display String" />
+                    <data value="quest/ep3_clone_relics_jedi_starfighter_3" name="Task2 Quest Filename" />
+                    <data value="encounter2" name="Task2 taskName" />
+                    <data value="Rebel medic defeated" name="Task2 Display String" />
+                    <data value="quest/ep3_clone_relics_jedi_starfighter_3" name="Task3 Quest Filename" />
+                    <data value="encounter3" name="Task3 taskName" />
+                    <data value="Rebel troops defeated" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <task type="Go to Location" id="8" name="Go to Location" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Return to base" name="journalEntryTitle" />
+                        <data value="Return to the Imperial base next to Kachirho. Good job soldier!" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="kashyyyk_main" name="Planet" />
+                        <data value="-676" name="LocationX(m)" />
+                        <data value="18" name="LocationY(m)" />
+                        <data value="-125" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="10.0" name="Radius(m)" />
+                        <task type="Immediately Complete Quest" id="9" name="Immediately Complete Quest" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="" name="taskName" />
+                            <data value="false" name="isVisible" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                        </task>
+                    </task>
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Doing your duty, phase III" name="journalEntryTitle" />
+            <data value="You stumbled upon classified Rebel data. Things can only get better from here on... or can they?" name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="The Clone Relics, Fist of the Empire" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="30" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

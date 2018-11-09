@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Speak to the Helpful Guard" name="journalEntryTitle" />
+                <data value="Bannoc told you about a certain guard that was trying to help him and Narlissa. Find and talk to this guard and see if he knows where Narlissa is being held." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="lost_helpful_guard" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="lost_helpful_guard" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="Time To Complete" />
+                <task type="Retrieve Item" id="1" taskOnFail="false" >
+                    <data value="Check the Security Terminal" name="journalEntryTitle" />
+                    <data value="Use the guards password on the security terminal and see if you can find out where Narlissa is being held." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="lost_security_term" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="object/tangible/quest/corellian_slaver_access_terminal_05.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Security Terminal" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Get Narlissa's Location" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <task type="Destroy Multiple" id="11" taskOnFail="false" >
+                        <data value="Kill Detention Area Guards" name="journalEntryTitle" />
+                        <data value="To get access to the detention cell Narlissa is in, you must get past the detention area guards." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="lost_kill_detention_guards" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="corellia_tyrena_slaver_guard_elite_detention" name="Target Server Template" />
+                        <data value="" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="4" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Retrieve Item" id="10" taskOnFail="false" >
+                            <data value="Find Narlissa" name="journalEntryTitle" />
+                            <data value="Check the detention cells for Narlissa." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="lost_read_datapad" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="object/tangible/quest/corellia_slaver_narlissa_datapad.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Narlissa's Diary" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Read Narlissa's Diary" name="retrieveMenuText" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Show Message Box" id="12" taskOnFail="false" >
+                                <data value="Narlissa's Diary" name="journalEntryTitle" />
+                                <data value="The truth behind Narlissa's help." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="lost_narlissa_journal" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="Narlissa's Datapad" name="messageBoxTitle" />
+                                <data value="This appears to be Narlissa's personal diary. Quickly checking through the entries, you find some old entries about how Narlissa met a man named Bannoc and quickly fell in love with him. She wrote a number of entries about how she admired his passion and indomitable spirit here in the slave pens. She looked up to Bannoc and wrote several times about how she dreamed they could escape this horrible place and make new lives together on the outside. After reading a few of these entries, you can tell Narlissa loved Bannoc very much. The most recent entry details how she was moved to the detention cells and scheduled for termination for her collaboration with Bannoc and suspicion she helped him escape. Her last thoughts were with Bannoc and how she hoped he would never learn the real reason she was executed." name="messageBoxText" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <task type="Wait for Signal" id="13" taskOnFail="false" >
+                                    <data value="Return to Bannoc" name="journalEntryTitle" />
+                                    <data value="Return to Bannoc and tell him the fate of his love, Narlissa. Whether you should tell him the complete truth or preserve Narlissa's last wishes is of course up to you." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="lost_return_bannoc" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="corellia" name="Planet" />
+                                    <data value="-4727" name="LocationX(m)" />
+                                    <data value="16" name="LocationY(m)" />
+                                    <data value="-1902" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Bannoc G'noc" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="lost_return_bannoc" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Immediately Complete Quest" id="9" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="false" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="37" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Lost Love" name="journalEntryTitle" />
+            <data value="Even in the despair of a slave pen there are times for compassion. Bannoc is looking for a woman that was kind to him. He wants to make sure she is rescued from the slavers and is safely away from the slave bunker." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="Not all stories have a happy ending. You gave Bannoc the woman's journal, but somehow you get the feeling this has only intensified his misery. Well after the destruction of that foul place it's oppressive touch will still be felt by many." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="7000" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="item_content_slaver_hat_04_01" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="item_content_slaver_wke_hood_04_01" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="item_content_slaver_ith_hat_04_01" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="item_content_slaver_twk_hat_04_01" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

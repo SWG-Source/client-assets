@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="17" >
+            <task type="Wait for Signal" id="0" name="Wait for Signal" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="enterRoom9" name="taskName" />
+                <data value="false" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="entered_tutorial_r9" name="Signal Name" />
+                <task type="Show Message Box" id="1" name="Show Message Box" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Quest Givers and Looting" name="journalEntryTitle" />
+                    <data value="In Star Wars Galaxies, NPCs that are involved in quests are indicated by a letter I floating over their heads. Right click on them to bring up the radial menu. From there, choose the Converse option and talk with them about their quest. 
+These quest-giving NPCs can be found in cities and towns as well as out in the wilds.  Once you have taken a quest and killed an enemy, you will want to loot the corpse. To do this, right click on the corpse to bring up the radial menu. From that menu select the Loot option to bring up the list of what the enemy has in its inventory or the Loot All option to simply take everything the enemy has." name="journalEntryDescription" />
+                    <data value="getQuest" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="Quest Givers and Looting" name="messageBoxTitle" />
+                    <data value="In Star Wars Galaxies, NPCs that are involved in quests are indicated by a letter I floating over their heads. Right click on them to bring up the radial menu. From there, choose the Converse option and talk with them about their quest. 
+These quest-giving NPCs can be found in cities and towns as well as out in the wilds.  Once you have taken a quest and killed an enemy, you will want to loot the corpse. To do this, right click on the corpse to bring up the radial menu. From that menu select the Loot option to bring up the list of what the enemy has in its inventory or the Loot All option to simply take everything the enemy has." name="messageBoxText" />
+                    <task type="Wait for Signal" id="2" name="Wait for Signal" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="explainFight" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="explainFight" name="Signal Name" />
+                        <task type="Destroy Multiple" id="3" name="Destroy Multiple" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Pirate Infiltration" name="journalEntryTitle" />
+                            <data value="Kill the pirate down in the next room" name="journalEntryDescription" />
+                            <data value="killPirate" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="c_newbie_hall_jedi" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="desert_thug_newbie" name="Target Server Template" />
+                            <data value="" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="1" name="Count" />
+                            <data value="0" name="RewardCredits" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        </task>
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="-116.400001525879" name="waitMarkerZ" />
+                        <data value="-4.19999980926514" name="waitMarkerY" />
+                        <data value="1.79999995231628" name="waitMarkerX" />
+                        <data value="r9" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="object/static/structure/general/waypoint_personal_blue.iff" name="waitMarkerTemplate" />
+                        <data value="true" name="waitMarkerCreate" />
+                        <task type="Wait for Signal" id="15" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="enterRoom10" name="taskName" />
+                            <data value="false" name="isVisible" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="entered_tutorial_rm10" name="Signal Name" />
+                            <data value="true" name="waitMarkerCreate" />
+                            <data value="object/static/structure/general/waypoint_pulseline_white.iff" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="r9" name="waitMarkerCellName" />
+                            <data value="5.90000009536743" name="waitMarkerX" />
+                            <data value="-4.19999980926514" name="waitMarkerY" />
+                            <data value="-135.100006103516" name="waitMarkerZ" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        </task>
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    </task>
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="sound/tutorial_textbox11_quest_givers.snd" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="-113" name="waitMarkerZ" />
+                <data value="-4.19999980926514" name="waitMarkerY" />
+                <data value="19" name="waitMarkerX" />
+                <data value="r8" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="object/static/structure/general/waypoint_pulseline_white.iff" name="waitMarkerTemplate" />
+                <data value="true" name="waitMarkerCreate" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+            </task>
+        </tasks>
+        <list>
+            <data value="On Your Way" name="journalEntryTitle" />
+            <data value="On your way to Mos Eisley" name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Welcome to Star Wars Galaxies!" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

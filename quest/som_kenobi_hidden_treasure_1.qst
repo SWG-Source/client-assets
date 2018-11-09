@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="30" >
+            <task type="Show Message Box" id="0" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="sound/mus_mustafar_quest_exception.snd" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="The buried tablet" name="messageBoxTitle" />
+                <data value="There's a buried tablet stuck in the lava rock. You can only see the top half of what is written on it. From what you can make out, someone referring to themselves as a 'knight', explains that with recent developments, she's forced to hide something in the vault. The location of this vault is on the tablet, as well as the sequence needed to disable the security system. Unfortunately, that part is cut in half. You quickly copy down what is written on the plaque in to your datapad." name="messageBoxText" />
+                <data value="" name="messageBoxSound" />
+                <data value="-1" name="messageBoxSizeWidth" />
+                <data value="-1" name="messageBoxSizeHeight" />
+                <data value="-1" name="messageBoxLocationX" />
+                <data value="-1" name="messageBoxLocationY" />
+                <task type="Go to Location" id="14" taskOnFail="false" >
+                    <data value="A vault?" name="journalEntryTitle" />
+                    <data value="Could the location on the old tablet really be the vault with a treasure inside? You can't pass up the opportunity to find out." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="mustafar" name="Planet" />
+                    <data value="-1130" name="LocationX(m)" />
+                    <data value="46" name="LocationY(m)" />
+                    <data value="4190" name="LocationZ(m)" />
+                    <data value="Secret vault" name="waypointName" />
+                    <data value="10" name="Radius(m)" />
+                    <task type="Show Message Box" id="17" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="Disabling security, step 1" name="messageBoxTitle" />
+                        <data value="There is indeed a vault here. The first thing to do according to the tablet is turning the left dial to the number 8." name="messageBoxText" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="60" name="messageBoxSizeWidth" />
+                        <data value="60" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxLocationY" />
+                        <task type="Retrieve Item" id="15" taskOnFail="false" >
+                            <data value="Disabling the security system" name="journalEntryTitle" />
+                            <data value="The tablet has spoken the truth so far. You've found the old vault and started to try and crack the security system." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="object/tangible/quest/som_vault_dial.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Dial" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Turn to 8" name="retrieveMenuText" />
+                            <task type="Show Message Box" id="18" taskOnFail="false" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="Disabling security, step 2" name="messageBoxTitle" />
+                                <data value="Click the saber symbol on the holocron." name="messageBoxText" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="60" name="messageBoxSizeWidth" />
+                                <data value="60" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <task type="Retrieve Item" id="16" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="object/tangible/quest/som_vault_holocron.iff" name="Server Object Template" />
+                                    <data value="1" name="Count" />
+                                    <data value="Saber symbol" name="ItemName" />
+                                    <data value="100" name="LootDropPercent" />
+                                    <data value="Click saber symbol" name="retrieveMenuText" />
+                                    <task type="Show Message Box" id="19" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="false" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="som_kenobi_hidden_treasure_2" name="grantQuestOnComplete" />
+                                        <data value="false" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="No more clues" name="messageBoxTitle" />
+                                        <data value="That was all the help you got out of the tablet. There's two levers on the wall, which one to pull is up to you..." name="messageBoxText" />
+                                        <data value="" name="messageBoxSound" />
+                                        <data value="80" name="messageBoxSizeWidth" />
+                                        <data value="80" name="messageBoxSizeHeight" />
+                                        <data value="-1" name="messageBoxLocationX" />
+                                        <data value="-1" name="messageBoxLocationY" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+            </task>
+        </tasks>
+        <list>
+            <data value="A hidden treasure?" name="journalEntryTitle" />
+            <data value="You've found a strange tablet stuck in a lava rock. It depicts the location of what might be a hidden treasure!" name="journalEntryDescription" />
+            <data value="Mustafar" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="quest/som_kenobi_hidden_treasure_2" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="75" name="Level" />
+            <data value="1" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

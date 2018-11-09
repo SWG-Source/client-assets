@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="12" >
+            <task type="Destroy Multiple and Loot" id="1" taskOnFail="false" >
+                <data value="Tusken Attack" name="journalEntryTitle" />
+                <data value="Your task is to begin attacking the Tuskens so they think Mos Eisley's militia is responsible. Keep attacking until you find information that may lead to the one Tusken who knows the truth." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="killTuskens" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="" name="CreatureType" />
+                <data value="tusken_raider" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="Clue" name="LootItemName" />
+                <data value="1" name="NumberItemsRequired" />
+                <data value="4" name="LootDropPercent" />
+                <data value="0" name="RewardCredits" />
+                <task type="Go to Location" id="2" taskOnFail="false" >
+                    <data value="A Short Meeting" name="journalEntryTitle" />
+                    <data value="A clue found on one of the Tuskens points to a planned meeting with a trusted associate of the Sandpeople. Meet with this associate and see if you can find the location of the Tusken Jabba is looking for." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="goJawaLocation" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="-2888" name="LocationX(m)" />
+                    <data value="5" name="LocationY(m)" />
+                    <data value="2591" name="LocationZ(m)" />
+                    <data value="A Short Meeting" name="waypointName" />
+                    <data value="10.0" name="Radius(m)" />
+                    <task type="Wait for Signal" id="3" taskOnFail="false" >
+                        <data value="Speak with Jawa" name="journalEntryTitle" />
+                        <data value="Speak with the informant to find the location of the tusken Jabba wants eliminated." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="talkToJawa" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="talkToJawa" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <task type="Go to Location" id="4" taskOnFail="false" >
+                            <data value="Silence the Problem" name="journalEntryTitle" />
+                            <data value="The Jawa informant has shown you the direction the Tusken headed. You must find and eliminate him before he can inform his people of Jabba's plan to trick them into attacking Mos Eisley. Head to the waypoint and eliminate Jabba's security risk. Take care of this and you'll get your payment." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tuskenLocation" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="-3900" name="LocationX(m)" />
+                            <data value="40" name="LocationY(m)" />
+                            <data value="-4544" name="LocationZ(m)" />
+                            <data value="Silence the Problem" name="waypointName" />
+                            <data value="10.0" name="Radius(m)" />
+                            <task type="Encounter" id="6" taskOnFail="false" >
+                                <data value="Silence the Problem" name="journalEntryTitle" />
+                                <data value="The Jawa informant has shown you the direction the Tusken headed. You must find and eliminate him before he can inform his people of Jabba's plan to trick them into attacking Mos Eisley. Head to the waypoint and eliminate Jabba's security risk. Take care of this and you'll get your payment." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tuskenEncounter" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="tusken_berserker" name="Creature Type" />
+                                <data value="1" name="Count" />
+                                <data value="5" name="Min Distance" />
+                                <data value="50" name="Max Distance" />
+                                <data value="10" name="Spawn Offset Location X(m)" />
+                                <data value="10" name="Spawn Offset Location Z(m)" />
+                                <task type="Wait for Signal" id="9" taskOnFail="true" >
+                                    <data value="Tusken Escaped" name="journalEntryTitle" />
+                                    <data value="You let the Tusken escape! If you ever run into Bossk again, he's not going to be very happy." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="q2Failed" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="q2Failed" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <task type="Immediately Complete Quest" id="10" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                    </task>
+                                </task>
+                                <task type="Reward" id="8" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tuskenReward" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="jabba" name="Faction Name" />
+                                    <data value="500" name="Faction Amount" />
+                                    <data value="20000" name="Bank Credits" />
+                                    <data value="" name="Item" />
+                                    <data value="1" name="CountItem" />
+                                    <data value="object/weapon/ranged/rifle/event_rifle_tusken_berserker.iff" name="Weapon" />
+                                    <data value="1" name="CountWeapon" />
+                                    <data value="0.65" name="Speed" />
+                                    <data value="0.88" name="Damage" />
+                                    <data value="0.6" name="Efficiency" />
+                                    <data value="0.1" name="Elemental Value" />
+                                    <data value="" name="Armor" />
+                                    <data value="1" name="CountArmor" />
+                                    <data value="0.1" name="Quality" />
+                                    <task type="Immediately Complete Quest" id="11" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="happyEnding" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Tusken's Rage" name="journalEntryTitle" />
+            <data value="Jabba and the Mayor of Mos Eisley are at odds. To put pressure on the Mayor, Jabba is hatching a plan to trick the Tuskens into attacking Mos Eisley. Unfortunately, one Tusken has found out the plan and will ruin the deal if he makes it back to his camp alive." name="journalEntryDescription" />
+            <data value="Chance Meetings" name="category" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="true" name="journalVisible" />
+        </list>
+    </quest>

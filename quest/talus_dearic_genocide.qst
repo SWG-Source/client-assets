@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="15" >
+            <task type="Go to Location" id="3" taskOnFail="false" >
+                <data value="Find the GeneTech Syndicate Lab" name="journalEntryTitle" />
+                <data value="Agent Taarna was able to find the launch location of the crashed ship. This lab is listed with CorSec as engaging in legitimate genetic manipulation on animals. It has been known to have an intermittent business relationship with the Empire." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="genocide_gotoloc_01_01" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="talus" name="Planet" />
+                <data value="-13" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-3532" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="GeneTech Syndicate Lab" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <data value="10.0" name="Radius(m)" />
+                <data value="0" name="Time To Complete" />
+                <task type="Retrieve Item" id="5" taskOnFail="false" >
+                    <data value="Find the Directory Terminal" name="journalEntryTitle" />
+                    <data value="Agent Taarna said your first priority when you get to the lab is to find a terminal that can detail all of the possible systems that will contain information about the experiment. Find a working directory terminal and slice it for a listing of computers that might contain data about the experiment that created these creatures. You must get confirmation that this is where the experiment began." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="genocide_retrieve_01_02" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="talus" name="Planet" />
+                    <data value="-13" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="-3532" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="GeneTech Syndicate Lab" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="object/tangible/quest/talus_nashal_directory_terminal.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Directory Terminal" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Use Terminal" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Show Message Box" id="6" taskOnFail="false" >
+                        <data value="Directory Information" name="journalEntryTitle" />
+                        <data value="The directory terminal had a number of listings for computers with notes on the 'Parasophic Arachne' program. Apparently it was the aim of the GeneTech Syndicate to create an intelligent form of Arachne that could be released onto a world the Empire did not want to spend troops on, but did not want it to be used by the Alliance. Even though the creatures would thoroughly destroy the native ecology, the planet would be effectively denied to the enemy. The computers that must be deleted are: the behavioral Observation researcher's terminal, the biochemist's terminal, the genetic engineer's terminal, the lead researcher's terminal, and the project manager's terminal." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="genocide_msgbox_01_03" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="Directory Information" name="messageBoxTitle" />
+                        <data value="The directory terminal had a number of listings for computers with notes on the 'Parasophic Arachne' program. Apparently it was the aim of the GeneTech Syndicate to create an intelligent form of Arachne that could be released onto a world the Empire did not want to spend troops on, but did not want it to be used by the Alliance. Even though the creatures would thoroughly destroy the native ecology, the planet would be effectively denied to the enemy. The computers that must be deleted are: the behavioral Observation researcher's terminal, the biochemist's terminal, the genetic engineer's terminal, the lead researcher's terminal, and the project manager's terminal." name="messageBoxText" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="-1" name="messageBoxSizeWidth" />
+                        <data value="-1" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxLocationY" />
+                        <task type="Comm Player" id="7" taskOnFail="false" >
+                            <data value="Confirm Lab Location with Agent Taarna" name="journalEntryTitle" />
+                            <data value="You have contacted agent Taarna to inform him that this is the location where the creature experiements began. " name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="genocide_comm_01_03" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="quest/talus_dearic_find_source" name="grantQuestOnComplete" />
+                            <data value="false" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="Good work! Now that you have confirmed this as the site of the original experiment, we can conclude the queen might still be here. I need you to do a few things for me first; you must destroy all information regarding project 'Parasophic Arachne', you must destroy any of the eggs that you find, and you must kill all the creatures in the lab. When you are done with these tasks contact me again and we can go from there." name="Comm Message Text" />
+                            <data value="/object/mobile/dressed_corsec_captain_human_male_02.iff" name="NPC Appearance Server Template" />
+                            <task type="Wait for Tasks" id="8" taskOnFail="false" >
+                                <data value="Complete Agent Taarna's Requests" name="journalEntryTitle" />
+                                <data value="Agent Taarna is waiting on you to complete his three requests; Kill all the arachne adults, destroy the egg nurseries, and delete all data concerning the 'Parasophic Arachne' project." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="genocide_tasks_01_04" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="talus" name="Planet" />
+                                <data value="-13" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="-3532" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="GeneTech Syndicate Lab" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="quest/talus_dearic_better_genetics" name="Task1 Quest Filename" />
+                                <data value="better_genetics_complete_01_04" name="Task1 taskName" />
+                                <data value="Destroy the 'Parasophic Arachne' Project Data" name="Task1 Display String" />
+                                <data value="quest/talus_dearic_plea_pity" name="Task2 Quest Filename" />
+                                <data value="plea_pity_complete_01_06" name="Task2 taskName" />
+                                <data value="Kill the Creatures in the GeneTech Syndicate Lab" name="Task2 Display String" />
+                                <data value="quest/talus_dearic_find_source" name="Task3 Quest Filename" />
+                                <data value="find_source_complete_01_04" name="Task3 taskName" />
+                                <data value="Destroy the Arachne Egg Nurseries" name="Task3 Display String" />
+                                <data value="" name="Task4 Quest Filename" />
+                                <data value="" name="Task4 taskName" />
+                                <data value="" name="Task4 Display String" />
+                                <data value="" name="Task5 Quest Filename" />
+                                <data value="" name="Task5 taskName" />
+                                <data value="" name="Task5 Display String" />
+                                <data value="" name="Task6 Quest Filename" />
+                                <data value="" name="Task6 taskName" />
+                                <data value="" name="Task6 Display String" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Comm Player" id="9" taskOnFail="false" >
+                                    <data value="Comm From Agent Taarna" name="journalEntryTitle" />
+                                    <data value="Agent Taarna has contacted you with his last request. Kill the queen that is creating all the breeder arachne." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="genocide_comm_02_05" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="You did really well on the previous tasks, but now comes the big one. I need you to take out the queen. She must be responsible for creating the breeders. Without her the species is doomed." name="Comm Message Text" />
+                                    <data value="/object/mobile/dressed_corsec_captain_human_male_02.iff" name="NPC Appearance Server Template" />
+                                    <task type="Destroy Multiple" id="10" taskOnFail="false" >
+                                        <data value="Kill the Queen" name="journalEntryTitle" />
+                                        <data value="Find the queen's chamber and kill her. End the spread of this abomination." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="genocide_destroy_01_06" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="talus" name="Planet" />
+                                        <data value="-13" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-3532" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="GeneTech Syndicate Lab" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="talus_nashal_arachne_brood_queen" name="Target Server Template" />
+                                        <data value="" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="1" name="Count" />
+                                        <data value="0" name="RewardCredits" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Comm Player" id="11" taskOnFail="false" >
+                                            <data value="Congratulations From Agent Taarna" name="journalEntryTitle" />
+                                            <data value="Agent Taarna has contacted you to congratulate you on a job well done. He would like to see you as soon as possible to work out your payment." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="genocide_comm_03_07" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="You've done a great job! The investigation team has been dispatched to your location. Infect the eggs in the queen's chamber with the self-destruct virus, and then return to me as soon as you are able so we can work out your payment." name="Comm Message Text" />
+                                            <data value="/object/mobile/dressed_corsec_captain_human_male_02.iff" name="NPC Appearance Server Template" />
+                                            <task type="Retrieve Item" id="14" taskOnFail="false" >
+                                                <data value="Infect the Queen's Brood." name="journalEntryTitle" />
+                                                <data value="Use the self-destruct virus on the eggs in the queen's chamber." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="genocide_retrieve_03_07a" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="talus" name="Planet" />
+                                                <data value="-13" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-3532" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="GeneTech Syndicate Lab" name="waypointName" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="object/tangible/quest/talus_brood_egg_single_05.iff" name="Server Object Template" />
+                                                <data value="6" name="Count" />
+                                                <data value="Mature Egg" name="ItemName" />
+                                                <data value="100" name="LootDropPercent" />
+                                                <data value="Infect Egg" name="retrieveMenuText" />
+                                                <data value="0" name="Time To Complete" />
+                                                <task type="Wait for Signal" id="12" taskOnFail="false" >
+                                                    <data value="Return to Agent Taarna" name="journalEntryTitle" />
+                                                    <data value="Head back to agent Taarna for your reward." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="genocide_signal_01_08" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="talus" name="Planet" />
+                                                    <data value="4380" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="5177" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="CorSec agent Taarna" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="genocide_signal_01_08" name="Signal Name" />
+                                                    <data value="0" name="waitMarkerCreate" />
+                                                    <data value="" name="waitMarkerTemplate" />
+                                                    <data value="" name="waitMarkerPlanetName" />
+                                                    <data value="0" name="waitMarkerBuilding" />
+                                                    <data value="" name="waitMarkerCellName" />
+                                                    <data value="0" name="waitMarkerX" />
+                                                    <data value="0" name="waitMarkerY" />
+                                                    <data value="0" name="waitMarkerZ" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Immediately Complete Quest" id="13" taskOnFail="false" >
+                                                        <data value="" name="journalEntryTitle" />
+                                                        <data value="" name="journalEntryDescription" />
+                                                        <data value="false" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="genocide_complete_01_09" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                    </task>
+                                                </task>
+                                                <data value="5" name="CountdownTimer" />
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                        </task>
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                    </task>
+                    <data value="10" name="CountdownTimer" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                    <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                </task>
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+            </task>
+        </tasks>
+        <list>
+            <data value="43" name="Level" />
+            <data value="4" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Genocide" name="journalEntryTitle" />
+            <data value="Agent Taarna has asked you to investigate a lab just outside Dearic which is very near the location determined to be the launch site of the crashed ship. You must first locate proof that the lab was where the creatures were created." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="With the CorSec investigation team on the way and the 'Parasophic Arachne' project in ruins. You feel safe enough to hand off any of the clean-up work to CorSec. With any luck this will be the last anyone sees of these new intelligent arachne." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="corsec" name="Faction Name" />
+            <data value="100" name="Faction Amount" />
+            <data value="50000" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="object/tangible/quest/talus_quest_reward_egg_single.iff" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="31" >
+            <task type="Nothing" id="28" taskOnFail="false" >
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="talus_dearic_coa_dathnaeyas_request_wfs" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Dathnaeya Loessin has asked that an investigation of the local commanders of both the Empire and Rebellion be made so that she can make an informed decision about which side she should join in the current galactic conflict." name="journalEntryDescription" />
+                <data value="The Investigation Begins" name="journalEntryTitle" />
+                <task type="Wait for Signal" id="20" taskOnFail="false" >
+                    <data value="Speak with Capt. Quellium" name="journalEntryTitle" />
+                    <data value="Dathnaeya has asked that the A.C.L.O., a medical supply company allied with the Rebel Alliance, be investigated to determine the kind of people the Rebellion chooses to work with.  Their contact, Captain Vayde Quellium, has an office on the outskirts of the southwest side of town, due south of the Starport." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="talus_dearic_coa_report_rebels_wfs" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="talus" name="Planet" />
+                    <data value="284" name="LocationX(m)" />
+                    <data value="6" name="LocationY(m)" />
+                    <data value="-3136" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Captain Quellium's Office" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="talus_dearic_coa_spoke_with_vayde" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Wait for Signal" id="30" taskOnFail="false" >
+                        <data value="Investigate the Alliance's Ally" name="journalEntryTitle" />
+                        <data value="Investigate the Aggregate Civil Liberties Organization for Dathnaeya by helping Captain Quellium complete some missions for this organization." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="talus_dearic_coa_investigate_reb_ally_wfs" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="talus_dearic_aclo_investigated" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Wait for Signal" id="13" taskOnFail="false" >
+                            <data value="Convince Dathnaeya to Join the Rebel Alliance" name="journalEntryTitle" />
+                            <data value="Dathnaeya should choose the Rebel Alliance.  They fight for freedom and justice for all races in the galaxy, and do so with honor and compassion. The Empire's lack of compassion and suppression of freedom make it a tyrrany rather than a legitimate government." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="talus_dearic_coa_dathnaeya_choose_alliance_wfs" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="talus" name="Planet" />
+                            <data value="649" name="LocationX(m)" />
+                            <data value="6" name="LocationY(m)" />
+                            <data value="-3190" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Dathnaeya" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="talus_dearic_coa_dathnaeya_chose_alliance" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Immediately Complete Quest" id="16" taskOnFail="false" >
+                                <data value="Quest Complete - Allliance Benefits" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="talus_dearic_coa_quest_complete_alliance_benefits_qcm" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                            </task>
+                            <task type="Reward" id="22" taskOnFail="false" >
+                                <data value="Alliance Prestige" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="talus_dearic_coa_reward_rebel_faction_rwd" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="" name="Experience Type" />
+                                <data value="0" name="Experience Amount" />
+                                <data value="Rebel" name="Faction Name" />
+                                <data value="0" name="Faction Amount" />
+                                <data value="0" name="Bank Credits" />
+                                <data value="" name="lootName" />
+                                <data value="1" name="lootCount" />
+                                <data value="" name="Item" />
+                                <data value="1" name="CountItem" />
+                                <data value="" name="Weapon" />
+                                <data value="1" name="CountWeapon" />
+                                <data value="0.1" name="Speed" />
+                                <data value="0.1" name="Damage" />
+                                <data value="0.1" name="Efficiency" />
+                                <data value="0.1" name="Elemental Value" />
+                                <data value="" name="Armor" />
+                                <data value="1" name="CountArmor" />
+                                <data value="1" name="Quality" />
+                                <data value="" name="Reward Badge" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+                <task type="Wait for Signal" id="19" taskOnFail="false" >
+                    <data value="Speak with Col. Ekirk" name="journalEntryTitle" />
+                    <data value="Dathnaeya has asked that the N.S.H., a mercenary company allied with the Empire, be investigated to determine the kind of people the Empire chooses to work with.  Their contact, Colonel Braedic Ekirk, operates out of the Dearic Imperial Office on the northern most edge of town, due north of the bank." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="talus_dearic_coa_report_imperials_wfs" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="talus" name="Planet" />
+                    <data value="515" name="LocationX(m)" />
+                    <data value="6" name="LocationY(m)" />
+                    <data value="-2825" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Colonel Ekirk's Office" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="talus_dearic_coa_spoke_with_ekirk" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Wait for Signal" id="29" taskOnFail="false" >
+                        <data value="Investigate the Empire's Ally" name="journalEntryTitle" />
+                        <data value="Investigate the Nightstrike Soldier Hegemony for Dathnaeya by helping Colonel Ekirk complete some missions for this organization." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="talus_dearic_coa_investigate_imp_ally_wfs" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="talus_dearic_nsh_investigated" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Wait for Signal" id="12" taskOnFail="false" >
+                            <data value="0" name="Time To Complete" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="talus_dearic_coa_dathnaeya_chose_empire" name="Signal Name" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="Dathnaeya" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="-3190" name="LocationZ(m)" />
+                            <data value="6" name="LocationY(m)" />
+                            <data value="649" name="LocationX(m)" />
+                            <data value="talus" name="Planet" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="talus_dearic_coa_dathnaeya_choose_empire_wfs" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="Dathnaeya should choose the Empire.  Their efforts to keep law and order in the galaxy will match well with her background in CorSec.  The Rebels are simply anarchists and terrorists and should be brought to justice." name="journalEntryDescription" />
+                            <data value="Convince Dathnaeya to Join the Empire" name="journalEntryTitle" />
+                            <task type="Immediately Complete Quest" id="14" taskOnFail="false" >
+                                <data value="Quest Complete - Empire Benefits" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="talus_dearic_coa_quest_complete_empire_benefits_qcm" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                            </task>
+                            <task type="Reward" id="21" taskOnFail="false" >
+                                <data value="" name="Reward Badge" />
+                                <data value="1" name="Quality" />
+                                <data value="1" name="CountArmor" />
+                                <data value="" name="Armor" />
+                                <data value="0.1" name="Elemental Value" />
+                                <data value="0.1" name="Efficiency" />
+                                <data value="0.1" name="Damage" />
+                                <data value="0.1" name="Speed" />
+                                <data value="1" name="CountWeapon" />
+                                <data value="" name="Weapon" />
+                                <data value="1" name="CountItem" />
+                                <data value="" name="Item" />
+                                <data value="1" name="lootCount" />
+                                <data value="" name="lootName" />
+                                <data value="0" name="Bank Credits" />
+                                <data value="1000" name="Faction Amount" />
+                                <data value="Imperial" name="Faction Name" />
+                                <data value="0" name="Experience Amount" />
+                                <data value="" name="Experience Type" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="parameter" />
+                                <data value="" name="target" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="talus_dearic_coa_reward_imperial_faction_rwd" name="taskName" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="Imperial Prestige" name="journalEntryTitle" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="41" name="Level" />
+            <data value="4" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Crisis of Allegiance" name="journalEntryTitle" />
+            <data value="As the conflict between the Empire and Rebellion grows ever more intense, Dathnaeya Loessin, a Corsec officer in Dearic has reached a point where she believes she can no longer stand on the side and watch.  She must choose.  Her quandary is that she does not know which side to take, therefore she has asked that an investigation of both sides be undertaken and a report made that will enable her to make this crucial decision in her life." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="The investigation has been concluded, the report submitted, and Dathnaeya has made her choice, forever fixing her destiny in the galaxy." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="4" name="Experience Amount" />
+            <data value="" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="4400" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

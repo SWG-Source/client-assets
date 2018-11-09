@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="10" >
+            <task type="Wait for Signal" id="1" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Report to Commander Richards" name="journalEntryTitle" />
+                <data value="Report to Commander Richards to find out about your next assignment. He is stationed in the checkpoint station in the Imperial compound." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="sound/music_themequest_acc_imperial.snd" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="readyForRichards" name="Signal Name" />
+                <data value="" name="taskName" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <task type="Retrieve Item" id="9" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Collect Final Blood Sample" name="journalEntryTitle" />
+                    <data value="Collect a Blood Sample from a Wookiee on board the Avatar Space Platform who has been through the medical procedure. The Trandoshans are known to keep these processed Wookiees in a sealed room beyond the medical labs." name="journalEntryDescription" />
+                    <data value="avatarImpLand" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="object/mobile/ep3/ep3_wke_civilian_03.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Processed Blood Sample" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <task type="Retrieve Item" id="4" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Steal the Avatar Medical Records" name="journalEntryTitle" />
+                        <data value="The medical records on board the Avatar Space Platform probably contain some very important information. A good place to search for them would be the medical labs." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="object/tangible/quest/avatar_medical_records.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="Avatar Medical Records" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <task type="Wait for Signal" id="5" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Return to Cmd. Richards" name="journalEntryTitle" />
+                            <data value="Now that you have the blood sample and the medical records, return to Commander Richards and make your report." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="reportToRichards" name="Signal Name" />
+                            <task type="Wait for Signal" id="6" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Report to Dr. Price" name="journalEntryTitle" />
+                                <data value="Commander Richards ordered you to take the blood sample and medical records to Dr. Price so he can evaluate what is being done to the Wookiees on the Avatar Space Platform." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="rewardDrPrice" name="Signal Name" />
+                                <task type="Reward" id="7" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Reward Issued" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="Rebel" name="Faction Name" />
+                                    <data value="0" name="Faction Amount" />
+                                    <data value="25000" name="Bank Credits" />
+                                    <data value="object/tangible/furniture/ep3_rewards/hologram_stardestroyer_01.iff" name="Item" />
+                                    <data value="" name="taskName" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="1" name="Count" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="1" name="lootCount" />
+                                    <data value="" name="lootName" />
+                                    <data value="1" name="CountItem" />
+                                    <data value="0.1" name="Elemental Value" />
+                                    <data value="0.1" name="Efficiency" />
+                                    <data value="0.1" name="Damage" />
+                                    <data value="0.1" name="Speed" />
+                                    <data value="1" name="CountWeapon" />
+                                    <data value="" name="Weapon" />
+                                    <data value="1" name="Quality" />
+                                    <data value="1" name="CountArmor" />
+                                    <data value="" name="Armor" />
+                                    <data value="" name="Reward Badge" />
+                                </task>
+                                <data value="" name="taskName" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="sound/music_themequest_victory_imperial.snd" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="waypointName" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <data value="" name="taskName" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                        <data value="" name="taskName" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="waypointName" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="Seach File Cabinet" name="retrieveMenuText" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="Get Blood Sample" name="retrieveMenuText" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Wookiee Blood Sample" name="journalEntryTitle" />
+            <data value="Dr. Price needs more proof that the Trandoshans are infecting the Wookiee slaves they are selling to the Empire. Commander Richards will direct you on your next step which is to assault the Avatar Space Platform, gather a blood sample from a processed Wookiee, and steal the medical records from its medical labs." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Imperial - Kashyyyk" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="80" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="group" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

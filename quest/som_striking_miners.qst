@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="8" >
+            <task type="Nothing" id="0" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="sound/mus_mustafar_quest_exception.snd" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <task type="Wait for Signal" id="1" taskOnFail="false" >
+                    <data value="Talk with Foreman Nurfa Laz'op" name="journalEntryTitle" />
+                    <data value="Travel to the outpost in the Smoking Forest and talk to the leader of the striking miners, Nurfa Laz'op. You need to convince Nurfa Laz'op to return to the talks with the Mustafar Mining Company so they can reach an agreement and end the strike." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="mustafar_striking_miners_one" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="mustafar" name="Planet" />
+                    <data value="-5380" name="LocationX(m)" />
+                    <data value="294" name="LocationY(m)" />
+                    <data value="4440" name="LocationZ(m)" />
+                    <data value="Striking Miner's Camp" name="waypointName" />
+                    <data value="mustafar_striking_miners_nurfa" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <task type="Retrieve Item" id="2" taskOnFail="false" >
+                        <data value="Steal Tulrus Eggs" name="journalEntryTitle" />
+                        <data value="Nurfa Laz'op wants to make sure that you are not just a company man. You are to be tested by gathering ten eggs of the Tulrus. In order to find these eggs you will need to travel to Tulrus Isle which is located between the central volcano and Berken's flow. The only known pass onto the isle is from a bridge in the southern section of Berken's Flow." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="mustafar_striking_miners_two" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="object/tangible/quest/tulrus_egg.iff" name="Server Object Template" />
+                        <data value="10" name="Count" />
+                        <data value="Tulrus Egg" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Steal Egg" name="retrieveMenuText" />
+                        <task type="Wait for Signal" id="3" taskOnFail="false" >
+                            <data value="Return to Foreman Nurfa Laz'op" name="journalEntryTitle" />
+                            <data value="With your ill gotten eggs in hand, return to Nurfa Laz'op and report your success in this task." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="mustafar_striking_miners_three" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="mustafar" name="Planet" />
+                            <data value="-5380" name="LocationX(m)" />
+                            <data value="294" name="LocationY(m)" />
+                            <data value="4440" name="LocationZ(m)" />
+                            <data value="Striking Miner's Camp" name="waypointName" />
+                            <data value="mustafar_striking_miners_win" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <task type="Wait for Signal" id="4" taskOnFail="false" >
+                                <data value="Return to Urup Fal'co" name="journalEntryTitle" />
+                                <data value="Nurfa Laz'op has agreed to return to the talks with the Mustafar Mining Company. You need to let Urup know that your mission has been a success." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="mustafar_striking_miners_five" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="mustafar_striking_miners_reward" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <task type="Reward" id="7" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="sound/mus_mustafar_quest_success.snd" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="Rebel" name="Faction Name" />
+                                    <data value="0" name="Faction Amount" />
+                                    <data value="10000" name="Bank Credits" />
+                                    <data value="" name="Item" />
+                                    <data value="1" name="CountItem" />
+                                    <data value="" name="Weapon" />
+                                    <data value="1" name="CountWeapon" />
+                                    <data value="0.1" name="Speed" />
+                                    <data value="0.1" name="Damage" />
+                                    <data value="0.1" name="Efficiency" />
+                                    <data value="0.1" name="Elemental Value" />
+                                    <data value="" name="Armor" />
+                                    <data value="1" name="CountArmor" />
+                                    <data value="0.1" name="Quality" />
+                                    <data value="1" name="lootCount" />
+                                    <data value="item_tow_clothing_03_02" name="lootName" />
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="The Strike" name="journalEntryTitle" />
+            <data value="The Mustafar Mining Company is having a number of problems. One of them is that a group of their miners is on strike. Talks between the miners and the company have broken down and the miners refuse to meet with the company to resolve the strike. Urup Fal'co needs an outsider to convince the miners to return to the discussions since they refuse to speak with any member of the company." name="journalEntryDescription" />
+            <data value="Mustafar" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="75" name="Level" />
+            <data value="4" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="6" >
+            <task type="Retrieve Item" id="0" taskOnFail="false" >
+                <data value="Collect an Offering" name="journalEntryTitle" />
+                <data value="The protocol droid told you that you probably wouldn't get any help from the Jawas until you can present them with something they want. He suggested a good start would be juice for a favorite drink of the Jawas. The fruit can be found in plants that grow around the Jawa camp." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="tatooine_jawa_juice_e1" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="-6108" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="1947" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="Pika Plants" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <data value="object/tangible/quest/flora_plant_jawa_juice.iff" name="Server Object Template" />
+                <data value="5" name="Count" />
+                <data value="Pika Plant" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <data value="0" name="CountdownTimer" />
+                <data value="Pick Pika Fruit" name="retrieveMenuText" />
+                <data value="0" name="Time To Complete" />
+                <task type="Wait for Signal" id="1" taskOnFail="false" >
+                    <data value="Return With the Offering" name="journalEntryTitle" />
+                    <data value="You were able to find enough plants to get enough juice for the drink. Go back to the protocol droid and have him make the drink." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tatooine_jawa_juice_e2" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="tatooine_jawa_juice_e2" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Immediately Complete Quest" id="2" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tatooine_jawa_juice_e3" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                    </task>
+                </task>
+                <task type="Go to Location" id="3" taskOnFail="false" >
+                    <data value="More Pika Plants" name="journalEntryTitle" />
+                    <data value="Look for Pika plants at this location" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tatooine_jawa_juice_e1c" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="-6255" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="1866" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Pika Plants" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="10.0" name="Radius(m)" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Go to Location" id="4" taskOnFail="false" >
+                    <data value="More Pika Plants" name="journalEntryTitle" />
+                    <data value="Look for Pika plants at this location" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tatooine_jawa_juice_e1b" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="-6260" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="1833" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Pika Plants" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="10.0" name="Radius(m)" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Go to Location" id="5" taskOnFail="false" >
+                    <data value="More Pika Plants" name="journalEntryTitle" />
+                    <data value="Look for Pika plants at this location" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tatooine_jawa_juice_e1a" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="-6056" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="1888" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Pika Plants" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="10.0" name="Radius(m)" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="15" name="Level" />
+            <data value="2" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Impress the Jawas" name="journalEntryTitle" />
+            <data value="Apparently the Jawas will not work with you unless you present them with some sort of gift first. The droid has told you about how much the Jawas like a drink made from the juice of Pika fruit. There are a few bushes in the area. You might try collecting a few of these fruit and see if it will make friends with the Jawa." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You should be able to make a deal with some of the Jawas now. Try giving them some of the juice you collected." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="jawa" name="Faction Name" />
+            <data value="25" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

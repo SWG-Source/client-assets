@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="6" >
+            <task type="Go to Location" id="1" taskOnFail="false" >
+                <data value="10.0" name="Radius(m)" />
+                <data value="Mauler Stronghold" name="waypointName" />
+                <data value="1083" name="LocationZ(m)" />
+                <data value="95" name="LocationY(m)" />
+                <data value="2850" name="LocationX(m)" />
+                <data value="naboo" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Captain Typho needs someone to infiltrate the Mauler Stronghold and destroy their cache of weapons. Start by making your way to the stronghold." name="journalEntryDescription" />
+                <data value="Infiltrate the Mauler Stronghold" name="journalEntryTitle" />
+                <task type="Retrieve Item" id="2" taskOnFail="false" >
+                    <data value="Find the Weapon Caches" name="journalEntryTitle" />
+                    <data value="Find the Mauler's Weapons caches. Your may have to fight your way to it through the stronghold." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="naboo" name="Planet" />
+                    <data value="2850" name="LocationX(m)" />
+                    <data value="95" name="LocationY(m)" />
+                    <data value="1083" name="LocationZ(m)" />
+                    <data value="Mauler Stronghold" name="waypointName" />
+                    <data value="object/tangible/quest/typho_mauler_weapons_cache.iff" name="Server Object Template" />
+                    <data value="4" name="Count" />
+                    <data value="Weapons Cache" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Plant Explosives" name="retrieveMenuText" />
+                    <task type="Comm Player" id="3" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="Good Work. That should keep them busy for a while, trying to accumulate more weapons. It should give us an edge in apprehending most of them before they can prepare an assault against any of our military sites." name="Comm Message Text" />
+                        <data value="object/mobile/typho.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="4" taskOnFail="false" >
+                            <data value="Return to Typho" name="journalEntryTitle" />
+                            <data value="Make your way back to Typho to complete this mission." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="weaponsCacheDestroyed" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="naboo" name="Planet" />
+                            <data value="1791" name="LocationX(m)" />
+                            <data value="12" name="LocationY(m)" />
+                            <data value="2712" name="LocationZ(m)" />
+                            <data value="Captain Typho" name="waypointName" />
+                            <data value="destroyedMaulerWeapons" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <task type="Reward" id="5" taskOnFail="false" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="Experience Type" />
+                                <data value="0" name="Experience Amount" />
+                                <data value="naboo_security_force" name="Faction Name" />
+                                <data value="200" name="Faction Amount" />
+                                <data value="5200" name="Bank Credits" />
+                                <data value="" name="lootName" />
+                                <data value="1" name="lootCount" />
+                                <data value="" name="Item" />
+                                <data value="1" name="CountItem" />
+                                <data value="" name="Weapon" />
+                                <data value="1" name="CountWeapon" />
+                                <data value="0.1" name="Speed" />
+                                <data value="0.1" name="Damage" />
+                                <data value="0.1" name="Efficiency" />
+                                <data value="0.1" name="Elemental Value" />
+                                <data value="" name="Armor" />
+                                <data value="1" name="CountArmor" />
+                                <data value="0.1" name="Quality" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="buildingServerTemplateName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="Reward Badge" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="buildingServerTemplateName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="buildingServerTemplateName" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="interiorWaypointAppearance" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="buildingServerTemplateName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="buildingServerTemplateName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="23" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Typho - Stronghold Infiltration" name="journalEntryTitle" />
+            <data value="Captain Typho has some unclassified Marine missions that need to be completed." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="naboo_security_force" name="Faction Name" />
+            <data value="200" name="Faction Amount" />
+            <data value="2200" name="Bank Credits" />
+            <data value="weapon_content_rsf_frag_grenade_02_01" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

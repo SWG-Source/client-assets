@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="12" >
+            <task type="Retrieve Item" id="9" taskOnFail="false" >
+                <data value="Analyze RX-8 Modulator" name="retrieveMenuText" />
+                <data value="100" name="LootDropPercent" />
+                <data value="AT-AT leg" name="ItemName" />
+                <data value="1" name="Count" />
+                <data value="object/tangible/quest/tatooine_anchorjobs_leg.iff" name="Server Object Template" />
+                <data value="Valarian Depot" name="waypointName" />
+                <data value="-3337" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-1663" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="true" name="showSystemMessages" />
+                <data value="tatooine_anchorjobs_leg_e2" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="You need to locate, remove and analyze the RX-8 Modulator from the AT-AT leg located at the Valarian smuggler depot." name="journalEntryDescription" />
+                <data value="Analyze RX-8 Modulator" name="journalEntryTitle" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <task type="Comm Player" id="11" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tatooine_anchorjobs_leg_e4" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="tatooine_anchorjobs_legplus" name="grantQuestOnComplete" />
+                    <data value="false" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="Hold on a second... I'm picking up a radio transmission from your area. It looks like you were spotted by a mercenary recon team. You have to intercept this team before they reach the Imperial outpost at Bestine and report on what you were doing." name="Comm Message Text" />
+                    <data value="object/mobile/dressed_anchorjobs_ordo.iff" name="NPC Appearance Server Template" />
+                    <task type="Immediately Complete Quest" id="10" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tatooine_anchorjobs_leg_e6" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Modulator Retrieval" name="journalEntryTitle" />
+            <data value="The Alliance is gathering intelligence on Imperial equipment. One of the items that it is looking at is the AT-AT. The Alliance wants to develop jamming devices that interfere with the AT-AT's locomotion. The RX-8 modulator located in the AT-AT legs seems most vulnerable to this type of attack. But the Rebels need detailed schematics of the device in order to build a functioning prototype. A leg of an AT-AT has been located at the Valarian Smuggler's Depot. You need to go there and retrieve the RX-8 modulator from it, analyze it and transmit the schematics  back to Ordo." name="journalEntryDescription" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="14" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="3750" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="4700" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="You obtained the RX-8 modulator from the AT-AT leg, but you were spotted by a mercenary recon team working for the Empire. You need to find these mercenaries and stop them from reporting on you." name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="-1" name="Tier" />
+        </list>
+    </quest>

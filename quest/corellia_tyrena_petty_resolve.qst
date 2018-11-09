@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="16" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Ask About Akers" name="journalEntryTitle" />
+                <data value="Vermon did give you much to go on. Enter the slaver bunker and ask around and see if anyone has heard of Akers." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="petty_ask_akers" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="corellia" name="Planet" />
+                <data value="-6406" name="LocationX(m)" />
+                <data value="23" name="LocationY(m)" />
+                <data value="-2141" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="Corellian Slaver Bunker" name="waypointName" />
+                <data value="petty_ask_akers" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <task type="Retrieve Item" id="12" taskOnFail="false" >
+                    <data value="Get Akers Location" name="journalEntryTitle" />
+                    <data value="Dulor said you could probably find out Akers location from one of the technician's datapads. You'll have to get one from them. They probably won't want to give one up willingly." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="petty_get_akers_loc" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="-6406" name="LocationX(m)" />
+                    <data value="23" name="LocationY(m)" />
+                    <data value="-2141" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Corellian Slaver Bunker" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="object/tangible/quest/corellian_slaver_clerk_datapad.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Technician's Datapad" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Slice Datapad" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Show Message Box" id="15" taskOnFail="false" >
+                        <data value="Aker's Location" name="journalEntryTitle" />
+                        <data value="Read the datapad and find out Aker's location." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="petty_akers_loc" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="corellia" name="Planet" />
+                        <data value="-6406" name="LocationX(m)" />
+                        <data value="23" name="LocationY(m)" />
+                        <data value="-2141" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="Corellian Slaver Bunker" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="Technician's Datapad" name="messageBoxTitle" />
+                        <data value="The slave tracking program on the technician's datapad lists Akers as currently being in the high security slave pen. That pen appears to be one level below you." name="messageBoxText" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="-1" name="messageBoxSizeWidth" />
+                        <data value="-1" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxLocationY" />
+                        <task type="Wait for Signal" id="11" taskOnFail="false" >
+                            <data value="Talk to Akers" name="journalEntryTitle" />
+                            <data value="Try to find Aker's and talk to him about Vermon." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="petty_talk_akers" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="corellia" name="Planet" />
+                            <data value="-6406" name="LocationX(m)" />
+                            <data value="23" name="LocationY(m)" />
+                            <data value="-2141" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Corellian Slaver Bunker" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="petty_talk_akers" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Retrieve Item" id="2" taskOnFail="false" >
+                                <data value="Slice the Medical Computer" name="journalEntryTitle" />
+                                <data value="Aker's told you that Vermon is not usually like that. He escaped without his medication. Vermon needs that medication. Slice the medical computer and find out where the medication is stored." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="petty_slice_med_comp" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="corellia" name="Planet" />
+                                <data value="-6406" name="LocationX(m)" />
+                                <data value="23" name="LocationY(m)" />
+                                <data value="-2141" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Corellian Slaver Bunker" name="waypointName" />
+                                <data value="object/tangible/quest/corellian_slaver_medical_computer.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="Medical Computer" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="Slice Medical Computer" name="retrieveMenuText" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Retrieve Item" id="3" taskOnFail="false" >
+                                    <data value="Get Vermon's Medicine" name="journalEntryTitle" />
+                                    <data value="Get the Vermon's medication from the medicine supply cabinet." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="petty_get_medicine" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="corellia" name="Planet" />
+                                    <data value="-6406" name="LocationX(m)" />
+                                    <data value="23" name="LocationY(m)" />
+                                    <data value="-2141" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Corellian Slaver Bunker" name="waypointName" />
+                                    <data value="object/tangible/quest/corellia_murmur_medical_cabinet.iff" name="Server Object Template" />
+                                    <data value="1" name="Count" />
+                                    <data value="Medical Cabinet" name="ItemName" />
+                                    <data value="100" name="LootDropPercent" />
+                                    <data value="Get Vermon's Medicine" name="retrieveMenuText" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Wait for Signal" id="4" taskOnFail="false" >
+                                        <data value="Return to Akers" name="journalEntryTitle" />
+                                        <data value="Give the medication to Akers to take back to Vermon." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="petty_return_akers" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="corellia" name="Planet" />
+                                        <data value="-6406" name="LocationX(m)" />
+                                        <data value="23" name="LocationY(m)" />
+                                        <data value="-2141" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="Corellian Slaver Bunker" name="waypointName" />
+                                        <data value="petty_return_akers" name="Signal Name" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Wait for Signal" id="9" taskOnFail="false" >
+                                            <data value="Return to Vermon" name="journalEntryTitle" />
+                                            <data value="Head back to Vermon and make sure he got his medication, and is doing ok." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="petty_return_vermon" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="corellia" name="Planet" />
+                                            <data value="-4703" name="LocationX(m)" />
+                                            <data value="16" name="LocationY(m)" />
+                                            <data value="-1907" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Vermon Skeetz" name="waypointName" />
+                                            <data value="petty_return_vermon" name="Signal Name" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Immediately Complete Quest" id="10" taskOnFail="false" >
+                                                <data value="" name="journalEntryTitle" />
+                                                <data value="" name="journalEntryDescription" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                            </task>
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                        </task>
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="37" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Petty Resolve" name="journalEntryTitle" />
+            <data value="Vermon seems to hold on to a grudge long after he should let it go. You're supposed to be his vengeance for some stolen food. He still wants revenge against a slave that wronged him even after he has gained his freedom. Can you give him the justice he seems to think he is owed, or will you find another way?" name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="Vermon is doing ok now. Thanks to you an innocent man was spared, and a sick man is getting better." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="6600" name="Bank Credits" />
+            <data value="item_content_stimpack_high_04_01" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

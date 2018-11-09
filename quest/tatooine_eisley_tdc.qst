@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="22" >
+            <task type="Wait for Signal" id="2" taskOnFail="false" >
+                <data value="Drixa Delivery" name="journalEntryTitle" />
+                <data value="The owner of Tasty Dried Critters has asked you to make three deliveries for him. He has given you directions to the first customer, and will contact you with the next location after you deliver this order. Remember folks, TDC isn't fast food, it's fresh food delivered fast!" name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="tat_eisley_tdc_e1" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="3259" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-4863" name="LocationZ(m)" />
+                <data value="Drixa" name="waypointName" />
+                <data value="tat_eisley_tdc_e1" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <task type="Comm Player" id="7" taskOnFail="false" >
+                    <data value="object/mobile/dressed_tatooine_opening_byxle.iff" name="NPC Appearance Server Template" />
+                    <data value="Don't worry about that last customer, it's not your fault. Drixa always has something to complain about. She just sent me the bill minus the fungus dippers cost and your tip. I'll have it ready when you're done. Here's the location of the next delivery." name="Comm Message Text" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="false" name="showSystemMessages" />
+                    <data value="tat_eisley_tdc_e2" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="The owner of Tasty Dried Critters has asked you to make three deliveries for him. He has given you directions to the first customer, and will contact you with the next location after you deliver this order. Remember folks, TDC isn't fast food, it's good food delivered fast!" name="journalEntryDescription" />
+                    <data value="Drixa Delivery" name="journalEntryTitle" />
+                    <task type="Wait for Signal" id="4" taskOnFail="false" >
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="tat_eisley_tdc_e3" name="Signal Name" />
+                        <data value="Nogri" name="waypointName" />
+                        <data value="-5077" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="3450" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="tat_eisley_tdc_e3" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="true" name="isVisible" />
+                        <data value="The owner of Tasty Dried Critters has asked you to make three deliveries for him. He has given you directions to the next customer, and will contact you with the last location after you deliver this order. Remember folks, TDC isn't fast food, it's fresh food delivered fast!" name="journalEntryDescription" />
+                        <data value="Nogri Delivery" name="journalEntryTitle" />
+                        <task type="Comm Player" id="19" taskOnFail="false" >
+                            <data value="Nogri Delivery" name="journalEntryTitle" />
+                            <data value="The owner of Tasty Dried Critters has asked you to make three deliveries for him. He has given you directions to the next customer, and will contact you with the next location after you deliver this order. Remember folks, TDC isn't fast food, it's fresh food delivered fast!" name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tat_eisley_tdc_e4" name="taskName" />
+                            <data value="false" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="Nogri called and said he wasn't going to pay because there was something alive in his order. I think he's on spice, but took his word for it. I'll make up the tip for you and add it to your pay. No reason for you to lose out to his problems. Here's the location of the next delivery. Be careful with this one, Jano is a dangerous swoop gang leader." name="Comm Message Text" />
+                            <data value="object/mobile/dressed_tatooine_opening_byxle.iff" name="NPC Appearance Server Template" />
+                            <task type="Wait for Signal" id="12" taskOnFail="false" >
+                                <data value="Jano Delivery" name="journalEntryTitle" />
+                                <data value="The owner of Tasty Dried Critters has asked you to make three deliveries for him. He has given you directions to the last customer. Jano is a dangerous gang leader. Hopefully this delivery will go better than the first two. Remember folks, TDC isn't fast food, it's fresh food delivered fast!" name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tat_eisley_tdc_e5" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="3186" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="-4781" name="LocationZ(m)" />
+                                <data value="Jano" name="waypointName" />
+                                <data value="tat_eisley_tdc_e5" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <task type="Encounter" id="10" taskOnFail="false" >
+                                    <data value="Jano Delivery" name="journalEntryTitle" />
+                                    <data value="The owner of Tasty Dried Critters has asked you to make three deliveries for him. He has given you directions to the first customer, and will contact you with the next location after you deliver this order. Remember folks, TDC isn't fast food, it's good food delivered fast!" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tat_eisley_tdc_e6" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="chuba" name="Creature Type" />
+                                    <data value="4" name="Count" />
+                                    <data value="2" name="Min Distance" />
+                                    <data value="5" name="Max Distance" />
+                                    <data value="0.0" name="Spawn Offset Location X(m)" />
+                                    <data value="0.0" name="Spawn Offset Location Z(m)" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                </task>
+                                <task type="Wait for Signal" id="21" taskOnFail="false" >
+                                    <data value="Jano Delivery" name="journalEntryTitle" />
+                                    <data value="Well, that's about the strangest fast food delivery you've ever seen. Talk to Jano and see if you can smooth things out." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tat_eisley_tdc_e7" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="3186" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="-4781" name="LocationZ(m)" />
+                                    <data value="Jano" name="waypointName" />
+                                    <data value="tat_eisley_tdc_e7" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <task type="Comm Player" id="20" taskOnFail="false" >
+                                        <data value="Jano Delivery" name="journalEntryTitle" />
+                                        <data value="The final communication from Byxle." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tat_eisley_tdc_e8" name="taskName" />
+                                        <data value="false" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="Ok, that's it, head back to me. Jano transmitted the credits and said he likes his chubas fresh. Great work!" name="Comm Message Text" />
+                                        <data value="object/mobile/dressed_tatooine_opening_byxle.iff" name="NPC Appearance Server Template" />
+                                        <task type="Wait for Signal" id="3" taskOnFail="false" >
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="tat_eisley_tdc_e9" name="Signal Name" />
+                                            <data value="Byxle" name="waypointName" />
+                                            <data value="-4639" name="LocationZ(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="3366" name="LocationX(m)" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="target" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="tat_eisley_tdc_e9" name="taskName" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="For better or worse the deliveries have been made. It's time to head back to Byxle and collect your pay." name="journalEntryDescription" />
+                                            <data value="Back to Byxle" name="journalEntryTitle" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Immediately Complete Quest" id="17" taskOnFail="false" >
+                                                <data value="Back to Byxle" name="journalEntryTitle" />
+                                                <data value="For better or worse the deliveries have been made. It's time to head back to Byxle and collect your pay." name="journalEntryDescription" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="tat_eisley_tdc_e10" name="taskName" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="false" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="3402" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-4911" name="LocationZ(m)" />
+                                                <data value="Begol" name="waypointName" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                            </task>
+                                        </task>
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Tasty Dried Critters" name="journalEntryTitle" />
+            <data value="Byxle is having trouble fulfilling all his orders. He has offered to pay you if you will help him make his deliveries." name="journalEntryDescription" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="7" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="item_pet_egg_chuba_01_01" name="lootName" />
+            <data value="250" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="3356" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="What a strange delivery. Be good at adventuring because you sure don't want to have to do this every day!" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="2" name="lootCount2" />
+            <data value="item_food_edible_jar_fungus_02_01" name="lootName2" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

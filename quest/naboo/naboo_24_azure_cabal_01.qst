@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="12" >
+            <task type="Nothing" id="0" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <task type="Wait for Tasks" id="5" taskOnFail="false" >
+                    <data value="Receive Endorsements" name="journalEntryTitle" />
+                    <data value="Loruna is waiting for all of her associates to either endorse or berate your performance." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="azure_cabal_loruna_endorsements_01_waiting" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="naboo_24_azure_cabal_01" name="Task1 Quest Filename" />
+                    <data value="azure_cabal_loruna_endorsements_01_broma_working" name="Task1 taskName" />
+                    <data value="Waiting for Broma's Endorsement" name="Task1 Display String" />
+                    <data value="naboo_24_azure_cabal_01" name="Task2 Quest Filename" />
+                    <data value="azure_cabal_loruna_endorsements_01_porgryn" name="Task2 taskName" />
+                    <data value="Waiting for Porgryn's Endorsement" name="Task2 Display String" />
+                    <data value="naboo_24_azure_cabal_01" name="Task3 Quest Filename" />
+                    <data value="azure_cabal_loruna_endorsements_01_tweego" name="Task3 taskName" />
+                    <data value="Waiting for Tweego's Endorsement" name="Task3 Display String" />
+                    <data value="naboo_24_azure_cabal_01" name="Task4 Quest Filename" />
+                    <data value="azure_cabal_loruna_endorsements_01_propti" name="Task4 taskName" />
+                    <data value="Waiting for Propti's Endorsement" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Wait for Signal" id="6" taskOnFail="false" >
+                        <data value="Return to Loruna Scathe (Naboo)" name="journalEntryTitle" />
+                        <data value="Meet Loruna Scathe in Theed to claim your acceptance to the Azure Cabal and other rewards." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="azure_cabal_loruna_endorsements_01_return" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="false" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="naboo" name="Planet" />
+                        <data value="-5150" name="LocationX(m)" />
+                        <data value="6" name="LocationY(m)" />
+                        <data value="4285" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="Loruna Scathe" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="endorsedByAll" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                </task>
+                <task type="Wait for Signal" id="3" taskOnFail="false" >
+                    <data value="Contact Propti Xaroon (Tatooine)" name="journalEntryTitle" />
+                    <data value="Propti Xaroon was a freelance Entertainer in years past. She left that life for one of espionage and joined the Azure Cabal at Loruna's invitation. Her endorsement will be valuable in your efforts to become a member as well." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="azure_cabal_loruna_endorsements_01_propti" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="-3041" name="LocationX(m)" />
+                    <data value="5" name="LocationY(m)" />
+                    <data value="2212" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Propti Xaroon" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="endorsedByProptiXaroon" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="4" taskOnFail="false" >
+                    <data value="Tweego's Endorsement (Tatooine)" name="journalEntryTitle" />
+                    <data value="Tweego is the highest ranking Bounty Hunter in the Azure Cabal, but he does not limit his sport to sentient species. He attributes much of his success in earning a living on bounties to having had to hunt for food as a youngling. Only proven hunters will win his respect and his endorsement." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="azure_cabal_loruna_endorsements_01_tweego" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="1283" name="LocationX(m)" />
+                    <data value="7" name="LocationY(m)" />
+                    <data value="3154" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Tweego" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="endorsedByTweego" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="7" taskOnFail="false" >
+                    <data value="0" name="Time To Complete" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="workingForProgryn" name="Signal Name" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="Porgryn" name="waypointName" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="-6617" name="LocationZ(m)" />
+                    <data value="75" name="LocationY(m)" />
+                    <data value="-5144" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="azure_cabal_loruna_endorsements_01_meet_porgryn" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="Porgryn is instrumental in acquiring information from the streets and back rooms of Tatooine. She is also highly regarded by Loruna Scathe, so her endorsement is a critical step in becoming a member of the Azure Cabal." name="journalEntryDescription" />
+                    <data value="Contact Porgryn (Tatooine)" name="journalEntryTitle" />
+                    <task type="Wait for Signal" id="2" taskOnFail="false" >
+                        <data value="0" name="Time To Complete" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="tatooine_24_azure_cabal_top_world_01_return_to_porgryn" name="Signal Name" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="Porgryn" name="waypointName" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="LocationZ(m)" />
+                        <data value="0" name="LocationY(m)" />
+                        <data value="0" name="LocationX(m)" />
+                        <data value="naboo" name="Planet" />
+                        <data value="false" name="createWaypoint" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="azure_cabal_loruna_endorsements_01_porgryn" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="true" name="isVisible" />
+                        <data value="Porgryn is instrumental in acquiring information from the streets and back rooms of Tatooine. She is also highly regarded by Loruna Scathe, so her endorsement is a critical step in becoming a member of the Azure Cabal." name="journalEntryDescription" />
+                        <data value="Porgryn's Endorsement (Tatooine)" name="journalEntryTitle" />
+                    </task>
+                </task>
+                <task type="Wait for Signal" id="1" taskOnFail="false" >
+                    <data value="Contact Broma Lak (Naboo)" name="journalEntryTitle" />
+                    <data value="Captain Broma Lak in Theed is the Azure Cabal's point of contact in Theed and a member of Loruna Scathe's trusted inner circle. His endorsement is critical in order to join the Cabal." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="azure_cabal_loruna_endorsements_01_broma" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="naboo" name="Planet" />
+                    <data value="-5832" name="LocationX(m)" />
+                    <data value="6" name="LocationY(m)" />
+                    <data value="4121" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Broma Lak" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="metBromaLak" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Wait for Signal" id="11" taskOnFail="false" >
+                        <data value="Working for Broma Lak" name="journalEntryTitle" />
+                        <data value="Having met Broma Lak on Naboo, complete the tasks he has assigned to you in order to receive his endorsement." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="azure_cabal_loruna_endorsements_01_broma_working" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="endorsedByBromaLak" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="84" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="The Azure Cabal" name="journalEntryTitle" />
+            <data value="Of the myriad mercenaries in the galaxy, few have entry expectations as stringent as the Azure Cabal. However, they appear to be doing something right. Members of the group seem to have no trouble finding contracts, experience or credits. It appears to be worth the risks." name="journalEntryDescription" />
+            <data value="Azure Cabal" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You have successfully gained membership in the Cabal. Soon, Loruna will contact you with your assignments." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="azure_cabal" name="Faction Name" />
+            <data value="350" name="Faction Amount" />
+            <data value="47900" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="false" name="grantGcwPoints" />
+        </list>
+    </quest>

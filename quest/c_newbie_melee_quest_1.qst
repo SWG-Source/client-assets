@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="10" >
+            <task type="Wait for Signal" id="2" taskOnFail="false" >
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="centerOfBeing" name="Signal Name" />
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="false" name="showSystemMessages" />
+                <data value="talkPeawp1" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Show Message Box" id="3" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="Center of Being" name="messageBoxTitle" />
+                    <data value="Center of Being is a skill which decreases damage taken. It allows you to take substantially less damage from enemy attacks compared to a player without this skill. The skill is granted in the first skill box for Unarmed and Polearm in the Brawler tree. For players going up One handed weapons, it will be granted in the second skill box and for Two handed weapons, in the third skill box." name="messageBoxText" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <task type="Wait for Signal" id="4" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="acceptingMission" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="readyForMission1" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <task type="Go to Location" id="0" taskOnFail="false" >
+                            <task type="Wait for Signal" id="1" taskOnFail="false" >
+                                <data value="The job starts" name="journalEntryTitle" />
+                                <data value="Introduce yourself quickly to Otwi and then be alert for any threats to his safety that might appear." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="talkOtwi1" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="talkedOtwi1" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <task type="Timer" id="5" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="8" name="Min Time" />
+                                    <data value="15" name="Max Time" />
+                                    <task type="Encounter" id="6" taskOnFail="false" >
+                                        <data value="Under attack" name="journalEntryTitle" />
+                                        <data value="You and your client is under attack. Defend Otwi at all costs!" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="thugAttack" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="desert_thug" name="Creature Type" />
+                                        <data value="1" name="Count" />
+                                        <data value="1" name="Min Distance" />
+                                        <data value="4" name="Max Distance" />
+                                        <data value="0.0" name="Spawn Offset Location X(m)" />
+                                        <data value="0.0" name="Spawn Offset Location Z(m)" />
+                                        <task type="Wait for Signal" id="7" taskOnFail="false" >
+                                            <data value="Success" name="journalEntryTitle" />
+                                            <data value="You survived the ambush. Talk to Otwi and make sure that he's okay." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="waypointName" />
+                                            <data value="talkedOtwi2" name="Signal Name" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <task type="Wait for Signal" id="8" taskOnFail="false" >
+                                                <data value="Job done" name="journalEntryTitle" />
+                                                <data value="Return to Peawp in the Combat Guild Hall." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="doneMission1" name="taskName" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="waypointName" />
+                                                <data value="reward1" name="Signal Name" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <task type="Reward" id="9" taskOnFail="false" >
+                                                    <data value="" name="journalEntryTitle" />
+                                                    <data value="" name="journalEntryDescription" />
+                                                    <data value="false" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="taskName" />
+                                                    <data value="false" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="combat_meleespecialize_unarmed" name="Experience Type" />
+                                                    <data value="300" name="Experience Amount" />
+                                                    <data value="Rebel" name="Faction Name" />
+                                                    <data value="0" name="Faction Amount" />
+                                                    <data value="500" name="Bank Credits" />
+                                                    <data value="" name="Item" />
+                                                    <data value="1" name="CountItem" />
+                                                    <data value="" name="Weapon" />
+                                                    <data value="1" name="CountWeapon" />
+                                                    <data value="0.1" name="Speed" />
+                                                    <data value="0.1" name="Damage" />
+                                                    <data value="0.1" name="Efficiency" />
+                                                    <data value="0.1" name="Elemental Value" />
+                                                    <data value="" name="Armor" />
+                                                    <data value="1" name="CountArmor" />
+                                                    <data value="0.1" name="Quality" />
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                            <data value="5" name="Radius(m)" />
+                            <data value="The Lucky Despot" name="waypointName" />
+                            <data value="-4604" name="LocationZ(m)" />
+                            <data value="5" name="LocationY(m)" />
+                            <data value="3332" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="Head to the Lucky Despot and meet up with your first client. A Bith businessman by the name Otwi Opawl." name="journalEntryDescription" />
+                            <data value="First contract" name="journalEntryTitle" />
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="R'dawc Bodyguard Agency" name="journalEntryTitle" />
+            <data value="You've agreed to learn the trade of personal protection, working as a bodyguard under Peawp R'dawc." name="journalEntryDescription" />
+            <data value="Tatooine" name="category" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="true" name="journalVisible" />
+        </list>
+    </quest>

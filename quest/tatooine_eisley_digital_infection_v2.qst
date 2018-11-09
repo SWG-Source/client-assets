@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="16" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Plant the Virus in the Public Access Terminal" name="journalEntryTitle" />
+                <data value="Plant the surveillance virus in White Thranta Shipping's Public Access Terminal. You can find this terminal to the right as you enter the first room of the shipping company. The Public Access Terminal is on the opposite wall from the secretary." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="tat_eisley_infection_e1" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="3738.10009765625" name="LocationX(m)" />
+                <data value="4.30000019073486" name="LocationY(m)" />
+                <data value="-4170" name="LocationZ(m)" />
+                <data value="tatooine" name="interiorWaypointAppearance" />
+                <data value="entryb" name="buildingCellName" />
+                <data value="Public Access Terminal" name="waypointName" />
+                <data value="true" name="createEntranceWaypoint" />
+                <data value="3727" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="-4182" name="EntranceLocationZ(m)" />
+                <data value="White Thranta Shipping" name="entranceWaypointName" />
+                <data value="tat_eisley_infection_e1" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="Time To Complete" />
+                <task type="Comm Player" id="9" taskOnFail="false" >
+                    <data value="Virus Deployed" name="journalEntryTitle" />
+                    <data value="You have successfully deployed Reimos' surveillance virus." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tat_eisley_infection_e1b" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="It's deployed? Ok, let me calibrate my terminal. Just a second...Ok, I have the link. It's coming in strong. Give me a bit to do the data search, I'll get back to you in a few seconds." name="Comm Message Text" />
+                    <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                    <task type="Timer" id="10" taskOnFail="false" >
+                        <data value="Surveillance Time" name="journalEntryTitle" />
+                        <data value="Waiting for Reimos to find the data he is looking for." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tat_eisley_infection_e1b" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="6" name="Min Time" />
+                        <data value="8" name="Max Time" />
+                        <task type="Comm Player" id="1" taskOnFail="false" >
+                            <data value="Surveillance Update from Reimos" name="journalEntryTitle" />
+                            <data value="Reimos has found the information he was looking for. He now wants you to download some data from the medical computer, but he doesn't have the password for the medical computer. He does have the security terminal password. Maybe you can help him find the medical computer password in the security terminal." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tat_eisley_infection_e1c" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="Look's like this place is using a lot of bacta, I need you to find out why. You need to download some data from their medical computer. I can't get you the password, but strangely enough I did find the security terminal password.  I'll send you the information on where it is. I need you to get the medical computer password from the security terminal." name="Comm Message Text" />
+                            <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                            <task type="Wait for Signal" id="4" taskOnFail="false" >
+                                <data value="Use Reimos' Password on the Security Terminal" name="journalEntryTitle" />
+                                <data value="Try and find the medical computer's password in the security terminal. It should be located under medical facility status under the security measures heading." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tat_eisley_infection_e2" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="3738.5" name="LocationX(m)" />
+                                <data value="0.300000011920929" name="LocationY(m)" />
+                                <data value="-4118.2001953125" name="LocationZ(m)" />
+                                <data value="tatooine" name="interiorWaypointAppearance" />
+                                <data value="guardroom" name="buildingCellName" />
+                                <data value="Security Terminal" name="waypointName" />
+                                <data value="true" name="createEntranceWaypoint" />
+                                <data value="3727" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="-4182" name="EntranceLocationZ(m)" />
+                                <data value="White Thranta Shipping" name="entranceWaypointName" />
+                                <data value="tat_eisley_infection_e2" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Comm Player" id="6" taskOnFail="false" >
+                                    <data value="Medical Computer Password Found" name="journalEntryTitle" />
+                                    <data value="You have the medical computer password. Go find the medical computer and look for the data Reimos needs." name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tat_eisley_infection_e3" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="That's it! The password for the medical computer is RT4UX1A. Go to the medical computer and find and download the data to me." name="Comm Message Text" />
+                                    <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                                    <task type="Wait for Signal" id="7" taskOnFail="false" >
+                                        <data value="Medical Computer Password Found" name="journalEntryTitle" />
+                                        <data value="You have the medical computer password. Go find the medical computer and look for the data Reimos needs. It will probably be related to a recent project of some sort." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tat_eisley_infection_e4" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="3694.89990234375" name="LocationX(m)" />
+                                        <data value="4.30000019073486" name="LocationY(m)" />
+                                        <data value="-4082.89990234375" name="LocationZ(m)" />
+                                        <data value="tatooine" name="interiorWaypointAppearance" />
+                                        <data value="mess" name="buildingCellName" />
+                                        <data value="Medical Computer" name="waypointName" />
+                                        <data value="true" name="createEntranceWaypoint" />
+                                        <data value="3727" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="-4182" name="EntranceLocationZ(m)" />
+                                        <data value="White Thranta Shipping" name="entranceWaypointName" />
+                                        <data value="tat_eisley_infection_e4" name="Signal Name" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Timer" id="13" taskOnFail="false" >
+                                            <data value="Downloading Medical Data" name="journalEntryTitle" />
+                                            <data value="You have found the medical data Reimos was looking for and are downloading it." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="tat_eisley_infection_e5" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="5" name="Min Time" />
+                                            <data value="5" name="Max Time" />
+                                            <task type="Comm Player" id="14" taskOnFail="false" >
+                                                <data value="Confirmation" name="journalEntryTitle" />
+                                                <data value="Reimos' suspicions are confirmed." name="journalEntryDescription" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="tat_eisley_infection_e6" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="The data is conclusive. Durr and the White Thranta company are a front for illegal activities for Jabba the Hutt. We must shut this place down. See if you can talk to Durr. I don't think he will be very responsive, but we should give him the chance to answer for his crimes. If he does not cooperate however, you may have to use force." name="Comm Message Text" />
+                                                <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                                                <task type="Immediately Complete Quest" id="15" taskOnFail="false" >
+                                                    <data value="Completion" name="journalEntryTitle" />
+                                                    <data value="" name="journalEntryDescription" />
+                                                    <data value="false" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="tat_eisley_infection_e7" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="tatooine_eisley_drensbounty_v2" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="0" name="chanceToActivate" />
+                                                    <data value="none" name="questControlOnTaskFailure" />
+                                                    <data value="none" name="questControlOnTaskCompletion" />
+                                                </task>
+                                                <data value="0" name="chanceToActivate" />
+                                                <data value="none" name="questControlOnTaskFailure" />
+                                                <data value="none" name="questControlOnTaskCompletion" />
+                                            </task>
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                        </task>
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                    </task>
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                        </task>
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                    </task>
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                </task>
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+            </task>
+        </tasks>
+        <list>
+            <data value="11" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Digital Infection" name="journalEntryTitle" />
+            <data value="Reimos thinks that the manager for the White Thranta Shipping Company, a front for Jabba's smuggling activities, is conducting unusual medical research. Reimos needs more information on this research . Reimos is a good slicer that has created a surveillance virus to tap into the company's records. Plant the virus by using the Public Access Terminal inside the company." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You have discovered the true nature of the White Thranta Shipping company. It's time to confront Durr Roddack the manager and try to get him to answer for his crimes. While this is a noble goal, men like Durr hardly ever stand up and do what is right." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="4000" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

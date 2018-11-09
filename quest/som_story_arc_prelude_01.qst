@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="5" >
+            <task type="Nothing" id="0" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="sound/mus_mustafar_quest_exception.snd" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <task type="Retrieve Item" id="4" taskOnFail="false" >
+                    <data value="Deliver the Supplies" name="journalEntryTitle" />
+                    <data value="The Mustafar Mining Company has hired you to bring supplies to field crews, since their droids are not operating correctly. Travel to the mining camp and drop the supplies off in the field supply locker located in the camp." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="mustafar_supply_one" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="sound/mus_mustafar_quest_exception.snd" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="mustafar" name="Planet" />
+                    <data value="-2875" name="LocationX(m)" />
+                    <data value="103" name="LocationY(m)" />
+                    <data value="-237" name="LocationZ(m)" />
+                    <data value="Mustafarian Miner Field Camp" name="waypointName" />
+                    <data value="object/tangible/quest/must_supply_locker.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="The field crew has been resupplied." name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Restock Supplies" name="retrieveMenuText" />
+                    <task type="Comm Player" id="2" taskOnFail="false" >
+                        <data value="Message from Company Headquarters" name="journalEntryTitle" />
+                        <data value="Foreman Chivos has contacted you with an message about a new job." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="mustafar_supply_two" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="quest/som_story_arc_prelude_02" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="Nice work on resupplying those miners. While you are outside of the main facility, I need you to do another job for me. We are having a problem with our ventilation cleaning system. Normally the vents around the facility clean themselves but the automatic system has completely gone offline. I need you to head to the four main ventilation shafts located just south of the mining facility and clean the debris off of the filters. Once you are done with that come back and talk to me." name="Comm Message Text" />
+                        <data value="object/mobile/som/mustafarian_m_01.iff" name="NPC Appearance Server Template" />
+                        <task type="Reward" id="3" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="sound/mus_mustafar_quest_success.snd" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="" name="Experience Type" />
+                            <data value="0" name="Experience Amount" />
+                            <data value="Rebel" name="Faction Name" />
+                            <data value="0" name="Faction Amount" />
+                            <data value="5000" name="Bank Credits" />
+                            <data value="" name="Item" />
+                            <data value="1" name="CountItem" />
+                            <data value="" name="Weapon" />
+                            <data value="1" name="CountWeapon" />
+                            <data value="0.1" name="Speed" />
+                            <data value="0.1" name="Damage" />
+                            <data value="0.1" name="Efficiency" />
+                            <data value="0.1" name="Elemental Value" />
+                            <data value="" name="Armor" />
+                            <data value="1" name="CountArmor" />
+                            <data value="0.1" name="Quality" />
+                            <data value="1" name="lootCount" />
+                            <data value="" name="lootName" />
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Supplies for the Miners" name="journalEntryTitle" />
+            <data value="Normally, droids bring necessary supplies to the miners in the field. Recently, the droids have not been recharging correctly and all deliveries have fallen behind. The miners are in need of their supplies and the company is hiring couriers to bring them shipments of goods." name="journalEntryDescription" />
+            <data value="Mustafar" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="75" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_general" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

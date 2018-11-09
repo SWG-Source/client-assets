@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="4" >
+            <task type="Go to Location" id="0" name="Go to Location" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Find Trandoshan research camp" name="journalEntryTitle" />
+                <data value="You need to find the Trandoshan research camp in Shriiikat. Ikvizi said to head east of Kachirho until you find a Wookiee village then go north across the river. It's supposed to be the second Trandoshan camp you'll come across." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="sound/mus_wookiee_quest_accept.snd" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="kashyyyk_main" name="Planet" />
+                <data value="465.0" name="LocationX(m)" />
+                <data value="18.0" name="LocationY(m)" />
+                <data value="240.0" name="LocationZ(m)" />
+                <data value="50.0" name="Radius(m)" />
+                <task type="Destroy Multiple and Loot" id="1" name="Destroy Multiple and Loot" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Steal research documents." name="journalEntryTitle" />
+                    <data value="Find the evil Trandoshan researchers inside the camp and bring their research documents to the imprisoned Geonosian." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="clone_relics_trandoshan_researcher" name="CreatureType" />
+                    <data value="Trandoshan research document" name="LootItemName" />
+                    <data value="8" name="NumberItemsRequired" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="0" name="RewardCredits" />
+                    <task type="Go to Location" id="2" name="Go to Location" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Return to Ikvizi" name="journalEntryTitle" />
+                        <data value="Return to Ikvizi and show him the documents you obtained from the Trandoshans." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="kashyyyk_main" name="Planet" />
+                        <data value="-513" name="LocationX(m)" />
+                        <data value="19" name="LocationY(m)" />
+                        <data value="-112" name="LocationZ(m)" />
+                        <data value="15.0" name="Radius(m)" />
+                        <data value="" name="taskName" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createWaypoint" />
+                    </task>
+                    <data value="" name="taskName" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <data value="" name="taskName" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="" name="waypointName" />
+                <data value="0" name="createWaypoint" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Help the imprisoned Geonosian, phase I" name="journalEntryTitle" />
+            <data value="You have agreed to try and help Ikvizi prove his innocence, and in the process, stop the Trandoshans' evil plans." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="The Clone Relics, Quest of the Geonosian" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="35" name="Level" />
+            <data value="2" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

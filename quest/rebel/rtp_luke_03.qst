@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="4" >
+            <task type="Retrieve Item" id="2" taskOnFail="false" >
+                <data value="Healing the Darkness" name="journalEntryTitle" />
+                <data value="Return to the Woolamander Temple and cure some of the dying plants at the Temple's entrance." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="rtp_luke_03_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <data value="object/tangible/quest/rebel/rtp_luke_dying_plant.iff" name="Server Object Template" />
+                <data value="6" name="Count" />
+                <data value="The plant has been healed" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                <data value="0" name="CountdownTimer" />
+                <data value="Use the Force Crystal" name="retrieveMenuText" />
+                <data value="0" name="Time To Complete" />
+                <task type="Wait for Signal" id="3" taskOnFail="false" >
+                    <data value="Return to Luke Skywalker" name="journalEntryTitle" />
+                    <data value="Return to Luke Skywalker." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="rtp_luke_03_02" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="rtp_luke_03_02" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="90" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="group" name="Type" />
+            <data value="A Force for Good" name="journalEntryTitle" />
+            <data value="Luke is interested in the response of the woolamanders to the Force. He thinks their reaction is due to the Sith Lords who had previously been on Yavin IV, and the dark Force energy that pervades the moon. In an effort to honor the woolamanders and show that the force is not always used for darkness, Luke wants you to return to the Woolamander Temple and use the crystal to cure some infected plants there. " name="journalEntryDescription" />
+            <data value="Rebel Theme-Park" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="Using the Force crystal, you were able to heal some ailing plants at the Woolamander Temple and hopefully bring some peace to the troubled creatures that inhabit it." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="true" name="grantGcwPoints" />
+            <data value="0" name="Bank Credits" />
+            <data value="item_rtp_rebel_banner_01" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="object/tangible/loot/quest/schematic_republic_blaster_quest.iff" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="bdg_thm_park_rebel_badge" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

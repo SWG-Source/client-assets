@@ -1,0 +1,780 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="24" >
+            <task type="Go to Location" id="3" taskOnFail="false" >
+                <data value="0" name="Time To Complete" />
+                <data value="8" name="Radius(m)" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0" name="EntranceLocationZ(m)" />
+                <data value="0" name="EntranceLocationY(m)" />
+                <data value="0" name="EntranceLocationX(m)" />
+                <data value="false" name="createEntranceWaypoint" />
+                <data value="Nym's Stronghold Arena" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="4808" name="LocationZ(m)" />
+                <data value="34" name="LocationY(m)" />
+                <data value="474" name="LocationX(m)" />
+                <data value="lok" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="0" name="chanceToActivate" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="findArena" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Find the roof of Nym's Stronghold and you will find the arena." name="journalEntryDescription" />
+                <data value="Find the Arena" name="journalEntryTitle" />
+                <task type="Wave Event" id="18" taskOnFail="false" >
+                    <data value="Arena Referee" name="journalEntryTitle" />
+                    <data value="Speak with the referee when you are ready for your first opponent." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="hasFirstArenaFight" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="lok" name="Planet" />
+                    <data value="467" name="LocationX(m)" />
+                    <data value="34" name="LocationY(m)" />
+                    <data value="4810" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Arena Referee" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="object/mobile/dressed_nym_arena_referee.iff" name="Server Object Template" />
+                    <data value="Call First Opponent" name="waveEventMenuText" />
+                    <data value="You hear someone approach." name="waveEventStartMessage" />
+                    <data value="nym_themepark_arena_pirate" name="primaryTargetWave1" />
+                    <data value="If I kill you, I get to live. You die now!" name="utteranceWave1" />
+                    <data value="1.0" name="spawnRadiusWave1" />
+                    <data value="" name="guardsWave1" />
+                    <data value="0" name="numGuardsWave1" />
+                    <data value="5" name="delayWave1" />
+                    <data value="" name="primaryTargetWave2" />
+                    <data value="" name="utteranceWave2" />
+                    <data value="1.0" name="spawnRadiusWave2" />
+                    <data value="" name="guardsWave2" />
+                    <data value="0" name="numGuardsWave2" />
+                    <data value="0" name="delayWave2" />
+                    <data value="" name="primaryTargetWave3" />
+                    <data value="" name="utteranceWave3" />
+                    <data value="1.0" name="spawnRadiusWave3" />
+                    <data value="" name="guardsWave3" />
+                    <data value="0" name="numGuardsWave3" />
+                    <data value="0" name="delayWave3" />
+                    <data value="" name="primaryTargetWave4" />
+                    <data value="" name="utteranceWave4" />
+                    <data value="1.0" name="spawnRadiusWave4" />
+                    <data value="" name="guardsWave4" />
+                    <data value="0" name="numGuardsWave4" />
+                    <data value="0" name="delayWave4" />
+                    <data value="" name="primaryTargetWave5" />
+                    <data value="" name="utteranceWave5" />
+                    <data value="1.0" name="spawnRadiusWave5" />
+                    <data value="" name="guardsWave5" />
+                    <data value="0" name="numGuardsWave5" />
+                    <data value="0" name="delayWave5" />
+                    <data value="" name="primaryTargetWave6" />
+                    <data value="" name="utteranceWave6" />
+                    <data value="1.0" name="spawnRadiusWave6" />
+                    <data value="" name="guardsWave6" />
+                    <data value="0" name="numGuardsWave6" />
+                    <data value="0" name="delayWave6" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Comm Player" id="14" taskOnFail="false" >
+                        <data value="object/mobile/nym.iff" name="NPC Appearance Server Template" />
+                        <data value="You surprise me, fringer. Continue like this and you'll be a Lok Revenant in no time. Speak to the referee to start the next fight." name="Comm Message Text" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="nym" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="journalEntryTitle" />
+                        <task type="Wave Event" id="19" taskOnFail="false" >
+                            <data value="Second Opponent" name="journalEntryTitle" />
+                            <data value="Speak to the referee when you are ready for your second opponent." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="hasSecondArenaFight" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="lok" name="Planet" />
+                            <data value="467" name="LocationX(m)" />
+                            <data value="34" name="LocationY(m)" />
+                            <data value="4810" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Arena Referee" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="object/mobile/dressed_nym_arena_referee.iff" name="Server Object Template" />
+                            <data value="Call Second Opponent" name="waveEventMenuText" />
+                            <data value="You hear something approach." name="waveEventStartMessage" />
+                            <data value="nym_themepark_arena_kusak_scourge" name="primaryTargetWave1" />
+                            <data value="Rrrrrr!" name="utteranceWave1" />
+                            <data value="1.0" name="spawnRadiusWave1" />
+                            <data value="" name="guardsWave1" />
+                            <data value="0" name="numGuardsWave1" />
+                            <data value="0" name="delayWave1" />
+                            <data value="" name="primaryTargetWave2" />
+                            <data value="" name="utteranceWave2" />
+                            <data value="1.0" name="spawnRadiusWave2" />
+                            <data value="" name="guardsWave2" />
+                            <data value="0" name="numGuardsWave2" />
+                            <data value="0" name="delayWave2" />
+                            <data value="" name="primaryTargetWave3" />
+                            <data value="" name="utteranceWave3" />
+                            <data value="1.0" name="spawnRadiusWave3" />
+                            <data value="" name="guardsWave3" />
+                            <data value="0" name="numGuardsWave3" />
+                            <data value="0" name="delayWave3" />
+                            <data value="" name="primaryTargetWave4" />
+                            <data value="" name="utteranceWave4" />
+                            <data value="1.0" name="spawnRadiusWave4" />
+                            <data value="" name="guardsWave4" />
+                            <data value="0" name="numGuardsWave4" />
+                            <data value="0" name="delayWave4" />
+                            <data value="" name="primaryTargetWave5" />
+                            <data value="" name="utteranceWave5" />
+                            <data value="1.0" name="spawnRadiusWave5" />
+                            <data value="" name="guardsWave5" />
+                            <data value="0" name="numGuardsWave5" />
+                            <data value="0" name="delayWave5" />
+                            <data value="" name="primaryTargetWave6" />
+                            <data value="" name="utteranceWave6" />
+                            <data value="1.0" name="spawnRadiusWave6" />
+                            <data value="" name="guardsWave6" />
+                            <data value="0" name="numGuardsWave6" />
+                            <data value="0" name="delayWave6" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Comm Player" id="13" taskOnFail="false" >
+                                <data value="object/mobile/nym.iff" name="NPC Appearance Server Template" />
+                                <data value="Not too bad. When you're ready, speak to the referee to start your next fight." name="Comm Message Text" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="parameter" />
+                                <data value="" name="target" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="nym" name="taskName" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="" name="journalEntryTitle" />
+                                <task type="Wave Event" id="20" taskOnFail="false" >
+                                    <data value="Third Opponent" name="journalEntryTitle" />
+                                    <data value="Speak to the referee when you are ready for your next opponent." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="hasThirdArenaFight" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="lok" name="Planet" />
+                                    <data value="467" name="LocationX(m)" />
+                                    <data value="34" name="LocationY(m)" />
+                                    <data value="4810" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Arena Referee" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="object/mobile/dressed_nym_arena_referee.iff" name="Server Object Template" />
+                                    <data value="Call Third Opponent" name="waveEventMenuText" />
+                                    <data value="You hear something approach." name="waveEventStartMessage" />
+                                    <data value="nym_themepark_arena_kusak_razor" name="primaryTargetWave1" />
+                                    <data value="ROOOF! Grrrrrr!" name="utteranceWave1" />
+                                    <data value="1.0" name="spawnRadiusWave1" />
+                                    <data value="" name="guardsWave1" />
+                                    <data value="0" name="numGuardsWave1" />
+                                    <data value="0" name="delayWave1" />
+                                    <data value="" name="primaryTargetWave2" />
+                                    <data value="" name="utteranceWave2" />
+                                    <data value="1.0" name="spawnRadiusWave2" />
+                                    <data value="" name="guardsWave2" />
+                                    <data value="0" name="numGuardsWave2" />
+                                    <data value="0" name="delayWave2" />
+                                    <data value="" name="primaryTargetWave3" />
+                                    <data value="" name="utteranceWave3" />
+                                    <data value="1.0" name="spawnRadiusWave3" />
+                                    <data value="" name="guardsWave3" />
+                                    <data value="0" name="numGuardsWave3" />
+                                    <data value="0" name="delayWave3" />
+                                    <data value="" name="primaryTargetWave4" />
+                                    <data value="" name="utteranceWave4" />
+                                    <data value="1.0" name="spawnRadiusWave4" />
+                                    <data value="" name="guardsWave4" />
+                                    <data value="0" name="numGuardsWave4" />
+                                    <data value="0" name="delayWave4" />
+                                    <data value="" name="primaryTargetWave5" />
+                                    <data value="" name="utteranceWave5" />
+                                    <data value="1.0" name="spawnRadiusWave5" />
+                                    <data value="" name="guardsWave5" />
+                                    <data value="0" name="numGuardsWave5" />
+                                    <data value="0" name="delayWave5" />
+                                    <data value="" name="primaryTargetWave6" />
+                                    <data value="" name="utteranceWave6" />
+                                    <data value="1.0" name="spawnRadiusWave6" />
+                                    <data value="" name="guardsWave6" />
+                                    <data value="0" name="numGuardsWave6" />
+                                    <data value="0" name="delayWave6" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Comm Player" id="15" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="false" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="nym" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="And another foe has fallen! You are the newest arena hero, congratulations! Speak to the referee to start the next fight." name="Comm Message Text" />
+                                        <data value="object/mobile/nym.iff" name="NPC Appearance Server Template" />
+                                        <task type="Wave Event" id="21" taskOnFail="false" >
+                                            <data value="Fourth Opponent" name="journalEntryTitle" />
+                                            <data value="Speak to the referee when you are ready for your next opponent." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="hasFourthArenaFight" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="lok" name="Planet" />
+                                            <data value="467" name="LocationX(m)" />
+                                            <data value="34" name="LocationY(m)" />
+                                            <data value="4810" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Arena Referee" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="object/mobile/dressed_nym_arena_referee.iff" name="Server Object Template" />
+                                            <data value="Call Fourth Opponent" name="waveEventMenuText" />
+                                            <data value="You hear something approach." name="waveEventStartMessage" />
+                                            <data value="nym_themepark_arena_droideka" name="primaryTargetWave1" />
+                                            <data value="BZZZT!" name="utteranceWave1" />
+                                            <data value="1.0" name="spawnRadiusWave1" />
+                                            <data value="" name="guardsWave1" />
+                                            <data value="0" name="numGuardsWave1" />
+                                            <data value="0" name="delayWave1" />
+                                            <data value="" name="primaryTargetWave2" />
+                                            <data value="" name="utteranceWave2" />
+                                            <data value="1.0" name="spawnRadiusWave2" />
+                                            <data value="" name="guardsWave2" />
+                                            <data value="0" name="numGuardsWave2" />
+                                            <data value="0" name="delayWave2" />
+                                            <data value="" name="primaryTargetWave3" />
+                                            <data value="" name="utteranceWave3" />
+                                            <data value="1.0" name="spawnRadiusWave3" />
+                                            <data value="" name="guardsWave3" />
+                                            <data value="0" name="numGuardsWave3" />
+                                            <data value="0" name="delayWave3" />
+                                            <data value="" name="primaryTargetWave4" />
+                                            <data value="" name="utteranceWave4" />
+                                            <data value="1.0" name="spawnRadiusWave4" />
+                                            <data value="" name="guardsWave4" />
+                                            <data value="0" name="numGuardsWave4" />
+                                            <data value="0" name="delayWave4" />
+                                            <data value="" name="primaryTargetWave5" />
+                                            <data value="" name="utteranceWave5" />
+                                            <data value="1.0" name="spawnRadiusWave5" />
+                                            <data value="" name="guardsWave5" />
+                                            <data value="0" name="numGuardsWave5" />
+                                            <data value="0" name="delayWave5" />
+                                            <data value="" name="primaryTargetWave6" />
+                                            <data value="" name="utteranceWave6" />
+                                            <data value="1.0" name="spawnRadiusWave6" />
+                                            <data value="" name="guardsWave6" />
+                                            <data value="0" name="numGuardsWave6" />
+                                            <data value="0" name="delayWave6" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Comm Player" id="16" taskOnFail="false" >
+                                                <data value="" name="journalEntryTitle" />
+                                                <data value="" name="journalEntryDescription" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="nym" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="0" name="chanceToActivate" />
+                                                <data value="none" name="questControlOnTaskCompletion" />
+                                                <data value="none" name="questControlOnTaskFailure" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="Great job! You've got one more fight left. Speak to the referee when ready." name="Comm Message Text" />
+                                                <data value="object/mobile/nym.iff" name="NPC Appearance Server Template" />
+                                                <task type="Wave Event" id="22" taskOnFail="false" >
+                                                    <data value="Fifth Opponent" name="journalEntryTitle" />
+                                                    <data value="Speak to the referee when you are ready for your next opponent." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="hasFifthArenaFight" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="0" name="chanceToActivate" />
+                                                    <data value="none" name="questControlOnTaskCompletion" />
+                                                    <data value="none" name="questControlOnTaskFailure" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="lok" name="Planet" />
+                                                    <data value="467" name="LocationX(m)" />
+                                                    <data value="34" name="LocationY(m)" />
+                                                    <data value="4810" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="Arena Referee" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="object/mobile/dressed_nym_arena_referee.iff" name="Server Object Template" />
+                                                    <data value="Call Final Opponent" name="waveEventMenuText" />
+                                                    <data value="You hear someone approach." name="waveEventStartMessage" />
+                                                    <data value="nym_themepark_arena_champion" name="primaryTargetWave1" />
+                                                    <data value="Now you're mine! Ha ha." name="utteranceWave1" />
+                                                    <data value="1.0" name="spawnRadiusWave1" />
+                                                    <data value="" name="guardsWave1" />
+                                                    <data value="0" name="numGuardsWave1" />
+                                                    <data value="0" name="delayWave1" />
+                                                    <data value="" name="primaryTargetWave2" />
+                                                    <data value="" name="utteranceWave2" />
+                                                    <data value="1.0" name="spawnRadiusWave2" />
+                                                    <data value="" name="guardsWave2" />
+                                                    <data value="0" name="numGuardsWave2" />
+                                                    <data value="0" name="delayWave2" />
+                                                    <data value="" name="primaryTargetWave3" />
+                                                    <data value="" name="utteranceWave3" />
+                                                    <data value="1.0" name="spawnRadiusWave3" />
+                                                    <data value="" name="guardsWave3" />
+                                                    <data value="0" name="numGuardsWave3" />
+                                                    <data value="0" name="delayWave3" />
+                                                    <data value="" name="primaryTargetWave4" />
+                                                    <data value="" name="utteranceWave4" />
+                                                    <data value="1.0" name="spawnRadiusWave4" />
+                                                    <data value="" name="guardsWave4" />
+                                                    <data value="0" name="numGuardsWave4" />
+                                                    <data value="0" name="delayWave4" />
+                                                    <data value="" name="primaryTargetWave5" />
+                                                    <data value="" name="utteranceWave5" />
+                                                    <data value="1.0" name="spawnRadiusWave5" />
+                                                    <data value="" name="guardsWave5" />
+                                                    <data value="0" name="numGuardsWave5" />
+                                                    <data value="0" name="delayWave5" />
+                                                    <data value="" name="primaryTargetWave6" />
+                                                    <data value="" name="utteranceWave6" />
+                                                    <data value="1.0" name="spawnRadiusWave6" />
+                                                    <data value="" name="guardsWave6" />
+                                                    <data value="0" name="numGuardsWave6" />
+                                                    <data value="0" name="delayWave6" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Comm Player" id="17" taskOnFail="false" >
+                                                        <data value="" name="journalEntryTitle" />
+                                                        <data value="" name="journalEntryDescription" />
+                                                        <data value="false" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="nym" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="0" name="chanceToActivate" />
+                                                        <data value="none" name="questControlOnTaskCompletion" />
+                                                        <data value="none" name="questControlOnTaskFailure" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="You did it! You just made me a much richer pirate. Ha ha!" name="Comm Message Text" />
+                                                        <data value="object/mobile/nym.iff" name="NPC Appearance Server Template" />
+                                                        <task type="Wait for Signal" id="23" taskOnFail="false" >
+                                                            <data value="Speak to Nym." name="journalEntryTitle" />
+                                                            <data value="Speak with Nym in the Stronghold." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="hasCompletedArenaForNym" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="0" name="chanceToActivate" />
+                                                            <data value="none" name="questControlOnTaskCompletion" />
+                                                            <data value="none" name="questControlOnTaskFailure" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="0" name="createEntranceWaypoint" />
+                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                            <data value="" name="entranceWaypointName" />
+                                                            <data value="nymAwardedArenaCompletion" name="Signal Name" />
+                                                            <data value="1" name="Count" />
+                                                            <data value="0" name="waitMarkerCreate" />
+                                                            <data value="" name="waitMarkerTemplate" />
+                                                            <data value="" name="waitMarkerPlanetName" />
+                                                            <data value="0" name="waitMarkerBuilding" />
+                                                            <data value="" name="waitMarkerCellName" />
+                                                            <data value="0" name="waitMarkerX" />
+                                                            <data value="0" name="waitMarkerY" />
+                                                            <data value="0" name="waitMarkerZ" />
+                                                            <data value="0" name="Time To Complete" />
+                                                            <task type="Immediately Complete Quest" id="2" taskOnFail="false" >
+                                                                <data value="" name="journalEntryTitle" />
+                                                                <data value="" name="journalEntryDescription" />
+                                                                <data value="false" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="complete" name="taskName" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="0" name="chanceToActivate" />
+                                                                <data value="none" name="questControlOnTaskCompletion" />
+                                                                <data value="none" name="questControlOnTaskFailure" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="" name="signalsOnComplete" />
+                                                                <data value="" name="signalsOnFail" />
+                                                                <data value="0" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="0.0" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="0.0" name="LocationZ(m)" />
+                                                                <data value="" name="interiorWaypointAppearance" />
+                                                                <data value="" name="buildingCellName" />
+                                                                <data value="" name="waypointName" />
+                                                                <data value="0" name="createEntranceWaypoint" />
+                                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                <data value="" name="entranceWaypointName" />
+                                                            </task>
+                                                        </task>
+                                                    </task>
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="64" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Beat Opponents in Arena" name="journalEntryTitle" />
+            <data value="Beat all opponents in Nym's Stronghold Arena" name="journalEntryDescription" />
+            <data value="Nym's Theme Park" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You've bested all foes in Nym's Stronghold Arena." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="Overwrite GCW Amount" />
+            <data value="0" name="Overwrite SF GCW Amount Mod" />
+            <data value="" name="rebelLootName" />
+            <data value="1" name="rebelLootAmount" />
+            <data value="" name="imperialLootName" />
+            <data value="1" name="imperialLootAmount" />
+            <data value="0" name="SfLootModifier" />
+            <data value="38000" name="Bank Credits" />
+            <data value="item_nym_themepark_arena_poster_01_01" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="bdge_nyms_arena_champion_badge" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

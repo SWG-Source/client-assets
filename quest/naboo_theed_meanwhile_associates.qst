@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Destroy Multiple" id="0" taskOnFail="false" >
+                <data value="Defeat Members of the Peddlers Gang" name="journalEntryTitle" />
+                <data value="Hunnos Jarkey was known to have dealings with a small group known as the Peddlers. The Peddlers buy and sell stolen goods. Go rough up the Peddlers and find out what they know about Hunnos' escape." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="theed_meanwhile_associates_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="naboo" name="Planet" />
+                <data value="-5740" name="LocationX(m)" />
+                <data value="13.1000003814697" name="LocationY(m)" />
+                <data value="3715.89990234375" name="LocationZ(m)" />
+                <data value="Peddler Camp" name="waypointName" />
+                <data value="" name="Target Server Template" />
+                <data value="peddler" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="12" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <task type="Comm Player" id="7" taskOnFail="false" >
+                    <data value="The Peddlers Need Some More Convincing" name="journalEntryTitle" />
+                    <data value="So the Peddlers won't talk. Maybe their tongues would loosen if several of their stashes of stolen goods were destroyed." name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="theed_meanwhile_associates_01b" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="So the Peddlers won't talk,eh? Maybe we can loosen their tongues by destroying several of their hidden stashes." name="Comm Message Text" />
+                    <data value="object/mobile/naboo_lt_khartoor.iff" name="NPC Appearance Server Template" />
+                    <task type="Retrieve Item" id="1" taskOnFail="false" >
+                        <data value="Destroy Stashes of Peddler Goods" name="journalEntryTitle" />
+                        <data value="Convince the Peddlers to talk by destroying several stashes of stolen goods that they've hidden throughout the west side of Theed." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="theed_meanwhile_associates_02" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="naboo" name="Planet" />
+                        <data value="-5824" name="LocationX(m)" />
+                        <data value="6" name="LocationY(m)" />
+                        <data value="4281" name="LocationZ(m)" />
+                        <data value="Theed's West Side" name="waypointName" />
+                        <data value="object/tangible/quest/naboo_theed_stash_peddler_goods.iff" name="Server Object Template" />
+                        <data value="6" name="Count" />
+                        <data value="Stash of Peddler Goods" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Destroy the Stash of Goods" name="retrieveMenuText" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Comm Player" id="8" taskOnFail="false" >
+                            <data value="The Peddlers Claim Innocence" name="journalEntryTitle" />
+                            <data value="The Peddlers maintain that they haven't heard from Hunnos Jarkey in many months. We'll believe them for now. Hunnos' brother, Fenrol, was killed in a speeder crash shortly before Hunnos escaped. Go examine the crash site." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="theed_meanwhile_associates_02b" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="The Peddlers maintain that they haven't heard from Hunnos Jarkey in many months. We'll believe them for now. Hunnos' brother, Fenrol, was killed in a speeder crash shortly before Hunnos escaped. Go examine the crash site." name="Comm Message Text" />
+                            <data value="object/mobile/naboo_lt_khartoor.iff" name="NPC Appearance Server Template" />
+                            <task type="Retrieve Item" id="2" taskOnFail="false" >
+                                <data value="Examine Fenrol Jarkey's Crash Site" name="journalEntryTitle" />
+                                <data value="Fenrol Jarkey was Hunnos' brother. He died in a speeder crash shortly before Hunnos escaped. The crash site has not yet been cleared, so go check what's left and see if there's anything that connects to Hunnos' escape." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="theed_meanwhile_associates_03" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="naboo" name="Planet" />
+                                <data value="-5960.89990234375" name="LocationX(m)" />
+                                <data value="6" name="LocationY(m)" />
+                                <data value="4155.89990234375" name="LocationZ(m)" />
+                                <data value="Fenrol Jarkey's Crashed Speeder" name="waypointName" />
+                                <data value="object/tangible/quest/naboo_theed_fenrol_ledger.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="Fenrol's Ledger" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="Examine Ledger" name="retrieveMenuText" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Show Message Box" id="9" taskOnFail="false" >
+                                    <data value="Fenrol Jarkey's Ledger" name="journalEntryTitle" />
+                                    <data value="There's nothing in the ledger that directly connects it to Hunnos' escape, but there is mention of a thug working for Borvo named Derm Worrit. Go find out how Fenrol and Derm were involved with one another, and if it has anything to do with Hunnos' escape." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="theed_meanwhile_associates_03b" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="Fenrol Jarkey's Ledger" name="messageBoxTitle" />
+                                    <data value="There's nothing in the ledger that directly connects it to Hunnos' escape, but there is mention of a thug working for Borvo named Derm Worrit. Go find out how Fenrol and Derm were involved with one another and if it has anything to do with Hunnos' escape." name="messageBoxText" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <task type="Destroy Multiple" id="3" taskOnFail="false" >
+                                        <data value="Defeat Derm Worrit" name="journalEntryTitle" />
+                                        <data value="Convince Derm Worrit to tell you about his association with Fenrol Jarkey and to reveal anything he knows about Hunnos Jarkey." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="theed_meanwhile_associates_04" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="naboo" name="Planet" />
+                                        <data value="-4186.2001953125" name="LocationX(m)" />
+                                        <data value="44.9000015258789" name="LocationY(m)" />
+                                        <data value="3877.69995117188" name="LocationZ(m)" />
+                                        <data value="Borvo's Thugs Bunker" name="waypointName" />
+                                        <data value="naboo_borvo_derm_worrit" name="Target Server Template" />
+                                        <data value="" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="1" name="Count" />
+                                        <data value="0" name="RewardCredits" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Comm Player" id="10" taskOnFail="false" >
+                                            <data value="Derm Worrit Talks" name="journalEntryTitle" />
+                                            <data value="Derm Worrit reveals that he and Fenrol were planning to sell some spice in Theed, but that was before Fenrol's fatal accident. Derm didn't even know Fenrol had a brother, but he suggests talking to their father." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="theed_meanwhile_associates_04b" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="Okay, okay. Fenrol Jarkey wanted to smuggle some spice into Theed, and I was going to help him sell it. But now he's dead, the stupid drunk. And I didn't even know he had a brother, so back off. Try talking to his father." name="Comm Message Text" />
+                                            <data value="object/mobile/dressed_borvos_champion.iff" name="NPC Appearance Server Template" />
+                                            <task type="Retrieve Item" id="4" taskOnFail="false" >
+                                                <data value="Go Get Some Corellian Ale" name="journalEntryTitle" />
+                                                <data value="Talking to Hunnos and Fenrol's father, Ados Jarkey, is a good idea. It's unlikely Ados will talk to you, but he might loosen up if you bring him some Corellian ale. Go to the cantina and get some Corellian ale from the crates behind the bar. The RSF will put the ale you take on Sgt. Bragg's bar tab." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="theed_meanwhile_associates_05" name="taskName" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="naboo" name="Planet" />
+                                                <data value="-5154.2998046875" name="LocationX(m)" />
+                                                <data value="6" name="LocationY(m)" />
+                                                <data value="4293.60009765625" name="LocationZ(m)" />
+                                                <data value="Theed Cantina Entrance" name="waypointName" />
+                                                <data value="object/tangible/quest/naboo_theed_case_corellian_ale.iff" name="Server Object Template" />
+                                                <data value="1" name="Count" />
+                                                <data value="Corellian Ale" name="ItemName" />
+                                                <data value="100" name="LootDropPercent" />
+                                                <data value="Take Some Ale" name="retrieveMenuText" />
+                                                <task type="Wait for Signal" id="5" taskOnFail="false" >
+                                                    <data value="Give the Corellian Ale to Ados Jarkey" name="journalEntryTitle" />
+                                                    <data value="Go to Ados Jarkey and give him the Corellian ale. Ados is often found at the top of the waterfall near the Power Generator building." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="theed_meanwhile_associates_06" name="taskName" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="naboo" name="Planet" />
+                                                    <data value="-5112.5" name="LocationX(m)" />
+                                                    <data value="4.69999980926514" name="LocationY(m)" />
+                                                    <data value="4597.10009765625" name="LocationZ(m)" />
+                                                    <data value="Ados Jarkey" name="waypointName" />
+                                                    <data value="theed_meanwhile_associates_06" name="Signal Name" />
+                                                    <data value="0" name="waitMarkerCreate" />
+                                                    <data value="" name="waitMarkerTemplate" />
+                                                    <data value="" name="waitMarkerPlanetName" />
+                                                    <data value="0" name="waitMarkerBuilding" />
+                                                    <data value="" name="waitMarkerCellName" />
+                                                    <data value="0" name="waitMarkerX" />
+                                                    <data value="0" name="waitMarkerY" />
+                                                    <data value="0" name="waitMarkerZ" />
+                                                    <task type="Wait for Signal" id="6" taskOnFail="false" >
+                                                        <data value="Return to Lieutenant Khartoor" name="journalEntryTitle" />
+                                                        <data value="Ados Jarkey let slip that some Gungans had come to him asking about Hunnos not long after Hunnos escaped. They identified themselves as part of an organization known as the Muskeg, but did not reveal why they were looking for Hunnos. Return to Lt. Khartoor with this information." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="theed_meanwhile_associates_07" name="taskName" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="true" name="createWaypoint" />
+                                                        <data value="naboo" name="Planet" />
+                                                        <data value="-4887.7001953125" name="LocationX(m)" />
+                                                        <data value="6" name="LocationY(m)" />
+                                                        <data value="4187.60009765625" name="LocationZ(m)" />
+                                                        <data value="Lt. Khartoor" name="waypointName" />
+                                                        <data value="theed_meanwhile_associates_07" name="Signal Name" />
+                                                        <data value="0" name="waitMarkerCreate" />
+                                                        <data value="" name="waitMarkerTemplate" />
+                                                        <data value="" name="waitMarkerPlanetName" />
+                                                        <data value="0" name="waitMarkerBuilding" />
+                                                        <data value="" name="waitMarkerCellName" />
+                                                        <data value="0" name="waitMarkerX" />
+                                                        <data value="0" name="waitMarkerY" />
+                                                        <data value="0" name="waitMarkerZ" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="0" name="Time To Complete" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                    </task>
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                </task>
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="0" name="Time To Complete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                            </task>
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                        </task>
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="25" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Find an Escaped Murderer" name="journalEntryTitle" />
+            <data value="Hunnos Jarkey, a dangerous criminal and murderer, has escaped from RSF custody. Help Lt. Khartoor catch him. Start by finding out if any known associates have had any contact from him." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="9906" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="10987" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

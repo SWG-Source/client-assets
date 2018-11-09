@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="16" >
+            <task type="Show Message Box" id="0" name="Show Message Box" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Information about Healing" name="journalEntryTitle" />
+                <data value="While out of combat, press ESC to clear your target and  press the button for 'Bacta Shot.' The icon looks like a syringe. While in combat, Bacta Shot heals the target if the target is a player character, or heals whomever the enemy is attacking.  So, there is no need to retarget to heal the person taking damage if you are engaged with an enemy." name="journalEntryDescription" />
+                <data value="healingbox1" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="Healing" name="messageBoxTitle" />
+                <data value="While out of combat, press ESC to clear your target and  press the button for 'Bacta Shot.' The icon looks like a syringe. While in combat, Bacta Shot heals the target if the target is a player character, or heals whomever the enemy is attacking.  So, there is no need to retarget to heal the person taking damage if you are engaged with an enemy." name="messageBoxText" />
+                <task type="Wait for Signal" id="1" name="Wait for Signal" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Talk to Trehla Keelo" name="journalEntryTitle" />
+                    <data value="Now that you understand how healing works, talk to Trehla Keelo." name="journalEntryDescription" />
+                    <data value="healinglearned" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="3484" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="-4808" name="LocationZ(m)" />
+                    <data value="Trehla Keelo" name="waypointName" />
+                    <data value="c_newbie_healinglearned" name="Signal Name" />
+                    <task type="Go to Location" id="8" name="Go to Location" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Go to Junktown" name="journalEntryTitle" />
+                        <data value="Go out to Junktown to kill 10 Tusken Zealots." name="journalEntryDescription" />
+                        <data value="killstep" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="4047" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-4779" name="LocationZ(m)" />
+                        <data value="Junktown" name="waypointName" />
+                        <data value="120" name="Radius(m)" />
+                        <task type="Show Message Box" id="9" name="Show Message Box" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Combat Skills: Choosing your Enemy" name="journalEntryTitle" />
+                            <data value="To choose an appropriate enemy, first look at the name. If the name is yellow, the NPC may be attacked, but will not attack first. Red names indicate that an enemy is hostile and will attack first if given the opportunity. Humanoids (and creatures) with white names are not attackable. Blue names indicate other players.  
+
+Next, look at the mark next to the name. Green means the target is easily defeated. Blue means the fight will be challenging. White means the target has equivalent skills to you and the fight will be a close one. If the mark is blue or white, the enemy is an equal level or less. If the mark is yellow, fighting this creature will be a dangerous proposition. If the mark is red or purple, the enemy is too dangerous to attack on your own right now." name="journalEntryDescription" />
+                            <data value="combatbox1" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="Combat:  Enemies" name="messageBoxTitle" />
+                            <data value="To choose an appropriate enemy, first look at the name. If the name is yellow, the NPC may be attacked, but will not attack first. Red names indicate that an enemy is hostile and will attack first if given the opportunity. Humanoids (and creatures) with white names are not attackable. Blue names indicate other players.  
+
+Next, look at the mark next to the name. Green means the target is easily defeated. Blue means the fight will be challenging. White means the target has equivalent skills to you and the fight will be a close one. If the mark is blue or white, the enemy is an equal level or less. If the mark is yellow, fighting this creature will be a dangerous proposition. If the mark is red or purple, the enemy is too dangerous to attack on your own right now." name="messageBoxText" />
+                            <task type="Show Message Box" id="10" name="Show Message Box" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Combat Skills: Engaging Your Enemy" name="journalEntryTitle" />
+                                <data value="Left-click to target a specific enemy or press Tab to cycle through enemies, beginning with the nearest one.  To attack, press the 'Ranged Shot' button (the bulls-eye icon) if you have a blaster equipped.  If you have a melee weapon equipped, press the 'Melee Hit' button (the hand grasping a sword.)  To change a single attack into a continual attack, press CTRL while clicking on the icon.  A check box appears over the icon, indicating that the ability will be continually used as long as there is a valid target for it." name="journalEntryDescription" />
+                                <data value="combatbox2" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="Combat: Engaging " name="messageBoxTitle" />
+                                <data value="Left-click to target a specific enemy or press Tab to cycle through enemies, beginning with the nearest one.  To attack, press the 'Ranged Shot' button (the bulls-eye icon) if you have a blaster equipped.  If you have a melee weapon equipped, press the 'Melee Hit' button (the hand grasping a sword.)  To change a single attack into a continual attack, press CTRL while clicking on the icon.  A check box appears over the icon, indicating that the ability will be continually used as long as there is a valid target for it." name="messageBoxText" />
+                                <task type="Show Message Box" id="11" name="Show Message Box" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Combat Skills: Special Moves" name="journalEntryTitle" />
+                                    <data value="Each profession has special abilities.  These special abilities deplete the Action (green) and/or Mind (blue) bar.  Examples of special moves include:
+
+TAUNT: Incite the target to attack you.
+MELEE STRIKE: Do more damage than the standard melee attack.
+BACTA SHOT: Heal self or ally.
+KNOCKDOWN RECOVERY:  Stand up after being knocked down." name="journalEntryDescription" />
+                                    <data value="combatbox3" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="Combat: Special Moves" name="messageBoxTitle" />
+                                    <data value="Each profession has special abilities.  These special abilities deplete the Action (green) and/or Mind (blue) bar.  Examples of special moves include:
+
+TAUNT: Incite the target to attack you.
+MELEE STRIKE: Do more damage than the standard melee attack.
+BACTA SHOT: Heal self or ally.
+KNOCKDOWN RECOVERY:  Stand up after being knocked down." name="messageBoxText" />
+                                    <task type="Destroy Multiple" id="2" name="Destroy Multiple" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Kill 10 Tusken Zealots" name="journalEntryTitle" />
+                                        <data value="Choose a weapon that you want to use and go to Junktown to kill 10 Tusken Zealots.  Left-click to target a specific enemy or press Tab to cycle through enemies, beginning with the nearest one.  To attack, press the 'Ranged Shot' button (the bulls-eye icon) if you have a blaster equipped.  If you have a melee weapon equipped, press the 'Melee Hit' button (the hand grasping a sword.)  To change a single attack into an auto-attack, press CTRL while clicking on the icon.  A check box appears over the icon, indicating that the ability will be continually used as long as there is a valid target for it." name="journalEntryDescription" />
+                                        <data value="kill" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="4047" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-4779" name="LocationZ(m)" />
+                                        <data value="Junktown" name="waypointName" />
+                                        <data value="tusken_raider_zealot" name="Target Server Template" />
+                                        <data value="" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="10" name="Count" />
+                                        <data value="0" name="RewardCredits" />
+                                        <task type="Wait for Signal" id="3" name="Wait for Signal" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Return to Trehla Keelo" name="journalEntryTitle" />
+                                            <data value="You killed the Tusken Zealots.  Return to Trehla and let her know." name="journalEntryDescription" />
+                                            <data value="killreturn" name="taskName" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="3484" name="LocationX(m)" />
+                                            <data value="5" name="LocationY(m)" />
+                                            <data value="-4808" name="LocationZ(m)" />
+                                            <data value="Trehla Keelo" name="waypointName" />
+                                            <data value="c_newbie_killreturn" name="Signal Name" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <task type="Go to Location" id="12" name="Go to Location" taskOnFail="false" >
+                                                <task type="Show Message Box" id="13" name="Show Message Box" taskOnFail="false" >
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="Harvesting Resources" name="journalEntryTitle" />
+                                                    <data value="Once you kill a creature, right-click on its corpse and choose 'Harvest Resources' and then the item to harvest.  In most cases, the choices are: Bone, Hide, and Meat.  These resources may be used to craft items.
+" name="journalEntryDescription" />
+                                                    <data value="harveststep2" name="taskName" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="Harvesting Resources" name="messageBoxTitle" />
+                                                    <data value="Once you kill a creature, right-click on its corpse and choose 'Harvest Resources' and then the item to harvest.  In most cases, the choices are: Bone, Hide, and Meat.  These resources may be used to craft items.
+" name="messageBoxText" />
+                                                    <task type="Destroy Multiple" id="6" name="Destroy Multiple" taskOnFail="false" >
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="Kill and Harvest 10 Dwarf Nunas" name="journalEntryTitle" />
+                                                        <data value="Hunt and kill 10 dwarf nunas and harvest their meat, bone, or hide.  To harvest a creature, right-click on its corpse and choose 'Harvest Resources' and then the item to harvest.  In most cases, the choices are: Bone, Hide, and Meat.  These resources may be used to craft items.
+" name="journalEntryDescription" />
+                                                        <data value="harveststep3" name="taskName" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="3325" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="-5224" name="LocationZ(m)" />
+                                                        <data value="Dwarf Nuna Spawning Grounds" name="waypointName" />
+                                                        <data value="dwarf_nuna" name="Target Server Template" />
+                                                        <data value="" name="Social Group" />
+                                                        <data value="" name="requiredRegion" />
+                                                        <data value="10" name="Count" />
+                                                        <data value="0" name="RewardCredits" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <task type="Wait for Signal" id="7" name="Wait for Signal" taskOnFail="false" >
+                                                            <task type="Reward" id="15" name="Reward" taskOnFail="false" >
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="" name="journalEntryTitle" />
+                                                                <data value="" name="journalEntryDescription" />
+                                                                <data value="" name="taskName" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="0" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="0.0" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="0.0" name="LocationZ(m)" />
+                                                                <data value="" name="waypointName" />
+                                                                <data value="" name="Experience Type" />
+                                                                <data value="0" name="Experience Amount" />
+                                                                <data value="Rebel" name="Faction Name" />
+                                                                <data value="0" name="Faction Amount" />
+                                                                <data value="0" name="Bank Credits" />
+                                                                <data value="" name="Item" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="1" name="Count" />
+                                                                <data value="1" name="CountItem" />
+                                                                <data value="0.1" name="Elemental Value" />
+                                                                <data value="0.1" name="Efficiency" />
+                                                                <data value="0.1" name="Damage" />
+                                                                <data value="0.1" name="Speed" />
+                                                                <data value="1" name="CountWeapon" />
+                                                                <data value="" name="Weapon" />
+                                                                <data value="0.1" name="Quality" />
+                                                                <data value="1" name="CountArmor" />
+                                                                <data value="" name="Armor" />
+                                                            </task>
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="Return to Trehla Keelo" name="journalEntryTitle" />
+                                                            <data value="Bring back your bounty to Trehla Keelo in Mos Eisley." name="journalEntryDescription" />
+                                                            <data value="harvestreturn" name="taskName" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="true" name="showSystemMessages" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="3484" name="LocationX(m)" />
+                                                            <data value="5" name="LocationY(m)" />
+                                                            <data value="-4808" name="LocationZ(m)" />
+                                                            <data value="Trehla Keelo" name="waypointName" />
+                                                            <data value="c_newbie_harvestreturn" name="Signal Name" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="0" name="waitMarkerZ" />
+                                                            <data value="0" name="waitMarkerY" />
+                                                            <data value="0" name="waitMarkerX" />
+                                                            <data value="" name="waitMarkerCellName" />
+                                                            <data value="0" name="waitMarkerBuilding" />
+                                                            <data value="" name="waitMarkerPlanetName" />
+                                                            <data value="" name="waitMarkerTemplate" />
+                                                            <data value="0" name="waitMarkerCreate" />
+                                                        </task>
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    </task>
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="messageBoxSound" />
+                                                    <data value="-1" name="messageBoxLocationY" />
+                                                    <data value="-1" name="messageBoxLocationX" />
+                                                    <data value="-1" name="messageBoxSizeHeight" />
+                                                    <data value="-1" name="messageBoxSizeWidth" />
+                                                </task>
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="Leave Mos Eisley to Harvest Dwarf Nunas" name="journalEntryTitle" />
+                                                <data value="Go out of Mos Eisley to harvest Dwarf Nunas" name="journalEntryDescription" />
+                                                <data value="harveststep1" name="taskName" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="3325" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-5224" name="LocationZ(m)" />
+                                                <data value="Dwarf Nuna Spawning Grounds" name="waypointName" />
+                                                <data value="30" name="Radius(m)" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            </task>
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                        </task>
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    </task>
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                </task>
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                            </task>
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="messageBoxSound" />
+                            <data value="-1" name="messageBoxLocationY" />
+                            <data value="-1" name="messageBoxLocationX" />
+                            <data value="-1" name="messageBoxSizeHeight" />
+                            <data value="-1" name="messageBoxSizeWidth" />
+                        </task>
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    </task>
+                    <task type="Reward" id="14" name="Reward" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="0" name="Faction Amount" />
+                        <data value="0" name="Bank Credits" />
+                        <data value="" name="Item" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="1" name="Count" />
+                    </task>
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="0" name="waitMarkerCreate" />
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Taking up Arms" name="journalEntryTitle" />
+            <data value="Learning to fight now will save your life later." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="true" name="journalVisible" />
+        </list>
+    </quest>

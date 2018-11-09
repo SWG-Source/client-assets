@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="29" >
+            <task type="Nothing" id="1" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <task type="Wait for Tasks" id="2" taskOnFail="false" >
+                    <data value="Cloning Center Crew" name="journalEntryTitle" />
+                    <data value="Send experts to the cloning center. A fully staffed cloning center will provide a second chance when fighting the Tusken Raiders and take some of the edge off of a possible fatal blow." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_cloning_crew" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task1 Quest Filename" />
+                    <data value="heroic_tusken_cloning_crew_01" name="Task1 taskName" />
+                    <data value="First Expert for the Cloning Center" name="Task1 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task2 Quest Filename" />
+                    <data value="heroic_tusken_cloning_crew_02" name="Task2 taskName" />
+                    <data value="Second Expert for the Cloning Center" name="Task2 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task3 Quest Filename" />
+                    <data value="heroic_tusken_cloning_crew_03" name="Task3 taskName" />
+                    <data value="Third Expert for the Cloning Center" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Tasks" id="3" taskOnFail="false" >
+                    <data value="Medical Center Crew" name="journalEntryTitle" />
+                    <data value="Send experts to the medical center. A fully operational medical center will aid your efforts by supplying field medics to help with the wounded." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_medcenter_crew" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task1 Quest Filename" />
+                    <data value="heroic_tusken_medcenter_crew_01" name="Task1 taskName" />
+                    <data value="First Expert for the Medical Center" name="Task1 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task2 Quest Filename" />
+                    <data value="heroic_tusken_medcenter_crew_02" name="Task2 taskName" />
+                    <data value="Second Expert for the Medical Center" name="Task2 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task3 Quest Filename" />
+                    <data value="heroic_tusken_medcenter_crew_03" name="Task3 taskName" />
+                    <data value="Third Expert for the Medical Center" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Tasks" id="5" taskOnFail="false" >
+                    <data value="University Crew" name="journalEntryTitle" />
+                    <data value="Send experts to the university. Once fully staffed, the researchers at the university can provide valuable insight into the Tusken Raiders which will aid you in driving them out of Mos Espa." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_university_crew" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task1 Quest Filename" />
+                    <data value="heroic_tusken_university_crew_01" name="Task1 taskName" />
+                    <data value="First Expert for the University" name="Task1 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task2 Quest Filename" />
+                    <data value="heroic_tusken_university_crew_02" name="Task2 taskName" />
+                    <data value="Second Expert for the University" name="Task2 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task3 Quest Filename" />
+                    <data value="heroic_tusken_university_crew_03" name="Task3 taskName" />
+                    <data value="Third Expert for the University" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Tasks" id="6" taskOnFail="false" >
+                    <data value="Combat Hall Crew" name="journalEntryTitle" />
+                    <data value="Send experts to the combat hall. Once fully manned, the combat hall will supply trained militia troops to help fight the Tusken Raiders." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_combat_crew" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task1 Quest Filename" />
+                    <data value="heroic_tusken_combat_crew_01" name="Task1 taskName" />
+                    <data value="First Expert for the Combat Hall" name="Task1 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task2 Quest Filename" />
+                    <data value="heroic_tusken_combat_crew_02" name="Task2 taskName" />
+                    <data value="Second Expert for the Combat Hall" name="Task2 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02a" name="Task3 Quest Filename" />
+                    <data value="heroic_tusken_combat_crew_03" name="Task3 taskName" />
+                    <data value="Third Expert for the Combat Hall" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Tasks" id="13" taskOnFail="false" >
+                    <data value="Watto's Crew" name="journalEntryTitle" />
+                    <data value="Send experts to Watto's shop to help him get it running again. Once his shop is fully crewed, Watto will supply droids to help fight the Tusken Raiders." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_watto_crew" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/heroic_tusken_tracking_02" name="Task1 Quest Filename" />
+                    <data value="heroic_tusken_watto_crew_01" name="Task1 taskName" />
+                    <data value="First Expert for Watto's Shop" name="Task1 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02" name="Task2 Quest Filename" />
+                    <data value="heroic_tusken_watto_crew_02" name="Task2 taskName" />
+                    <data value="Second Expert for Watto's Shop" name="Task2 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02" name="Task3 Quest Filename" />
+                    <data value="heroic_tusken_watto_crew_03" name="Task3 taskName" />
+                    <data value="Third Expert for Watto's Shop" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Tasks" id="14" taskOnFail="false" >
+                    <data value="Startport Crew" name="journalEntryTitle" />
+                    <data value="Send experts to the starport to help get it operating again. Once online, the starport will supply air support in the battle to drive out the Tusken Raiders." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_starport_crew" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/heroic_tusken_tracking_02" name="Task1 Quest Filename" />
+                    <data value="heroic_tusken_starport_crew_01" name="Task1 taskName" />
+                    <data value="First Expert for the Starport" name="Task1 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02" name="Task2 Quest Filename" />
+                    <data value="heroic_tusken_starport_crew_02" name="Task2 taskName" />
+                    <data value="Second Expert for the Starport" name="Task2 Display String" />
+                    <data value="quest/heroic_tusken_tracking_02" name="Task3 Quest Filename" />
+                    <data value="heroic_tusken_starport_crew_03" name="Task3 taskName" />
+                    <data value="Third Expert for the Starport" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="19" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_watto_crew_03" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_watto_crew_03" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="20" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_watto_crew_02" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_watto_crew_02" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="21" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_watto_crew_01" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_watto_crew_01" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="23" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_starport_crew_03" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_starport_crew_03" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="24" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_starport_crew_02" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_starport_crew_02" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="25" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_starport_crew_01" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_starport_crew_01" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Wait for Signal" id="26" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_phase2_complete" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="clear" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_phase2_complete" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Destroy Multiple" id="28" taskOnFail="false" >
+                    <data value="Failure Condition: Mos Espa Citizens Killed" name="journalEntryTitle" />
+                    <data value="Do not allow too many Mos Espa citizens to be killed or your efforts will be considered a failure." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="heroic_tusken_citizens_killed" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="heroic_tusken_phase2_complete" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="heroic_tusken_mos_espa_citizen" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="10" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="90" name="Level" />
+            <data value="-1" name="Tier" />
+            <data value="group" name="Type" />
+            <data value="Tusken Raider Invasion of Mos Espa: Phase 2" name="journalEntryTitle" />
+            <data value="The Sand People are rampaging due to your theft of their relics. They are slaughtering everyone in Mos Espa. You must stop them." name="journalEntryDescription" />
+            <data value="Tusken Invasion" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

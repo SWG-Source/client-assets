@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="22" >
+            <task type="Retrieve Item" id="3" taskOnFail="false" >
+                <data value="Re-examine Hershel Sheridan" name="journalEntryTitle" />
+                <data value="Return to the scene of Hershel Sheridan's demise and make certain you didn't overlook anything." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="corsec_files_05_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="corellia" name="Planet" />
+                <data value="-3073" name="LocationX(m)" />
+                <data value="31" name="LocationY(m)" />
+                <data value="2995" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="Hershel Sheridan's House" name="waypointName" />
+                <data value="false" name="createEntranceWaypoint" />
+                <data value="-3073" name="EntranceLocationX(m)" />
+                <data value="31" name="EntranceLocationY(m)" />
+                <data value="2995" name="EntranceLocationZ(m)" />
+                <data value="Hershel Sheridan's House" name="entranceWaypointName" />
+                <data value="object/tangible/quest/corellia/corellia_38_hershel_blaster.iff" name="Server Object Template" />
+                <data value="1" name="Count" />
+                <data value="You examine the DL-44 blaster" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <data value="Examine Hershel's DL-44" name="retrieveMenuText" />
+                <data value="0" name="Time To Complete" />
+                <task type="Show Message Box" id="14" taskOnFail="false" >
+                    <data value="Hershel Sheridan's DL-44 Blaster" name="journalEntryTitle" />
+                    <data value="Upon examination of Hershel's blaster, you discover that it doesn't have a power cell. This discovery means that either someone removed the power cell after Hershel killed himself, or that Hershel was killed by someone using a different blaster. Hershel's death is looking a lot less like a suicide." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="corsec_files_05_01a" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="Hershel Sheridan's DL-44 Blaster" name="messageBoxTitle" />
+                    <data value="Upon examination of Hershel's blaster, you discover that it doesn't have a power cell. This discovery means that either someone removed the power cell after Hershel killed himself, or that Hershel was killed by someone using a different blaster. Hershel's death is looking a lot less like a suicide. Your only clue, so far, is the card with a single red circle in Hershel's hand." name="messageBoxText" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <task type="Retrieve Item" id="4" taskOnFail="false" >
+                        <data value="Examine the Package in the Mayor's Front Room" name="journalEntryTitle" />
+                        <data value="One of the CorSec agents at the Mayor's office found a suspicious package. Go examine it. Maybe you'll find a clue of some sort. The package was left for you in the front room." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="corsec_files_05_02" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="corellia" name="Planet" />
+                        <data value="-3623" name="LocationX(m)" />
+                        <data value="86" name="LocationY(m)" />
+                        <data value="3127" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="The Mayor's Office" name="waypointName" />
+                        <data value="false" name="createEntranceWaypoint" />
+                        <data value="-3623" name="EntranceLocationX(m)" />
+                        <data value="86" name="EntranceLocationY(m)" />
+                        <data value="3127" name="EntranceLocationZ(m)" />
+                        <data value="The Mayor's Office" name="entranceWaypointName" />
+                        <data value="object/tangible/quest/corellia/corellia_38_mayor_package.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="You examine the package" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Examine the package" name="retrieveMenuText" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Show Message Box" id="16" taskOnFail="false" >
+                            <data value="The Unopened Package" name="journalEntryTitle" />
+                            <data value="The package appears to be a few months old, based on the delivery date. Inside you find a datadisk as well as a note. The disk contains credits that were given to the mayor, but that he never transferred into his account. The note promises future payments if the mayor does as he is told, but also threatens him if he disobeys. The note is signed with a single red circle." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="corsec_files_05_02" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="The Mayor's Package" name="messageBoxTitle" />
+                            <data value="The package appears to be a few months old, based on the delivery date. Inside you find a datadisk as well as a note. The disk contains credits that were given to the mayor, but that he never transferred into his account. The note promises future payments if the mayor does as he is told, but also threatens him if he disobeys. The note is signed with a single red circle." name="messageBoxText" />
+                            <data value="" name="messageBoxSound" />
+                            <data value="-1" name="messageBoxSizeWidth" />
+                            <data value="-1" name="messageBoxSizeHeight" />
+                            <data value="-1" name="messageBoxLocationX" />
+                            <data value="-1" name="messageBoxLocationY" />
+                            <task type="Wait for Signal" id="15" taskOnFail="false" >
+                                <data value="Return to Lt. Cope" name="journalEntryTitle" />
+                                <data value="Your only significant clue is the single red circle that has appeared in connection with many of the crimes you've investigated. It would seem that the same person is involved with the murder of the mayor and of Hershel Sheridan as well as the smuggling of ryll into Kor Vella. Speak with Lt. Cope and find out if CorSec has uncovered any information about this red circle." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="corsec_files_05_03" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="corellia" name="Planet" />
+                                <data value="-3102" name="LocationX(m)" />
+                                <data value="31" name="LocationY(m)" />
+                                <data value="2800" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Lt. Lon Cope" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="corsec_files_05_03" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Destroy Multiple and Loot" id="7" taskOnFail="false" >
+                                    <data value="Get an Access Code from the Ryll Smuggler Underboss" name="journalEntryTitle" />
+                                    <data value="In order to access the mainframe at the base that Lt. Cope discovered, you'll need an access code. Lt. Cope thinks that you can find one at the ryll smuggler bunker. Go to the lower level of the bunker, defeat the ryll smuggler underboss, and get his access code." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="corsec_files_05_05" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="corellia" name="Planet" />
+                                    <data value="-2237" name="LocationX(m)" />
+                                    <data value="16" name="LocationY(m)" />
+                                    <data value="3303" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Entrance to the Ryll Smugglers' Bunker" name="waypointName" />
+                                    <data value="false" name="createEntranceWaypoint" />
+                                    <data value="-2237" name="EntranceLocationX(m)" />
+                                    <data value="-2237" name="EntranceLocationY(m)" />
+                                    <data value="-2237" name="EntranceLocationZ(m)" />
+                                    <data value="Entrance to the Ryll Smugglers' Bunker" name="entranceWaypointName" />
+                                    <data value="corellia_ryll_ubis_reendorr" name="CreatureType" />
+                                    <data value="" name="Social Group" />
+                                    <data value="" name="requiredRegion" />
+                                    <data value="You found a keycard with a single red circle on it and computer access codes.." name="LootItemName" />
+                                    <data value="1" name="NumberItemsRequired" />
+                                    <data value="100" name="LootDropPercent" />
+                                    <data value="0" name="RewardCredits" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Wait for Tasks" id="9" taskOnFail="false" >
+                                        <data value="Investigate the Red Circle Base" name="journalEntryTitle" />
+                                        <data value="Proceed to the red circle base. Once there, defeat some of the guards and access their central computer. Look for any information about who the red circle organization truly is." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="corsec_files_05_06" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="corellia" name="Planet" />
+                                        <data value="-2274" name="LocationX(m)" />
+                                        <data value="24" name="LocationY(m)" />
+                                        <data value="2682" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="Red Circle Base" name="waypointName" />
+                                        <data value="false" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="quest/corellia_38_corsec_files_05" name="Task1 Quest Filename" />
+                                        <data value="corsec_files_05_06aa" name="Task1 taskName" />
+                                        <data value="Download Information on the Red Circle Organization from the Mainframe" name="Task1 Display String" />
+                                        <data value="quest/corellia_38_corsec_files_05" name="Task2 Quest Filename" />
+                                        <data value="corsec_files_05_06b" name="Task2 taskName" />
+                                        <data value="Defeat Red Circle Guards" name="Task2 Display String" />
+                                        <data value="" name="Task3 Quest Filename" />
+                                        <data value="" name="Task3 taskName" />
+                                        <data value="" name="Task3 Display String" />
+                                        <data value="" name="Task4 Quest Filename" />
+                                        <data value="" name="Task4 taskName" />
+                                        <data value="" name="Task4 Display String" />
+                                        <data value="" name="Task5 Quest Filename" />
+                                        <data value="" name="Task5 taskName" />
+                                        <data value="" name="Task5 Display String" />
+                                        <data value="" name="Task6 Quest Filename" />
+                                        <data value="" name="Task6 taskName" />
+                                        <data value="" name="Task6 Display String" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Destroy Multiple" id="12" taskOnFail="false" >
+                                            <data value="Vora Anjek" name="journalEntryTitle" />
+                                            <data value="Defeat Vora Anjek." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="corsec_files_05_07c" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="corellia_chirq_vora_anjek" name="Target Server Template" />
+                                            <data value="" name="Social Group" />
+                                            <data value="" name="requiredRegion" />
+                                            <data value="1" name="Count" />
+                                            <data value="0" name="RewardCredits" />
+                                            <data value="0" name="Time To Complete" />
+                                        </task>
+                                        <task type="Destroy Multiple" id="18" taskOnFail="false" >
+                                            <data value="Vella Corse" name="journalEntryTitle" />
+                                            <data value="Defeat Vella Corse." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="corsec_files_05_07b" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="corellia_chirq_vella_corse" name="Target Server Template" />
+                                            <data value="" name="Social Group" />
+                                            <data value="" name="requiredRegion" />
+                                            <data value="1" name="Count" />
+                                            <data value="0" name="RewardCredits" />
+                                            <data value="0" name="Time To Complete" />
+                                        </task>
+                                        <task type="Destroy Multiple" id="19" taskOnFail="false" >
+                                            <data value="Annor Fash" name="journalEntryTitle" />
+                                            <data value="Defeat Annor Fash." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="corsec_files_05_07a" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="corellia_chirq_annor_fash" name="Target Server Template" />
+                                            <data value="" name="Social Group" />
+                                            <data value="" name="requiredRegion" />
+                                            <data value="1" name="Count" />
+                                            <data value="0" name="RewardCredits" />
+                                            <data value="0" name="Time To Complete" />
+                                        </task>
+                                        <task type="Wait for Tasks" id="20" taskOnFail="false" >
+                                            <data value="Defeat the 3 Leaders of the Kor Vella Chirq Council" name="journalEntryTitle" />
+                                            <data value="Defeat the three leaders of the Kor Vella chapter of the Chirq Council: Annor Fash, Vella Corse, and Vora Anjek." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="corsec_files_05_07" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="corellia" name="Planet" />
+                                            <data value="-2278" name="LocationX(m)" />
+                                            <data value="24" name="LocationY(m)" />
+                                            <data value="2727" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Entrance to the Red Circle Bunker" name="waypointName" />
+                                            <data value="false" name="createEntranceWaypoint" />
+                                            <data value="-2278" name="EntranceLocationX(m)" />
+                                            <data value="24" name="EntranceLocationY(m)" />
+                                            <data value="2727" name="EntranceLocationZ(m)" />
+                                            <data value="Entrance to the Red Circle Bunker" name="entranceWaypointName" />
+                                            <data value="quest/corellia_38_corsec_files_05" name="Task1 Quest Filename" />
+                                            <data value="corsec_files_05_07a" name="Task1 taskName" />
+                                            <data value="Defeat Annor Fash" name="Task1 Display String" />
+                                            <data value="quest/corellia_38_corsec_files_05" name="Task2 Quest Filename" />
+                                            <data value="corsec_files_05_07b" name="Task2 taskName" />
+                                            <data value="Defeat Vella Corse" name="Task2 Display String" />
+                                            <data value="quest/corellia_38_corsec_files_05" name="Task3 Quest Filename" />
+                                            <data value="corsec_files_05_07c" name="Task3 taskName" />
+                                            <data value="Defeat Vora Anjek" name="Task3 Display String" />
+                                            <data value="" name="Task4 Quest Filename" />
+                                            <data value="" name="Task4 taskName" />
+                                            <data value="" name="Task4 Display String" />
+                                            <data value="" name="Task5 Quest Filename" />
+                                            <data value="" name="Task5 taskName" />
+                                            <data value="" name="Task5 Display String" />
+                                            <data value="" name="Task6 Quest Filename" />
+                                            <data value="" name="Task6 taskName" />
+                                            <data value="" name="Task6 Display String" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Wait for Signal" id="21" taskOnFail="false" >
+                                                <data value="Report to Lt. Cope" name="journalEntryTitle" />
+                                                <data value="Report back to Lt. Cope." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="corsec_files_05_08" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="corellia" name="Planet" />
+                                                <data value="-3102" name="LocationX(m)" />
+                                                <data value="31" name="LocationY(m)" />
+                                                <data value="2800" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="Lt. Lon Cope" name="waypointName" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="corsec_files_05_08" name="Signal Name" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="Time To Complete" />
+                                                <data value="0" name="chanceToActivate" />
+                                                <data value="none" name="questControlOnTaskFailure" />
+                                                <data value="none" name="questControlOnTaskCompletion" />
+                                            </task>
+                                        </task>
+                                    </task>
+                                    <task type="Destroy Multiple" id="10" taskOnFail="false" >
+                                        <data value="Defeat Red Circle Guards" name="journalEntryTitle" />
+                                        <data value="Defeat some of the guards in the base to help cover your tracks." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="corsec_files_05_06b" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="corellia_red_circle_guard" name="Target Server Template" />
+                                        <data value="" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="14" name="Count" />
+                                        <data value="0" name="RewardCredits" />
+                                        <data value="0" name="Time To Complete" />
+                                    </task>
+                                    <task type="Retrieve Item" id="11" taskOnFail="false" >
+                                        <data value="Access the Red Circle Mainframe" name="journalEntryTitle" />
+                                        <data value="Log onto the mainframe at the red circle base and download any information you can find." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="corsec_files_05_06a" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="object/tangible/quest/corellia/corellia_38_red_circle_mainframe.iff" name="Server Object Template" />
+                                        <data value="1" name="Count" />
+                                        <data value="You have logged onto the mainframe" name="ItemName" />
+                                        <data value="100" name="LootDropPercent" />
+                                        <data value="Log onto the mainframe" name="retrieveMenuText" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Show Message Box" id="17" taskOnFail="false" >
+                                            <data value="The Mainframe" name="journalEntryTitle" />
+                                            <data value="From the mainframe, you learn that a red circle is the sign of an organization that calls themselves the Chirq Council. They are attempting to assert their power on Corellia and take control of all criminal activity on the planet. The Galactic Civil War provides a distraction for the Corellian Security Forces which makes the timing perfect for the Chirq Council. The Chirq Council primarily operates out of Doaba Guerfel, but has cells in play throughout the planet. The Kor Vella chapter is run locally by three people: Annor Fash, Vella Corse, and Vora Anjek." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="corsec_files_05_06aa" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="The Mainframe" name="messageBoxTitle" />
+                                            <data value="From the mainframe, you learn that a red circle is the sign of an organization that calls themselves the Chirq Council. They are attempting to assert their power on Corellia and take control of all criminal activity on the planet. The Galactic Civil War provides a distraction for the Corellian Security Forces which makes the timing perfect for the Chirq Council. The Chirq Council primarily operates out of Doaba Guerfel, but has cells in play throughout the planet. The Kor Vella chapter is run locally by three people: Annor Fash, Vella Corse, and Vora Anjek." name="messageBoxText" />
+                                            <data value="" name="messageBoxSound" />
+                                            <data value="-1" name="messageBoxSizeWidth" />
+                                            <data value="-1" name="messageBoxSizeHeight" />
+                                            <data value="-1" name="messageBoxLocationX" />
+                                            <data value="-1" name="messageBoxLocationY" />
+                                        </task>
+                                    </task>
+                                </task>
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="38" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="CorSec Case Files: The Unlucky Mayor" name="journalEntryTitle" />
+            <data value="The mayor of Kor Vella has been murdered! This time the assassination was successful. Was the previous suspect, Hershel Sheridan, truly part of the original attack, or merely an attempt to hide the true culprits?" name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You have discovered the name of the organization that uses s single red circle as their calling card: the Chirq Council. It has become clear that they are the ones behind most of the recent criminal activity on Corellia, including the assassination of the mayor of Kor Vella as well as the attempt to frame the Corellian Diktat of smuggling spice." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="19457" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

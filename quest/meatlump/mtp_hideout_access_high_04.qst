@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="31" >
+            <task type="Nothing" id="22" taskOnFail="false" >
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="mtp_hideout_access_04_00" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <task type="Wait for Tasks" id="23" taskOnFail="false" >
+                    <data value="Fighting Ragtags" name="journalEntryTitle" />
+                    <data value="Some Ragtags have been giving Strilath trouble. He wants you to take them out and especially their gang leader, Mramo Gurah." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="mtp_hideout_access_04_01" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="7378" name="LocationX(m)" />
+                    <data value="307" name="LocationY(m)" />
+                    <data value="6937" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Ragtag Base" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/mtp_hideout_access_high_04" name="Task1 Quest Filename" />
+                    <data value="mtp_hideout_access_04_01a" name="Task1 taskName" />
+                    <data value="Defeat Mramo Gurah" name="Task1 Display String" />
+                    <data value="quest/mtp_hideout_access_high_04" name="Task2 Quest Filename" />
+                    <data value="mtp_hideout_access_04_01b" name="Task2 taskName" />
+                    <data value="Defeat Mramo's Ragtag Goons" name="Task2 Display String" />
+                    <data value="" name="Task3 Quest Filename" />
+                    <data value="" name="Task3 taskName" />
+                    <data value="" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Retrieve Item" id="26" taskOnFail="false" >
+                        <data value="Destroy Mramo's Stash" name="journalEntryTitle" />
+                        <data value="Mramo tried to bribe you by giving up their stash of stolen goods. It's hidden nearby...go destroy it" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="mtp_hideout_access_04_02" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="object/tangible/quest/meatlump/mtp_hideout_quest04_stash.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="The stash of stolen goods has been destroyed" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                        <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                        <data value="3" name="CountdownTimer" />
+                        <data value="Set Fire to the Stash" name="retrieveMenuText" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Wait for Signal" id="27" taskOnFail="false" >
+                            <data value="Speak with Strilath" name="journalEntryTitle" />
+                            <data value="Speak with Strilath. Use one of the Meatlump radios in Doaba Guerfel to call him." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="mtp_hideout_access_04_03" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="mtp_hideout_access_04_03" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Wait for Signal" id="29" taskOnFail="false" >
+                                <data value="Return to Vani Korr" name="journalEntryTitle" />
+                                <data value="Strilath admited that he can't remember where the Meatlump Hideout is. He thought it was in Doaba Guerfel, but cant find it. Return to Vani Korr with the bad news." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="mtp_hideout_access_04_04" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="corellia" name="Planet" />
+                                <data value="-107" name="LocationX(m)" />
+                                <data value="28" name="LocationY(m)" />
+                                <data value="-4465" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Coronet Hospital Entrance" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="mtp_hideout_access_04_04" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Immediately Complete Quest" id="30" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="mtp_hideout_access_04_05" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                </task>
+                            </task>
+                        </task>
+                        <task type="Wave Event" id="28" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="mtp_hideout_access_04_03a" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="object/tangible/quest/meatlump/mtp_hideout_quest03_radio.iff" name="Server Object Template" />
+                            <data value="Use the Radio" name="waveEventMenuText" />
+                            <data value="The radio sends a signal when switched on and then shuts back down." name="waveEventStartMessage" />
+                            <data value="mtp_quest_strilath_farles_convo" name="primaryTargetWave1" />
+                            <data value="Hang on, I'm on my way..." name="utteranceWave1" />
+                            <data value="3" name="spawnRadiusWave1" />
+                            <data value="" name="guardsWave1" />
+                            <data value="0" name="numGuardsWave1" />
+                            <data value="2" name="delayWave1" />
+                            <data value="" name="primaryTargetWave2" />
+                            <data value="" name="utteranceWave2" />
+                            <data value="1.0" name="spawnRadiusWave2" />
+                            <data value="" name="guardsWave2" />
+                            <data value="0" name="numGuardsWave2" />
+                            <data value="0" name="delayWave2" />
+                            <data value="" name="primaryTargetWave3" />
+                            <data value="" name="utteranceWave3" />
+                            <data value="1.0" name="spawnRadiusWave3" />
+                            <data value="" name="guardsWave3" />
+                            <data value="0" name="numGuardsWave3" />
+                            <data value="0" name="delayWave3" />
+                            <data value="" name="primaryTargetWave4" />
+                            <data value="" name="utteranceWave4" />
+                            <data value="1.0" name="spawnRadiusWave4" />
+                            <data value="" name="guardsWave4" />
+                            <data value="0" name="numGuardsWave4" />
+                            <data value="0" name="delayWave4" />
+                            <data value="" name="primaryTargetWave5" />
+                            <data value="" name="utteranceWave5" />
+                            <data value="1.0" name="spawnRadiusWave5" />
+                            <data value="" name="guardsWave5" />
+                            <data value="0" name="numGuardsWave5" />
+                            <data value="0" name="delayWave5" />
+                            <data value="" name="primaryTargetWave6" />
+                            <data value="" name="utteranceWave6" />
+                            <data value="1.0" name="spawnRadiusWave6" />
+                            <data value="" name="guardsWave6" />
+                            <data value="0" name="numGuardsWave6" />
+                            <data value="0" name="delayWave6" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                    </task>
+                </task>
+                <task type="Destroy Multiple" id="24" taskOnFail="false" >
+                    <data value="Defeat Mramo Gurah's Goons" name="journalEntryTitle" />
+                    <data value="Defeat some of the Ragtag goons in Mramo Gurah's gang." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="mtp_hideout_access_04_01b" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="mtp_quest_farles_ragtag_high" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="13" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Destroy Multiple" id="25" taskOnFail="false" >
+                    <data value="Defeat Mramo Gurah" name="journalEntryTitle" />
+                    <data value="Defeat Mramo Gurah, a ragtag gang leader." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="mtp_hideout_access_04_01a" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="mtp_quest_farles_ragtag_leader_high" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="1" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="90" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="The Meatlumps Hideout, Part 4" name="journalEntryTitle" />
+            <data value="Vani Korr has asked you to find a way into the Meatlump Hideout. First, you must find out where it is. To that end, you are doing a favor for a Meatlump lieutenant named Strilath Farles in exchange for information." name="journalEntryDescription" />
+            <data value="Meatlumps" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="Strilath Farles misled you...he doesn't remember where the Meatlump hideout is." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="8963" name="Bank Credits" />
+            <data value="item_meatlump_lump_01_01" name="lootName" />
+            <data value="9" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

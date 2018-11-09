@@ -1,0 +1,726 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Professor Cornelius Wagglehorn" name="journalEntryTitle" />
+                <data value="Travel to Tyrena on Corellia and speak with Professor Cornelius Wagglehorn of Corellia University. If he's not found at the University, the Professor often enjoys looking out over the water while reading or studying." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="exar_kun_intro_01_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="false" name="createWaypoint" />
+                <data value="corellia" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <data value="exar_kun_intro_01_01" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="Time To Complete" />
+                <task type="Go to Location" id="1" taskOnFail="false" >
+                    <data value="Off-site Research Outpost" name="journalEntryTitle" />
+                    <data value="Travel to Corellia University's Off-site Research Outpost on Talus." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="exar_kun_intro_01_02" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="talus" name="Planet" />
+                    <data value="-465" name="LocationX(m)" />
+                    <data value="31" name="LocationY(m)" />
+                    <data value="4440" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="University of Corellia Research Outpost" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="10.0" name="Radius(m)" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Show Message Box" id="2" taskOnFail="false" >
+                        <data value="Deserted?" name="journalEntryTitle" />
+                        <data value="&quot;The Outpost is eerily silent as you approach. There should be students and researchers busily at work, but no one is visible. Other than a corpse in the center of the Outpost yard. Go check it.&quot;" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="exar_kun_intro_01_03" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="Deserted?" name="messageBoxTitle" />
+                        <data value="The Outpost is eerily silent as you approach. There should be students and researchers busily at work, but no one is visible. Other than a corpse in the center of the Outpost yard. Go check it." name="messageBoxText" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="-1" name="messageBoxSizeWidth" />
+                        <data value="-1" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxLocationY" />
+                        <task type="Retrieve Item" id="3" taskOnFail="false" >
+                            <data value="Check the Corpse" name="journalEntryTitle" />
+                            <data value="Check the corpse in the middle of the deserted outpost." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="exar_kun_intro_01_04" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="object/mobile/dressed_combatmedic_trainer_human_male_01.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="You found a personal datapad" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                            <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                            <data value="0" name="CountdownTimer" />
+                            <data value="Search" name="retrieveMenuText" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Retrieve Item" id="4" taskOnFail="false" >
+                                <data value="Researcher's Datapad" name="journalEntryTitle" />
+                                <data value="The corpse proves to be one of the researchers who was working at the university's outpost. Check his datapad for any information about what happened." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="exar_kun_intro_01_05" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="object/tangible/quest/township/exar_kun_intro_corpse_datapad.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="You activate the datapad" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                <data value="0" name="CountdownTimer" />
+                                <data value="Power up the datapad" name="retrieveMenuText" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Show Message Box" id="10" taskOnFail="false" >
+                                    <data value="Datapad" name="journalEntryTitle" />
+                                    <data value="From the researcher's daily journals in the datapad, you determine that some strange cultists arrived unexpectedly at the outpost and began speaking with the students and researchers. Seemingly overnight, almost everyone at the outpost joined the cult. The dead researcher was one of the few to refuse. He seemed adamant that the cultist had some way of compelling others to join them and that those who joined did not do so of their own free will. He also mentions a location at which the former students (newly converted cultists) were being prepared for off-world transportation under the supervision of someone named Magnus Grenz." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="exar_kun_intro_01_05b" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="Datapad" name="messageBoxTitle" />
+                                    <data value="From the researcher's daily journals in the datapad, you determine that some strange cultists arrived unexpectedly at the outpost and began speaking with the students and researchers. Seemingly overnight, almost everyone at the outpost joined the cult. The dead researcher was one of the few to refuse. He seemed adamant that the cultist had some way of compelling others to join them and that those who joined did not do so of their own free will. He also mentions a location at which the former students (newly converted cultists) were being prepared for off-world transportation under the supervision of someone named Magnus Grenz." name="messageBoxText" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <task type="Retrieve Item" id="5" taskOnFail="false" >
+                                        <data value="Send a Message" name="journalEntryTitle" />
+                                        <data value="Use the outpost communication terminal and send word to Professor Wagglehorn that the Outpost is secure though vacated. With that news, a team from the University will be sent to investigate the Outpost further." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="exar_kun_intro_01_06" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="object/tangible/quest/township/exar_kun_intro_communication_terminal.iff" name="Server Object Template" />
+                                        <data value="1" name="Count" />
+                                        <data value="Message sent" name="ItemName" />
+                                        <data value="100" name="LootDropPercent" />
+                                        <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                        <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                        <data value="0" name="CountdownTimer" />
+                                        <data value="Send a message" name="retrieveMenuText" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Wave Event" id="6" taskOnFail="false" >
+                                            <data value="Magnus Grenz" name="journalEntryTitle" />
+                                            <data value="Travel to where the students are being sent off-world and confront Magnus Grenz. Ask him what has happened to the students and researchers from the outpost." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="exar_kun_intro_01_07" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="talus" name="Planet" />
+                                            <data value="-1835" name="LocationX(m)" />
+                                            <data value="34" name="LocationY(m)" />
+                                            <data value="6625" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Shuttle Base" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="object/mobile/exar_kun_intro_magnus_grenz.iff" name="Server Object Template" />
+                                            <data value="Speak with Magnus Grenz" name="waveEventMenuText" />
+                                            <data value="And now, you must die." name="waveEventStartMessage" />
+                                            <data value="exar_kun_intro_cultist" name="primaryTargetWave1" />
+                                            <data value="Muwahahahaha!" name="utteranceWave1" />
+                                            <data value="3" name="spawnRadiusWave1" />
+                                            <data value="exar_kun_intro_cultist" name="guardsWave1" />
+                                            <data value="1" name="numGuardsWave1" />
+                                            <data value="3" name="delayWave1" />
+                                            <data value="exar_kun_intro_cultist" name="primaryTargetWave2" />
+                                            <data value="There are plenty more where those came from..." name="utteranceWave2" />
+                                            <data value="3" name="spawnRadiusWave2" />
+                                            <data value="exar_kun_intro_cultist" name="guardsWave2" />
+                                            <data value="2" name="numGuardsWave2" />
+                                            <data value="3" name="delayWave2" />
+                                            <data value="exar_kun_intro_cultist" name="primaryTargetWave3" />
+                                            <data value="More and more and more!" name="utteranceWave3" />
+                                            <data value="3" name="spawnRadiusWave3" />
+                                            <data value="exar_kun_intro_cultist" name="guardsWave3" />
+                                            <data value="2" name="numGuardsWave3" />
+                                            <data value="3" name="delayWave3" />
+                                            <data value="exar_kun_intro_cultist" name="primaryTargetWave4" />
+                                            <data value="You are beginning to annoy me." name="utteranceWave4" />
+                                            <data value="3" name="spawnRadiusWave4" />
+                                            <data value="exar_kun_intro_cultist" name="guardsWave4" />
+                                            <data value="3" name="numGuardsWave4" />
+                                            <data value="4" name="delayWave4" />
+                                            <data value="" name="primaryTargetWave5" />
+                                            <data value="" name="utteranceWave5" />
+                                            <data value="1.0" name="spawnRadiusWave5" />
+                                            <data value="" name="guardsWave5" />
+                                            <data value="0" name="numGuardsWave5" />
+                                            <data value="0" name="delayWave5" />
+                                            <data value="" name="primaryTargetWave6" />
+                                            <data value="" name="utteranceWave6" />
+                                            <data value="1.0" name="spawnRadiusWave6" />
+                                            <data value="" name="guardsWave6" />
+                                            <data value="0" name="numGuardsWave6" />
+                                            <data value="0" name="delayWave6" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Wait for Signal" id="7" taskOnFail="false" >
+                                                <data value="Speak with Magnus Grenz Again" name="journalEntryTitle" />
+                                                <data value="Speak with Magnus Grenz again." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="exar_kun_intro_01_08" name="taskName" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="0" name="chanceToActivate" />
+                                                <data value="none" name="questControlOnTaskCompletion" />
+                                                <data value="none" name="questControlOnTaskFailure" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="exar_kun_intro_01_08" name="Signal Name" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="Time To Complete" />
+                                                <task type="Retrieve Item" id="8" taskOnFail="false" >
+                                                    <data value="Grenz's Data Terminal" name="journalEntryTitle" />
+                                                    <data value="Find Grenz's personal data terminal and search it for any information you can find about the cult" name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="exar_kun_intro_01_09" name="taskName" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="0" name="chanceToActivate" />
+                                                    <data value="none" name="questControlOnTaskCompletion" />
+                                                    <data value="none" name="questControlOnTaskFailure" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="object/tangible/quest/township/exar_kun_intro_grenz_terminal.iff" name="Server Object Template" />
+                                                    <data value="1" name="Count" />
+                                                    <data value="You find an entry about the cult" name="ItemName" />
+                                                    <data value="100" name="LootDropPercent" />
+                                                    <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                                    <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                                    <data value="0" name="CountdownTimer" />
+                                                    <data value="Activate the data terminal" name="retrieveMenuText" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Show Message Box" id="11" taskOnFail="false" >
+                                                        <data value="Grenz's Data Terminal" name="journalEntryTitle" />
+                                                        <data value="You learn that the cult is devoted to the will of Exar Kun, a long deceased Sith Lord, and based on Yavin IV. " name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="exar_kun_intro_01_09b" name="taskName" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="0" name="chanceToActivate" />
+                                                        <data value="none" name="questControlOnTaskCompletion" />
+                                                        <data value="none" name="questControlOnTaskFailure" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="Grenz's Data Terminal" name="messageBoxTitle" />
+                                                        <data value="You learn that the cult is devoted to the will of Exar Kun, a long deceased Sith Lord, and based on Yavin IV. " name="messageBoxText" />
+                                                        <data value="" name="messageBoxSound" />
+                                                        <data value="-1" name="messageBoxSizeWidth" />
+                                                        <data value="-1" name="messageBoxSizeHeight" />
+                                                        <data value="-1" name="messageBoxLocationX" />
+                                                        <data value="-1" name="messageBoxLocationY" />
+                                                        <task type="Wait for Signal" id="9" taskOnFail="false" >
+                                                            <data value="Return to Professor Wagglehorn" name="journalEntryTitle" />
+                                                            <data value="Return to Professor Wagglehorn on Corellia." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="exar_kun_intro_01_10" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="0" name="chanceToActivate" />
+                                                            <data value="none" name="questControlOnTaskCompletion" />
+                                                            <data value="none" name="questControlOnTaskFailure" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="0" name="createEntranceWaypoint" />
+                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                            <data value="" name="entranceWaypointName" />
+                                                            <data value="exar_kun_intro_01_10" name="Signal Name" />
+                                                            <data value="0" name="waitMarkerCreate" />
+                                                            <data value="" name="waitMarkerTemplate" />
+                                                            <data value="" name="waitMarkerPlanetName" />
+                                                            <data value="0" name="waitMarkerBuilding" />
+                                                            <data value="" name="waitMarkerCellName" />
+                                                            <data value="0" name="waitMarkerX" />
+                                                            <data value="0" name="waitMarkerY" />
+                                                            <data value="0" name="waitMarkerZ" />
+                                                            <data value="0" name="Time To Complete" />
+                                                            <task type="Immediately Complete Quest" id="12" taskOnFail="false" >
+                                                                <data value="" name="journalEntryTitle" />
+                                                                <data value="" name="journalEntryDescription" />
+                                                                <data value="false" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="" name="taskName" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="0" name="chanceToActivate" />
+                                                                <data value="none" name="questControlOnTaskCompletion" />
+                                                                <data value="none" name="questControlOnTaskFailure" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="" name="signalsOnComplete" />
+                                                                <data value="" name="signalsOnFail" />
+                                                                <data value="0" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="0.0" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="0.0" name="LocationZ(m)" />
+                                                                <data value="" name="interiorWaypointAppearance" />
+                                                                <data value="" name="buildingCellName" />
+                                                                <data value="" name="waypointName" />
+                                                                <data value="0" name="createEntranceWaypoint" />
+                                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                <data value="" name="entranceWaypointName" />
+                                                            </task>
+                                                        </task>
+                                                    </task>
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                            <task type="Give Item To NPC" id="13" taskOnFail="false" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="object/tangible/quest/township/exar_kun_intro_corpse_datapad.iff" name="itemToGive" />
+                                <data value="1" name="itemCount" />
+                                <data value="true" name="createItem" />
+                                <data value="true" name="destroyItem" />
+                                <data value="0" name="Time To Complete" />
+                                <data value="0" name="remainingTime" />
+                                <data value="false" name="failOnLogout" />
+                                <data value="false" name="travelBlock" />
+                                <data value="false" name="travelBlockAllowLaunch" />
+                                <data value="give" name="textType" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="90" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Controlling Spirit" name="journalEntryTitle" />
+            <data value="A research outpost on Talus has been out of contact for a number of months, and none of the people sent to re-establish contact have been heard. Worried that something has gone wrong, you have been hired to investigate whatever is going on there." name="journalEntryDescription" />
+            <data value="Exar Kun" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

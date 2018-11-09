@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Deliver Package to Toggi Bok" name="journalEntryTitle" />
+                <data value="Dunir has asked you to drop off a package to Toggi Bok. Toggi is located just outside of Mos Eisley in a remote shipping camp. This might be a good time to break in that new speeder." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="tat_eisley_special_delivery_e1" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="2759" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-4568" name="LocationZ(m)" />
+                <data value="Toggi Bok" name="waypointName" />
+                <data value="tat_eisley_special_delivery_e1" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <task type="Timer" id="9" taskOnFail="false" >
+                    <data value="Standby for Dunir's Comm" name="journalEntryTitle" />
+                    <data value="You've delivered the package to Toggi without a hitch, and he has transmitted the delivery code to Dunir. You should be receiving word from Dunir any second now." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tat_eisley_special_delivery_e2" name="taskName" />
+                    <data value="false" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="12" name="Min Time" />
+                    <data value="18" name="Max Time" />
+                    <task type="Comm Player" id="4" taskOnFail="false" >
+                        <data value="Dunir's Comm" name="journalEntryTitle" />
+                        <data value="Dunir needs one more task from you." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tat_eisley_special_delivery_e3" name="taskName" />
+                        <data value="false" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="I just got the payment from Toggi, good job. I just need you to do one more thing for me. I need you to go to the White Thranta Shipping offices and pick up a package for me. Here is their location." name="Comm Message Text" />
+                        <data value="object/mobile/dressed_tatooine_opening_dunir.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="2" taskOnFail="false" >
+                            <data value="Pick Up Dunir's Package" name="journalEntryTitle" />
+                            <data value="Dunir has asked you to pick up a package waiting for him at the White Thranta shipping office. It is inside with the receptionist." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tat_eisley_special_delivery_e4" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="3727" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="-4182" name="LocationZ(m)" />
+                            <data value="White Thranta Shipping" name="waypointName" />
+                            <data value="tat_eisley_special_delivery_e4" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <task type="Timer" id="10" taskOnFail="false" >
+                                <data value="Standby for Dunir's Other Comm" name="journalEntryTitle" />
+                                <data value="You have picked up the package from the receptionist. She has transmitted the pick up code to Dunir and you should be hearing from him shortly." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tat_eisley_special_delivery_e5" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="12" name="Min Time" />
+                                <data value="18" name="Max Time" />
+                                <task type="Comm Player" id="5" taskOnFail="false" >
+                                    <data value="Dunir's Other Comm" name="journalEntryTitle" />
+                                    <data value="Bring Dunir the package you picked up from the White Thranta receptionist." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tat_eisley_special_delivery_e6" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="I just got the pick up confirmation code from the White Thranta receptionist. Bring that to me and we can get your fee all worked out. Here's a return location for convenience." name="Comm Message Text" />
+                                    <data value="object/mobile/dressed_tatooine_opening_dunir.iff" name="NPC Appearance Server Template" />
+                                    <task type="Wait for Signal" id="8" taskOnFail="false" >
+                                        <data value="Return Package to Dunir" name="journalEntryTitle" />
+                                        <data value="You have returned to Dunir with the package and you are waiting on your pay. Good work!" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tat_eisley_special_delivery_e7" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="3521" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-4684" name="LocationZ(m)" />
+                                        <data value="Dunir" name="waypointName" />
+                                        <data value="tat_eisley_special_delivery_e7" name="Signal Name" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="buildingServerTemplateName" />
+                                        <task type="Immediately Complete Quest" id="7" taskOnFail="false" >
+                                            <data value="Complete" name="journalEntryTitle" />
+                                            <data value="Good Work! You have completed the Special Delivery quest." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="tat_eisley_special_delivery_e8" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="false" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0" name="LocationZ(m)" />
+                                            <data value="" name="waypointName" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="buildingServerTemplateName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                        </task>
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="buildingServerTemplateName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="buildingServerTemplateName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="buildingServerTemplateName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="buildingServerTemplateName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="buildingServerTemplateName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="buildingServerTemplateName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Special Delivery" name="journalEntryTitle" />
+            <data value="Bib needs you to take care of some deliveries for Dunir. It's probably best not to ask what's inside." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="10" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="item_npe_health_paste_01_01" name="lootName" />
+            <data value="2000" name="Bank Credits" />
+            <data value="20" name="Faction Amount" />
+            <data value="jabba" name="Faction Name" />
+            <data value="3120" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="You successfully delivered Dunir's package to Toggi, and Picked up Dunir's package from the White Thranta receptionist." name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

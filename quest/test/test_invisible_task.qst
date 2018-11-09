@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="3" >
+            <task type="Nothing" id="0" name="Nothing" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Nuthing" name="journalEntryTitle" />
+                <data value="N/A" name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <task type="Craft Item" id="1" name="Craft Item" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Craft something" name="journalEntryTitle" />
+                    <data value="Desc" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                </task>
+                <task type="Destroy Multiple" id="2" name="Destroy Multiple" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Destroy something" name="journalEntryTitle" />
+                    <data value="Desc2" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="Target Server Template" />
+                    <data value="1" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Test Invisible Task Quest" name="journalEntryTitle" />
+            <data value="There should be two tasks on you, one visible, one invisible." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Test" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

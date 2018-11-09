@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="7" >
+            <task type="Destroy Multiple" id="0" taskOnFail="false" >
+                <data value="Destroy 3 Training Droids in the Close Combat Training Room" name="journalEntryTitle" />
+                <data value="Learn how a 1-handed weapon feels. Use your Issued Sword to destroy three training droids in the Close Combat Training Room." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="kill" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="sound/mus_wookiee_quest_accept.snd" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="dungeon1" name="Planet" />
+                <data value="-190" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="178" name="LocationZ(m)" />
+                <data value="Close Combat Training Room" name="waypointName" />
+                <data value="" name="Target Server Template" />
+                <data value="trainingdroid" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="3" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <task type="Wait for Signal" id="1" taskOnFail="false" >
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="npe_brawler_1hand" name="Signal Name" />
+                    <data value="Rydel Delan" name="waypointName" />
+                    <data value="187" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="-187" name="LocationX(m)" />
+                    <data value="dungeon1" name="Planet" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="false" name="showSystemMessages" />
+                    <data value="wait" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="Talk to Rydel in the Close Combat Training Center now that you have completed his training task." name="journalEntryDescription" />
+                    <data value="Return to Rydel Delan in the Close Combat Training Center" name="journalEntryTitle" />
+                    <data value="armory" name="buildingCellName" />
+                    <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                    <data value="yavin4" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Immediately Complete Quest" id="6" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                    </task>
+                </task>
+                <data value="armory" name="buildingCellName" />
+                <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                <data value="" name="interiorWaypointAppearance" />
+            </task>
+        </tasks>
+        <list>
+            <data value="One Handed Weapon Training" name="journalEntryTitle" />
+            <data value="Rydel Delan, master trainer in the arts of the close combat, has instructed you to destroy 3 Training Droids with your one-handed techniques." name="journalEntryDescription" />
+            <data value="Tansarii Point Station" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="1" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="100" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="Tier" />
+        </list>
+    </quest>

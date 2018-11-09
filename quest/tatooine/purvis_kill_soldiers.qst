@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="16" >
+            <task type="Comm Player" id="14" taskOnFail="false" >
+                <data value="object/mobile/dressed_purvis_arrison.iff" name="NPC Appearance Server Template" />
+                <data value="Well done! Now I need you to take out some of their Soldiers. They're a bit further out from Junktown and they're a bit tougher, but I think you can do it. " name="Comm Message Text" />
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="kill_tusken_raider_soldiers" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Destroy Multiple" id="5" taskOnFail="false" >
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="5" name="Count" />
+                    <data value="" name="requiredRegion" />
+                    <data value="" name="Social Group" />
+                    <data value="tusken_raider_soldier" name="Target Server Template" />
+                    <data value="Tusken Soldiers" name="waypointName" />
+                    <data value="-4783" name="LocationZ(m)" />
+                    <data value="8" name="LocationY(m)" />
+                    <data value="4185" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="quest/purvis_kill_warriors" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="true" name="isVisible" />
+                    <data value="newbie_ranged_kill_zealots_2" name="taskName" />
+                    <data value="You've shown promise as a fine city defender. Purvis wants you to take out five Tusken Soldiers this time. They are further out from Junktown." name="journalEntryDescription" />
+                    <data value="Kill 5 Tusken Soldiers" name="journalEntryTitle" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Tusken Infestation" name="journalEntryTitle" />
+            <data value="The Tusken raids have been getting worse and they need your help to put them down." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="5" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="You've been a great help in putting down the Tuskan raids. Mos Eisley is a bit safer because of you." name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="1650" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="quest/purvis_kill_warriors" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="5" name="Tier" />
+        </list>
+    </quest>

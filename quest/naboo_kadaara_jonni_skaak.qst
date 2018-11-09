@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="16" >
+            <task type="Show Message Box" id="0" taskOnFail="false" >
+                <data value="From the journal of Jonni Skaak: Page 2" name="journalEntryTitle" />
+                <data value="Journal entry: 'Jonthol Mazoon logging in. I've been given my first assignment as an RSF agent. It's not glorious, but it's a start. I'm to reduce the nightspider population around Kaadara. I suppose I should get started.'" name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="jonni_skaak_journal_entry_1" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="From the journal of Jonni Skaak" name="messageBoxTitle" />
+                <data value="Journal entry: 'I've been given my first assignment as an RSF agent. It's not glorious, but it's a start. I'm to reduce the nightspider population around Kadaara. I suppose I should get started. signed -- Jonthol Mazoon.'" name="messageBoxText" />
+                <data value="" name="messageBoxSound" />
+                <data value="-1" name="messageBoxSizeWidth" />
+                <data value="-1" name="messageBoxSizeHeight" />
+                <data value="-1" name="messageBoxLocationX" />
+                <data value="-1" name="messageBoxLocationY" />
+                <task type="Destroy Multiple" id="1" taskOnFail="false" >
+                    <data value="Nightspider Duty" name="journalEntryTitle" />
+                    <data value="Reduce the population of nightspiders around Kaadara." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="jonni_skaak_journal_entry_1b" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="Target Server Template" />
+                    <data value="nightspider" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="14" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <task type="Show Message Box" id="2" taskOnFail="false" >
+                        <data value="From the journal of Jonni Skaak: Page 6" name="journalEntryTitle" />
+                        <data value="Skipping ahead to another entry: 'It looks like I did a good job with the nightspider cleanup, because my next assignment is to hunt a ferocious nightspider known as Noctur'lan. This will not be easy. --Jonthol.' And a following entry: 'I failed to kill Noctur'lan. He proved to be a tough challenge. If I hadn't been injured, I think I would have gotten him. -- Jonthol'" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="jonni_skaak_journal_entry_2" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="From the journal of Jonni Skaak" name="messageBoxTitle" />
+                        <data value="Skipping ahead to another entry: 'It looks like I did a good job with the nightspider cleanup, because my next assignment is to hunt a ferocious nightspider known as Noctur'lan. This will not be easy. --Jonthol.' And a following entry: 'I failed to kill Noctur'lan. He proved to be a tough challenge. If I hadn't been injured, I think I would have gotten him. -- Jonthol'" name="messageBoxText" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="-1" name="messageBoxSizeWidth" />
+                        <data value="-1" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxLocationY" />
+                        <task type="Destroy Multiple" id="3" taskOnFail="false" >
+                            <data value="Noctur'lan Hunt" name="journalEntryTitle" />
+                            <data value="Hunt down the nightspider known as Noctur'lan. You'll find him somewhere in the area surrounding Kaadara." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="jonni_skaak_journal_entry_2b" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="naboo_nightspider_nocturlan" name="Target Server Template" />
+                            <data value="" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="1" name="Count" />
+                            <data value="0" name="RewardCredits" />
+                            <task type="Show Message Box" id="4" taskOnFail="false" >
+                                <data value="From the journal of Jonni Skaak: Page 8" name="journalEntryTitle" />
+                                <data value="Skipping ahead again: ''Despite failing against the nightspider Noctur'lan, my superiors seem to think I have a lot of potential as an RSF agent. I'm glad they told me that, because I'd been having doubts recently. My next assignment, though, shows they truly do have confidence in me. I'm to break up a local, small-time group of smugglers who call themselves the Beachcombers. If possible, I'm supposed to arrest their leader, Phranis Bolgar. -- Jonthol.'" name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="jonni_skaak_journal_entry_3" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="From the journal of Jonni Skaak" name="messageBoxTitle" />
+                                <data value="Skipping ahead again: ''Despite failing against the nightspider Noctur'lan, my superiors seem to think I have a lot of potential as an RSF agent. I'm glad they told me that, because I'd been having doubts recently. My next assignment, though, shows they truly do have confidence in me. I'm to break up a local, small-time group of smugglers who call themselves the Beachcombers. If possible, I'm supposed to arrest their leader, Phranis Bolgar. -- Jonthol.'" name="messageBoxText" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <task type="Destroy Multiple" id="5" taskOnFail="false" >
+                                    <data value="Defeat Lonnley Bolgar" name="journalEntryTitle" />
+                                    <data value="Jonthol Mazoon arrested Phranis Bolgar as well as many of the Beachcombers, but they still operate in the area. Their current leader is Phranis' brother, Lonnley. Defeat Lonnley Bolgar. He's usually along the beach near Kaadara." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="jonni_skaak_journal_entry_3d" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="naboo_beachcomber_lonnley_bolgar" name="Target Server Template" />
+                                    <data value="" name="Social Group" />
+                                    <data value="" name="requiredRegion" />
+                                    <data value="1" name="Count" />
+                                    <data value="0" name="RewardCredits" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <task type="Destroy Multiple" id="6" taskOnFail="false" >
+                                    <data value="Defeat Beachcombers" name="journalEntryTitle" />
+                                    <data value="Defeat members of the Beachcomber smuggler crew. You'll find them along the beach near Kaadara." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="jonni_skaak_journal_entry_3c" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="Target Server Template" />
+                                    <data value="beachcomber" name="Social Group" />
+                                    <data value="" name="requiredRegion" />
+                                    <data value="13" name="Count" />
+                                    <data value="0" name="RewardCredits" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <task type="Wait for Tasks" id="7" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="jonni_skaak_journal_entry_3b" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="quest/naboo_kadaara_jonni_skaak" name="Task1 Quest Filename" />
+                                    <data value="jonni_skaak_journal_entry_3c" name="Task1 taskName" />
+                                    <data value="Defeat Beachcombers" name="Task1 Display String" />
+                                    <data value="quest/naboo_kadaara_jonni_skaak" name="Task2 Quest Filename" />
+                                    <data value="jonni_skaak_journal_entry_3d" name="Task2 taskName" />
+                                    <data value="Defeat the current Beachcomber leader, Lonnley Bolgar." name="Task2 Display String" />
+                                    <data value="" name="Task3 Quest Filename" />
+                                    <data value="" name="Task3 taskName" />
+                                    <data value="" name="Task3 Display String" />
+                                    <data value="" name="Task4 Quest Filename" />
+                                    <data value="" name="Task4 taskName" />
+                                    <data value="" name="Task4 Display String" />
+                                    <data value="" name="Task5 Quest Filename" />
+                                    <data value="" name="Task5 taskName" />
+                                    <data value="" name="Task5 Display String" />
+                                    <data value="" name="Task6 Quest Filename" />
+                                    <data value="" name="Task6 taskName" />
+                                    <data value="" name="Task6 Display String" />
+                                    <task type="Show Message Box" id="8" taskOnFail="false" >
+                                        <data value="From the journal of Jonni Skaak: Page 11" name="journalEntryTitle" />
+                                        <data value="Further in the journal: 'Following up on my arrest of Phranis Bolgar and his gang of Beachcombers, I next need to recover as much of their smuggled goods as I can. The way the Beachcombers smuggle things into the area is to have them air-dropped into the sea. They then pick up the crates of goods as they wash up on shore. My current assignment is to scan the beaches nearby and recover any crates of smuggled goods I find. -- Jonthol.'" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="jonni_skaak_journal_entry_4" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="From the journal of Jonni Skaak" name="messageBoxTitle" />
+                                        <data value="Further in the journal: 'Following up on my arrest of Phranis Bolgar and his gang of Beachcombers, I next need to recover as much of their smuggled goods as I can. The way the Beachcombers smuggle things into the area is to have them air-dropped into the sea. They then pick up the crates of goods as they wash up on shore. My current assignment is to scan the beaches nearby and recover any crates of smuggled goods I find. -- Jonthol.'" name="messageBoxText" />
+                                        <data value="" name="messageBoxSound" />
+                                        <data value="-1" name="messageBoxSizeWidth" />
+                                        <data value="-1" name="messageBoxSizeHeight" />
+                                        <data value="-1" name="messageBoxLocationX" />
+                                        <data value="-1" name="messageBoxLocationY" />
+                                        <task type="Retrieve Item" id="9" taskOnFail="false" >
+                                            <data value="Combing the Beaches" name="journalEntryTitle" />
+                                            <data value="Recover 12 crates of goods that have washed ashore along the beaches near Kaadara." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="jonni_skaak_journal_entry_4b" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="waypointName" />
+                                            <data value="object/tangible/quest/naboo_kadaara_jonni_smuggled_goods.iff" name="Server Object Template" />
+                                            <data value="12" name="Count" />
+                                            <data value="Crate of Smuggled Goods" name="ItemName" />
+                                            <data value="100" name="LootDropPercent" />
+                                            <data value="Recover the Crate" name="retrieveMenuText" />
+                                            <task type="Show Message Box" id="10" taskOnFail="false" >
+                                                <data value="From the journal of Jonni Skaak: Page 15 and 16" name="journalEntryTitle" />
+                                                <data value="More from the journal: 'I'm very excited about my next assignment. I am to infiltrate the Skaak Tippers by posing as a minor criminal and then joining them. This kind of thing is exactly why I became an RSF agent.--Jonthol' And in a later entry: 'After being accepted as a Skaak Tipper, I've been able to help foil many of their plans by reporting them to my RSF handler. They've made many arrests thank to me! -- Jonthol.'" name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="jonni_skaak_journal_entry_5" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="waypointName" />
+                                                <data value="From the journal of Jonni Skaak" name="messageBoxTitle" />
+                                                <data value="More from the journal: 'I'm very excited about my next assignment. I am to infiltrate the Skaak Tippers by posing as a minor criminal and then joining them. This kind of thing is exactly why I became an RSF agent.--Jonthol' And in a later entry: 'After being accepted as a Skaak Tipper, I've been able to help foil many of their plans by reporting them to my RSF handler. They've made many arrests thank to me! -- Jonthol.'" name="messageBoxText" />
+                                                <data value="" name="messageBoxSound" />
+                                                <data value="-1" name="messageBoxSizeWidth" />
+                                                <data value="-1" name="messageBoxSizeHeight" />
+                                                <data value="-1" name="messageBoxLocationX" />
+                                                <data value="-1" name="messageBoxLocationY" />
+                                                <task type="Destroy Multiple" id="11" taskOnFail="false" >
+                                                    <data value="Arresting the Skaak Tippers" name="journalEntryTitle" />
+                                                    <data value="Defeat Skaak Tippers anywhere on Naboo." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="jonni_skaak_journal_entry_5b" name="taskName" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="" name="Target Server Template" />
+                                                    <data value="skaak_tipper_gang" name="Social Group" />
+                                                    <data value="" name="requiredRegion" />
+                                                    <data value="19" name="Count" />
+                                                    <data value="0" name="RewardCredits" />
+                                                    <task type="Show Message Box" id="12" taskOnFail="false" >
+                                                        <data value="From the journal of Jonni Skaak: Final Pages" name="journalEntryTitle" />
+                                                        <data value="Towards the end of the journal: 'Yes, we made quite a score last night! I think I'm going to be offered a leadership position outside of Kaadara. -- Jonthol.' Another entry: 'This is...what...how could this happen?!!?' And another: 'Tonight is my time. I take the leadership of the Skaak Tippers outside of Kaadara and I take my Skaak Tipper name, Jonni Skaak. The past is nothing. It's gone. Only my future matters and it awaits. All I have to is complete the initiation and take down some of Borvo's thugs. Nothing to it.-- Jonthol, soon to be Jonni Skaak'" name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="jonni_skaak_journal_entry_6" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="From the journal of Jonni Skaak" name="messageBoxTitle" />
+                                                        <data value="Towards the end of the journal: 'This is...no! How could this happen?!!? We killed that man. I killed him. No turning back now.' Another entry: 'I haven't reported into my RSF handler in a long time. I can't now. I can't ever again..' And another: 'Tonight is my time. I take the leadership of the Skaak Tippers outsdie of Kadaara, and I take my Skaak Tipper name. The past is nothing. It's gone. Only my future matters, and it awaits. All I have to do is complete the initiation and take down some of Borvo's thugs. Nothing to it.-- Jonthol, soon to be Jonni Skaak'" name="messageBoxText" />
+                                                        <data value="" name="messageBoxSound" />
+                                                        <data value="-1" name="messageBoxSizeWidth" />
+                                                        <data value="-1" name="messageBoxSizeHeight" />
+                                                        <data value="-1" name="messageBoxLocationX" />
+                                                        <data value="-1" name="messageBoxLocationY" />
+                                                        <task type="Destroy Multiple" id="13" taskOnFail="false" >
+                                                            <data value="Final Initiations" name="journalEntryTitle" />
+                                                            <data value="Defeat Borvo's thugs. Any type will do." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="jonni_skaak_journal_entry_6b" name="taskName" />
+                                                            <data value="true" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="" name="Target Server Template" />
+                                                            <data value="borvo" name="Social Group" />
+                                                            <data value="" name="requiredRegion" />
+                                                            <data value="18" name="Count" />
+                                                            <data value="0" name="RewardCredits" />
+                                                            <task type="Show Message Box" id="14" taskOnFail="false" >
+                                                                <data value="It's Over for Jonni" name="journalEntryTitle" />
+                                                                <data value="Jonthol Mazoon, aka Jonni Skaak, started out as a loyal member of the RSF, but fell when his life as a Skaak Tipper overwhelmed him. Help him to rest in peace by bringing his journal to his mother's gravestone." name="journalEntryDescription" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="jonni_skaak_journal_entry_7" name="taskName" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="0" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="0.0" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="0.0" name="LocationZ(m)" />
+                                                                <data value="" name="waypointName" />
+                                                                <data value="It's Over for Jonni" name="messageBoxTitle" />
+                                                                <data value="Jonthol Mazoon, aka Jonni Skaak, started out as a loyal member of the RSF, but fell when his life as a Skaak Tipper overwhelmed him. Help him to rest in peace by bringing his journal to his mother's gravestone." name="messageBoxText" />
+                                                                <data value="" name="messageBoxSound" />
+                                                                <data value="-1" name="messageBoxSizeWidth" />
+                                                                <data value="-1" name="messageBoxSizeHeight" />
+                                                                <data value="-1" name="messageBoxLocationX" />
+                                                                <data value="-1" name="messageBoxLocationY" />
+                                                                <task type="Retrieve Item" id="15" taskOnFail="false" >
+                                                                    <data value="Rest In Peace" name="journalEntryTitle" />
+                                                                    <data value="Leave Jonni's journal with his mother's gravestone." name="journalEntryDescription" />
+                                                                    <data value="true" name="isVisible" />
+                                                                    <data value="" name="prerequisiteTasks" />
+                                                                    <data value="" name="exclusionTasks" />
+                                                                    <data value="0" name="allowRepeats" />
+                                                                    <data value="jonni_skaak_journal_entry_7b" name="taskName" />
+                                                                    <data value="true" name="showSystemMessages" />
+                                                                    <data value="" name="musicOnActivate" />
+                                                                    <data value="" name="musicOnComplete" />
+                                                                    <data value="" name="musicOnFail" />
+                                                                    <data value="" name="target" />
+                                                                    <data value="" name="parameter" />
+                                                                    <data value="" name="grantQuestOnComplete" />
+                                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                    <data value="" name="grantQuestOnFail" />
+                                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                    <data value="true" name="createWaypoint" />
+                                                                    <data value="naboo" name="Planet" />
+                                                                    <data value="4956.5" name="LocationX(m)" />
+                                                                    <data value="-192" name="LocationY(m)" />
+                                                                    <data value="6646" name="LocationZ(m)" />
+                                                                    <data value="Jonni Skaak's Mother's Gravestone" name="waypointName" />
+                                                                    <data value="object/tangible/quest/naboo_kadaara_jonni_gravestone.iff" name="Server Object Template" />
+                                                                    <data value="1" name="Count" />
+                                                                    <data value="The Gravestone of Jonni Skaak's Mother." name="ItemName" />
+                                                                    <data value="100" name="LootDropPercent" />
+                                                                    <data value="Leave Jonni's Journal" name="retrieveMenuText" />
+                                                                    <data value="" name="buildingCellName" />
+                                                                    <data value="" name="interiorWaypointAppearance" />
+                                                                    <data value="0" name="Time To Complete" />
+                                                                    <data value="" name="signalsOnFail" />
+                                                                    <data value="" name="signalsOnComplete" />
+                                                                    <data value="" name="entranceWaypointName" />
+                                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                                    <data value="0" name="createEntranceWaypoint" />
+                                                                    <data value="0" name="chanceToActivate" />
+                                                                    <data value="none" name="questControlOnTaskFailure" />
+                                                                    <data value="none" name="questControlOnTaskCompletion" />
+                                                                    <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                                                    <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                                                    <data value="0" name="CountdownTimer" />
+                                                                </task>
+                                                                <data value="" name="buildingCellName" />
+                                                                <data value="" name="interiorWaypointAppearance" />
+                                                                <data value="" name="signalsOnFail" />
+                                                                <data value="" name="signalsOnComplete" />
+                                                                <data value="" name="entranceWaypointName" />
+                                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                                <data value="0" name="createEntranceWaypoint" />
+                                                                <data value="0" name="chanceToActivate" />
+                                                                <data value="none" name="questControlOnTaskFailure" />
+                                                                <data value="none" name="questControlOnTaskCompletion" />
+                                                            </task>
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="0" name="Time To Complete" />
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="entranceWaypointName" />
+                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                            <data value="0" name="createEntranceWaypoint" />
+                                                            <data value="0" name="chanceToActivate" />
+                                                            <data value="none" name="questControlOnTaskFailure" />
+                                                            <data value="none" name="questControlOnTaskCompletion" />
+                                                        </task>
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                        <data value="0" name="chanceToActivate" />
+                                                        <data value="none" name="questControlOnTaskFailure" />
+                                                        <data value="none" name="questControlOnTaskCompletion" />
+                                                    </task>
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0" name="chanceToActivate" />
+                                                    <data value="none" name="questControlOnTaskFailure" />
+                                                    <data value="none" name="questControlOnTaskCompletion" />
+                                                </task>
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0" name="chanceToActivate" />
+                                                <data value="none" name="questControlOnTaskFailure" />
+                                                <data value="none" name="questControlOnTaskCompletion" />
+                                            </task>
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="0" name="Time To Complete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                            <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                            <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                            <data value="0" name="CountdownTimer" />
+                                        </task>
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+            </task>
+        </tasks>
+        <list>
+            <data value="The Life and Death of Jonni Skaak" name="journalEntryTitle" />
+            <data value="The life and death of Jonni Skaak. From RSF agent to leader of a group of Skaak Tippers." name="journalEntryDescription" />
+            <data value="Naboo" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="22" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="item_content_click_health_02_01" name="lootName" />
+            <data value="6749" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="6792" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="2" name="Tier" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

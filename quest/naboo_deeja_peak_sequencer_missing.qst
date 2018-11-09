@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="7" >
+            <task type="Retrieve Item" id="0" taskOnFail="false" >
+                <data value="Use the Shipping Terminal for the Shuttle's Inventory" name="journalEntryTitle" />
+                <data value="Go to the shuttleport and use the shipping terminal there to find out what was stolen from the empty crate at the crash site." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="deeja_peak_sequencer_missing_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="naboo" name="Planet" />
+                <data value="5333.60009765625" name="LocationX(m)" />
+                <data value="327" name="LocationY(m)" />
+                <data value="-1573.30004882812" name="LocationZ(m)" />
+                <data value="Dee'ja Peak Shuttleport" name="waypointName" />
+                <data value="object/tangible/quest/naboo_deeja_peak_shipping_terminal.iff" name="Server Object Template" />
+                <data value="1" name="Count" />
+                <data value="a shipping terminal" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <data value="Access the Shipping Records" name="retrieveMenuText" />
+                <task type="Show Message Box" id="6" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="deeja_peak_sequencer_missing_01b" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="Shipping Terminal" name="messageBoxTitle" />
+                    <data value="Unfortunately, there are no records available of what the crashed shuttle was carrying. You'll have to go to the source of the problem -- the Darkwalkers themselves." name="messageBoxText" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <task type="Destroy Multiple" id="1" taskOnFail="false" >
+                        <data value="Defeat Darkwalker Technicks" name="journalEntryTitle" />
+                        <data value="Attack Darkwalker technicks and find out if they know anything about the contents of the emptied crate." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="deeja_peak_sequencer_missing_02" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="naboo" name="Planet" />
+                        <data value="5051.5" name="LocationX(m)" />
+                        <data value="262.399993896484" name="LocationY(m)" />
+                        <data value="-2084.80004882812" name="LocationZ(m)" />
+                        <data value="Darkwalker Cave" name="waypointName" />
+                        <data value="naboo_darkwalker_technick" name="Target Server Template" />
+                        <data value="" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="11" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <task type="Destroy Multiple" id="2" taskOnFail="false" >
+                            <data value="Defeat Darkwalker Systols" name="journalEntryTitle" />
+                            <data value="The technicks didn't know anything. Try attacking Darkwalker systols." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="deeja_peak_sequencer_missing_03" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="naboo" name="Planet" />
+                            <data value="5051.5" name="LocationX(m)" />
+                            <data value="262.399993896484" name="LocationY(m)" />
+                            <data value="-2084.80004882812" name="LocationZ(m)" />
+                            <data value="Darkwalker Cave" name="waypointName" />
+                            <data value="naboo_darkwalker_systol" name="Target Server Template" />
+                            <data value="" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="9" name="Count" />
+                            <data value="0" name="RewardCredits" />
+                            <task type="Destroy Multiple" id="3" taskOnFail="false" >
+                                <data value="Defeat Darkwalker Triops" name="journalEntryTitle" />
+                                <data value="The systols were a dead end as well. Maybe Darkwalker triops will be a better source of information." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="deeja_peak_sequencer_missing_04" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="naboo" name="Planet" />
+                                <data value="5051.5" name="LocationX(m)" />
+                                <data value="262.399993896484" name="LocationY(m)" />
+                                <data value="-2084.80004882812" name="LocationZ(m)" />
+                                <data value="Darkwalker Cave" name="waypointName" />
+                                <data value="naboo_darkwalker_triop" name="Target Server Template" />
+                                <data value="" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="9" name="Count" />
+                                <data value="0" name="RewardCredits" />
+                                <task type="Show Message Box" id="4" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="deeja_peak_sequencer_missing_05" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="Darkwalker Talks" name="messageBoxTitle" />
+                                    <data value="From a Darkwalker triop, you learn that they took a bio-scanner from the crashed shuttle, and that they shot down the shuttle in order to get this bio-scanner." name="messageBoxText" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <task type="Wait for Signal" id="5" taskOnFail="false" >
+                                        <data value="Return to Tanoa Vills" name="journalEntryTitle" />
+                                        <data value="Return to Tanoa and let her know that the Darkwalkers took a bio-scanner. That's what had been inside the empty crate." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="deeja_peak_sequencer_missing_06" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="naboo" name="Planet" />
+                                        <data value="4744.10009765625" name="LocationX(m)" />
+                                        <data value="330" name="LocationY(m)" />
+                                        <data value="-1319.59997558594" name="LocationZ(m)" />
+                                        <data value="Tanoa Vills" name="waypointName" />
+                                        <data value="deeja_peak_sequencer_missing_06" name="Signal Name" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0" name="Time To Complete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="29" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Find Out What the Darkwalkers Took from the Crashed Shuttle" name="journalEntryTitle" />
+            <data value="One way or another, find out what the Darkwalkers took from the crashed shuttle." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="8701" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="9514" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

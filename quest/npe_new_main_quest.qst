@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="21" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Talk to the Head Mechanic" name="journalEntryTitle" />
+                <data value="The Millennium Falcon needs to be repaired, but Han Solo doesn't have the parts that he needs. Go to Hangar Bay 1 and talk to the Head Mechanic." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="getparts" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="dungeon1" name="Planet" />
+                <data value="-93.0999984741211" name="LocationX(m)" />
+                <data value="0.899999976158142" name="LocationY(m)" />
+                <data value="171.899993896484" name="LocationZ(m)" />
+                <data value="Head Mechanic" name="waypointName" />
+                <data value="npe_new_main_quest_mech" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <task type="Timer" id="2" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="3" name="Min Time" />
+                    <data value="3" name="Max Time" />
+                    <task type="Comm Player" id="1" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="sound/han_94.snd" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="He won't even sell you the parts? That's interesting. I wonder if the Cantina reference was a hint, not a brush off. Go there and check it out. I think that my buddy Trace is in there." name="Comm Message Text" />
+                        <data value="object/mobile/han_solo.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="5" taskOnFail="false" >
+                            <data value="Talk to Trace" name="journalEntryTitle" />
+                            <data value="Find out what is going on at the cantina. Han Solo mentioned that his buddy Trace may know what's happening there." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="bounty" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="dungeon1" name="Planet" />
+                            <data value="-156.899993896484" name="LocationX(m)" />
+                            <data value="0.00999999977648258" name="LocationY(m)" />
+                            <data value="131.800003051758" name="LocationZ(m)" />
+                            <data value="Trace" name="waypointName" />
+                            <data value="npe_new_main_quest_bounty" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <task type="Timer" id="6" taskOnFail="false" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="4" name="Min Time" />
+                                <data value="4" name="Max Time" />
+                                <task type="Comm Player" id="7" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="sound/han_95.snd" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="Did he say Boba Fett?! I have a bad feeling about this, kid. This station is too small to stay hidden. I'll need you to get pieces that I can use to repair the ship. Your journal will tell you where to find them. Hurry!" name="Comm Message Text" />
+                                    <data value="object/mobile/han_solo.iff" name="NPC Appearance Server Template" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <task type="Wait for Signal" id="17" taskOnFail="false" >
+                                        <data value="Use the Elevator to go Up to the Atrium" name="journalEntryTitle" />
+                                        <data value="Han Solo needs Air Scrubbers from the Atrium. Use the elevator to get there." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="dungeon1" name="Planet" />
+                                        <data value="-110" name="LocationX(m)" />
+                                        <data value="-1" name="LocationY(m)" />
+                                        <data value="150" name="LocationZ(m)" />
+                                        <data value="yavin4" name="interiorWaypointAppearance" />
+                                        <data value="elevator" name="buildingCellName" />
+                                        <data value="Elevator" name="waypointName" />
+                                        <data value="npe_elevator_main_up" name="Signal Name" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Retrieve Item" id="10" taskOnFail="false" >
+                                            <data value="Acquire Air Scrubbers from the Atrium" name="journalEntryTitle" />
+                                            <data value="Han needs Air Scrubbers. The safest place to get them is from the Atrium on the third floor.  The greenery there should keep the air clean even if you remove one or two, so there won't be too much damage to the station." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="getscrubbers" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="dungeon1" name="Planet" />
+                                            <data value="-113.400001525879" name="LocationX(m)" />
+                                            <data value="29" name="LocationY(m)" />
+                                            <data value="152.800003051758" name="LocationZ(m)" />
+                                            <data value="Air Scrubbers" name="waypointName" />
+                                            <data value="object/tangible/npe/npe_air_scrubber_terminal.iff" name="Server Object Template" />
+                                            <data value="1" name="Count" />
+                                            <data value="Air Scrubbers Removed" name="ItemName" />
+                                            <data value="100" name="LootDropPercent" />
+                                            <data value="Remove Air Scrubbers" name="retrieveMenuText" />
+                                            <data value="greenhouse" name="buildingCellName" />
+                                            <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                                            <data value="yavin4" name="interiorWaypointAppearance" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Wait for Signal" id="18" taskOnFail="false" >
+                                                <data value="Use the Elevator to go Down to the Main Level" name="journalEntryTitle" />
+                                                <data value="Use the elevator to go to the main level, and then down to the lower level." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="dungeon1" name="Planet" />
+                                                <data value="-110" name="LocationX(m)" />
+                                                <data value="29" name="LocationY(m)" />
+                                                <data value="150" name="LocationZ(m)" />
+                                                <data value="yavin4" name="interiorWaypointAppearance" />
+                                                <data value="elevator" name="buildingCellName" />
+                                                <data value="Elevator" name="waypointName" />
+                                                <data value="npe_elevator_atrium_down" name="Signal Name" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="Time To Complete" />
+                                                <task type="Wait for Signal" id="19" taskOnFail="false" >
+                                                    <data value="Use the Elevator to go Down to the Lower Level" name="journalEntryTitle" />
+                                                    <data value="Use the elevator to go to the lower level." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="dungeon1" name="Planet" />
+                                                    <data value="-110" name="LocationX(m)" />
+                                                    <data value="-1" name="LocationY(m)" />
+                                                    <data value="150" name="LocationZ(m)" />
+                                                    <data value="yavin4" name="interiorWaypointAppearance" />
+                                                    <data value="elevator" name="buildingCellName" />
+                                                    <data value="Elevator" name="waypointName" />
+                                                    <data value="npe_elevator_main_down" name="Signal Name" />
+                                                    <data value="0" name="waitMarkerCreate" />
+                                                    <data value="" name="waitMarkerTemplate" />
+                                                    <data value="" name="waitMarkerPlanetName" />
+                                                    <data value="0" name="waitMarkerBuilding" />
+                                                    <data value="" name="waitMarkerCellName" />
+                                                    <data value="0" name="waitMarkerX" />
+                                                    <data value="0" name="waitMarkerY" />
+                                                    <data value="0" name="waitMarkerZ" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Retrieve Item" id="9" taskOnFail="false" >
+                                                        <data value="Get 2 Power Coupling Units from Cargo Bay 2" name="journalEntryTitle" />
+                                                        <data value="According to the station computer, there's a Cargo Bay downstairs with a couple of extra power coupling units that Han can use.  Unfortunately, the cargo bay has been taken over by Hutt thugs.
+
+Just be casual and don't attack them unless you need to (or want to rid the galaxy of that kind of scum.)
+
+Use the elevator and go down to the lower level Cargo Bay and acquire two Power Coupling Units." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="getcoupling" name="taskName" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="true" name="createWaypoint" />
+                                                        <data value="dungeon1" name="Planet" />
+                                                        <data value="-99" name="LocationX(m)" />
+                                                        <data value="-29" name="LocationY(m)" />
+                                                        <data value="173" name="LocationZ(m)" />
+                                                        <data value="Power Coupling Units" name="waypointName" />
+                                                        <data value="object/tangible/npe/npe_ship_component.iff" name="Server Object Template" />
+                                                        <data value="2" name="Count" />
+                                                        <data value="Power Coupling Unit Gathered" name="ItemName" />
+                                                        <data value="100" name="LootDropPercent" />
+                                                        <data value="Get Power Coupling Unit" name="retrieveMenuText" />
+                                                        <data value="cargobay2" name="buildingCellName" />
+                                                        <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                                                        <data value="yavin4" name="interiorWaypointAppearance" />
+                                                        <data value="0" name="Time To Complete" />
+                                                        <task type="Destroy Multiple and Loot" id="8" taskOnFail="false" >
+                                                            <data value="Get 5 Droid Motors from the Droids in the Repair Center" name="journalEntryTitle" />
+                                                            <data value="Han heard about droids that are malfunctioning downstairs. They won't be missed if he uses some of their extra parts. He needs 5 servo motors from any of the droids in the Droid Repair Center, directly below the Cantina. Kill the droids and take their motors." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="getmotors" name="taskName" />
+                                                            <data value="true" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="true" name="createWaypoint" />
+                                                            <data value="dungeon1" name="Planet" />
+                                                            <data value="-140" name="LocationX(m)" />
+                                                            <data value="-31" name="LocationY(m)" />
+                                                            <data value="150" name="LocationZ(m)" />
+                                                            <data value="Droid Repair Center" name="waypointName" />
+                                                            <data value="" name="CreatureType" />
+                                                            <data value="npe_crazy_droids" name="Social Group" />
+                                                            <data value="" name="requiredRegion" />
+                                                            <data value="Droid Motor Collected" name="LootItemName" />
+                                                            <data value="5" name="NumberItemsRequired" />
+                                                            <data value="100" name="LootDropPercent" />
+                                                            <data value="0" name="RewardCredits" />
+                                                            <data value="droidroom" name="buildingCellName" />
+                                                            <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                                                            <data value="yavin4" name="interiorWaypointAppearance" />
+                                                            <data value="0" name="Time To Complete" />
+                                                            <task type="Wait for Signal" id="20" taskOnFail="false" >
+                                                                <data value="Use the Elevator to go Up to the Main Level" name="journalEntryTitle" />
+                                                                <data value="Use the elevator to go up to the main level to talk to Han Solo." name="journalEntryDescription" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="" name="taskName" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="true" name="createWaypoint" />
+                                                                <data value="dungeon1" name="Planet" />
+                                                                <data value="-110" name="LocationX(m)" />
+                                                                <data value="-31" name="LocationY(m)" />
+                                                                <data value="150" name="LocationZ(m)" />
+                                                                <data value="yavin4" name="interiorWaypointAppearance" />
+                                                                <data value="elevator" name="buildingCellName" />
+                                                                <data value="Elevator" name="waypointName" />
+                                                                <data value="npe_elevator_droid_up" name="Signal Name" />
+                                                                <data value="0" name="waitMarkerCreate" />
+                                                                <data value="" name="waitMarkerTemplate" />
+                                                                <data value="" name="waitMarkerPlanetName" />
+                                                                <data value="0" name="waitMarkerBuilding" />
+                                                                <data value="" name="waitMarkerCellName" />
+                                                                <data value="0" name="waitMarkerX" />
+                                                                <data value="0" name="waitMarkerY" />
+                                                                <data value="0" name="waitMarkerZ" />
+                                                                <data value="0" name="Time To Complete" />
+                                                                <task type="Wait for Signal" id="12" taskOnFail="false" >
+                                                                    <data value="Return to Han Solo in Hangar Bay 2" name="journalEntryTitle" />
+                                                                    <data value="You have everything that Han needs. Return to him." name="journalEntryDescription" />
+                                                                    <data value="true" name="isVisible" />
+                                                                    <data value="" name="prerequisiteTasks" />
+                                                                    <data value="" name="exclusionTasks" />
+                                                                    <data value="0" name="allowRepeats" />
+                                                                    <data value="return" name="taskName" />
+                                                                    <data value="0" name="showSystemMessages" />
+                                                                    <data value="" name="musicOnActivate" />
+                                                                    <data value="" name="musicOnComplete" />
+                                                                    <data value="" name="musicOnFail" />
+                                                                    <data value="" name="target" />
+                                                                    <data value="" name="parameter" />
+                                                                    <data value="" name="grantQuestOnComplete" />
+                                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                    <data value="" name="grantQuestOnFail" />
+                                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                    <data value="true" name="createWaypoint" />
+                                                                    <data value="dungeon1" name="Planet" />
+                                                                    <data value="-105.800003051758" name="LocationX(m)" />
+                                                                    <data value="0.800000011920929" name="LocationY(m)" />
+                                                                    <data value="123.099998474121" name="LocationZ(m)" />
+                                                                    <data value="Han Solo" name="waypointName" />
+                                                                    <data value="npe_new_main_quest_han" name="Signal Name" />
+                                                                    <data value="0" name="waitMarkerCreate" />
+                                                                    <data value="" name="waitMarkerTemplate" />
+                                                                    <data value="" name="waitMarkerPlanetName" />
+                                                                    <data value="0" name="waitMarkerBuilding" />
+                                                                    <data value="" name="waitMarkerCellName" />
+                                                                    <data value="0" name="waitMarkerX" />
+                                                                    <data value="0" name="waitMarkerY" />
+                                                                    <data value="0" name="waitMarkerZ" />
+                                                                    <data value="hangarbay2" name="buildingCellName" />
+                                                                    <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                                                                    <data value="yavin4" name="interiorWaypointAppearance" />
+                                                                    <data value="0" name="Time To Complete" />
+                                                                    <task type="Immediately Complete Quest" id="16" taskOnFail="false" >
+                                                                        <data value="" name="journalEntryTitle" />
+                                                                        <data value="" name="journalEntryDescription" />
+                                                                        <data value="false" name="isVisible" />
+                                                                        <data value="" name="prerequisiteTasks" />
+                                                                        <data value="" name="exclusionTasks" />
+                                                                        <data value="0" name="allowRepeats" />
+                                                                        <data value="" name="taskName" />
+                                                                        <data value="0" name="showSystemMessages" />
+                                                                        <data value="" name="musicOnActivate" />
+                                                                        <data value="" name="musicOnComplete" />
+                                                                        <data value="" name="musicOnFail" />
+                                                                        <data value="" name="target" />
+                                                                        <data value="" name="parameter" />
+                                                                        <data value="" name="grantQuestOnComplete" />
+                                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                        <data value="" name="grantQuestOnFail" />
+                                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                        <data value="0" name="createWaypoint" />
+                                                                        <data value="tatooine" name="Planet" />
+                                                                        <data value="0.0" name="LocationX(m)" />
+                                                                        <data value="0.0" name="LocationY(m)" />
+                                                                        <data value="0.0" name="LocationZ(m)" />
+                                                                        <data value="" name="interiorWaypointAppearance" />
+                                                                        <data value="" name="buildingCellName" />
+                                                                        <data value="" name="waypointName" />
+                                                                        <data value="" name="signalsOnFail" />
+                                                                        <data value="" name="signalsOnComplete" />
+                                                                        <data value="" name="entranceWaypointName" />
+                                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                                        <data value="0" name="createEntranceWaypoint" />
+                                                                    </task>
+                                                                    <data value="" name="signalsOnFail" />
+                                                                    <data value="" name="signalsOnComplete" />
+                                                                    <data value="" name="entranceWaypointName" />
+                                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                                    <data value="0" name="createEntranceWaypoint" />
+                                                                </task>
+                                                                <data value="" name="signalsOnFail" />
+                                                                <data value="" name="signalsOnComplete" />
+                                                                <data value="" name="entranceWaypointName" />
+                                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                                <data value="0" name="createEntranceWaypoint" />
+                                                            </task>
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="entranceWaypointName" />
+                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                            <data value="0" name="createEntranceWaypoint" />
+                                                        </task>
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                    </task>
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                </task>
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                            </task>
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                        </task>
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="cantina" name="buildingCellName" />
+                            <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                            <data value="yavin4" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="buildingServerTemplateName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="hangarbay1" name="buildingCellName" />
+                <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                <data value="yavin4" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="3" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Get the Millennium Falcon Working" name="journalEntryTitle" />
+            <data value="Looks like the Millennium Falcon is having problems. Help Han Solo get the ship running so he can leave the station." name="journalEntryDescription" />
+            <data value="Tansarii Point Station" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="2000" name="Bank Credits" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="item_npe_rang_acc_device_01_01" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="item_npe_will_buff_01_01" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="item_npe_melee_speed_buff_01_01" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="5" name="Tier" />
+        </list>
+    </quest>

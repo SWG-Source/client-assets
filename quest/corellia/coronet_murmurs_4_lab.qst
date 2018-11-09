@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="13" >
+            <task type="Destroy Multiple and Loot" id="3" taskOnFail="false" >
+                <data value="0" name="Time To Complete" />
+                <data value="0" name="RewardCredits" />
+                <data value="10" name="LootDropPercent" />
+                <data value="1" name="NumberItemsRequired" />
+                <data value="Security Code" name="LootItemName" />
+                <data value="" name="requiredRegion" />
+                <data value="" name="Social Group" />
+                <data value="murmur_second_level_security" name="CreatureType" />
+                <data value="Illegal Lab" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="-7065" name="LocationZ(m)" />
+                <data value="8" name="LocationY(m)" />
+                <data value="217" name="LocationX(m)" />
+                <data value="corellia" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="To have any hope of being able to get through the lab, you will need to disable the security. Eliminate the Research Level Security until one of them gives you a security code, allowing you to disable the automatic security." name="journalEntryDescription" />
+                <data value="Get a Security Code from Research Floor Security" name="journalEntryTitle" />
+                <task type="Retrieve Item" id="4" taskOnFail="false" >
+                    <data value="Disable the Security System" name="journalEntryTitle" />
+                    <data value="Now that you have a security passcode, use the terminal in the main security room to disable the automatic security system." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="security" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="217" name="LocationX(m)" />
+                    <data value="8" name="LocationY(m)" />
+                    <data value="-7065" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Illegal Lab" name="waypointName" />
+                    <data value="object/tangible/quest/murmur_4_security_console.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Security Disabled" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Disable the Security System" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Destroy Multiple and Loot" id="5" taskOnFail="false" >
+                        <data value="Get the Codes to the Researchers' Terminals" name="journalEntryTitle" />
+                        <data value="The researchers will not let you get at their work without a fight." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="corellia" name="Planet" />
+                        <data value="217" name="LocationX(m)" />
+                        <data value="8" name="LocationY(m)" />
+                        <data value="-7065" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="Illegal Lab" name="waypointName" />
+                        <data value="murmur_researcher" name="CreatureType" />
+                        <data value="" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="Code to the Researcher Terminals" name="LootItemName" />
+                        <data value="1" name="NumberItemsRequired" />
+                        <data value="20" name="LootDropPercent" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Retrieve Item" id="6" taskOnFail="false" >
+                            <data value="Get Research Notes from Research Terminals" name="journalEntryTitle" />
+                            <data value="It's a good thing that one of the researchers was absent-minded enough to have a passcode on hand. Now that you have it, use the research terminals and download whatever notes you can get." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="researchterms" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="corellia" name="Planet" />
+                            <data value="217" name="LocationX(m)" />
+                            <data value="8" name="LocationY(m)" />
+                            <data value="-7065" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Illegal Lab" name="waypointName" />
+                            <data value="object/tangible/quest/murmur_5_research_console.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Research Notes" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Download Information" name="retrieveMenuText" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Show Message Box" id="11" taskOnFail="false" >
+                                <data value="Information Found" name="journalEntryTitle" />
+                                <data value="You found information about the research conducted at the lab: " name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="Research Notes" name="messageBoxTitle" />
+                                <data value="...appears that some of our experiments are successful. We crossed the compatible DNA clusters of aggressive creatures with passive members of the same genus. Thus far, we have not been able to increase the intellectual capacity with satisfactory results. At the rate that we're going, achieving a low-grade sentience program within 3 years is nearly impossible. Dr. Maldien says that we may have to resort to more unorthodox means." name="messageBoxText" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <task type="Comm Player" id="10" taskOnFail="false" >
+                                    <data value="Message from Lt. Joth" name="journalEntryTitle" />
+                                    <data value="You received a messge from Lt. Joth: This...this is horrible! These creatures need to be destroyed, for their own sake as well as ours. But they are too strong right now. See if there's a way to weaken them." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="This...this is horrible! These creatures need to be destroyed, for their own sake as well as ours. But they are too strong right now. See if there's a way to weaken them." name="Comm Message Text" />
+                                    <data value="object/mobile/dressed_murmur_questgiver.iff" name="NPC Appearance Server Template" />
+                                    <task type="Immediately Complete Quest" id="12" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="false" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="quest/coronet_murmurs_5_gas" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="33" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Coronet Murmurs: Researching Manipulation" name="journalEntryTitle" />
+            <data value="Looks like this lab is being used to do something with creatures. Find out what it is." name="journalEntryDescription" />
+            <data value="Corellia" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="The genetic experiments being conducted in this lab are illegal and highly dangerous. You need to take care of it." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

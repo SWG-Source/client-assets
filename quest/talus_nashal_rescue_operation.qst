@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Timer" id="13" taskOnFail="false" >
+                <data value="40" name="Max Time" />
+                <data value="20" name="Min Time" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="rescue_op_timer_01_00" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="journalEntryTitle" />
+                <task type="Comm Player" id="0" taskOnFail="false" >
+                    <data value="/object/mobile/dressed_corsec_captain_human_male_02.iff" name="NPC Appearance Server Template" />
+                    <data value="Please come see me at your earliest opportunity. We need your help again. I'll have further details when you arrive." name="Comm Message Text" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="rescue_op_comm_01_01" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="CorSec agent Taarna has asked you to investigate a crash site northeast of Nashal, but first you must meet him for further details." name="journalEntryDescription" />
+                    <data value="Emergency Contact" name="journalEntryTitle" />
+                    <task type="Wait for Signal" id="1" taskOnFail="false" >
+                        <data value="Talk to Agent Taarna" name="journalEntryTitle" />
+                        <data value="CorSec agent Taarna has asked you to meet him so he can give you information about a starship crash northeast of Nashal." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="rescue_op_signal_01_02" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="talus" name="Planet" />
+                        <data value="4377" name="LocationX(m)" />
+                        <data value="0" name="LocationY(m)" />
+                        <data value="5178" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="CorSec Agent Taarna" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="rescue_op_signal_01_02" name="Signal Name" />
+                        <data value="false" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Go to Location" id="9" taskOnFail="false" >
+                            <data value="Locate the Crashed Ship" name="journalEntryTitle" />
+                            <data value="Head towards the area agent Taarna gave you and see if you can find any survivors." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="rescue_op_gotoloc_01_03" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="talus" name="Planet" />
+                            <data value="7326" name="LocationX(m)" />
+                            <data value="624" name="LocationY(m)" />
+                            <data value="7570" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="Suspected Crash Location" name="waypointName" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="10.0" name="Radius(m)" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Retrieve Item" id="2" taskOnFail="false" >
+                                <data value="Look for Clues" name="journalEntryTitle" />
+                                <data value="See if you can find any information concerning the whereabouts of the crashed spaceship passengers." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="rescue_op_retrieve_01_04" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="talus" name="Planet" />
+                                <data value="7326" name="LocationX(m)" />
+                                <data value="624" name="LocationY(m)" />
+                                <data value="7570" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Crash Location" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="object/tangible/quest/talus_genetic_potential_datapad_01.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="A Datapad" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="Read Datapad" name="retrieveMenuText" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Show Message Box" id="10" taskOnFail="false" >
+                                    <data value="A Crew Member's Datapad" name="journalEntryTitle" />
+                                    <data value="You've found a journal with the following last entry; &quot;Our anti-Grav and thruster control went out. We've basically plowed into the side of a mountain northeast of Nashal. We need to get to Nashal, but we have wounded and they will slow us down. First thing we need to do is make camp and tend the most critically injured, but we can't do it with the creatures breaking out of containment. The Captain has ordered a group to make a camp nearby to tend to the wounded and then make for Nashal. I'm stuck with the group tasked with destroying any of the creatures that escape. I really would rather be with the escape group.&quot;" name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="rescue_op_msgbox_01_04a" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="talus" name="Planet" />
+                                    <data value="7326" name="LocationX(m)" />
+                                    <data value="624" name="LocationY(m)" />
+                                    <data value="7570" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="Crash Location" name="waypointName" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="A Crew Member's Datapad" name="messageBoxTitle" />
+                                    <data value="Our anti-grav and thruster control went out. We've basically plowed into the side of a mountain northeast of Nashal. We need to get to Nashal, but we have wounded and they will slow us down. First thing we need to do is make camp and tend the most critically injured, but we can't do it with the creatures breaking out of containment. The Captain has ordered a group to make a camp at coordinates 6611, 7318 to tend to the wounded and then make for Nashal. I'm stuck with the group tasked with destroying any of the creatures that escape. I really would rather be with the escape group." name="messageBoxText" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <task type="Retrieve Item" id="3" taskOnFail="false" >
+                                        <data value="Learn More About These Creatures" name="journalEntryTitle" />
+                                        <data value="The crew member's datapad mentioned the creatures hanging around the crashed starship quite specifically. See if you can find any more information about them." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="rescue_op_retrieve_02_05" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="talus" name="Planet" />
+                                        <data value="7326" name="LocationX(m)" />
+                                        <data value="624" name="LocationY(m)" />
+                                        <data value="7570" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="Crash Location" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="object/tangible/quest/talus_genetic_potential_datapad_02.iff" name="Server Object Template" />
+                                        <data value="1" name="Count" />
+                                        <data value="A Scientific Journal" name="ItemName" />
+                                        <data value="100" name="LootDropPercent" />
+                                        <data value="Read Journal" name="retrieveMenuText" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Show Message Box" id="11" taskOnFail="false" >
+                                            <data value="A Scientist's Journal" name="journalEntryTitle" />
+                                            <data value="A scientist's journal with the following entry still waiting at the entry prompt; &quot;The design product cannot be allowed to escape. If it is allowed uncontrolled breeding on a unprepared world everything else will be replaced in favor of this design. I have with me some of the virus serum that will trigger the product's self-destruct intron. It is highly contagious and should destroy the entire shipment.&quot;" name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="rescue_op_msgbox_02_05a" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="talus" name="Planet" />
+                                            <data value="7326" name="LocationX(m)" />
+                                            <data value="624" name="LocationY(m)" />
+                                            <data value="7570" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Crash Location" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="A Scientific Journal" name="messageBoxTitle" />
+                                            <data value="The design product cannot be allowed to escape. If it is allowed uncontrolled breeding on an unprepared world everything else will be replaced in favor of this design. I brought some of the virus that will trigger the product's self-destruct intron. It is highly contagious and should destroy the entire shipment. I will try to administer it to one of the product." name="messageBoxText" />
+                                            <data value="" name="messageBoxSound" />
+                                            <data value="-1" name="messageBoxSizeWidth" />
+                                            <data value="-1" name="messageBoxSizeHeight" />
+                                            <data value="-1" name="messageBoxLocationX" />
+                                            <data value="-1" name="messageBoxLocationY" />
+                                            <task type="Comm Player" id="4" taskOnFail="false" >
+                                                <data value="Reporting In" name="journalEntryTitle" />
+                                                <data value="It would be a good idea to contact agent Taarna about the information you just uncovered." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="rescue_op_comm_02_06" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="Genetically altered creatures you say? I don't like the sound of this, kill the creatures around the crash site. Who knows what effect they might have on Talus' ecology." name="Comm Message Text" />
+                                                <data value="/object/mobile/dressed_corsec_captain_human_male_02.iff" name="NPC Appearance Server Template" />
+                                                <task type="Destroy Multiple" id="5" taskOnFail="false" >
+                                                    <data value="Kill Brood I Aurek Creatures in the Area" name="journalEntryTitle" />
+                                                    <data value="Agent Taarna has asked you to clear the area of the dangerous 'Aurek' spider creatures mentioned in the datapad that are lingering in the vicinity." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="rescue_op_destroy_02_07b" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="talus_nashal_brood1a_arachne" name="Target Server Template" />
+                                                    <data value="" name="Social Group" />
+                                                    <data value="" name="requiredRegion" />
+                                                    <data value="6" name="Count" />
+                                                    <data value="0" name="RewardCredits" />
+                                                    <data value="0" name="Time To Complete" />
+                                                </task>
+                                                <task type="Destroy Multiple" id="6" taskOnFail="false" >
+                                                    <data value="Kill Brood I Creatures in the Area" name="journalEntryTitle" />
+                                                    <data value="Agent Taarna has asked you to clear the area of the dangerous spider creatures mentioned in the datapad that are lingering in the vicinity." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="rescue_op_destroy_01_07a" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="talus_nashal_brood1_arachne" name="Target Server Template" />
+                                                    <data value="" name="Social Group" />
+                                                    <data value="" name="requiredRegion" />
+                                                    <data value="12" name="Count" />
+                                                    <data value="0" name="RewardCredits" />
+                                                    <data value="0" name="Time To Complete" />
+                                                </task>
+                                                <task type="Wait for Tasks" id="7" taskOnFail="false" >
+                                                    <data value="Kill the Creatures" name="journalEntryTitle" />
+                                                    <data value="CorSec agent Taarna has asked you to kill all of the creatures mentioned in the datapad that are still lingering around the starship. This includes both types encountered." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="rescue_op_tasks_01_07" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="talus" name="Planet" />
+                                                    <data value="7326" name="LocationX(m)" />
+                                                    <data value="624" name="LocationY(m)" />
+                                                    <data value="7570" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="Crash Location" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="quest/talus_nashal_rescue_operation" name="Task1 Quest Filename" />
+                                                    <data value="rescue_op_destroy_01_07a" name="Task1 taskName" />
+                                                    <data value="Kill Creatures in the Area" name="Task1 Display String" />
+                                                    <data value="quest/talus_nashal_rescue_operation" name="Task2 Quest Filename" />
+                                                    <data value="rescue_op_destroy_02_07b" name="Task2 taskName" />
+                                                    <data value="Kill Aurek Creatures in the Area" name="Task2 Display String" />
+                                                    <data value="" name="Task3 Quest Filename" />
+                                                    <data value="" name="Task3 taskName" />
+                                                    <data value="" name="Task3 Display String" />
+                                                    <data value="" name="Task4 Quest Filename" />
+                                                    <data value="" name="Task4 taskName" />
+                                                    <data value="" name="Task4 Display String" />
+                                                    <data value="" name="Task5 Quest Filename" />
+                                                    <data value="" name="Task5 taskName" />
+                                                    <data value="" name="Task5 Display String" />
+                                                    <data value="" name="Task6 Quest Filename" />
+                                                    <data value="" name="Task6 taskName" />
+                                                    <data value="" name="Task6 Display String" />
+                                                    <data value="0" name="Time To Complete" />
+                                                    <task type="Comm Player" id="8" taskOnFail="false" >
+                                                        <data value="Confirm the Kills" name="journalEntryTitle" />
+                                                        <data value="You reported in to agent Taarna on successfully killing the creatures in the immediate area. He's asked you to move out towards the location given in the crew member's datapad." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="rescue_op_comm_03_08" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="So you killed both types of the creatures? Good work. You should head to the position listed in the crew member's datapad. Let's see if we can still help these crash victims before it's too late." name="Comm Message Text" />
+                                                        <data value="/object/mobile/dressed_corsec_captain_human_male_02.iff" name="NPC Appearance Server Template" />
+                                                        <task type="Immediately Complete Quest" id="12" taskOnFail="false" >
+                                                            <data value="" name="journalEntryTitle" />
+                                                            <data value="" name="journalEntryDescription" />
+                                                            <data value="false" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="rescue_op_comm_03_09" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="quest/talus_nashal_tracking_crew" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="0" name="createEntranceWaypoint" />
+                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                            <data value="" name="entranceWaypointName" />
+                                                        </task>
+                                                    </task>
+                                                </task>
+                                            </task>
+                                        </task>
+                                        <data value="5" name="CountdownTimer" />
+                                    </task>
+                                </task>
+                                <data value="5" name="CountdownTimer" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="42" name="Level" />
+            <data value="4" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Rescue Operation" name="journalEntryTitle" />
+            <data value="CorSec Talus planetary headquarters has picked up a starship crash northeast of Nashal. They would like you to investigate the area for them." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You've located the crash site, but no sign of the survivors. You noticed a strange group of creatures near the site that could be related to the crash." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

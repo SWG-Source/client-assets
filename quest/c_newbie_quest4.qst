@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="17" >
+            <task type="Reward" id="0" name="Reward" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="" name="taskName" />
+                <data value="false" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="" name="Experience Type" />
+                <data value="0" name="Experience Amount" />
+                <data value="Rebel" name="Faction Name" />
+                <data value="0" name="Faction Amount" />
+                <data value="0" name="Bank Credits" />
+                <data value="" name="Item" />
+                <task type="Show Message Box" id="1" name="Show Message Box" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Information on Vehicles" name="journalEntryTitle" />
+                    <data value="Open your inventory and you will find a deed that reads 'X31 Landspeeder.' Right-click on the deed and select 'Generate Vehicle.'  Your landspeeder will appear.  To store the vehicle, right-click on it and select 'Store.'  To call the vehicle again, open your datapad by pressing CTRL-D, select the 'Data' tab at the top of the datapad screen, right-click on the landspeeder and select 'Call' from the menu.  It may take some time to call the vehicle, but once you have it, right-click on the speeder and press 'Enter/Exit Vehicle' to get in. Movement now will be based on the vehicle's speed.  To exit the vehicle again, right-click on the speeder and press 'Enter/Exit Vehicle' from the menu." name="journalEntryDescription" />
+                    <data value="vehiclebox1" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="Vehicles" name="messageBoxTitle" />
+                    <data value="Open your inventory and you will find a deed that reads 'X31 Landspeeder.' Right-click on the deed and select 'Generate Vehicle.'  Your landspeeder will appear.  To store the vehicle, right-click on it and select 'Store.'  To call the vehicle again, open your datapad by pressing CTRL-D, select the 'Data' tab at the top of the datapad screen, right-click on the landspeeder and select 'Call' from the menu.  It may take some time to call the vehicle, but once you have it, right-click on the speeder and press 'Enter/Exit Vehicle' to get in. Movement now will be based on the vehicle's speed.  To exit the vehicle again, right-click on the speeder and press 'Enter/Exit Vehicle' from the menu." name="messageBoxText" />
+                    <task type="Wait for Signal" id="2" name="Wait for Signal" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Talk to Trehla Keelo" name="journalEntryTitle" />
+                        <data value="Once you have called your vehicle, talk to Trehla Keelo" name="journalEntryDescription" />
+                        <data value="vehicleacquired" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="3484" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-4808" name="LocationZ(m)" />
+                        <data value="Trehla Keelo" name="waypointName" />
+                        <data value="c_newbie_vehicleacquired" name="Signal Name" />
+                        <task type="Go to Location" id="3" name="Go to Location" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Go Out to Resource Gathering Spot" name="journalEntryTitle" />
+                            <data value="Go to 4549, -4739 and survey for 30 units of metal." name="journalEntryDescription" />
+                            <data value="surveystep" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="4549" name="LocationX(m)" />
+                            <data value="0" name="LocationY(m)" />
+                            <data value="-4739" name="LocationZ(m)" />
+                            <data value="Resource Gathering Spot" name="waypointName" />
+                            <data value="25" name="Radius(m)" />
+                            <task type="Show Message Box" id="4" name="Show Message Box" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Information about Surveying" name="journalEntryTitle" />
+                                <data value="To find a good location for a resource, right-click on a survey device from your inventory and choose 'Use.'  If this is the first time the device has been used, set the resolution by left-clicking on 64m x 3pts.  Next, use the device again and choose what to survey for in the right window by left-clicking on the resource.  Press 'Survey' in the lower right corner of the device.  The numbers that appear in the map window on the left represent the concentration of that resource.  A pointer in the middle of the map screen represents the device's location relative to the map. Move toward the highest concentration in the map window and press the survey button again.  Continue to follow the higher concentrations until an acceptable level is reached.  You may survey while moving or while in a vehicle." name="journalEntryDescription" />
+                                <data value="surveybox1" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="Surveying" name="messageBoxTitle" />
+                                <data value="To find a good location for a resource, right-click on a survey device from your inventory and choose 'Use.'  If this is the first time the device has been used, set the resolution by left-clicking on 64m x 3pts.  Next, use the device again and choose what to survey for in the right window by left-clicking on the resource.  Press 'Survey' in the lower right corner of the device.  The numbers that appear in the map window on the left represent the concentration of that resource.  A pointer in the middle of the map screen represents the device's location relative to the map. Move toward the highest concentration in the map window and press the survey button again.  Continue to follow the higher concentrations until an acceptable level is reached.  You may survey while moving or while in a vehicle." name="messageBoxText" />
+                                <task type="Show Message Box" id="5" name="Show Message Box" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Information about Sampling" name="journalEntryTitle" />
+                                    <data value="Right-click on the survey device once an acceptable concentration has been located and use the device.  Then press 'Sample' to begin acquiring the resources.  Resources are placed in your inventory.  When you have as many resources as you want, stand up to stop sampling. 
+
+On resource concentration: generally, a 70 concentration or above is preferable, but 40 is adequate. Under 40 marks a concentration that will be difficult to sample and is not recommended. 
+" name="journalEntryDescription" />
+                                    <data value="surveybox2" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="Sampling" name="messageBoxTitle" />
+                                    <data value="Right-click on the survey device once an acceptable concentration has been located and use the device.  Then press 'Sample' to begin acquiring the resources.  Resources are placed in your inventory.  When you have as many resources as you want, stand up to stop sampling. 
+
+On resource concentration: generally, a 70 concentration or above is preferable, but 40 is adequate. Under 40 marks a concentration that will be difficult to sample and is not recommended. 
+" name="messageBoxText" />
+                                    <task type="Wait for Signal" id="6" name="Wait for Signal" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Collect 30 Units of Metal and Return to Trehla Keelo" name="journalEntryTitle" />
+                                        <data value="Use the Mineral Survey Device to sample for 30 units of Metal and return to Trehla Keelo.  Right-click on the survey device once an acceptable concentration has been located and use the device.  Then press 'Sample' to begin acquiring the resources.  Resources are placed in your inventory.  When you have as many resources as you want, stand up to stop sampling.  
+
+You may need to reactivate Trehla's waypoint after surveying.  To do this, open your datapad (CTRL-D) and choose the Waypoints tab.  Double-click on the waypoint marked 'Trehla Keelo' to reactivate it.  You may also deactivate an active waypoint by double-clicking on it." name="journalEntryDescription" />
+                                        <data value="surveyreturn" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="3484" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-4808" name="LocationZ(m)" />
+                                        <data value="Trehla Keelo" name="waypointName" />
+                                        <data value="c_newbie_surveyreturn" name="Signal Name" />
+                                        <task type="Show Message Box" id="7" name="Show Message Box" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Crafting Information, Part 1" name="journalEntryTitle" />
+                                            <data value="To craft an item, right-click on a crafting tool and select 'Start Crafting.' Select what you want to make from the list that comes up.  Use the category tabs along the top of the crafting tool's window to get to the object that you want to make.  Once you choose the object, left-click on the 'Next' button.  Available resources to craft the item appear in the left window.  Left-click on one of the available resources.  If the resource may be used to craft, one or more of the boxes in the window in the Draft Schematic Slots brightens to show that the resource may be used.  Left-click and drag the resource stack onto the brightened box to fill that requirement." name="journalEntryDescription" />
+                                            <data value="craftbox1" name="taskName" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="waypointName" />
+                                            <data value="Crafting - Part 1" name="messageBoxTitle" />
+                                            <data value="To craft an item, right-click on a crafting tool and select 'Start Crafting.' Select what you want to make from the list that comes up.  Use the category tabs along the top of the crafting tool's window to get to the object that you want to make.  Once you choose the object, left-click on the 'Next' button.  Available resources to craft the item appear in the left window.  Left-click on one of the available resources.  If the resource may be used to craft, one or more of the boxes in the window in the Draft Schematic Slots brightens to show that the resource may be used.  Left-click and drag the resource stack onto the brightened box to fill that requirement.  " name="messageBoxText" />
+                                            <task type="Show Message Box" id="8" name="Show Message Box" taskOnFail="false" >
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="Crafting Items, part 2" name="journalEntryTitle" />
+                                                <data value="When all requirements have been filled, press the 'Assemble' button.  Press 'Yes' to confirm that you wish to use the resources to create the item.  The result appears in another window.  Press 'Next' to continue.  The next window allows you to name the object whatever you wish by clicking on the field and typing a new name.  Press the 'Create Object' button, then 'Yes' to confirm.  The crafting tool creates the object for you.  It may take a little time, according to the complexity of the item." name="journalEntryDescription" />
+                                                <data value="craftbox2" name="taskName" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="waypointName" />
+                                                <data value="Crafting - Part 2" name="messageBoxTitle" />
+                                                <data value="When all requirements have been filled, press the 'Assemble' button.  Press 'Yes' to confirm that you wish to use the resources to create the item.  The result appears in another window.  Press 'Next' to continue.  The next window allows you to name the object whatever you wish by clicking on the field and typing a new name.  Press the 'Create Object' button, then 'Yes' to confirm.  The crafting tool creates the object for you.  It may take a little time, according to the complexity of the item." name="messageBoxText" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                            </task>
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="messageBoxSound" />
+                                            <data value="-1" name="messageBoxLocationY" />
+                                            <data value="-1" name="messageBoxLocationX" />
+                                            <data value="-1" name="messageBoxSizeHeight" />
+                                            <data value="-1" name="messageBoxSizeWidth" />
+                                        </task>
+                                        <task type="Craft Item" id="9" name="Craft Item" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Craft a Water Survey Device" name="journalEntryTitle" />
+                                            <data value="Use your Generic Crafting Device to create a Water Survey Device.  The Water Survey Device is located under Misc, Survey Tools in the Generic Crafting Tool." name="journalEntryDescription" />
+                                            <data value="craftstep" name="taskName" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="waypointName" />
+                                            <data value="object/tangible/survey_tool/survey_tool_moisture.iff" name="Server Object Template" />
+                                            <data value="1" name="Count" />
+                                            <task type="Wait for Signal" id="10" name="Wait for Signal" taskOnFail="false" >
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="Speak to Trehla" name="journalEntryTitle" />
+                                                <data value="Talk to Trehla Keelo" name="journalEntryDescription" />
+                                                <data value="craftreturn" name="taskName" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="3484" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-4808" name="LocationZ(m)" />
+                                                <data value="Trehla Keelo" name="waypointName" />
+                                                <data value="c_newbie_craftdone" name="Signal Name" />
+                                                <task type="Reward" id="11" name="Reward" taskOnFail="false" >
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="" name="journalEntryTitle" />
+                                                    <data value="" name="journalEntryDescription" />
+                                                    <data value="" name="taskName" />
+                                                    <data value="false" name="isVisible" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="" name="Experience Type" />
+                                                    <data value="0" name="Experience Amount" />
+                                                    <data value="Rebel" name="Faction Name" />
+                                                    <data value="0" name="Faction Amount" />
+                                                    <data value="0" name="Bank Credits" />
+                                                    <data value="object/tangible/deed/pet_deed/deed_tutorial_droid.iff" name="Item" />
+                                                    <task type="Show Message Box" id="12" name="Show Message Box" taskOnFail="false" >
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="Information about Droids" name="journalEntryTitle" />
+                                                        <data value="Call a new droid from your inventory by selecting its deed in the inventory window.  Right-click on the deed, then left-click on 'Use deed.'  The droid then appears next to you.
+
+To program the new droid, right click on it and select 'Program' and then the function that you wish it to learn.  For this, click on 'Group.'  The droid responds with '?' to let you know that it is ready to learn a command.  Say the word that you want to represent the group function, like 'group' and the droid will respond with '!' to tell you that it learned the command.  Now, when you say the word 'group' aloud, your droid will group with you.
+
+ To store the droid, right-click on it and select 'Droid Options' then 'Store.'  While the droid is stored in your datapad, you can see the commands that it knows by right-clicking on it and selecting 'List Commands' from the menu.  It will list the commands that it knows and the word that activates the command.
+" name="journalEntryDescription" />
+                                                        <data value="droidbox1" name="taskName" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="Droids" name="messageBoxTitle" />
+                                                        <data value="Call a new droid from your inventory by selecting its deed in the inventory window.  Right-click on the deed, then left-click on 'Use deed.'  The droid then appears next to you.
+
+To program the new droid, right click on it and select 'Program' and then the function that you wish it to learn.  For this, click on 'Group.'  The droid responds with '?' to let you know that it is ready to learn a command.  Say the word that you want to represent the group function, like 'group' and the droid will respond with '!' to tell you that it learned the command.  Now, when you say the word 'group' aloud, your droid will group with you.
+
+ To store the droid, right-click on it and select 'Droid Options' then 'Store.'  While the droid is stored in your datapad, you can see the commands that it knows by right-clicking on it and selecting 'List Commands' from the menu.  It will list the commands that it knows and the word that activates the command.
+" name="messageBoxText" />
+                                                        <task type="Show Message Box" id="13" name="Show Message Box" taskOnFail="false" >
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="Information About Making a Group" name="journalEntryTitle" />
+                                                            <data value="To invite a player into a group, right-click on them and select 'Invite to Group.'  The player receives a message that they must accept the invitation to join.  " name="journalEntryDescription" />
+                                                            <data value="groupbox1" name="taskName" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="Groups" name="messageBoxTitle" />
+                                                            <data value="To invite a player into a group, right-click on them and select 'Invite to Group.'  The player receives a message that they must accept the invitation to join.  " name="messageBoxText" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <task type="Wait for Signal" id="15" name="Wait for Signal" taskOnFail="false" >
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="Talk to Trehla " name="journalEntryTitle" />
+                                                                <data value="Talk to Trehla Keelo in Mos Eisley" name="journalEntryDescription" />
+                                                                <data value="learngroup" name="taskName" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="true" name="showSystemMessages" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="3484" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="-4808" name="LocationZ(m)" />
+                                                                <data value="Trehla Keelo" name="waypointName" />
+                                                                <data value="c_newbie_learngroup" name="Signal Name" />
+                                                                <task type="Reward" id="16" name="Reward" taskOnFail="false" >
+                                                                    <data value="1" name="Count" />
+                                                                    <data value="" name="musicOnFail" />
+                                                                    <data value="" name="musicOnComplete" />
+                                                                    <data value="" name="prerequisiteTasks" />
+                                                                    <data value="" name="exclusionTasks" />
+                                                                    <data value="" name="journalEntryTitle" />
+                                                                    <data value="" name="journalEntryDescription" />
+                                                                    <data value="" name="taskName" />
+                                                                    <data value="false" name="isVisible" />
+                                                                    <data value="0" name="showSystemMessages" />
+                                                                    <data value="0" name="allowRepeats" />
+                                                                    <data value="" name="musicOnActivate" />
+                                                                    <data value="" name="target" />
+                                                                    <data value="" name="parameter" />
+                                                                    <data value="" name="grantQuestOnComplete" />
+                                                                    <data value="" name="grantQuestOnFail" />
+                                                                    <data value="0" name="createWaypoint" />
+                                                                    <data value="tatooine" name="Planet" />
+                                                                    <data value="0.0" name="LocationX(m)" />
+                                                                    <data value="0.0" name="LocationY(m)" />
+                                                                    <data value="0.0" name="LocationZ(m)" />
+                                                                    <data value="" name="waypointName" />
+                                                                    <data value="" name="Experience Type" />
+                                                                    <data value="0" name="Experience Amount" />
+                                                                    <data value="Rebel" name="Faction Name" />
+                                                                    <data value="0" name="Faction Amount" />
+                                                                    <data value="0" name="Bank Credits" />
+                                                                    <data value="" name="Item" />
+                                                                </task>
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                            </task>
+                                                        </task>
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                    </task>
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="1" name="Count" />
+                                                    <data value="1" name="CountItem" />
+                                                    <data value="0.1" name="Elemental Value" />
+                                                    <data value="0.1" name="Efficiency" />
+                                                    <data value="0.1" name="Damage" />
+                                                    <data value="0.1" name="Speed" />
+                                                    <data value="1" name="CountWeapon" />
+                                                    <data value="" name="Weapon" />
+                                                    <data value="0.1" name="Quality" />
+                                                    <data value="1" name="CountArmor" />
+                                                    <data value="" name="Armor" />
+                                                </task>
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                            </task>
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                        </task>
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                    </task>
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                </task>
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                            </task>
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                        </task>
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                    </task>
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="1" name="Count" />
+            </task>
+        </tasks>
+        <list>
+            <data value="The Art of Business" name="journalEntryTitle" />
+            <data value="Hunting is not the only way to make a living. Collecting resources and turning them into useful tools can be quite profitable." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

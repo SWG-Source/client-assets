@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="8" >
+            <task type="Retrieve Item" id="0" taskOnFail="false" >
+                <data value="Gather Xharnoh Roots from Xharnoh Plants" name="journalEntryTitle" />
+                <data value="Lt. Dunnels needs some xharnoh roots to use in the neural booster. Gather some for her. Xharnoh plants are most often found along rivers and streams that flow out from the bottom of a waterfall. Walk along the rivers that flow out from the bottom of any of the many waterfalls in Theed and look for xharnoh plants." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="theed_terrorist_booster_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="object/tangible/quest/naboo_theed_xharnoh_plant.iff" name="Server Object Template" />
+                <data value="16" name="Count" />
+                <data value="Xharnoh root" name="ItemName" />
+                <data value="100" name="LootDropPercent" />
+                <data value="Gather Some Roots" name="retrieveMenuText" />
+                <task type="Retrieve Item" id="1" taskOnFail="false" >
+                    <data value="Process the Xharnoh Roots at the Refining Station" name="journalEntryTitle" />
+                    <data value="Bring the xharnoh roots to one of the refining stations near the palace to process them." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="theed_terrorist_booster_02" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="naboo" name="Planet" />
+                    <data value="-5524" name="LocationX(m)" />
+                    <data value="6" name="LocationY(m)" />
+                    <data value="4435.5" name="LocationZ(m)" />
+                    <data value="Refining Station" name="waypointName" />
+                    <data value="object/tangible/quest/naboo_theed_refining_station.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Refining Station" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Process the Roots" name="retrieveMenuText" />
+                    <task type="Comm Player" id="7" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="theed_terrorist_booster_03" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="Hold onto those roots for now. I'll get them from you when you're done with one or two more things. Next, I need you to gather some nightspider venom sacs." name="Comm Message Text" />
+                        <data value="object/mobile/naboo_lt_dunnels.iff" name="NPC Appearance Server Template" />
+                        <task type="Destroy Multiple and Loot" id="2" taskOnFail="false" >
+                            <data value="Gather Nightspider Venom Sacs" name="journalEntryTitle" />
+                            <data value="Gather nightspider venom sacs. There are nightspiders in many places on the outskirts of Theed, but Lt. Dunnels has uploaded a particularly good location in which to find them." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="theed_terrorist_booster_04" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="naboo" name="Planet" />
+                            <data value="-4996.39990234375" name="LocationX(m)" />
+                            <data value="6" name="LocationY(m)" />
+                            <data value="3681.89990234375" name="LocationZ(m)" />
+                            <data value="Nightspiders Near Theed" name="waypointName" />
+                            <data value="" name="CreatureType" />
+                            <data value="nightspider" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="Perfect venom sac" name="LootItemName" />
+                            <data value="11" name="NumberItemsRequired" />
+                            <data value="85" name="LootDropPercent" />
+                            <data value="0" name="RewardCredits" />
+                            <task type="Retrieve Item" id="3" taskOnFail="false" >
+                                <data value="Process the Venom Sacs at the Refining Station" name="journalEntryTitle" />
+                                <data value="Process the venom sacs at one of the refining stations near the palace." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="theed_terrorist_booster_05" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="naboo" name="Planet" />
+                                <data value="-5467.89990234375" name="LocationX(m)" />
+                                <data value="6" name="LocationY(m)" />
+                                <data value="4435.10986328125" name="LocationZ(m)" />
+                                <data value="Refining Station" name="waypointName" />
+                                <data value="object/tangible/quest/naboo_theed_refining_station.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="Refining Station" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="Process the Venom Sacs" name="retrieveMenuText" />
+                                <task type="Comm Player" id="4" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="theed_terrorist_booster_06" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="You're doing quite well. I need some toxin samples of the type the Mummers use. Please gather some." name="Comm Message Text" />
+                                    <data value="object/mobile/naboo_lt_dunnels.iff" name="NPC Appearance Server Template" />
+                                    <task type="Destroy Multiple and Loot" id="5" taskOnFail="false" >
+                                        <data value="Gather Toxin Samples from Mummers." name="journalEntryTitle" />
+                                        <data value="Defeat Mummers until you have enough toxin samples for Lt. Dunnels." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="theed_terrorist_booster_07" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="naboo" name="Planet" />
+                                        <data value="-4526.2001953125" name="LocationX(m)" />
+                                        <data value="9.69999980926514" name="LocationY(m)" />
+                                        <data value="3650.19995117188" name="LocationZ(m)" />
+                                        <data value="Mummer Bunker" name="waypointName" />
+                                        <data value="" name="CreatureType" />
+                                        <data value="mummer_gang" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="Mummer toxin" name="LootItemName" />
+                                        <data value="12" name="NumberItemsRequired" />
+                                        <data value="85" name="LootDropPercent" />
+                                        <data value="0" name="RewardCredits" />
+                                        <task type="Wait for Signal" id="6" taskOnFail="false" >
+                                            <data value="Return to Lieutenant Dunnels with the Ingredients" name="journalEntryTitle" />
+                                            <data value="Report back to Lt. Dunnels with everything you've gathered for her. Lt. Dunnels works inside the Theed Palace." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="theed_terrorist_booster_08" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="naboo" name="Planet" />
+                                            <data value="-5496.10009765625" name="LocationX(m)" />
+                                            <data value="14" name="LocationY(m)" />
+                                            <data value="4477.10009765625" name="LocationZ(m)" />
+                                            <data value="Theed Palace Entrance" name="waypointName" />
+                                            <data value="theed_terrorist_booster_08" name="Signal Name" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="0" name="Time To Complete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                        </task>
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                        <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                        <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0" name="Time To Complete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                                <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                                <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                                <data value="0" name="CountdownTimer" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                            <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                            <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                    <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                    <data value="0" name="CountdownTimer" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                <data value="0" name="CountdownTimer" />
+            </task>
+        </tasks>
+        <list>
+            <data value="25" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Help Lt. Dunnels With Ingredients to Make Neural Boosters" name="journalEntryTitle" />
+            <data value="Lt. Dunnels, a science officer with the RSF, needs your help to restock her supply of neural boosters." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="7944" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="9878" name="Bank Credits" />
+            <data value="item_content_charged_poison_res_02_01" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="3" name="Tier" />
+            <data value="false" name="grantGcwPoints" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

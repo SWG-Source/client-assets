@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="6" >
+            <task type="Go to Location" id="3" name="Go to Location" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="To to escort location" name="journalEntryTitle" />
+                <data value="Go to tatooine 2000, 100, 2000." name="journalEntryDescription" />
+                <data value="" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="2000" name="LocationX(m)" />
+                <data value="200" name="LocationY(m)" />
+                <data value="2000" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="20" name="Radius(m)" />
+                <task type="Static Escort" id="4" name="Static Escort" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Keep Oola alive!" name="journalEntryTitle" />
+                    <data value="Follow oola and keep her alive." name="journalEntryDescription" />
+                    <data value="" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="1000" name="LocationX(m)" />
+                    <data value="1000" name="LocationY(m)" />
+                    <data value="1000" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="oola" name="Escort Creature Type" />
+                    <data value="2050" name="Point 2 LocationZ(m)" />
+                    <data value="100" name="Point 2 LocationY(m)" />
+                    <data value="2050" name="Point 2 LocationX(m)" />
+                    <data value="true" name="Point 2 Path to Point" />
+                    <data value="2000" name="Point 1 LocationZ(m)" />
+                    <data value="100" name="Point 1 LocationY(m)" />
+                    <data value="2050" name="Point 1 LocationX(m)" />
+                    <data value="true" name="Point 1 Path to Point" />
+                    <data value="0.0" name="Point 6 LocationZ(m)" />
+                    <data value="0.0" name="Point 6 LocationY(m)" />
+                    <data value="0.0" name="Point 6 LocationX(m)" />
+                    <data value="0.0" name="Point 5 LocationZ(m)" />
+                    <data value="0.0" name="Point 5 LocationY(m)" />
+                    <data value="0.0" name="Point 5 LocationX(m)" />
+                    <data value="2000" name="Point 4 LocationZ(m)" />
+                    <data value="200" name="Point 4 LocationY(m)" />
+                    <data value="2000" name="Point 4 LocationX(m)" />
+                    <data value="false" name="Point 4 Path to Point" />
+                    <data value="2050" name="Point 3 LocationZ(m)" />
+                    <data value="100" name="Point 3 LocationY(m)" />
+                    <data value="2000" name="Point 3 LocationX(m)" />
+                    <data value="true" name="Point 3 Path to Point" />
+                    <data value="false" name="Path to Point" />
+                    <data value="false" name="Point 6 Path to Point" />
+                    <data value="false" name="Point 5 Path to Point" />
+                    <data value="15" name="Maximum Allowed Distance from Target(m)" />
+                    <task type="Immediately Clear Quest" id="5" name="Immediately Clear Quest" taskOnFail="true" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Static escort test" name="journalEntryTitle" />
+            <data value="Escort the creature." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Testing" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

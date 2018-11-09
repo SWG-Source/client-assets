@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="9" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="Meet with Jonset" name="journalEntryTitle" />
+                <data value="Meet with Jonset, an informant trusted by Lt. Jasper, at the Coronet cantina. Find out what he knows about recent rogue CorSec activities." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="the_meeting_1" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="corellia" name="Planet" />
+                <data value="-358.700012207031" name="LocationX(m)" />
+                <data value="28" name="LocationY(m)" />
+                <data value="-4444" name="LocationZ(m)" />
+                <data value="Coronet Cantina" name="waypointName" />
+                <data value="the_meeting_1" name="Signal Name" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerX" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerZ" />
+                <task type="Go to Location" id="1" taskOnFail="false" >
+                    <data value="Find the Secret Meeting" name="journalEntryTitle" />
+                    <data value="Find the secret meeting Jonset told you about that's being held by rogue CorSec and Ragtags." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="the_meeting_2" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="corellia" name="Planet" />
+                    <data value="-697.200012207031" name="LocationX(m)" />
+                    <data value="3.40000009536743" name="LocationY(m)" />
+                    <data value="-4182.5" name="LocationZ(m)" />
+                    <data value="The Secret Meeting" name="waypointName" />
+                    <data value="50" name="Radius(m)" />
+                    <task type="Wait for Tasks" id="2" taskOnFail="false" >
+                        <data value="Disperse the Meeting" name="journalEntryTitle" />
+                        <data value="Disperse the meeting by fighting Ragtags and rogue CorSec." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="the_meeting_3" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="corellia" name="Planet" />
+                        <data value="-697.200012207031" name="LocationX(m)" />
+                        <data value="3.40000009536743" name="LocationY(m)" />
+                        <data value="-4182.5" name="LocationZ(m)" />
+                        <data value="The Secret Meeting" name="waypointName" />
+                        <data value="quest/corellia_coronet_capitol_problems_the_meeting" name="Task1 Quest Filename" />
+                        <data value="the_meeting_3a" name="Task1 taskName" />
+                        <data value="Defeat Rogue CorSec at the Meeting" name="Task1 Display String" />
+                        <data value="quest/corellia_coronet_capitol_problems_the_meeting" name="Task2 Quest Filename" />
+                        <data value="the_meeting_3b" name="Task2 taskName" />
+                        <data value="Defeat Ragtags at the Meeting" name="Task2 Display String" />
+                        <data value="" name="Task3 Quest Filename" />
+                        <data value="" name="Task3 taskName" />
+                        <data value="" name="Task3 Display String" />
+                        <data value="" name="Task4 Quest Filename" />
+                        <data value="" name="Task4 taskName" />
+                        <data value="" name="Task4 Display String" />
+                        <data value="" name="Task5 Quest Filename" />
+                        <data value="" name="Task5 taskName" />
+                        <data value="" name="Task5 Display String" />
+                        <data value="" name="Task6 Quest Filename" />
+                        <data value="" name="Task6 taskName" />
+                        <data value="" name="Task6 Display String" />
+                        <task type="Retrieve Item" id="5" taskOnFail="false" >
+                            <data value="Access the Rogue CorSec Data Terminal" name="journalEntryTitle" />
+                            <data value="Access the rogue CorSec data terminal that was left behind as the meeting was broken up." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="the_meeting_4" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="corellia" name="Planet" />
+                            <data value="-697.200012207031" name="LocationX(m)" />
+                            <data value="3.40000009536743" name="LocationY(m)" />
+                            <data value="-4182.5" name="LocationZ(m)" />
+                            <data value="The Secret Meeting" name="waypointName" />
+                            <data value="object/tangible/quest/corellia_coronet_the_meeting_data_terminal.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Rogue CorSec Data Terminal" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Access the Data Terminal Records" name="retrieveMenuText" />
+                            <task type="Show Message Box" id="6" taskOnFail="false" >
+                                <data value="From the Data Terminal" name="journalEntryTitle" />
+                                <data value="From the data terminal, you find orders from the Diktat himself, Daclif Gallamby, issued to the Ragtags instructing them to smuggle spice into the capitol building. There is also ample proof that the Ragtags and the rogue CorSec are working together on something, but not enough to reveal what that might be." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="the_meeting_5" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="From the Data Terminal" name="messageBoxTitle" />
+                                <data value="From the data terminal, you find orders from the Diktat himself, Daclif Gallamby, issued to the Ragtags instructing them to smuggle spice into the capitol building. There is also ample proof that the Ragtags and the rogue CorSec are working together on something, but not enough to reveal what that might be." name="messageBoxText" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <task type="Wait for Signal" id="7" taskOnFail="false" >
+                                    <data value="Return to Lt. Jasper" name="journalEntryTitle" />
+                                    <data value="Return to Lt. Jasper and relate to him what you found on the data terminal." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="the_meeting_6" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="corellia" name="Planet" />
+                                    <data value="-69.0999984741211" name="LocationX(m)" />
+                                    <data value="28" name="LocationY(m)" />
+                                    <data value="-4634.10009765625" name="LocationZ(m)" />
+                                    <data value="Lt. Jasper" name="waypointName" />
+                                    <data value="the_meeting_6" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <task type="Immediately Complete Quest" id="8" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="false" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                </task>
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                    </task>
+                    <task type="Destroy Multiple" id="3" taskOnFail="false" >
+                        <data value="Defeat 6 Ragtags" name="journalEntryTitle" />
+                        <data value="Defeat at least 6 Ragtags at the meeting." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="the_meeting_3b" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="Target Server Template" />
+                        <data value="ragtag_gang" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="6" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                    </task>
+                    <task type="Destroy Multiple" id="4" taskOnFail="false" >
+                        <data value="Defeat 6 Rogue CorSec" name="journalEntryTitle" />
+                        <data value="Defeat at least 6 rogue CorSec troopers at the meeting." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="the_meeting_3a" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="" name="Target Server Template" />
+                        <data value="corsec_rogue" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="6" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Find out what the Rogue CorSec Are Doing" name="journalEntryTitle" />
+            <data value="Help Lt. Jasper find out what the rogue CorSec are plotting." name="journalEntryDescription" />
+            <data value="Corellia" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="30" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="weapon_content_corsec_sword_02_01" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="weapon_content_corsec_rifle_02_01" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="11089" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

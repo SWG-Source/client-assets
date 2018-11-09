@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="38" >
+            <task type="Wait for Signal" id="31" taskOnFail="false" >
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="rabeAskedToCleanVineyard" name="Signal Name" />
+                <data value="Rabe, the Handmaiden" name="waypointName" />
+                <data value="-3560" name="LocationZ(m)" />
+                <data value="1" name="LocationY(m)" />
+                <data value="-1260" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="onRabesQuest" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Sabe would like you to speak with the other handmaidens before she'll trust you.  She wants you to start with Rabe, who may have some problem you can help her with." name="journalEntryDescription" />
+                <data value="Speak with Rabe, the Handmaiden" name="journalEntryTitle" />
+                <task type="Destroy Multiple" id="1" taskOnFail="false" >
+                    <data value="Clearing the Vineyard" name="journalEntryTitle" />
+                    <data value="Rabe wants to start a vineyard, but the fields she's chosen are overrun with spiders.  Help her clear out the area." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="Target Server Template" />
+                    <data value="nightspider" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="15" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <task type="Show Message Box" id="15" taskOnFail="false" >
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="finishedRabesQuests" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="The Vineyard is Clear" name="messageBoxTitle" />
+                        <data value="The vineyard is now clear and Rabe appreciates your assistance.  She wants you to go and see Yane now, another handmaiden, who may need your help." name="messageBoxText" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="-1" name="messageBoxSizeWidth" />
+                        <data value="-1" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxLocationY" />
+                        <task type="Wait for Signal" id="29" taskOnFail="false" >
+                            <data value="Speak with Yane, the Handmaiden" name="journalEntryTitle" />
+                            <data value="You have spoken with Rabe, and now you must speak to the handmaiden Yane.  She may have some tasks for you as well." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="-1260" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="-3600" name="LocationZ(m)" />
+                            <data value="Yane, the Handmaiden" name="waypointName" />
+                            <data value="startYaneGatheringQuest" name="Signal Name" />
+                            <data value="false" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="-1260" name="waitMarkerX" />
+                            <data value="1" name="waitMarkerY" />
+                            <data value="-3600" name="waitMarkerZ" />
+                            <task type="Destroy Multiple and Loot" id="17" taskOnFail="false" >
+                                <data value="Collect Fanned Rawl Venom Sacs" name="journalEntryTitle" />
+                                <data value="Yane wants you to collect venom sacs from the fanned rawls.  This will be an important ingredient in the medicine she makes to help the sick children of Naboo." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="collectingYanesVenomSacs" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="CreatureType" />
+                                <data value="rawl_fanned" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="Venom Sac" name="LootItemName" />
+                                <data value="9" name="NumberItemsRequired" />
+                                <data value="70" name="LootDropPercent" />
+                                <data value="0" name="RewardCredits" />
+                                <task type="Show Message Box" id="18" taskOnFail="false" >
+                                    <data value="" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="Venom Sacs Collected" name="messageBoxTitle" />
+                                    <data value="You have now collected enough venom sacs for Yane to make her medicine.  Now you must collect blood samples from the veermoks, whose white blood cells are strong enough to be used in the medicine." name="messageBoxText" />
+                                    <data value="" name="messageBoxSound" />
+                                    <data value="-1" name="messageBoxSizeWidth" />
+                                    <data value="-1" name="messageBoxSizeHeight" />
+                                    <data value="-1" name="messageBoxLocationX" />
+                                    <data value="-1" name="messageBoxLocationY" />
+                                    <task type="Destroy Multiple and Loot" id="19" taskOnFail="false" >
+                                        <data value="Collect Veermok Blood Samples" name="journalEntryTitle" />
+                                        <data value="Collect blood samples from the veermoks.  Their white blood cells are strong enough to hold the venom you collected earlier and to make the medicine effective." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="collectingYanesBloodSamples" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="" name="CreatureType" />
+                                        <data value="veermok" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="Blood Sample" name="LootItemName" />
+                                        <data value="11" name="NumberItemsRequired" />
+                                        <data value="100" name="LootDropPercent" />
+                                        <data value="0" name="RewardCredits" />
+                                        <task type="Show Message Box" id="20" taskOnFail="false" >
+                                            <data value="" name="journalEntryTitle" />
+                                            <data value="" name="journalEntryDescription" />
+                                            <data value="false" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="finishedGatheringYanesIngredients" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="waypointName" />
+                                            <data value="Blood Samples Collected" name="messageBoxTitle" />
+                                            <data value="You have now collected enough blood samples for Yane to make her medicine.  Take them to Yane so she can get started." name="messageBoxText" />
+                                            <data value="" name="messageBoxSound" />
+                                            <data value="-1" name="messageBoxSizeWidth" />
+                                            <data value="-1" name="messageBoxSizeHeight" />
+                                            <data value="-1" name="messageBoxLocationX" />
+                                            <data value="-1" name="messageBoxLocationY" />
+                                            <task type="Wait for Signal" id="37" taskOnFail="false" >
+                                                <data value="Return to Yane, the Handmaiden" name="journalEntryTitle" />
+                                                <data value="Speak to Yane again and give her the ingredients she needs to make the medicine for the sick children of Naboo." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="doneWithYane" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="-1260" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-3600" name="LocationZ(m)" />
+                                                <data value="Yane, the Handmaiden" name="waypointName" />
+                                                <data value="doneHelpingYane" name="Signal Name" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <task type="Wait for Signal" id="32" taskOnFail="false" >
+                                                    <data value="Speak to Eirtae, the Handmaiden" name="journalEntryTitle" />
+                                                    <data value="You have spoken to Yane and Rabe, and have helped them with their tasks.  Perhaps there is something Eirtae will need you to do as well." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="speakWithEirtae" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="true" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="-1225" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="-3600" name="LocationZ(m)" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="startEirtaeQuest" name="Signal Name" />
+                                                    <data value="0" name="waitMarkerCreate" />
+                                                    <data value="" name="waitMarkerTemplate" />
+                                                    <data value="" name="waitMarkerPlanetName" />
+                                                    <data value="0" name="waitMarkerBuilding" />
+                                                    <data value="" name="waitMarkerCellName" />
+                                                    <data value="0" name="waitMarkerX" />
+                                                    <data value="0" name="waitMarkerY" />
+                                                    <data value="0" name="waitMarkerZ" />
+                                                    <task type="Destroy Multiple" id="22" taskOnFail="false" >
+                                                        <data value="Dignitary Clean Up" name="journalEntryTitle" />
+                                                        <data value="Eirtae is concerned that the visiting dignitaries might be attacked during their nature walk.  She'd like for you to clean up the area by eliminating some of the local Tusk Cats." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="clearingAreaForEirtae" name="taskName" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="" name="Target Server Template" />
+                                                        <data value="tusk_cat" name="Social Group" />
+                                                        <data value="" name="requiredRegion" />
+                                                        <data value="13" name="Count" />
+                                                        <data value="0" name="RewardCredits" />
+                                                        <task type="Show Message Box" id="23" taskOnFail="false" >
+                                                            <data value="" name="journalEntryTitle" />
+                                                            <data value="" name="journalEntryDescription" />
+                                                            <data value="false" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="finishedEirtaesQuest" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="Tusk Cats Are Cleared" name="messageBoxTitle" />
+                                                            <data value="You have cleared out enough of the tusk cats that Eirtae is satisfied with your work.  She thanks you for your time, and informs you that Sabe has requested your presence immediately." name="messageBoxText" />
+                                                            <data value="" name="messageBoxSound" />
+                                                            <data value="-1" name="messageBoxSizeWidth" />
+                                                            <data value="-1" name="messageBoxSizeHeight" />
+                                                            <data value="-1" name="messageBoxLocationX" />
+                                                            <data value="-1" name="messageBoxLocationY" />
+                                                            <task type="Wait for Signal" id="33" taskOnFail="false" >
+                                                                <data value="Return to Sabe" name="journalEntryTitle" />
+                                                                <data value="Sabe has instructed you to return and speak with her as soon as possible.  Something terrible must have happened..." name="journalEntryDescription" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="" name="taskName" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="true" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="-1287" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="-3571" name="LocationZ(m)" />
+                                                                <data value="" name="waypointName" />
+                                                                <data value="SpokenToSabeAboutKidnapping" name="Signal Name" />
+                                                                <data value="0" name="waitMarkerCreate" />
+                                                                <data value="" name="waitMarkerTemplate" />
+                                                                <data value="" name="waitMarkerPlanetName" />
+                                                                <data value="0" name="waitMarkerBuilding" />
+                                                                <data value="" name="waitMarkerCellName" />
+                                                                <data value="0" name="waitMarkerX" />
+                                                                <data value="0" name="waitMarkerY" />
+                                                                <data value="0" name="waitMarkerZ" />
+                                                                <task type="Wait for Signal" id="34" taskOnFail="false" >
+                                                                    <data value="Rescue Sache" name="journalEntryTitle" />
+                                                                    <data value="Sache has been kidnapped by the maulers and must be rescued." name="journalEntryDescription" />
+                                                                    <data value="true" name="isVisible" />
+                                                                    <data value="" name="prerequisiteTasks" />
+                                                                    <data value="" name="exclusionTasks" />
+                                                                    <data value="0" name="allowRepeats" />
+                                                                    <data value="spokeWithSache" name="taskName" />
+                                                                    <data value="0" name="showSystemMessages" />
+                                                                    <data value="" name="musicOnActivate" />
+                                                                    <data value="" name="musicOnComplete" />
+                                                                    <data value="" name="musicOnFail" />
+                                                                    <data value="" name="target" />
+                                                                    <data value="" name="parameter" />
+                                                                    <data value="" name="grantQuestOnComplete" />
+                                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                    <data value="" name="grantQuestOnFail" />
+                                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                    <data value="true" name="createWaypoint" />
+                                                                    <data value="tatooine" name="Planet" />
+                                                                    <data value="-1230" name="LocationX(m)" />
+                                                                    <data value="0.0" name="LocationY(m)" />
+                                                                    <data value="-3570" name="LocationZ(m)" />
+                                                                    <data value="" name="waypointName" />
+                                                                    <data value="SacheHasToldMeHerPlan" name="Signal Name" />
+                                                                    <data value="0" name="waitMarkerCreate" />
+                                                                    <data value="" name="waitMarkerTemplate" />
+                                                                    <data value="" name="waitMarkerPlanetName" />
+                                                                    <data value="0" name="waitMarkerBuilding" />
+                                                                    <data value="" name="waitMarkerCellName" />
+                                                                    <data value="0" name="waitMarkerX" />
+                                                                    <data value="0" name="waitMarkerY" />
+                                                                    <data value="0" name="waitMarkerZ" />
+                                                                    <task type="Wait for Signal" id="35" taskOnFail="false" >
+                                                                        <data value="Inform Sabe that Sache is Well" name="journalEntryTitle" />
+                                                                        <data value="Now that you know Sache's plan you should return to Sabe and let her know that everything is all right." name="journalEntryDescription" />
+                                                                        <data value="true" name="isVisible" />
+                                                                        <data value="" name="prerequisiteTasks" />
+                                                                        <data value="" name="exclusionTasks" />
+                                                                        <data value="0" name="allowRepeats" />
+                                                                        <data value="" name="taskName" />
+                                                                        <data value="0" name="showSystemMessages" />
+                                                                        <data value="" name="musicOnActivate" />
+                                                                        <data value="" name="musicOnComplete" />
+                                                                        <data value="" name="musicOnFail" />
+                                                                        <data value="" name="target" />
+                                                                        <data value="" name="parameter" />
+                                                                        <data value="" name="grantQuestOnComplete" />
+                                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                        <data value="" name="grantQuestOnFail" />
+                                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                        <data value="true" name="createWaypoint" />
+                                                                        <data value="tatooine" name="Planet" />
+                                                                        <data value="-1287" name="LocationX(m)" />
+                                                                        <data value="0.0" name="LocationY(m)" />
+                                                                        <data value="-3571" name="LocationZ(m)" />
+                                                                        <data value="" name="waypointName" />
+                                                                        <data value="completedHandmaidenQuestsForSabe" name="Signal Name" />
+                                                                        <data value="0" name="waitMarkerCreate" />
+                                                                        <data value="" name="waitMarkerTemplate" />
+                                                                        <data value="" name="waitMarkerPlanetName" />
+                                                                        <data value="0" name="waitMarkerBuilding" />
+                                                                        <data value="" name="waitMarkerCellName" />
+                                                                        <data value="0" name="waitMarkerX" />
+                                                                        <data value="0" name="waitMarkerY" />
+                                                                        <data value="0" name="waitMarkerZ" />
+                                                                        <task type="Reward" id="36" taskOnFail="false" >
+                                                                            <data value="" name="journalEntryTitle" />
+                                                                            <data value="" name="journalEntryDescription" />
+                                                                            <data value="true" name="isVisible" />
+                                                                            <data value="" name="prerequisiteTasks" />
+                                                                            <data value="" name="exclusionTasks" />
+                                                                            <data value="0" name="allowRepeats" />
+                                                                            <data value="" name="taskName" />
+                                                                            <data value="0" name="showSystemMessages" />
+                                                                            <data value="" name="musicOnActivate" />
+                                                                            <data value="" name="musicOnComplete" />
+                                                                            <data value="" name="musicOnFail" />
+                                                                            <data value="" name="target" />
+                                                                            <data value="" name="parameter" />
+                                                                            <data value="" name="grantQuestOnComplete" />
+                                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                            <data value="" name="grantQuestOnFail" />
+                                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                            <data value="0" name="createWaypoint" />
+                                                                            <data value="tatooine" name="Planet" />
+                                                                            <data value="0.0" name="LocationX(m)" />
+                                                                            <data value="0.0" name="LocationY(m)" />
+                                                                            <data value="0.0" name="LocationZ(m)" />
+                                                                            <data value="" name="waypointName" />
+                                                                            <data value="" name="Experience Type" />
+                                                                            <data value="0" name="Experience Amount" />
+                                                                            <data value="Rebel" name="Faction Name" />
+                                                                            <data value="0" name="Faction Amount" />
+                                                                            <data value="1000" name="Bank Credits" />
+                                                                            <data value="" name="Item" />
+                                                                            <data value="1" name="CountItem" />
+                                                                            <data value="" name="Weapon" />
+                                                                            <data value="1" name="CountWeapon" />
+                                                                            <data value="0.1" name="Speed" />
+                                                                            <data value="0.1" name="Damage" />
+                                                                            <data value="0.1" name="Efficiency" />
+                                                                            <data value="0.1" name="Elemental Value" />
+                                                                            <data value="" name="Armor" />
+                                                                            <data value="1" name="CountArmor" />
+                                                                            <data value="0.1" name="Quality" />
+                                                                        </task>
+                                                                    </task>
+                                                                </task>
+                                                            </task>
+                                                        </task>
+                                                    </task>
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Naboo: Helping the Handmaidens" name="journalEntryTitle" />
+            <data value="Sabe wants you to speak with the other handmaidens and gain their trust before she will give you the information you seek." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="25" >
+            <task type="Wait for Signal" id="4" taskOnFail="false" >
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="spokenToRomo" name="Signal Name" />
+                <data value="Romo Vax" name="waypointName" />
+                <data value="-6560" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-5224" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="true" name="showSystemMessages" />
+                <data value="speakToRomo" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Bib Fortuna wants you to speak to Romo Vax, who is in the Wayfar cantina. He has some data that he is supposed to be delivering to Jabba. Bib wants you to retrieve this data as he doesn't trust Romo enough to allow him to enter Jabba's Palace." name="journalEntryDescription" />
+                <data value="Speak to Romo Vax" name="journalEntryTitle" />
+                <task type="Destroy Multiple" id="14" taskOnFail="false" >
+                    <data value="Kill Dewall Paez, Leader of the Wayfar Spies" name="journalEntryTitle" />
+                    <data value="Romo Vax has identified Dewall Paez as the person leading the Wayfar spies who he believes are watching him. Kill Dewall Paez." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="killingValariansForRomo_b" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="false" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="tatooine_wayfar_spy_leader" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="1" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <task type="Destroy Multiple" id="17" taskOnFail="false" >
+                    <data value="Kill Wayfar Spies" name="journalEntryTitle" />
+                    <data value="Romo Vax is convinced that someone is spying on him. He's fairly certain that he has found their camp outside of Wayfar. Go kill some of them to get them off of Romo's tail." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="killingValariansForRomo_a" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="false" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="tatooine_wayfar_spy" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="9" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                </task>
+                <task type="Wait for Tasks" id="18" taskOnFail="false" >
+                    <data value="Defeat the Wayfar Spies" name="journalEntryTitle" />
+                    <data value="Romo Vax is convinced that someone is spying on him. He's fairly certain that he has found their camp outside of Wayfar and that he has correctly identified their leader as Dewall Paez, but he does not know who they are working for." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="killingValariansForRomo" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="-5491" name="LocationX(m)" />
+                    <data value="46" name="LocationY(m)" />
+                    <data value="-6633" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="Camp of Wayfar Spies" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="quest/jabba_bib_fortuna_v2" name="Task1 Quest Filename" />
+                    <data value="killingValariansForRomo_a" name="Task1 taskName" />
+                    <data value="Defeat Wayfar Spies" name="Task1 Display String" />
+                    <data value="quest/jabba_bib_fortuna_v2" name="Task2 Quest Filename" />
+                    <data value="killingValariansForRomo_b" name="Task2 taskName" />
+                    <data value="Defeat Dewall Paez" name="Task2 Display String" />
+                    <data value="" name="Task3 Quest Filename" />
+                    <data value="" name="Task3 taskName" />
+                    <data value="" name="Task3 Display String" />
+                    <data value="" name="Task4 Quest Filename" />
+                    <data value="" name="Task4 taskName" />
+                    <data value="" name="Task4 Display String" />
+                    <data value="" name="Task5 Quest Filename" />
+                    <data value="" name="Task5 taskName" />
+                    <data value="" name="Task5 Display String" />
+                    <data value="" name="Task6 Quest Filename" />
+                    <data value="" name="Task6 taskName" />
+                    <data value="" name="Task6 Display String" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Comm Player" id="15" taskOnFail="false" >
+                        <data value="Message from Bib Fortuna" name="journalEntryTitle" />
+                        <data value="&quot;Stop spending time working for Romo Vax, you work for me. His information doesn't allow him to make demands. We're through negotiating, if he wants to get paid he turns over the data now.&quot;" name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="Stop spending time working for Romo Vax, you work for me. His information doesn't allow him to make demands. We're through negotiating, if he wants to get paid he turns over the data now." name="Comm Message Text" />
+                        <data value="object/mobile/bib_fortuna.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="1" taskOnFail="false" >
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="completedRomosQuest" name="Signal Name" />
+                            <data value="Romo Vax" name="waypointName" />
+                            <data value="-6560" name="LocationZ(m)" />
+                            <data value="75" name="LocationY(m)" />
+                            <data value="-5223" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="returnToRomo" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="Romo Vax's enemies have been destroyed. Return to Romo and demand that he hand over the data Bib wants." name="journalEntryDescription" />
+                            <data value="Return to Romo Vax" name="journalEntryTitle" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <task type="Retrieve Item" id="19" taskOnFail="false" >
+                                <data value="Retrieve the Stolen Data" name="journalEntryTitle" />
+                                <data value="Retrieve the stolen data from the Valarian hackers." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="getRomosDisks_b" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="object/tangible/quest/tatooine_bib_fortuna_hacker_terminal.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="You have retrieved the data stolen from Romo Vax" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="0" name="CountdownTimer" />
+                                <data value="Slice into the Valarian terminal" name="retrieveMenuText" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <task type="Destroy Multiple" id="20" taskOnFail="false" >
+                                <data value="Kill Some Valarian Hackers" name="journalEntryTitle" />
+                                <data value="Take out some of Lady Valarian's hackers." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="getRomosDisks_a" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="tatooine_valarian_hacker" name="Target Server Template" />
+                                <data value="" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="7" name="Count" />
+                                <data value="0" name="RewardCredits" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <task type="Wait for Tasks" id="21" taskOnFail="false" >
+                                <data value="Retrieve the Stolen Data from Valarian's Hackers" name="journalEntryTitle" />
+                                <data value="Some hackers working for Lady Valarian sliced their way into Romo Vax's mainframe, downloaded all of his data, and left a virus behind to wipe out his system. Find the Valarian hackers and retrieve the data they took." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="getRomosDisks" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="-5371" name="LocationX(m)" />
+                                <data value="64" name="LocationY(m)" />
+                                <data value="-6899" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Valarian Hackers' Bunker" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="quest/jabba_bib_fortuna_v2" name="Task1 Quest Filename" />
+                                <data value="getRomosDisks_a" name="Task1 taskName" />
+                                <data value="Defeat Some Valarian Hackers" name="Task1 Display String" />
+                                <data value="quest/jabba_bib_fortuna_v2" name="Task2 Quest Filename" />
+                                <data value="getRomosDisks_b" name="Task2 taskName" />
+                                <data value="Retrieve the Stolen Data" name="Task2 Display String" />
+                                <data value="" name="Task3 Quest Filename" />
+                                <data value="" name="Task3 taskName" />
+                                <data value="" name="Task3 Display String" />
+                                <data value="" name="Task4 Quest Filename" />
+                                <data value="" name="Task4 taskName" />
+                                <data value="" name="Task4 Display String" />
+                                <data value="" name="Task5 Quest Filename" />
+                                <data value="" name="Task5 taskName" />
+                                <data value="" name="Task5 Display String" />
+                                <data value="" name="Task6 Quest Filename" />
+                                <data value="" name="Task6 taskName" />
+                                <data value="" name="Task6 Display String" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Wait for Signal" id="6" taskOnFail="false" >
+                                    <data value="Take the Disk To Bib Fortuna" name="journalEntryTitle" />
+                                    <data value="Now that you have recovered the data that Romo Vax lost, you should deliver it to Bib Fortuna in Jabba's Palace." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="takeDiskToBib" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="-5857" name="LocationX(m)" />
+                                    <data value="90" name="LocationY(m)" />
+                                    <data value="-6175" name="LocationZ(m)" />
+                                    <data value="Jabba's Palace" name="waypointName" />
+                                    <data value="romosDisksDelivered" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <task type="Destroy Multiple" id="8" taskOnFail="false" >
+                                        <data value="Kill Romo's Henchmen" name="journalEntryTitle" />
+                                        <data value="While you're hunting down Romo Vax, be sure to take out some of his henchmen as well. Leave one or two alive, but the rest must serve notice to anyone else who might want to cheat Jabba the Hutt." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="killRomoVax_b" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="false" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0" name="LocationX(m)" />
+                                        <data value="0" name="LocationY(m)" />
+                                        <data value="0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="tatooine_romo_vax_henchman" name="Target Server Template" />
+                                        <data value="" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="11" name="Count" />
+                                        <data value="0" name="RewardCredits" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                    <task type="Destroy Multiple" id="22" taskOnFail="false" >
+                                        <data value="Eliminate Romo Vax" name="journalEntryTitle" />
+                                        <data value="Bib Fortuna has ordered you to take out Romo Vax." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="killRomoVax_a" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="fighting_romo_vax" name="Target Server Template" />
+                                        <data value="" name="Social Group" />
+                                        <data value="" name="requiredRegion" />
+                                        <data value="1" name="Count" />
+                                        <data value="0" name="RewardCredits" />
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                    </task>
+                                    <task type="Wait for Tasks" id="23" taskOnFail="false" >
+                                        <data value="Romo's Time Is Up" name="journalEntryTitle" />
+                                        <data value="Bib Fortuna reveals to you that Romo Vax is a Sennex and has been working against Jabba. The Wayfar spies had been spying on Romo for Bib, but your interference has halted that. To make amends, Bib insists that you go deal with Romo. Eliminate him." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="killRomoVax" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="-5055" name="LocationX(m)" />
+                                        <data value="43" name="LocationY(m)" />
+                                        <data value="-6962" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="Romo Vax's Hideout" name="waypointName" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="quest/jabba_bib_fortuna_v2" name="Task1 Quest Filename" />
+                                        <data value="killRomoVax_a" name="Task1 taskName" />
+                                        <data value="Kill Romo Vax" name="Task1 Display String" />
+                                        <data value="quest/jabba_bib_fortuna_v2" name="Task2 Quest Filename" />
+                                        <data value="killRomoVax_b" name="Task2 taskName" />
+                                        <data value="Kill Romo's Henchmen" name="Task2 Display String" />
+                                        <data value="" name="Task3 Quest Filename" />
+                                        <data value="" name="Task3 taskName" />
+                                        <data value="" name="Task3 Display String" />
+                                        <data value="" name="Task4 Quest Filename" />
+                                        <data value="" name="Task4 taskName" />
+                                        <data value="" name="Task4 Display String" />
+                                        <data value="" name="Task5 Quest Filename" />
+                                        <data value="" name="Task5 taskName" />
+                                        <data value="" name="Task5 Display String" />
+                                        <data value="" name="Task6 Quest Filename" />
+                                        <data value="" name="Task6 taskName" />
+                                        <data value="" name="Task6 Display String" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Wait for Signal" id="24" taskOnFail="false" >
+                                            <data value="Return to Bib Fortuna" name="journalEntryTitle" />
+                                            <data value="Now that Romo Vax is dead, return to Bib Fortuna at Jabba's Palace." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="returnToBib" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="-5857" name="LocationX(m)" />
+                                            <data value="90" name="LocationY(m)" />
+                                            <data value="-6175" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="Jabba's Palace" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="romoVaxKilled" name="Signal Name" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="Time To Complete" />
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Jabba's Palace : Bib Fortuna" name="journalEntryTitle" />
+            <data value="There are plenty of people who live or work in Jabba's Palace who need things done. You're the person to do those things." name="journalEntryDescription" />
+            <data value="Jabba's Palace" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="19" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="item_content_boots_ter_neg_02_01" name="lootName" />
+            <data value="1500" name="Bank Credits" />
+            <data value="175" name="Faction Amount" />
+            <data value="jabba" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="Bib Fortuna had you deal with Romo Vax, a traitor who tried to profit from Jabba's greed. After you dealt with the traitor Bib sent you to speak to Jabba himself." name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="false" name="grantGcwPoints" />
+        </list>
+    </quest>
