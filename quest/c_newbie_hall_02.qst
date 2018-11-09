@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="6" >
+            <task type="Wait for Signal" id="0" name="Wait for Signal" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="enterRoom7" name="taskName" />
+                <data value="false" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="entered_tutorial_r7" name="Signal Name" />
+                <task type="Show Message Box" id="1" name="Show Message Box" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Waypoints" name="journalEntryTitle" />
+                    <data value="In Star Wars Galaxies you navigate by waypoints. These waypoints are indicated in three ways. 
+1. Blue Arrow
+A blue arrow will appear in the center area of your screen. This arrow moves and continually indicates the direction of your destination. 
+2. Waypoint in Datapad
+Your datapad is found in your Utilities Bar or by pressing CTRL D. In your datapad, under Waypoints you will find all saved waypoints. You can right click on them to bring up the radial menu. There you will find the option to Activate, Deactivate, or Destroy. Activating the waypoint brings the arrow up on your screen. Deactivating it removes the arrow and Destroying it removes it from your datapad.
+3. Column of Light. 
+When you near your destination, you will see a glowing pillar of light that goes from the sky to the ground. You will find your destination under the column of light." name="journalEntryDescription" />
+                    <data value="getQuest" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="Waypoints" name="messageBoxTitle" />
+                    <data value="In Star Wars Galaxies you navigate by waypoints. These waypoints are indicated in three ways. 
+1. Blue Arrow
+A blue arrow will appear in the center area of your screen. This arrow moves and continually indicates the direction of your destination. 
+2. Waypoint in Datapad
+Your datapad is found in your Utilities Bar or by pressing CTRL D. In your datapad, under Waypoints you will find all saved waypoints. You can right click on them to bring up the radial menu. There you will find the option to Activate, Deactivate, or Destroy. Activating the waypoint brings the arrow up on your screen. Deactivating it removes the arrow and Destroying it removes it from your datapad.
+3. Column of Light. 
+When you near your destination, you will see a glowing pillar of light that goes from the sky to the ground. You will find your destination under the column of light." name="messageBoxText" />
+                    <task type="Wait for Signal" id="5" name="Wait for Signal" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="explainWaypoint" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="quest/c_newbie_hall_range01" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="explainWaypoint" name="Signal Name" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="-76.5" name="waitMarkerZ" />
+                        <data value="-7" name="waitMarkerY" />
+                        <data value="42.7000007629395" name="waitMarkerX" />
+                        <data value="r7" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="object/static/structure/general/waypoint_personal_blue.iff" name="waitMarkerTemplate" />
+                        <data value="true" name="waitMarkerCreate" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    </task>
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="sound/tutorial_textbox07_waypoints.snd" name="messageBoxSound" />
+                    <data value="-1" name="messageBoxLocationY" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="-78.9000015258789" name="waitMarkerZ" />
+                <data value="-7" name="waitMarkerY" />
+                <data value="0.200000002980232" name="waitMarkerX" />
+                <data value="r6" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="object/static/structure/general/waypoint_pulseline_white.iff" name="waitMarkerTemplate" />
+                <data value="true" name="waitMarkerCreate" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+            </task>
+        </tasks>
+        <list>
+            <data value="More Basics" name="journalEntryTitle" />
+            <data value="More Basics of Star Wars Galaxies!" name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Welcome to Star Wars Galaxies!" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

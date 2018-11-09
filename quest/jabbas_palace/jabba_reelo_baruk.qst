@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="9" >
+            <task type="Destroy Multiple" id="0" taskOnFail="false" >
+                <data value="Kill Alkharan Bandits" name="journalEntryTitle" />
+                <data value="Jabba has a lot of people who pay him for protection. Unfortunately for the Alkharan bandits, they've been raiding some of these people. Jabba wants you to teach them a lesson. Kill 10 Alkharan bandits. You have been given a waypoint to an area where they have been seen recently." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="killAlkharanBandits" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="-5455" name="LocationX(m)" />
+                <data value="38" name="LocationY(m)" />
+                <data value="-6122" name="LocationZ(m)" />
+                <data value="Alkharan Bandit Camp" name="waypointName" />
+                <data value="" name="Target Server Template" />
+                <data value="alkhara" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="10" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <task type="Comm Player" id="7" taskOnFail="false" >
+                    <data value="Message from Reelo Baruk" name="journalEntryTitle" />
+                    <data value="&quot;Good work. Jabba wants you to take care of some of Valarian's soldiers who are skulking around the Palace.&quot;" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="Good work. Jabba wants you to take care of some of Valarian's soldiers who are skulking around the Palace." name="Comm Message Text" />
+                    <data value="object/mobile/reelo_baruk.iff" name="NPC Appearance Server Template" />
+                    <task type="Destroy Multiple" id="2" taskOnFail="false" >
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="11" name="Count" />
+                        <data value="" name="requiredRegion" />
+                        <data value="" name="Social Group" />
+                        <data value="tatooine_valarian_soldier" name="Target Server Template" />
+                        <data value="Valarian Outpost" name="waypointName" />
+                        <data value="-5929" name="LocationZ(m)" />
+                        <data value="35" name="LocationY(m)" />
+                        <data value="-6258" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="killingValarians" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="true" name="isVisible" />
+                        <data value="Lady Valarian's underlings have been skulking around the palace, and Jabba wants to scare them away. Kill 11 of Valarian's soldiers." name="journalEntryDescription" />
+                        <data value="Kill Valarian Soldiers" name="journalEntryTitle" />
+                        <task type="Comm Player" id="8" taskOnFail="false" >
+                            <data value="object/mobile/reelo_baruk.iff" name="NPC Appearance Server Template" />
+                            <data value="Some of Valarian's people are buying up gambling debts. Take the vouchers from them so we can cash in ourselves." name="Comm Message Text" />
+                            <data value="" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="&quot;Some of Valarian's people are buying up gambling debts. Take the vouchers from them so we can cash in ourselves.&quot;" name="journalEntryDescription" />
+                            <data value="Message from Reelo Baruk" name="journalEntryTitle" />
+                            <task type="Destroy Multiple and Loot" id="4" taskOnFail="false" >
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="Time To Complete" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="0" name="RewardCredits" />
+                                <data value="90" name="LootDropPercent" />
+                                <data value="7" name="NumberItemsRequired" />
+                                <data value="Gambling Voucher" name="LootItemName" />
+                                <data value="" name="requiredRegion" />
+                                <data value="" name="Social Group" />
+                                <data value="tatooine_valarian_bookie" name="CreatureType" />
+                                <data value="Valarian Outpost" name="waypointName" />
+                                <data value="-5929" name="LocationZ(m)" />
+                                <data value="35" name="LocationY(m)" />
+                                <data value="-6258" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="parameter" />
+                                <data value="" name="target" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="collectingDebts" name="taskName" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="true" name="isVisible" />
+                                <data value="Reelo wants you to attack some of Lady Valarian's bookies and collect the gambling vouchers they've been buying and carrying around. Bring back 7 of them." name="journalEntryDescription" />
+                                <data value="Collect Debts from Valarian Bookies" name="journalEntryTitle" />
+                                <task type="Wait for Signal" id="5" taskOnFail="false" >
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="completelyFinished" name="Signal Name" />
+                                    <data value="Jabba's Palace" name="waypointName" />
+                                    <data value="-6175" name="LocationZ(m)" />
+                                    <data value="90" name="LocationY(m)" />
+                                    <data value="-5857" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="target" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="Return to Reelo Baruk in Jabba's Palace." name="journalEntryDescription" />
+                                    <data value="Return to Reelo" name="journalEntryTitle" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Jabba's Palace : Reelo Baruk" name="journalEntryTitle" />
+            <data value="There are plenty of people who live or work in Jabba's Palace who need things done. You're the person to do those things." name="journalEntryDescription" />
+            <data value="Jabba's Palace" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="18" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="You have completed several tasks for Reelo Baruk, and proved yourself enough that he's sent you to Ree-Yees for more work in the palace." name="journalEntryCompletionSummary" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="750" name="Bank Credits" />
+            <data value="50" name="Faction Amount" />
+            <data value="jabba" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="9" >
+            <task type="Go to Location" id="0" taskOnFail="false" >
+                <data value="Check out the Stone Tower" name="journalEntryTitle" />
+                <data value="Go out to the Stone Tower at -443, -1148 and see what is there." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="firstloc" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="dathomir" name="Planet" />
+                <data value="-443" name="LocationX(m)" />
+                <data value="123" name="LocationY(m)" />
+                <data value="-1148" name="LocationZ(m)" />
+                <data value="Stone Tower" name="waypointName" />
+                <data value="10.0" name="Radius(m)" />
+                <task type="Go to Location" id="1" taskOnFail="false" >
+                    <data value="Go to the Floating Rocks" name="journalEntryTitle" />
+                    <data value="Go to the Floating Rocks and see what" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="secondloc" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="dathomir" name="Planet" />
+                    <data value="-829" name="LocationX(m)" />
+                    <data value="95" name="LocationY(m)" />
+                    <data value="-5043" name="LocationZ(m)" />
+                    <data value="Floating Rocks" name="waypointName" />
+                    <data value="10.0" name="Radius(m)" />
+                    <task type="Go to Location" id="2" taskOnFail="false" >
+                        <data value="Go out to the Old Ceremonial Site" name="journalEntryTitle" />
+                        <data value="Travel out to the Old Ceremonial Site at 1067, -4487 and find out if anything is happening there. " name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="thirdloc" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="dathomir" name="Planet" />
+                        <data value="1067" name="LocationX(m)" />
+                        <data value="100" name="LocationY(m)" />
+                        <data value="-4487" name="LocationZ(m)" />
+                        <data value="Old Ceremonial Site" name="waypointName" />
+                        <data value="10.0" name="Radius(m)" />
+                        <task type="Encounter" id="4" taskOnFail="false" >
+                            <data value="Ambushed!" name="journalEntryTitle" />
+                            <data value="You were ambushed by 2 Singing Mountain Clan Sentries!  Kill them!" name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="ambush" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="singing_mountain_clan_sentry" name="Creature Type" />
+                            <data value="2" name="Count" />
+                            <data value="5" name="Min Distance" />
+                            <data value="15" name="Max Distance" />
+                            <data value="0.0" name="Spawn Offset Location X(m)" />
+                            <data value="0.0" name="Spawn Offset Location Z(m)" />
+                            <task type="Immediately Clear Quest" id="5" taskOnFail="true" >
+                                <data value="Mission Failed!" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="failed" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                            </task>
+                            <task type="Go to Location" id="6" taskOnFail="false" >
+                                <data value="Go to Another Set of Floating Rocks" name="journalEntryTitle" />
+                                <data value="Go out to the floating rocks at 2996, -5143 and discover what is going on there." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="fourthloc" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="dathomir" name="Planet" />
+                                <data value="2996" name="LocationX(m)" />
+                                <data value="80" name="LocationY(m)" />
+                                <data value="-5143" name="LocationZ(m)" />
+                                <data value="Floating Rocks" name="waypointName" />
+                                <data value="10.0" name="Radius(m)" />
+                                <task type="Wait for Signal" id="7" taskOnFail="false" >
+                                    <data value="Return to the Science Center" name="journalEntryTitle" />
+                                    <data value="Return to the Science Center and tell the Nightsister Slave what happened." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="questdone" name="taskName" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="dantooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="c_dathomir_nightsister_combat1_complete" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <task type="Reward" id="8" taskOnFail="false" >
+                                        <data value="Reward for a Job Well Done" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="reward" name="taskName" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                        <data value="" name="Experience Type" />
+                                        <data value="0" name="Experience Amount" />
+                                        <data value="nightsister" name="Faction Name" />
+                                        <data value="1000" name="Faction Amount" />
+                                        <data value="5000" name="Bank Credits" />
+                                        <data value="" name="Item" />
+                                        <data value="1" name="CountItem" />
+                                        <data value="" name="Weapon" />
+                                        <data value="1" name="CountWeapon" />
+                                        <data value="0.1" name="Speed" />
+                                        <data value="0.1" name="Damage" />
+                                        <data value="0.1" name="Efficiency" />
+                                        <data value="0.1" name="Elemental Value" />
+                                        <data value="" name="Armor" />
+                                        <data value="1" name="CountArmor" />
+                                        <data value="0.1" name="Quality" />
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Scout the Singing Mountain Clan's Activities" name="journalEntryTitle" />
+            <data value="At the whim of Gethzerion, scout several areas and report the activities of the Singing Mountain Clan." name="journalEntryDescription" />
+            <data value="Dathomir" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

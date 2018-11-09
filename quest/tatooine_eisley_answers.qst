@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Show Message Box" id="7" taskOnFail="false" >
+                <data value="-1" name="messageBoxLocationY" />
+                <data value="-1" name="messageBoxLocationX" />
+                <data value="-1" name="messageBoxSizeHeight" />
+                <data value="-1" name="messageBoxSizeWidth" />
+                <data value="" name="messageBoxSound" />
+                <data value="According to Durr's datapad he was attempting to slice into the White Thranta payroll computer. It appears he was not happy with his pay. He didn't appear to be successful, but he did get as far as the security systems database. Maybe you can find something of value using his slice technique." name="messageBoxText" />
+                <data value="Durr's Datapad" name="messageBoxTitle" />
+                <data value="White Thranta Shipping" name="waypointName" />
+                <data value="-4182" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="3727" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="tat_eisley_answers_e1" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="According to Durr's datapad he was attempting to slice into the White Thranta payroll computer. It apprears he was not happy with his pay. He didn't appear to be successful, but he did get as far as the security systems database. Maybe you can find something of value using his slice technique." name="journalEntryDescription" />
+                <data value="Durr's Datapad" name="journalEntryTitle" />
+                <task type="Retrieve Item" id="0" taskOnFail="false" >
+                    <data value="Slice Company Payroll Terminal" name="retrieveMenuText" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Company Payroll Terminal" name="ItemName" />
+                    <data value="1" name="Count" />
+                    <data value="object/tangible/quest/frn_all_security_terminal_wall_01.iff" name="Server Object Template" />
+                    <data value="White Thranta Shipping" name="waypointName" />
+                    <data value="-4182" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="3727" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="false" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="tat_eisley_answers_e2" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="Head to the base's front offices and use Durr's slice technique on the Company Payroll Terminal. You can find this terminal in the first room with the secretary and the Public Access Terminal. It is on the north wall opposite the entrance." name="journalEntryDescription" />
+                    <data value="Slice the Company Payroll Terminal" name="journalEntryTitle" />
+                    <task type="Show Message Box" id="10" taskOnFail="false" >
+                        <data value="-1" name="messageBoxLocationY" />
+                        <data value="-1" name="messageBoxLocationX" />
+                        <data value="-1" name="messageBoxSizeHeight" />
+                        <data value="-1" name="messageBoxSizeWidth" />
+                        <data value="" name="messageBoxSound" />
+                        <data value="Slicing the payroll computer is simple using Durr's technique. You search the database and notice the security captain used the same password on the last three password updates. You might try that password on the base's security computer. You also take note of an untapped escrow account you can divert to your own account. It will take some time to transfer, but you're sure Durr won't miss the credits." name="messageBoxText" />
+                        <data value="Payroll Computer" name="messageBoxTitle" />
+                        <data value="White Thranta Shipping" name="waypointName" />
+                        <data value="-4182" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="3727" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="tat_eisley_answers_e3" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="true" name="isVisible" />
+                        <data value="Slicing the payroll computer is simple using Durr's technique. You search the database and notice the security captain used the same password on the last three password updates. You might try that password on the bases security computer. You also take note of an untapped escrow account you can check later to see if it's still active. I'm sure Durr won't miss the creds." name="journalEntryDescription" />
+                        <data value="Disgruntled Employee" name="journalEntryTitle" />
+                        <task type="Retrieve Item" id="1" taskOnFail="false" >
+                            <data value="Slice the Security Terminal" name="journalEntryTitle" />
+                            <data value="Go to the Security Terminal and use the captain's password. The security terminal is located in the round room right after the entrance room of the building. It is located on the west wall." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tat_eisley_answers_e4" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="3727" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="-4182" name="LocationZ(m)" />
+                            <data value="White Thranta Shipping" name="waypointName" />
+                            <data value="object/tangible/quest/frn_all_security_terminal_wall_02.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Base Security Terminal" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Slice Security Terminal" name="retrieveMenuText" />
+                            <task type="Show Message Box" id="8" taskOnFail="false" >
+                                <data value="Security Insecurity" name="journalEntryTitle" />
+                                <data value="The captain's over-used password worked. As you scan the system's records you notice a file on Durr. It lists his personal passwords, and it also has a strange note attached to his file put there by the security captain. For some reason the captain was ordered to issue a disciplinary reprimand against Dren by someone of higher authority. This seems to indicate Dren was not the ultimate authority in this base. The reprimand was given for accessing an unmentioned file. It's possible this file can be found in Durr's personal computer." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tat_eisley_answers_e5" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="3727" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="-4182" name="LocationZ(m)" />
+                                <data value="White Thranta Shipping" name="waypointName" />
+                                <data value="Security Computer" name="messageBoxTitle" />
+                                <data value="The captain's over-used password worked. As you scan the system's records you notice a file on Durr. It lists his personal passwords, and it also has a strange note attached to his file put there by the security captain. For some reason the captain was ordered to issue a disciplinary reprimand against Durr by someone of higher authority. This seems to indicate Durr was not the ultimate authority in this base. The reprimand was given for accessing an unmentioned file. It's possible this file can be found in Durr's personal computer." name="messageBoxText" />
+                                <data value="" name="messageBoxSound" />
+                                <data value="-1" name="messageBoxSizeWidth" />
+                                <data value="-1" name="messageBoxSizeHeight" />
+                                <data value="-1" name="messageBoxLocationX" />
+                                <data value="-1" name="messageBoxLocationY" />
+                                <task type="Retrieve Item" id="2" taskOnFail="false" >
+                                    <data value="Slice Dren's Personal Data Terminal" name="retrieveMenuText" />
+                                    <data value="100" name="LootDropPercent" />
+                                    <data value="Dren's Personal Data Terminal" name="ItemName" />
+                                    <data value="1" name="Count" />
+                                    <data value="object/tangible/quest/frn_all_security_terminal_wall_03.iff" name="Server Object Template" />
+                                    <data value="White Thranta Shipping" name="waypointName" />
+                                    <data value="-4182" name="LocationZ(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="3727" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="target" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="tat_eisley_answers_e6" name="taskName" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="Go to the dormitory and use the password you got from the Security Terminal on Durr's Personal Data Terminal. Durr's Personal Data Terminal is located in the northwest corner of the dormitory, inside the partition." name="journalEntryDescription" />
+                                    <data value="Slice Durr's Personal Data Terminal" name="journalEntryTitle" />
+                                    <task type="Show Message Box" id="9" taskOnFail="false" >
+                                        <data value="Durr's Journal" name="journalEntryTitle" />
+                                        <data value="Using Durr's password from the security computer gives you full access to Durr's files. The first thing you notice is that Durr answered to a man named Brok Ziam. This is the final target for the activities going on in the infirmary. You also happen to notice that Durr was keeping track of Brok's activities for someone. Someone Durr obviously feared greatly. The last thing you recover is the password for Brok's personal computer. It appears Durr was quite a capable slicer." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tat_eisley_answers_e7" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="3727" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-4182" name="LocationZ(m)" />
+                                        <data value="White Thranta Shipping" name="waypointName" />
+                                        <data value="Durr's Personal Computer" name="messageBoxTitle" />
+                                        <data value="Using Durr's password from the security computer you gain full access to Durr's files. The first thing you notice is that Durr answered to a man named Brok Ziam. This is the true person responsible for the activities going on in the infirmary. You also recover the password for Brok's personal computer. It appears Durr was quite a capable slicer." name="messageBoxText" />
+                                        <data value="" name="messageBoxSound" />
+                                        <data value="-1" name="messageBoxSizeWidth" />
+                                        <data value="-1" name="messageBoxSizeHeight" />
+                                        <data value="-1" name="messageBoxLocationX" />
+                                        <data value="-1" name="messageBoxLocationY" />
+                                        <task type="Retrieve Item" id="3" taskOnFail="false" >
+                                            <data value="Slice Brok's Personal Data Terminal" name="journalEntryTitle" />
+                                            <data value="Slice Brok's Personal Data Terminal in the dormitory. Brok's Personal Data Terminal is in the same room as Durr's Personal Data Terminal on the north wall, inside the largest partition." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="tat_eisley_answers_e8" name="taskName" />
+                                            <data value="true" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="3727" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="-4182" name="LocationZ(m)" />
+                                            <data value="White Thranta Shipping" name="waypointName" />
+                                            <data value="object/tangible/quest/frn_all_security_terminal_wall_04.iff" name="Server Object Template" />
+                                            <data value="1" name="Count" />
+                                            <data value="Brok's Personal Data Terminal" name="ItemName" />
+                                            <data value="100" name="LootDropPercent" />
+                                            <data value="Slice Brok's Personal Data Terminal" name="retrieveMenuText" />
+                                            <task type="Show Message Box" id="4" taskOnFail="false" >
+                                                <data value="Brok's Journal" name="journalEntryTitle" />
+                                                <data value="You access Brok's computer with the password stolen from Durr's files. Brok was indeed working for someone else that financed the entire operation. Brok only lists him as JH, and it's apparent Brok feared him at least as much as Durr did. You also notice that Brok was tracking the same salvage cargo that you were on board the space station. There appears to be more here than what first meets the eye. It looks like the only way you'll find the true answers to this mystery is to take out Brok and see if he knows anything more." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="tat_eisley_answers_e9" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="3727" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-4182" name="LocationZ(m)" />
+                                                <data value="White Thranta Shipping" name="waypointName" />
+                                                <data value="Brok's Personal Computer" name="messageBoxTitle" />
+                                                <data value="You access Brok's computer with the password stolen from Durr's files. You notice that Brok was tracking some cargo coming from Tansarii Station, the same station you just left. There appears to be more here than what first meets the eye. It looks like the only way you'll find the true answers to this mystery is to take out Brok and see if he knows anything more." name="messageBoxText" />
+                                                <data value="" name="messageBoxSound" />
+                                                <data value="-1" name="messageBoxSizeWidth" />
+                                                <data value="-1" name="messageBoxSizeHeight" />
+                                                <data value="-1" name="messageBoxLocationX" />
+                                                <data value="-1" name="messageBoxLocationY" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="buildingServerTemplateName" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <task type="Comm Player" id="11" taskOnFail="false" >
+                                                    <data value="Bib Comm" name="journalEntryTitle" />
+                                                    <data value="Incoming Comm from Bib Fortuna." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="tat_eisley_answers_e10" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="Yes, YES! He is the one! I will tell Jabba immediately. You have done well, and you will be rewarded." name="Comm Message Text" />
+                                                    <data value="object/mobile/bib_fortuna.iff" name="NPC Appearance Server Template" />
+                                                    <task type="Immediately Complete Quest" id="6" taskOnFail="false" >
+                                                        <data value="Complete" name="journalEntryTitle" />
+                                                        <data value="Good Work! You have completed the Answers quest! You have discovered the true leader of the White Thranta Shipping company is Brok Ziamzun. Time to take him out." name="journalEntryDescription" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="tat_eisley_answers_e11" name="taskName" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="tatooine_eisley_faceevil" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                    </task>
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                </task>
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="entranceWaypointName" />
+                                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="0.0" name="EntranceLocationX(m)" />
+                                                <data value="0" name="createEntranceWaypoint" />
+                                            </task>
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="buildingServerTemplateName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="0" name="Time To Complete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                        </task>
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="buildingServerTemplateName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="buildingServerTemplateName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="buildingServerTemplateName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <task type="Timer" id="13" taskOnFail="false" >
+                                    <data value="Imperial First Bank of Core" name="journalEntryTitle" />
+                                    <data value="You are being contacted by a bank representitive." name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tat_eisley_answers_e5a" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="10" name="Min Time" />
+                                    <data value="14" name="Max Time" />
+                                    <task type="Comm Player" id="12" taskOnFail="false" >
+                                        <data value="First Imperial Bank of Core" name="journalEntryTitle" />
+                                        <data value="You are being contacted by a bank representitive." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tat_eisley_answers_e5b" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="Transfer request of 5,000 Imperial credits from White Thranta escrow account A37TDX41 to your personal account has been approved. Thank you for using the First Imperial Bank of Core, and have a nice day!" name="Comm Message Text" />
+                                        <data value="object/mobile/dressed_noble_old_human_female_02.iff" name="NPC Appearance Server Template" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="entranceWaypointName" />
+                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                        <data value="0" name="createEntranceWaypoint" />
+                                    </task>
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="buildingServerTemplateName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0" name="Time To Complete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="buildingServerTemplateName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="buildingServerTemplateName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="buildingServerTemplateName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Answers" name="journalEntryTitle" />
+            <data value="You're going to have to fight your way back to the front office and slice the computer there. Let's hope it has more information for you." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="13" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="5000" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="3929" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="You have finally sliced Brok's personal data terminal. It shows that he was behind all of this. You must defeat Brok to satisfy Jabba, but for all he's done to the innocent people of Mos Eisley, he needs to die." name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

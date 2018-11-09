@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="15" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Talk to Kaila Min" name="journalEntryTitle" />
+                <data value="Go to Narmle's gambling hall between dusk and dawn to speak with Kaila Min. " name="journalEntryDescription" />
+                <data value="kaila" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="false" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="c_story1_2_imp_kaila" name="Signal Name" />
+                <task type="Go to Location" id="1" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Follow Kaila's Directions" name="journalEntryTitle" />
+                    <data value="Go to the location that Kaila gave you as to where she saw the missing pilot." name="journalEntryDescription" />
+                    <data value="gotoambush" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="rori" name="Planet" />
+                    <data value="-2970" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="947" name="LocationZ(m)" />
+                    <data value="10.0" name="Radius(m)" />
+                    <task type="Encounter" id="2" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Ambushed!" name="journalEntryTitle" />
+                        <data value="Black Sun thugs ambushed you at the site where the pilot was last seen.  Kill them all.  Maybe one of them has information." name="journalEntryDescription" />
+                        <data value="ambush1" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="black_sun_initiate" name="Creature Type" />
+                        <data value="3" name="Count" />
+                        <data value="3" name="Min Distance" />
+                        <data value="8" name="Max Distance" />
+                        <data value="Any" name="Direction" />
+                        <task type="Encounter" id="3" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Ambush 2 (invis)" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="ambush2" name="taskName" />
+                            <data value="false" name="isVisible" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="black_sun_smuggler" name="Creature Type" />
+                            <data value="3" name="Count" />
+                            <data value="5" name="Min Distance" />
+                            <data value="8" name="Max Distance" />
+                            <data value="Any" name="Direction" />
+                            <task type="Encounter" id="4" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Ambush 3 (invis)" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="ambush3" name="taskName" />
+                                <data value="false" name="isVisible" />
+                                <data value="false" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="black_sun_minion" name="Creature Type" />
+                                <data value="2" name="Count" />
+                                <data value="3" name="Min Distance" />
+                                <data value="8" name="Max Distance" />
+                                <data value="Any" name="Direction" />
+                                <task type="Reward" id="5" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Information Found!" name="journalEntryTitle" />
+                                    <data value="You survuved the Black Sun ambush and found a datapad with the location: 4846, -1084" name="journalEntryDescription" />
+                                    <data value="ambushsurvived" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="Rebel" name="Faction Name" />
+                                    <data value="0" name="Faction Amount" />
+                                    <data value="0" name="Bank Credits" />
+                                    <data value="object/tangible/mission/quest_item/syren2_blacksun_base.iff" name="Item" />
+                                    <task type="Go to Location" id="6" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Go to 4846, -1084 on Rori" name="journalEntryTitle" />
+                                        <data value="Go to the location that you found on the datapad and see what is there." name="journalEntryDescription" />
+                                        <data value="gotobase" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="false" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="rori" name="Planet" />
+                                        <data value="4846" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-1084" name="LocationZ(m)" />
+                                        <data value="10.0" name="Radius(m)" />
+                                        <task type="Wait for Signal" id="7" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Talk to Tovar Blackmoor" name="journalEntryTitle" />
+                                            <data value="Talk to Tovar Blackmoor, the chemist working with the Black Sun.  Maybe he will give you information." name="journalEntryDescription" />
+                                            <data value="chemist" name="taskName" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="c_story1_2_imp_chemist" name="Signal Name" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="Black Sun Base" name="waypointName" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="-1084" name="LocationZ(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="4846" name="LocationX(m)" />
+                                            <data value="rori" name="Planet" />
+                                            <data value="true" name="createWaypoint" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Wait for Signal" id="13" taskOnFail="false" >
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="Return to Jevan Monsul" name="journalEntryTitle" />
+                                                <data value="So, the Rebel Alliance is smuggling the new spice and the Black Sun want in on the action.  There is still no sign of the missing pilot. (Chapter 2 complete, but the story will continue.)" name="journalEntryDescription" />
+                                                <data value="cliff2" name="taskName" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="true" name="showSystemMessages" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="c_story1_2_imp_cliff2" name="Signal Name" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="Jevan Monsul" name="waypointName" />
+                                                <data value="-3692" name="LocationZ(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="-1358" name="LocationX(m)" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <task type="Immediately Complete Quest" id="14" taskOnFail="false" >
+                                                    <data value="" name="journalEntryTitle" />
+                                                    <data value="" name="journalEntryDescription" />
+                                                    <data value="false" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                </task>
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="0" name="Time To Complete" />
+                                            </task>
+                                        </task>
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="Location from Datapad" name="waypointName" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="0" name="Time To Complete" />
+                                    </task>
+                                </task>
+                                <task type="Immediately Clear Quest" id="12" taskOnFail="true" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Mission Failed" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                </task>
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="waypointName" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="0.0" name="Spawn Offset Location Z(m)" />
+                                <data value="0.0" name="Spawn Offset Location X(m)" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <task type="Immediately Clear Quest" id="11" taskOnFail="true" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Mission Failed" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                            </task>
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="0.0" name="Spawn Offset Location Z(m)" />
+                            <data value="0.0" name="Spawn Offset Location X(m)" />
+                            <data value="0" name="Time To Complete" />
+                        </task>
+                        <task type="Immediately Clear Quest" id="10" taskOnFail="true" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Mission Failed" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                        </task>
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="waypointName" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="0.0" name="Spawn Offset Location Z(m)" />
+                        <data value="0.0" name="Spawn Offset Location X(m)" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="Pilot's Last Known Location" name="waypointName" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="Kaila Min's Hang Out" name="waypointName" />
+                <data value="-2266" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-5286" name="LocationX(m)" />
+                <data value="rori" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+            </task>
+        </tasks>
+        <list>
+            <data value="More than You Bargained For" name="journalEntryTitle" />
+            <data value="You're on the trail of the missing pilot, but are you getting into something deeper than you expected?" name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Secrets of the Syren" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="true" name="journalVisible" />
+            <data value="56" name="Level" />
+            <data value="4" name="Tier" />
+            <data value="group" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="item_content_shisa_02_01" name="lootName" />
+            <data value="5000" name="Bank Credits" />
+            <data value="100" name="Faction Amount" />
+            <data value="Imperial" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

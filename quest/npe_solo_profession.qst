@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="5" >
+            <task type="Wait for Signal" id="0" taskOnFail="false" >
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="npe_solo_profession_originate" name="Signal Name" />
+                <data value="Han Solo" name="waypointName" />
+                <data value="123" name="LocationZ(m)" />
+                <data value="0" name="LocationY(m)" />
+                <data value="-105" name="LocationX(m)" />
+                <data value="dungeon1" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="true" name="showSystemMessages" />
+                <data value="talktosolo1" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="The only person on this station that you know is Han Solo. Talk to him about what to do next." name="journalEntryDescription" />
+                <data value="Talk to Han Solo in Hangar 2" name="journalEntryTitle" />
+                <data value="hangarbay2" name="buildingCellName" />
+                <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                <task type="Wait for Signal" id="1" taskOnFail="false" >
+                    <data value="Talk to Han Solo in Hangar 2" name="journalEntryTitle" />
+                    <data value="Once you have chosen what you want to do, tell Han Solo that you are ready." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="talktosolo2" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="quest/npe_solo_profession_2" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="dungeon1" name="Planet" />
+                    <data value="-105" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="123" name="LocationZ(m)" />
+                    <data value="Han Solo" name="waypointName" />
+                    <data value="npe_solo_profession_conclude" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="hangarbay2" name="buildingCellName" />
+                    <data value="thm_spc_nebula_orion_station.iff" name="buildingServerTemplateName" />
+                    <data value="yavin4" name="interiorWaypointAppearance" />
+                </task>
+                <data value="yavin4" name="interiorWaypointAppearance" />
+            </task>
+        </tasks>
+        <list>
+            <data value="1" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Choose Your Path" name="journalEntryTitle" />
+            <data value="It's time to choose what you will do for a profession. Han Solo can help you try different professions. Once you know what you want to do, tell Solo and he will help you choose your profession. Consider carefully before you make your choice." name="journalEntryDescription" />
+            <data value="Tansarii Point Station" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="0.1" name="Quality" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

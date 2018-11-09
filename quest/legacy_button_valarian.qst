@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="12" >
+            <task type="Comm Player" id="11" taskOnFail="false" >
+                <data value="object/mobile/dressed_dressed_legacy_barrezz.iff" name="NPC Appearance Server Template" />
+                <data value="Who knew that the Jawas could have scavenged that much? Next I need you to go to a Valarian base. Uploading the information now." name="Comm Message Text" />
+                <data value="" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="legacy_button_valarian_e145" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="" name="journalEntryDescription" />
+                <data value="Bazz gives Valarian" name="journalEntryTitle" />
+                <task type="Go to Location" id="0" taskOnFail="false" >
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="30" name="Radius(m)" />
+                    <data value="Valarian Smuggler Depot" name="waypointName" />
+                    <data value="-3440" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="-1565" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="true" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="legacy_button_valarian_e1" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="true" name="isVisible" />
+                    <data value="The Valarian smuggling operation has set up a base in the mountains north of Bestine. Go there, locate the cargo pallets and download the cargo manifests from the datapads located with each cargo pallet." name="journalEntryDescription" />
+                    <data value="Infiltrate the Valarian Depot" name="journalEntryTitle" />
+                    <task type="Wait for Tasks" id="6" taskOnFail="false" >
+                        <data value="Inventory Pallets" name="journalEntryTitle" />
+                        <data value="The Valarian portion of the cargo seems to be scattered throughout the site.You need to download the cargo manifest from the datapad located with each of the five pallets of cargo." name="journalEntryDescription" />
+                        <data value="false" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="legacy_button_valarian_e2" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="sound/music_combat_e_thru_s_vict.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="quest/legacy_button_valarian" name="Task1 Quest Filename" />
+                        <data value="legacy_button_valarian_e5" name="Task1 taskName" />
+                        <data value="Inventory Pallet #1" name="Task1 Display String" />
+                        <data value="quest/legacy_button_valarian" name="Task2 Quest Filename" />
+                        <data value="legacy_button_valarian_e6" name="Task2 taskName" />
+                        <data value="Inventory Pallet #2" name="Task2 Display String" />
+                        <data value="quest/legacy_button_valarian" name="Task3 Quest Filename" />
+                        <data value="legacy_button_valarian_e7" name="Task3 taskName" />
+                        <data value="Inventory Pallet #3" name="Task3 Display String" />
+                        <data value="quest/legacy_button_valarian" name="Task4 Quest Filename" />
+                        <data value="legacy_button_valarian_e8" name="Task4 taskName" />
+                        <data value="Inventory Pallet #4" name="Task4 Display String" />
+                        <data value="quest/legacy_button_valarian" name="Task5 Quest Filename" />
+                        <data value="legacy_button_valarian_e9" name="Task5 taskName" />
+                        <data value="Inventory Pallet #5" name="Task5 Display String" />
+                        <data value="" name="Task6 Quest Filename" />
+                        <data value="" name="Task6 taskName" />
+                        <data value="" name="Task6 Display String" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Immediately Complete Quest" id="10" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="legacy_button_valarian_e4" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="legacy_button_darklighter" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <task type="Retrieve Item" id="5" taskOnFail="false" >
+                        <data value="Pallet #1" name="journalEntryTitle" />
+                        <data value="Inventory Pallet #1" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="legacy_button_valarian_e5" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="music_combat_e_thru_s_vict.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-1673" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-3291" name="LocationZ(m)" />
+                        <data value="Pallet #1" name="waypointName" />
+                        <data value="object/tangible/quest/legacy_valarian_pallet1_datapad.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="Pallet #1 Inventory PDA" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Download Inventory List" name="retrieveMenuText" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <task type="Retrieve Item" id="4" taskOnFail="false" >
+                        <data value="Pallet #2" name="journalEntryTitle" />
+                        <data value="Inventory Pallet #2" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="legacy_button_valarian_e6" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="music_combat_e_thru_s_vict.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-1615" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-3330" name="LocationZ(m)" />
+                        <data value="Pallet #2" name="waypointName" />
+                        <data value="object/tangible/quest/legacy_valarian_pallet2_datapad.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="Pallet #2 Inventory PDA" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Download Inventory List" name="retrieveMenuText" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <task type="Retrieve Item" id="3" taskOnFail="false" >
+                        <data value="Pallet #3" name="journalEntryTitle" />
+                        <data value="Inventory Pallet #3" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="legacy_button_valarian_e7" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="music_combat_e_thru_s_vict.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-1662" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-3339" name="LocationZ(m)" />
+                        <data value="Pallet #3" name="waypointName" />
+                        <data value="object/tangible/quest/legacy_valarian_pallet3_datapad.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="Pallet #3 Inventory PDA" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Download Inventory List" name="retrieveMenuText" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <task type="Retrieve Item" id="2" taskOnFail="false" >
+                        <data value="Pallet #4" name="journalEntryTitle" />
+                        <data value="Invnetory Pallet #4" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="legacy_button_valarian_e8" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="music_combat_e_thru_s_vict.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-1703" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-3337" name="LocationZ(m)" />
+                        <data value="Pallet #4" name="waypointName" />
+                        <data value="object/tangible/quest/legacy_valarian_pallet4_datapad.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="Pallet #4 Inventory PDA" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Download Inventory List" name="retrieveMenuText" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <task type="Retrieve Item" id="1" taskOnFail="false" >
+                        <data value="Pallet #5" name="journalEntryTitle" />
+                        <data value="Inventory Pallet #5" name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="legacy_button_valarian_e9" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="music_combat_e_thru_s_vict.snd" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-1693" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-3313" name="LocationZ(m)" />
+                        <data value="Pallet #5" name="waypointName" />
+                        <data value="object/tangible/quest/legacy_valarian_pallet5_datapad.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="Pallet #5 Inventory PDA" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="Download Inventory List" name="retrieveMenuText" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="0" name="Time To Complete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                </task>
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Valarian Haul" name="journalEntryTitle" />
+            <data value="The Valarian crime syndicate bought a portion of the cargo. According to your handler that portion of the cargo was trans-shipped to a storage yard up in the mountains near Bestine. You need to infiltrate the facility and get a full inventory of what the Valarians bought. " name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="15" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="1000" name="Bank Credits" />
+            <data value="20" name="Faction Amount" />
+            <data value="Imperial" name="Faction Name" />
+            <data value="5832" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="legacy_button_darklighter, legacy_button_jawatracks_pt3" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="legacy_button_imp_pt2" name="conditionalQuestGrantQuestToGive" />
+            <data value="With a mixture of guile and firepower you were able to move around the Valarian Depot and get a complete inventory of everything that they got from the smuggled cargo. Commander Barrezz was happy with the information and wants you to go and check out one more locale near the Darklighter Estate." name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="weapon_content_polearm_tier_7_03_02" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="weapon_content_knuckler_tier_7_03_02" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="weapon_content_1h_tier_7_03_02" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="weapon_content_2h_tier_7_03_02" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

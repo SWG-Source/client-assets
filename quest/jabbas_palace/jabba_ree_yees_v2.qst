@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="15" >
+            <task type="Destroy Multiple and Loot" id="0" taskOnFail="false" >
+                <data value="The Bell" name="journalEntryTitle" />
+                <data value="Ree-Yees is the official inventory keeper for Jabba's Palace. He wants you to find a bell that was stolen from Jabba by the Sand Splitters. The bell was last seen in the possession of one of the Sand Splitter knaves." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="collectingBell" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="-6740" name="LocationX(m)" />
+                <data value="52" name="LocationY(m)" />
+                <data value="-5647" name="LocationZ(m)" />
+                <data value="Sand Splitter Cave" name="waypointName" />
+                <data value="tatooine_sand_splitter_knave" name="CreatureType" />
+                <data value="" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="Gem Encrusted Bell" name="LootItemName" />
+                <data value="1" name="NumberItemsRequired" />
+                <data value="40" name="LootDropPercent" />
+                <data value="0" name="RewardCredits" />
+                <task type="Comm Player" id="1" taskOnFail="false" >
+                    <data value="Message from Ree-Yees" name="journalEntryTitle" />
+                    <data value="&quot;Jabba's missing a ledger containing valuable information. It was stolen by the Sand Splitters. Jabba demands that it be returned. Find the ledger and make an example of the Sand Splitter brutes.&quot;" name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="Jabba's missing a ledger containing valuable information. It was stolen by the Sand Splitters, and he demands it be returned. Find the thug that has it. It shouldn't take long." name="Comm Message Text" />
+                    <data value="object/mobile/gran_male.iff" name="NPC Appearance Server Template" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <task type="Wait for Tasks" id="8" taskOnFail="false" >
+                        <data value="The Ledger" name="journalEntryTitle" />
+                        <data value="A ledger belonging to Jabba that contains valuable information was stolen by the Sand Splitters. Find the ledger and punish some Sand Splitter brutes to send them a message." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="collectingBook" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="-6740" name="LocationX(m)" />
+                        <data value="52" name="LocationY(m)" />
+                        <data value="-5647" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="Sand Splitter Cave" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="quest/jabba_ree_yees_v2" name="Task1 Quest Filename" />
+                        <data value="collectingBook_b" name="Task1 taskName" />
+                        <data value="Retrieve Jabba's ledger from the Sand Splitters" name="Task1 Display String" />
+                        <data value="quest/jabba_ree_yees_v2" name="Task2 Quest Filename" />
+                        <data value="collectingBook_a" name="Task2 taskName" />
+                        <data value="Punish some Sand Splitter brutes" name="Task2 Display String" />
+                        <data value="" name="Task3 Quest Filename" />
+                        <data value="" name="Task3 taskName" />
+                        <data value="" name="Task3 Display String" />
+                        <data value="" name="Task4 Quest Filename" />
+                        <data value="" name="Task4 taskName" />
+                        <data value="" name="Task4 Display String" />
+                        <data value="" name="Task5 Quest Filename" />
+                        <data value="" name="Task5 taskName" />
+                        <data value="" name="Task5 Display String" />
+                        <data value="" name="Task6 Quest Filename" />
+                        <data value="" name="Task6 taskName" />
+                        <data value="" name="Task6 Display String" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Comm Player" id="7" taskOnFail="false" >
+                            <data value="Ree-Yees Contacts You" name="journalEntryTitle" />
+                            <data value="&quot;Jabba had a prototype warhead in the garage. It's missing. Those Sand Splitters once again.  I had no idea they stole so much when they left, but they've now gotten Jabba's attention. He wants an end to them once and for all.&quot;" name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="Jabba had a prototype warhead in the garage. It's missing. Those Sand Splitters once again.  I had no idea they stole so much when they left, but they've now gotten Jabba's attention. He wants an end to them once and for all." name="Comm Message Text" />
+                            <data value="object/mobile/gran_male.iff" name="NPC Appearance Server Template" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="entranceWaypointName" />
+                            <data value="0.0" name="EntranceLocationZ(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="0.0" name="EntranceLocationX(m)" />
+                            <data value="0" name="createEntranceWaypoint" />
+                            <task type="Wait for Tasks" id="11" taskOnFail="false" >
+                                <data value="The Prototype Warhead" name="journalEntryTitle" />
+                                <data value="When the Sand Splitters left Jabba's organization, they took a prototype warhead with them. Jabba wants it back. He also wants these Sand Splitters ended. Take out their leaders and the rest will disperse." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="collectingCandle" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="-6740" name="LocationX(m)" />
+                                <data value="52" name="LocationY(m)" />
+                                <data value="-5647" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="Sand Splitter Cave" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="quest/jabba_ree_yees_v2" name="Task1 Quest Filename" />
+                                <data value="collectingCandle_a" name="Task1 taskName" />
+                                <data value="Retrieve Jabba's Warhead" name="Task1 Display String" />
+                                <data value="quest/jabba_ree_yees_v2" name="Task2 Quest Filename" />
+                                <data value="collectingCandle_b" name="Task2 taskName" />
+                                <data value="Defeat Saul Rouse" name="Task2 Display String" />
+                                <data value="quest/jabba_ree_yees_v2" name="Task3 Quest Filename" />
+                                <data value="collectingCandle_c" name="Task3 taskName" />
+                                <data value="Defeat Erib Kurrugh" name="Task3 Display String" />
+                                <data value="" name="Task4 Quest Filename" />
+                                <data value="" name="Task4 taskName" />
+                                <data value="" name="Task4 Display String" />
+                                <data value="" name="Task5 Quest Filename" />
+                                <data value="" name="Task5 taskName" />
+                                <data value="" name="Task5 Display String" />
+                                <data value="" name="Task6 Quest Filename" />
+                                <data value="" name="Task6 taskName" />
+                                <data value="" name="Task6 Display String" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Wait for Signal" id="5" taskOnFail="false" >
+                                    <data value="0" name="Time To Complete" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="reeYeesSaysYoureAWinner" name="Signal Name" />
+                                    <data value="Jabba's Palace" name="waypointName" />
+                                    <data value="-6175" name="LocationZ(m)" />
+                                    <data value="90" name="LocationY(m)" />
+                                    <data value="-5857" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="target" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="completedMission" name="taskName" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="Return to Jabba's Palace and speak with Ree-Yees." name="journalEntryDescription" />
+                                    <data value="Return to Ree-Yees" name="journalEntryTitle" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="entranceWaypointName" />
+                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                    <data value="0" name="createEntranceWaypoint" />
+                                </task>
+                            </task>
+                            <task type="Destroy Multiple" id="12" taskOnFail="false" >
+                                <data value="Defeat Erib Kurrugh of the Sand Splitters" name="journalEntryTitle" />
+                                <data value="Erib Kurrugh and Saul Rouse formed the Sand Splitters when they left Jabba's organization. Defeat these two leaders and the Sand Splitters will fall apart." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="collectingCandle_c" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="tatooine_sand_splitter_erib_kurrugh" name="Target Server Template" />
+                                <data value="" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="1" name="Count" />
+                                <data value="0" name="RewardCredits" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <task type="Destroy Multiple" id="13" taskOnFail="false" >
+                                <data value="Defeat Saul Rouse of the Sand Splitters" name="journalEntryTitle" />
+                                <data value="Saul Rouse and Erib Kurrugh formed the Sand Splitters when they left Jabba's organization. Defeat these two leaders and the Sand Splitters will fall apart." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="collectingCandle_b" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="tatooine_sand_splitter_saul_rouse" name="Target Server Template" />
+                                <data value="" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="1" name="Count" />
+                                <data value="0" name="RewardCredits" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                            <task type="Retrieve Item" id="14" taskOnFail="false" >
+                                <data value="Find Jabba's Prototype Warhead" name="journalEntryTitle" />
+                                <data value="The Sand Splitters stole a prototype warhead from Jabba. Find it." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="collectingCandle_a" name="taskName" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="object/tangible/quest/tatooine_reeyees_warhead.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="Jabba's missing warhead" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="0" name="CountdownTimer" />
+                                <data value="Take Jabba's warhead" name="retrieveMenuText" />
+                                <data value="0" name="Time To Complete" />
+                            </task>
+                        </task>
+                    </task>
+                    <task type="Retrieve Item" id="9" taskOnFail="false" >
+                        <data value="Find Jabba's Ledger" name="journalEntryTitle" />
+                        <data value="A ledger belonging to Jabba that contains valuable information was stolen by the Sand Splitters. Find the ledger in the Sand Splitters' cave." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="collectingBook_b" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="object/tangible/quest/tatooine_reeyees_jabbas_ledger.iff" name="Server Object Template" />
+                        <data value="1" name="Count" />
+                        <data value="You found Jabba's ledger" name="ItemName" />
+                        <data value="100" name="LootDropPercent" />
+                        <data value="4" name="CountdownTimer" />
+                        <data value="Take Jabba's ledger" name="retrieveMenuText" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                    <task type="Destroy Multiple" id="10" taskOnFail="false" >
+                        <data value="Kill Sand Splitter Brutes" name="journalEntryTitle" />
+                        <data value="Punish some Sand Splitter brutes to send them a message not to betray Jabba." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="collectingBook_a" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="tatooine_sand_splitter_brute" name="Target Server Template" />
+                        <data value="" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="8" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="0" name="Time To Complete" />
+                    </task>
+                </task>
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Jabba's Palace : Ree-Yees" name="journalEntryTitle" />
+            <data value="There are plenty of people who live or work in Jabba's Palace who need things done. You're the person to do those things." name="journalEntryDescription" />
+            <data value="Jabba's Palace" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="18" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Ree-Yees asked you to help him with some missing items, things that were stolen from the palace. After doing so he gave you permission to enter the palace and speak with Ephant Mon." name="journalEntryCompletionSummary" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="item_content_ring_ree_yees_02_01" name="lootName" />
+            <data value="850" name="Bank Credits" />
+            <data value="75" name="Faction Amount" />
+            <data value="jabba" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

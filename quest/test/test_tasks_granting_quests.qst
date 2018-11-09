@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="5" >
+            <task type="Nothing" id="1" name="Nothing" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="journalEntryTitle" />
+                <data value="" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <task type="Timer" id="3" name="Timer" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Wait 5 seconds" name="journalEntryTitle" />
+                    <data value="After 5 seconds, quest/test_reward will be granted to you." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="quest/test_reward" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="5" name="Min Time" />
+                    <data value="5" name="Max Time" />
+                </task>
+                <task type="Escort" id="4" name="Escort" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Fail this bad boy!" name="journalEntryTitle" />
+                    <data value="Kill Oola to get quest/test_craft granted to you." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="quest/test_craft" name="grantQuestOnFail" />
+                    <data value="oola" name="Escort Creature Type" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Test tasks granting quests" name="journalEntryTitle" />
+            <data value="Follow the tasks instructions." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Test" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

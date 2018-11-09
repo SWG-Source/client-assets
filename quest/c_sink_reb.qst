@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Go to Location" id="0" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Search and Rescue" name="journalEntryTitle" />
+                <data value="Go out to a crashed Escape Pod" name="journalEntryDescription" />
+                <data value="gotocrash" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="true" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="corellia" name="Planet" />
+                <data value="-5463" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-930" name="LocationZ(m)" />
+                <data value="10.0" name="Radius(m)" />
+                <task type="Timer" id="2" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="timer 30-60 seconds (invis)" name="journalEntryTitle" />
+                    <data value="this times an ambush" name="journalEntryDescription" />
+                    <data value="timer" name="taskName" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="true" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="10" name="Min Time" />
+                    <data value="10" name="Max Time" />
+                    <task type="Encounter" id="3" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="ambush (invis)" name="journalEntryTitle" />
+                        <data value="You get ambushed by 4 Flail baddies" name="journalEntryDescription" />
+                        <data value="ambush" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="flail_enforcer" name="Creature Type" />
+                        <data value="4" name="Count" />
+                        <data value="2" name="Min Distance" />
+                        <data value="8" name="Max Distance" />
+                        <data value="Any" name="Direction" />
+                    </task>
+                </task>
+                <task type="Wait for Signal" id="5" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Return and Talk to Acun Solari" name="journalEntryTitle" />
+                    <data value="Tell Acun Solari what happened to his friend." name="journalEntryDescription" />
+                    <data value="safesignal" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="true" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="c_sink_reb_safe" name="Signal Name" />
+                    <task type="Reward" id="6" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Reward for Returning Alive" name="journalEntryTitle" />
+                        <data value="You have been rewarded with credits and Rebel faction for returning alive with news." name="journalEntryDescription" />
+                        <data value="reward1" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="" name="Experience Type" />
+                        <data value="0" name="Experience Amount" />
+                        <data value="Rebel" name="Faction Name" />
+                        <data value="25" name="Faction Amount" />
+                        <data value="1000" name="Bank Credits" />
+                        <data value="" name="Item" />
+                        <task type="Destroy Multiple" id="7" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Kill 15 Flails" name="journalEntryTitle" />
+                            <data value="Kill 15 Flails on Corellia.  A location of one of their camps has been added to your datapad." name="journalEntryDescription" />
+                            <data value="kill" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="" name="Target Server Template" />
+                            <data value="flail" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="15" name="Count" />
+                            <data value="0" name="RewardCredits" />
+                        </task>
+                        <task type="Destroy Multiple and Loot" id="8" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Get 10 Binayre Marks" name="journalEntryTitle" />
+                            <data value="Kill Binayre Pirates on Talus and recover 10 of their gang symbols as proof.  A location to one of their common camps has been added to your datapad." name="journalEntryDescription" />
+                            <data value="killloot" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="" name="CreatureType" />
+                            <data value="binayre" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="Binyare Mark" name="LootItemName" />
+                            <data value="10" name="NumberItemsRequired" />
+                            <data value="75" name="LootDropPercent" />
+                            <data value="0" name="RewardCredits" />
+                        </task>
+                        <task type="Wait for Signal" id="13" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Talk to Acun Solari" name="journalEntryTitle" />
+                            <data value="Once you have done as he asked, return to Acun Solari and talk to him." name="journalEntryDescription" />
+                            <data value="spacesignal" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="c_sink_reb_gospace" name="Signal Name" />
+                            <task type="Wait for Signal" id="10" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Go into space to kill Hidden Daggers" name="journalEntryTitle" />
+                                <data value="Go into space and await further instructions." name="journalEntryDescription" />
+                                <data value="spaceactive" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="true" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="c_sink_reb_spacedone" name="Signal Name" />
+                                <task type="Reward" id="11" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Mission Reward" name="journalEntryTitle" />
+                                    <data value="You were rewarded for a successful mission." name="journalEntryDescription" />
+                                    <data value="" name="taskName" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="false" name="showSystemMessages" />
+                                    <data value="true" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="Rebel" name="Faction Name" />
+                                    <data value="100" name="Faction Amount" />
+                                    <data value="5000" name="Bank Credits" />
+                                    <data value="" name="Item" />
+                                    <task type="Immediately Complete Quest" id="12" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Mission Complete" name="journalEntryTitle" />
+                                        <data value="You completed the mission." name="journalEntryDescription" />
+                                        <data value="" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="true" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Enough!!" name="journalEntryTitle" />
+            <data value="After a simple search and rescue mission, Rebel Officer Acun Solari has had enough with the criminal element." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Corellia" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="32" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="" name="journalEntryCompletionSummary" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="Reward Badge" />
+            <data value="1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

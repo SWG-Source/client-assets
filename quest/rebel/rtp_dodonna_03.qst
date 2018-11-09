@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="5" >
+            <task type="Wave Event" id="2" taskOnFail="false" >
+                <data value="X-Winging" name="journalEntryTitle" />
+                <data value="General Dodonna must get some vital information to Admiral Ackbar on Dantooine. The only secure means he has left is to send a pilot in an X-Wing to make a hand delivery. In order to help ensure the safety of that pilot, you are going to protect a decoy long enough to allow the true X-Wing to launch.." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="rtp_dodonna_03_01" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskCompletion" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="signalsOnFail" />
+                <data value="true" name="createWaypoint" />
+                <data value="yavin4" name="Planet" />
+                <data value="5851" name="LocationX(m)" />
+                <data value="27" name="LocationY(m)" />
+                <data value="5391" name="LocationZ(m)" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="" name="buildingCellName" />
+                <data value="Decoy X-Wing" name="waypointName" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="" name="entranceWaypointName" />
+                <data value="object/tangible/quest/rebel/rtp_dodonna_wave_xwing.iff" name="Server Object Template" />
+                <data value="Signal the X-Wing Pilot" name="waveEventMenuText" />
+                <data value="You let the X-Wing pilot know to begin." name="waveEventStartMessage" />
+                <data value="rtp_stormtrooper_elite_90" name="primaryTargetWave1" />
+                <data value="Shut down that starship immediately and stand down. That means you as well, %TO." name="utteranceWave1" />
+                <data value="14" name="spawnRadiusWave1" />
+                <data value="rtp_stormtrooper_elite_89" name="guardsWave1" />
+                <data value="1" name="numGuardsWave1" />
+                <data value="4" name="delayWave1" />
+                <data value="rtp_dodonna_dark_trooper_assault" name="primaryTargetWave2" />
+                <data value="Failure to comply with Imperial directives will be met with the full force of the Empire." name="utteranceWave2" />
+                <data value="14" name="spawnRadiusWave2" />
+                <data value="rtp_stormtrooper_elite_90" name="guardsWave2" />
+                <data value="2" name="numGuardsWave2" />
+                <data value="4" name="delayWave2" />
+                <data value="rtp_dodonna_dark_trooper_assault" name="primaryTargetWave3" />
+                <data value="You must surrender at once." name="utteranceWave3" />
+                <data value="14" name="spawnRadiusWave3" />
+                <data value="rtp_dodonna_dark_trooper_assault" name="guardsWave3" />
+                <data value="2" name="numGuardsWave3" />
+                <data value="6" name="delayWave3" />
+                <data value="" name="primaryTargetWave4" />
+                <data value="" name="utteranceWave4" />
+                <data value="1.0" name="spawnRadiusWave4" />
+                <data value="" name="guardsWave4" />
+                <data value="0" name="numGuardsWave4" />
+                <data value="0" name="delayWave4" />
+                <data value="" name="primaryTargetWave5" />
+                <data value="" name="utteranceWave5" />
+                <data value="1.0" name="spawnRadiusWave5" />
+                <data value="" name="guardsWave5" />
+                <data value="0" name="numGuardsWave5" />
+                <data value="0" name="delayWave5" />
+                <data value="" name="primaryTargetWave6" />
+                <data value="" name="utteranceWave6" />
+                <data value="1.0" name="spawnRadiusWave6" />
+                <data value="" name="guardsWave6" />
+                <data value="0" name="numGuardsWave6" />
+                <data value="0" name="delayWave6" />
+                <data value="0" name="Time To Complete" />
+                <task type="Wait for Signal" id="3" taskOnFail="false" >
+                    <data value="Return to General Dodonna" name="journalEntryTitle" />
+                    <data value="Return to General Dodonna." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="rtp_dodonna_03_02" name="taskName" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="rtp_dodonna_03_02" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="Time To Complete" />
+                </task>
+                <task type="Comm Player" id="4" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="Good work! I'm underway and should be able to get to Dantooine safely. Thanks!" name="Comm Message Text" />
+                    <data value="object/mobile/dressed_rebel_pilot_human_male_02.iff" name="NPC Appearance Server Template" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="90" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="group" name="Type" />
+            <data value="Covering an X-Wing" name="journalEntryTitle" />
+            <data value="Provide cover for an X-Wing that needs to take off. It must get to Dantooine with information for Admiral Ackbar." name="journalEntryDescription" />
+            <data value="Rebel Theme-Park" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="An X-Wing with vital information for Admiral Ackbar was able to launch into space thanks to your help." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="true" name="grantGcwPoints" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="armor_rebel_assault_chest_plate_camo_04_01" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="armor_ithorian_defender_chest_plate_camo_04_01" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="armor_kashyyykian_black_mtn_chest_plate_camo_04_01" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="Rebel" name="penaltyFactionName" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="11" >
+            <task type="Wait for Signal" id="8" taskOnFail="false" >
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+                <data value="tatooine_knives_fencing_launch_e13" name="Signal Name" />
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="true" name="showSystemMessages" />
+                <data value="tatooine_knives_fencing_e12" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="false" name="isVisible" />
+                <data value="Destroy the Hutt smuggler that is trying to get out of the system." name="journalEntryDescription" />
+                <data value="Destory the Ship" name="journalEntryTitle" />
+                <task type="Wait for Signal" id="1" taskOnFail="false" >
+                    <data value="Report to Lady Valarian" name="journalEntryTitle" />
+                    <data value="Once you have succeeded in destroying the Hutt smuggler return to Lady Valarian." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tatooine_knives_fencing_e13" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="atooine_knives_fencing_launch_e14" name="Signal Name" />
+                    <data value="0" name="waitMarkerCreate" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerZ" />
+                    <task type="Go to Location" id="10" taskOnFail="false" >
+                        <data value="Ambush the Hit Squad" name="journalEntryTitle" />
+                        <data value="Jabba is sending a hit squad to kill Lady Valarian. She wants to publicly humiliate Jabba and have you destroy the assassination squad out in the streets so that Jabba will know that she won't stand for his strong arm tactics." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tatooine_knives_fencing_e135" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="3331" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-4610" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="10.0" name="Radius(m)" />
+                        <task type="Encounter" id="3" taskOnFail="false" >
+                            <data value="20" name="Spawn Offset Location Z(m)" />
+                            <data value="20" name="Spawn Offset Location X(m)" />
+                            <data value="10" name="Max Distance" />
+                            <data value="5" name="Min Distance" />
+                            <data value="4" name="Count" />
+                            <data value="jabba_assassin" name="Creature Type" />
+                            <data value="Ambush Point" name="waypointName" />
+                            <data value="-4615" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="3331" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="tatooine_knives_fencing_e15" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="true" name="isVisible" />
+                            <data value="Jabba is sending an assassination squad to kill Valarian. The lady wants you to stop them in a nice public place, so that Jabba will know that she won't stand for his strong arm tactics She want to publicly humilate Jabba and have you destory the assassination squad out in the streets" name="journalEntryDescription" />
+                            <data value="Lunge" name="journalEntryTitle" />
+                            <task type="Wait for Signal" id="4" taskOnFail="false" >
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="tatooine_knives_fencing_launch_e18" name="Signal Name" />
+                                <data value="Lady Valarian" name="waypointName" />
+                                <data value="10" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="10" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="parameter" />
+                                <data value="" name="target" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="tatooine_knives_fencing_e17" name="taskName" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="true" name="isVisible" />
+                                <data value="Your ambush of the assassination squad went off perfectly. Return to Lady Valarian with the good news." name="journalEntryDescription" />
+                                <data value="Return to Lady Valarian" name="journalEntryTitle" />
+                                <task type="Reward" id="6" taskOnFail="false" >
+                                    <data value="Ambush Reward" name="journalEntryTitle" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tatooine_knives_fencing_e18" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="valarian" name="Faction Name" />
+                                    <data value="200" name="Faction Amount" />
+                                    <data value="5000" name="Bank Credits" />
+                                    <data value="object/tangible/loot/quest/valarian_dagger.iff" name="Item" />
+                                    <data value="1" name="CountItem" />
+                                    <data value="object/weapon/ranged/rifle/rifle_lightning_light.iff" name="Weapon" />
+                                    <data value="1" name="CountWeapon" />
+                                    <data value="0.5" name="Speed" />
+                                    <data value="0.699999988079071" name="Damage" />
+                                    <data value="0.699999988079071" name="Efficiency" />
+                                    <data value="0.5" name="Elemental Value" />
+                                    <data value="" name="Armor" />
+                                    <data value="1" name="CountArmor" />
+                                    <data value="0.1" name="Quality" />
+                                    <task type="Immediately Complete Quest" id="7" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tatooine_knives_fencing_e19" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                    </task>
+                                </task>
+                            </task>
+                            <task type="Immediately Clear Quest" id="9" taskOnFail="true" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tatooine_knives_fencing_e501" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Fencing part 2" name="journalEntryTitle" />
+            <data value="Lady Valarian is not done with Jabba. She plans to punish him more and is asking for your help." name="journalEntryDescription" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

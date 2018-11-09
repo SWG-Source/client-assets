@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="17" >
+            <task type="Destroy Multiple" id="0" taskOnFail="false" >
+                <data value="Kill Sennex Pirates" name="journalEntryTitle" />
+                <data value="The Sennex pirates are trading in slaves on Tatooine and Jabba isn't happy about someone cutting into his profits. You will shut down the Sennex slave trade on Tatooine, or Jabba will not be pleased." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="killingTheSennex" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="-4927" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="1268" name="LocationZ(m)" />
+                <data value="Sennex" name="waypointName" />
+                <data value="" name="Target Server Template" />
+                <data value="sennex" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="16" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <task type="Comm Player" id="13" taskOnFail="false" >
+                    <data value="" name="journalEntryTitle" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="You're showing a lot of spirit out there. Now it's time to move on to heavy lifting. Find the Sennex Slavemasters, plenty of them around. I want five of them destroyed, understand?" name="Comm Message Text" />
+                    <data value="object/mobile/ephant_mon.iff" name="NPC Appearance Server Template" />
+                    <task type="Destroy Multiple" id="2" taskOnFail="false" >
+                        <data value="0" name="Time To Complete" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="0" name="RewardCredits" />
+                        <data value="5" name="Count" />
+                        <data value="" name="requiredRegion" />
+                        <data value="" name="Social Group" />
+                        <data value="sennex_slavemaster" name="Target Server Template" />
+                        <data value="Sennex Compound" name="waypointName" />
+                        <data value="1268" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="-4927" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="killingTheSlaveMasters" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="true" name="isVisible" />
+                        <data value="Ephant Mon wants you to find and kill five Sennex Slavemasters." name="journalEntryDescription" />
+                        <data value="Kill Sennex Slavemasters" name="journalEntryTitle" />
+                        <task type="Comm Player" id="14" taskOnFail="false" >
+                            <data value="object/mobile/ephant_mon.iff" name="NPC Appearance Server Template" />
+                            <data value="Sennex guards carry key-chips they use to access the databanks. Collect the key-chips until you have enough to break into their databank. Should take about nine of them." name="Comm Message Text" />
+                            <data value="" name="waypointName" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="" name="journalEntryTitle" />
+                            <task type="Destroy Multiple and Loot" id="4" taskOnFail="false" >
+                                <data value="0" name="Time To Complete" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="0" name="RewardCredits" />
+                                <data value="80" name="LootDropPercent" />
+                                <data value="9" name="NumberItemsRequired" />
+                                <data value="Sennex Key-Chip" name="LootItemName" />
+                                <data value="" name="requiredRegion" />
+                                <data value="" name="Social Group" />
+                                <data value="sennex_guard" name="CreatureType" />
+                                <data value="Sennex Compound" name="waypointName" />
+                                <data value="1268" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="-4927" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="parameter" />
+                                <data value="" name="target" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="collectingKeyChips" name="taskName" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="true" name="isVisible" />
+                                <data value="Ephant Mon wants you to kill Sennex guards until you have enough of their key-chips to crack into the Sennex databank. You should need about 9 of them." name="journalEntryDescription" />
+                                <data value="Take Key-chips from Sennex Guards" name="journalEntryTitle" />
+                                <task type="Comm Player" id="15" taskOnFail="false" >
+                                    <data value="object/mobile/ephant_mon.iff" name="NPC Appearance Server Template" />
+                                    <data value="You've surpassed my expectations. Now you need to use those key-chips. Find the central computer in the Sennex hideout and wipe all their information. That ought to slow them down." name="Comm Message Text" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="target" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="taskName" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="" name="journalEntryTitle" />
+                                    <task type="Retrieve Item" id="9" taskOnFail="false" >
+                                        <data value="0" name="Time To Complete" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="Wipe Databank" name="retrieveMenuText" />
+                                        <data value="100" name="LootDropPercent" />
+                                        <data value="Databank" name="ItemName" />
+                                        <data value="1" name="Count" />
+                                        <data value="object/tangible/quest/sennex_hq_databank.iff" name="Server Object Template" />
+                                        <data value="Sennex Compound" name="waypointName" />
+                                        <data value="1268" name="LocationZ(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="-4927" name="LocationX(m)" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="target" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="true" name="showSystemMessages" />
+                                        <data value="wipingTheDatabank" name="taskName" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="Ephant Mon wants you to use the key-chips to break into the Sennex databank and wipe its memory. The blueprints indicate the databanks are located in a central room with four passages leading into it. Check your map for something like that." name="journalEntryDescription" />
+                                        <data value="Wipe the Sennex Databank" name="journalEntryTitle" />
+                                        <task type="Comm Player" id="16" taskOnFail="false" >
+                                            <data value="object/mobile/ephant_mon.iff" name="NPC Appearance Server Template" />
+                                            <data value="You do good work, I'll say that. Bring it on home. Head back to the palace and let me give you a little something for your time. Maybe I'll even introduce you around." name="Comm Message Text" />
+                                            <data value="" name="waypointName" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="target" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="taskName" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="false" name="isVisible" />
+                                            <data value="" name="journalEntryDescription" />
+                                            <data value="" name="journalEntryTitle" />
+                                            <task type="Wait for Signal" id="10" taskOnFail="false" >
+                                                <data value="0" name="Time To Complete" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                                <data value="ephantMonSignal" name="Signal Name" />
+                                                <data value="Jabba's Palace" name="waypointName" />
+                                                <data value="-6175" name="LocationZ(m)" />
+                                                <data value="90" name="LocationY(m)" />
+                                                <data value="-5857" name="LocationX(m)" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="true" name="createWaypoint" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="target" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="returnToEphantMon" name="taskName" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="Return to Jabba's Palace and speak to Ephant Mon." name="journalEntryDescription" />
+                                                <data value="Return to the Palace" name="journalEntryTitle" />
+                                            </task>
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="" name="signalsOnComplete" />
+                                        </task>
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="" name="signalsOnComplete" />
+                                    </task>
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="" name="signalsOnComplete" />
+                                </task>
+                                <data value="" name="signalsOnFail" />
+                                <data value="" name="signalsOnComplete" />
+                            </task>
+                            <data value="" name="signalsOnFail" />
+                            <data value="" name="signalsOnComplete" />
+                        </task>
+                    </task>
+                    <data value="" name="signalsOnFail" />
+                    <data value="" name="signalsOnComplete" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Jabba's Palace : Ephant Mon" name="journalEntryTitle" />
+            <data value="There are plenty of people who live or work in Jabba's Palace who need things done. You're the person to do those things." name="journalEntryDescription" />
+            <data value="Jabba's Palace" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="19" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="Ephant Mon had some trouble with the Sennex pirates, and you helped him out. Afterwards, he asked you to speak with Porcellus in the kitchen." name="journalEntryCompletionSummary" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="item_content_charged_ter_neg_02_01" name="lootName" />
+            <data value="1150" name="Bank Credits" />
+            <data value="150" name="Faction Amount" />
+            <data value="jabba" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="3" name="Tier" />
+        </list>
+    </quest>

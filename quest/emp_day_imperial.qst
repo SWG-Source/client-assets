@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Wait for Signal" id="0" name="Wait for Signal" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Contact the Garrison Historian" name="journalEntryTitle" />
+                <data value="I need to speak with the Garrison Historian in the combat guild on Rori." name="journalEntryDescription" />
+                <data value="converseHistorian" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="historian_conversed" name="Signal Name" />
+                <task type="Destroy Multiple and Loot" id="1" name="Destroy Multiple and Loot" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Recover Historical Disks (Combat Option)" name="journalEntryTitle" />
+                    <data value="I need to recover three historical data disks. I have two options. I can visit various individuals known by the historian who have copies of the disks. Or I can eliminate Rebels until I recover the disks smuggled out by the historian's traitorous assistant." name="journalEntryDescription" />
+                    <data value="killRebels" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="" name="CreatureType" />
+                    <data value="rebel" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="Stolen Historical Data Disk" name="LootItemName" />
+                    <data value="3" name="NumberItemsRequired" />
+                    <data value="33" name="LootDropPercent" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                </task>
+                <task type="Wait for Signal" id="2" name="Wait for Signal" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Recover Historical Disks (Courier Option 0/3)" name="journalEntryTitle" />
+                    <data value="I need to recover three historical data disks. I have two options. I can get the first disk from a contact in the small cantina in Bestine, Tatooine. Or I can eliminate Rebels until I recover the disks smuggled out by the historian's traitorous assistant." name="journalEntryDescription" />
+                    <data value="diskGuy1" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="disk_guy_1" name="Signal Name" />
+                    <task type="Wait for Signal" id="5" name="Wait for Signal" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Recover Historical Disks (Courier Option 1/3)" name="journalEntryTitle" />
+                        <data value="I need to recover three historical data disks. I have two options. I can get the second disk from a contact in the Medical Center in Bela Vistal, Corellia. Or I can eliminate Rebels until I recover the disks smuggled out by the historian's traitorous assistant." name="journalEntryDescription" />
+                        <data value="diskGuy2" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="disk_guy_2" name="Signal Name" />
+                        <task type="Wait for Signal" id="6" name="Wait for Signal" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Recover Historical Disks (Courier Option 2/3)" name="journalEntryTitle" />
+                            <data value="I need to recover three historical data disks. I have two options. I can get the last disk from a contact in the Theater in Deeja Peak, Naboo. Or I can eliminate Rebels until I recover the disks smuggled out by the historian's traitorous assistant." name="journalEntryDescription" />
+                            <data value="diskGuy3" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="false" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="disk_guy_3" name="Signal Name" />
+                            <task type="Wait for Signal" id="8" name="Wait for Signal" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Return to Historian" name="journalEntryTitle" />
+                                <data value="Return to the Garrison Historian on Rori in the Narmle Combat Guild." name="journalEntryDescription" />
+                                <data value="disksToHistorian" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="disk_to_historian" name="Signal Name" />
+                                <task type="Wait for Signal" id="9" name="Wait for Signal" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Visit Data Officer" name="journalEntryTitle" />
+                                    <data value="Visit the data officer at the Dathomir Science Outpost." name="journalEntryDescription" />
+                                    <data value="toDataOfficer" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="false" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="to_data_officer" name="Signal Name" />
+                                    <task type="Wait for Signal" id="10" name="Wait for Signal" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Visit Commander" name="journalEntryTitle" />
+                                        <data value="Hand deliver the disks to the commander." name="journalEntryDescription" />
+                                        <data value="toCommander" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="to_commander" name="Signal Name" />
+                                        <task type="Reward" id="11" name="Reward" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Reward" name="journalEntryTitle" />
+                                            <data value="Get 200 faction" name="journalEntryDescription" />
+                                            <data value="get200Faction" name="taskName" />
+                                            <data value="false" name="isVisible" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="" name="Experience Type" />
+                                            <data value="0" name="Experience Amount" />
+                                            <data value="Imperial" name="Faction Name" />
+                                            <data value="200" name="Faction Amount" />
+                                            <data value="2500" name="Bank Credits" />
+                                            <data value="" name="Item" />
+                                            <task type="Wait for Signal" id="12" name="Wait for Signal" taskOnFail="false" >
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="Visit Vader" name="journalEntryTitle" />
+                                                <data value="Visit Vader" name="journalEntryDescription" />
+                                                <data value="toVader" name="taskName" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="to_vader" name="Signal Name" />
+                                                <task type="Wait for Signal" id="13" name="Wait for Signal" taskOnFail="false" >
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="Tie Up Loose Ends" name="journalEntryTitle" />
+                                                    <data value="Speak with the commander to see if he requires any other assistance." name="journalEntryDescription" />
+                                                    <data value="empDayComplete" name="taskName" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="emp_day_complete" name="Signal Name" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="0" name="waitMarkerZ" />
+                                                    <data value="0" name="waitMarkerY" />
+                                                    <data value="0" name="waitMarkerX" />
+                                                    <data value="" name="waitMarkerCellName" />
+                                                    <data value="0" name="waitMarkerBuilding" />
+                                                    <data value="" name="waitMarkerPlanetName" />
+                                                    <data value="" name="waitMarkerTemplate" />
+                                                    <data value="0" name="waitMarkerCreate" />
+                                                </task>
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="waypointName" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="0" name="waitMarkerZ" />
+                                                <data value="0" name="waitMarkerY" />
+                                                <data value="0" name="waitMarkerX" />
+                                                <data value="" name="waitMarkerCellName" />
+                                                <data value="0" name="waitMarkerBuilding" />
+                                                <data value="" name="waitMarkerPlanetName" />
+                                                <data value="" name="waitMarkerTemplate" />
+                                                <data value="0" name="waitMarkerCreate" />
+                                            </task>
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="1" name="CountItem" />
+                                            <data value="0.1" name="Elemental Value" />
+                                            <data value="0.1" name="Efficiency" />
+                                            <data value="0.1" name="Damage" />
+                                            <data value="0.1" name="Speed" />
+                                            <data value="1" name="CountWeapon" />
+                                            <data value="" name="Weapon" />
+                                            <data value="0.1" name="Quality" />
+                                            <data value="1" name="CountArmor" />
+                                            <data value="" name="Armor" />
+                                        </task>
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="waypointName" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                    </task>
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                </task>
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="Garrison Historian" name="waypointName" />
+                                <data value="-2443" name="LocationZ(m)" />
+                                <data value="81" name="LocationY(m)" />
+                                <data value="-5186" name="LocationX(m)" />
+                                <data value="rori" name="Planet" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="0" name="waitMarkerCreate" />
+                            </task>
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="waypointName" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="0" name="waitMarkerCreate" />
+                        </task>
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="waypointName" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="0" name="waitMarkerCreate" />
+                    </task>
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="0" name="waitMarkerZ" />
+                    <data value="0" name="waitMarkerY" />
+                    <data value="0" name="waitMarkerX" />
+                    <data value="" name="waitMarkerCellName" />
+                    <data value="0" name="waitMarkerBuilding" />
+                    <data value="" name="waitMarkerPlanetName" />
+                    <data value="" name="waitMarkerTemplate" />
+                    <data value="0" name="waitMarkerCreate" />
+                </task>
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="waypointName" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="tatooine" name="Planet" />
+                <data value="0" name="createWaypoint" />
+                <data value="0" name="waitMarkerZ" />
+                <data value="0" name="waitMarkerY" />
+                <data value="0" name="waitMarkerX" />
+                <data value="" name="waitMarkerCellName" />
+                <data value="0" name="waitMarkerBuilding" />
+                <data value="" name="waitMarkerPlanetName" />
+                <data value="" name="waitMarkerTemplate" />
+                <data value="0" name="waitMarkerCreate" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Happy Empire Day!" name="journalEntryTitle" />
+            <data value="Assist Imperial officers as they make preparations for celebrating Empire Day." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Ground Quest" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="true" name="journalVisible" />
+        </list>
+    </quest>

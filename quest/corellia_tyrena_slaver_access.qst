@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="26" >
+            <task type="Destroy Multiple and Loot" id="24" taskOnFail="false" >
+                <data value="0" name="Time To Complete" />
+                <data value="0" name="RewardCredits" />
+                <data value="20" name="LootDropPercent" />
+                <data value="1" name="NumberItemsRequired" />
+                <data value="Password" name="LootItemName" />
+                <data value="" name="requiredRegion" />
+                <data value="corellian_slaver" name="Social Group" />
+                <data value="" name="CreatureType" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <data value="Corellian Slaver Bunker" name="waypointName" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="-2141" name="LocationZ(m)" />
+                <data value="23" name="LocationY(m)" />
+                <data value="-6406" name="LocationX(m)" />
+                <data value="corellia" name="Planet" />
+                <data value="true" name="createWaypoint" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="parameter" />
+                <data value="" name="target" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnActivate" />
+                <data value="0" name="showSystemMessages" />
+                <data value="find_password_1" name="taskName" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="exclusionTasks" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="true" name="isVisible" />
+                <data value="Kyran told you all of the ways into the bunker from the warehouse are sealed and the elevator has a password. See if any of the slavers has a password to the elevator." name="journalEntryDescription" />
+                <data value="Find a Way into the Warehouse" name="journalEntryTitle" />
+                <task type="Retrieve Item" id="1" taskOnFail="false" >
+                    <data value="Slice the Warehouse Terminal" name="journalEntryTitle" />
+                    <data value="You found a datapad on one of the slavers. There is an entry in the datapad with a password to the warehouse terminal, not the elevator. Use the password to slice the warehouse terminal and see if it has any information that will help you get to the bunker's lower levels." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="hack_term_1a" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="object/tangible/quest/corellian_slaver_access_terminal_01.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Access Security Terminal" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="Slice Security Access Terminal" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Wait for Signal" id="15" taskOnFail="false" >
+                        <data value="Find Noro" name="journalEntryTitle" />
+                        <data value="The warehouse terminal contained the password to the elevator. Use the elevator and find the contact Kyran told you about. See if he can help you get into the lower levels." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="talk_to_slave_2" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="talk_to_slave_2" name="Signal Name" />
+                        <data value="0" name="waitMarkerCreate" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="Time To Complete" />
+                        <task type="Retrieve Item" id="14" taskOnFail="false" >
+                            <data value="Find the Administrator's Desk Terminal" name="journalEntryTitle" />
+                            <data value="Noro said that to use the elevator in the privileged slave pen area, you must first gain special permissions from the administrator. Since this permission is not likely, you'll have to figure out a way to hack his personal desk terminal." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="hack_term_2a" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="interiorWaypointAppearance" />
+                            <data value="" name="buildingCellName" />
+                            <data value="" name="waypointName" />
+                            <data value="object/tangible/quest/corellian_slaver_access_terminal_03.iff" name="Server Object Template" />
+                            <data value="1" name="Count" />
+                            <data value="Desk Terminal" name="ItemName" />
+                            <data value="100" name="LootDropPercent" />
+                            <data value="Slice Administrator's Terminal" name="retrieveMenuText" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Retrieve Item" id="13" taskOnFail="false" >
+                                <data value="Spike the Administrator's Desk Terminal" name="journalEntryTitle" />
+                                <data value="The administrator's desk terminal is protected by a continuously running algorithmic security formula. Perhaps a power spike will cause the security routine to reset and allow access to the terminal. Look for some sort of an electrical control terminal. It would be located in a maintanence area with other machinery, and would be more than likely located on this level. It could be used to overload the local power circuits and spike the administrator's terminal." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="hack_term_2b" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="object/tangible/quest/corellian_slaver_access_terminal_02.iff" name="Server Object Template" />
+                                <data value="1" name="Count" />
+                                <data value="Electrical Power Regulator Terminal" name="ItemName" />
+                                <data value="100" name="LootDropPercent" />
+                                <data value="Spike the Administrator's Terminal" name="retrieveMenuText" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Retrieve Item" id="17" taskOnFail="false" >
+                                    <data value="Slice the Administrator's Desk Terminal" name="journalEntryTitle" />
+                                    <data value="The power spike was sent to the administrator's desk terminal. Go see if it worked." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="hack_term_2c" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="interiorWaypointAppearance" />
+                                    <data value="" name="buildingCellName" />
+                                    <data value="" name="waypointName" />
+                                    <data value="object/tangible/quest/corellian_slaver_access_terminal_03.iff" name="Server Object Template" />
+                                    <data value="1" name="Count" />
+                                    <data value="Desk Terminal" name="ItemName" />
+                                    <data value="100" name="LootDropPercent" />
+                                    <data value="Slice Administrator's Terminal" name="retrieveMenuText" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Show Message Box" id="3" taskOnFail="false" >
+                                        <data value="Slave Pen Elevator Access" name="journalEntryTitle" />
+                                        <data value="You have the password to the slave pen elevator. You can move on to the lower levels whenever you're ready." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="pw_confirmation_2d" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="interiorWaypointAppearance" />
+                                        <data value="" name="buildingCellName" />
+                                        <data value="" name="waypointName" />
+                                        <data value="Slave Pen Elevator Access Confirmation" name="messageBoxTitle" />
+                                        <data value="You successfully sliced the administrator's desk terminal and now have the password to the slave pen elevator." name="messageBoxText" />
+                                        <data value="" name="messageBoxSound" />
+                                        <data value="-1" name="messageBoxSizeWidth" />
+                                        <data value="-1" name="messageBoxSizeHeight" />
+                                        <data value="-1" name="messageBoxLocationX" />
+                                        <data value="-1" name="messageBoxLocationY" />
+                                        <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                        <data value="-2141" name="EntranceLocationZ(m)" />
+                                        <data value="23" name="EntranceLocationY(m)" />
+                                        <data value="-6406" name="EntranceLocationX(m)" />
+                                        <data value="false" name="createEntranceWaypoint" />
+                                        <task type="Wait for Signal" id="18" taskOnFail="false" >
+                                            <data value="Find Akkus" name="journalEntryTitle" />
+                                            <data value="Noro told you to look for a slave named Akkus. Apparently he knows how to get you further into the slave bunker." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="talk_to_akkus_3a" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="talk_to_akkus_3a" name="Signal Name" />
+                                            <data value="0" name="waitMarkerCreate" />
+                                            <data value="" name="waitMarkerTemplate" />
+                                            <data value="" name="waitMarkerPlanetName" />
+                                            <data value="0" name="waitMarkerBuilding" />
+                                            <data value="" name="waitMarkerCellName" />
+                                            <data value="0" name="waitMarkerX" />
+                                            <data value="0" name="waitMarkerY" />
+                                            <data value="0" name="waitMarkerZ" />
+                                            <data value="0" name="Time To Complete" />
+                                            <task type="Retrieve Item" id="5" taskOnFail="false" >
+                                                <data value="Watch the Surveillance Cameras" name="journalEntryTitle" />
+                                                <data value="Akkus told you that the guards here don't even trust their own. They monitor all aspects of the bunker and it would be possible to use the surveillance cameras to watch a guard at a security terminal and steal his password as he uses it." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="hack_term_3b" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="0" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="0.0" name="LocationX(m)" />
+                                                <data value="0.0" name="LocationY(m)" />
+                                                <data value="0.0" name="LocationZ(m)" />
+                                                <data value="" name="interiorWaypointAppearance" />
+                                                <data value="" name="buildingCellName" />
+                                                <data value="" name="waypointName" />
+                                                <data value="object/tangible/quest/corellian_slaver_access_terminal_04.iff" name="Server Object Template" />
+                                                <data value="1" name="Count" />
+                                                <data value="Surveillance Control Terminal" name="ItemName" />
+                                                <data value="100" name="LootDropPercent" />
+                                                <data value="Slice Surveillance Control Terminal" name="retrieveMenuText" />
+                                                <data value="0" name="Time To Complete" />
+                                                <task type="Show Message Box" id="7" taskOnFail="false" >
+                                                    <data value="-1" name="messageBoxLocationY" />
+                                                    <data value="-1" name="messageBoxLocationX" />
+                                                    <data value="-1" name="messageBoxSizeHeight" />
+                                                    <data value="-1" name="messageBoxSizeWidth" />
+                                                    <data value="" name="messageBoxSound" />
+                                                    <data value="After watching a guard using a security terminal, you now know the security terminals password. This would be a good place to look for the next elevator's password." name="messageBoxText" />
+                                                    <data value="Password Surveillance" name="messageBoxTitle" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="pw_confirmation_3c" name="taskName" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="You watched a guard use the security terminal and now know his password for the security terminals. Go use that terminal and you might be able to find a password to the elevator somewhere in the security database." name="journalEntryDescription" />
+                                                    <data value="Watching the Watchers" name="journalEntryTitle" />
+                                                    <task type="Retrieve Item" id="19" taskOnFail="false" >
+                                                        <data value="0" name="Time To Complete" />
+                                                        <data value="Slice Security Terminal" name="retrieveMenuText" />
+                                                        <data value="100" name="LootDropPercent" />
+                                                        <data value="Security Terminal" name="ItemName" />
+                                                        <data value="1" name="Count" />
+                                                        <data value="object/tangible/quest/corellian_slaver_access_terminal_05.iff" name="Server Object Template" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnComplete" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="0" name="showSystemMessages" />
+                                                        <data value="hack_term_4" name="taskName" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="true" name="isVisible" />
+                                                        <data value="Find the security terminal and use the password you just obtained. See if the security terminal has the passwords for the two remaining security elevators." name="journalEntryDescription" />
+                                                        <data value="Slice the Security Terminal" name="journalEntryTitle" />
+                                                        <task type="Retrieve Item" id="9" taskOnFail="false" >
+                                                            <data value="Slice the Main Computer" name="journalEntryTitle" />
+                                                            <data value="You have found a password to one of the elevators leading to the lower levels. You have also found information in the security terminal that leads you to believe there is a central computer on that level. Slicing the main computer would probably allow complete access to the entire bunker." name="journalEntryDescription" />
+                                                            <data value="true" name="isVisible" />
+                                                            <data value="" name="prerequisiteTasks" />
+                                                            <data value="" name="exclusionTasks" />
+                                                            <data value="0" name="allowRepeats" />
+                                                            <data value="hack_term_4a" name="taskName" />
+                                                            <data value="0" name="showSystemMessages" />
+                                                            <data value="" name="musicOnActivate" />
+                                                            <data value="" name="musicOnComplete" />
+                                                            <data value="" name="musicOnFail" />
+                                                            <data value="" name="target" />
+                                                            <data value="" name="parameter" />
+                                                            <data value="" name="grantQuestOnComplete" />
+                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                            <data value="" name="grantQuestOnFail" />
+                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                            <data value="" name="signalsOnComplete" />
+                                                            <data value="" name="signalsOnFail" />
+                                                            <data value="0" name="createWaypoint" />
+                                                            <data value="tatooine" name="Planet" />
+                                                            <data value="0.0" name="LocationX(m)" />
+                                                            <data value="0.0" name="LocationY(m)" />
+                                                            <data value="0.0" name="LocationZ(m)" />
+                                                            <data value="" name="interiorWaypointAppearance" />
+                                                            <data value="" name="buildingCellName" />
+                                                            <data value="" name="waypointName" />
+                                                            <data value="object/tangible/quest/corellian_slaver_access_terminal_06.iff" name="Server Object Template" />
+                                                            <data value="1" name="Count" />
+                                                            <data value="Main Computer" name="ItemName" />
+                                                            <data value="100" name="LootDropPercent" />
+                                                            <data value="Slice Main Computer" name="retrieveMenuText" />
+                                                            <data value="0" name="Time To Complete" />
+                                                            <task type="Destroy Multiple" id="21" taskOnFail="false" >
+                                                                <data value="Go to the Detention Area and Dispatch the Prison Guards" name="journalEntryTitle" />
+                                                                <data value="Slicing the main computer has lowered the detention beams for the cells in the detention area. All you have to do now is get past the guards stationed down there. Kill the prison guards in the detention area and slice the prison console." name="journalEntryDescription" />
+                                                                <data value="true" name="isVisible" />
+                                                                <data value="" name="prerequisiteTasks" />
+                                                                <data value="" name="exclusionTasks" />
+                                                                <data value="0" name="allowRepeats" />
+                                                                <data value="kill_detention_guard_5" name="taskName" />
+                                                                <data value="0" name="showSystemMessages" />
+                                                                <data value="" name="musicOnActivate" />
+                                                                <data value="" name="musicOnComplete" />
+                                                                <data value="" name="musicOnFail" />
+                                                                <data value="" name="target" />
+                                                                <data value="" name="parameter" />
+                                                                <data value="" name="grantQuestOnComplete" />
+                                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                <data value="" name="grantQuestOnFail" />
+                                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                <data value="" name="signalsOnComplete" />
+                                                                <data value="" name="signalsOnFail" />
+                                                                <data value="0" name="createWaypoint" />
+                                                                <data value="tatooine" name="Planet" />
+                                                                <data value="0.0" name="LocationX(m)" />
+                                                                <data value="0.0" name="LocationY(m)" />
+                                                                <data value="0.0" name="LocationZ(m)" />
+                                                                <data value="" name="interiorWaypointAppearance" />
+                                                                <data value="" name="buildingCellName" />
+                                                                <data value="" name="waypointName" />
+                                                                <data value="corellia_tyrena_slaver_guard_elite_detention" name="Target Server Template" />
+                                                                <data value="" name="Social Group" />
+                                                                <data value="" name="requiredRegion" />
+                                                                <data value="4" name="Count" />
+                                                                <data value="0" name="RewardCredits" />
+                                                                <data value="0" name="Time To Complete" />
+                                                                <task type="Retrieve Item" id="20" taskOnFail="false" >
+                                                                    <data value="Slice the Prison Terminal and Gather Proof" name="journalEntryTitle" />
+                                                                    <data value="Now that you have access to the termination chamber terminals you have all the information that you need to shut this place down for good." name="journalEntryDescription" />
+                                                                    <data value="true" name="isVisible" />
+                                                                    <data value="" name="prerequisiteTasks" />
+                                                                    <data value="" name="exclusionTasks" />
+                                                                    <data value="0" name="allowRepeats" />
+                                                                    <data value="finale_hack_5a" name="taskName" />
+                                                                    <data value="0" name="showSystemMessages" />
+                                                                    <data value="" name="musicOnActivate" />
+                                                                    <data value="" name="musicOnComplete" />
+                                                                    <data value="" name="musicOnFail" />
+                                                                    <data value="" name="target" />
+                                                                    <data value="" name="parameter" />
+                                                                    <data value="" name="grantQuestOnComplete" />
+                                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                    <data value="" name="grantQuestOnFail" />
+                                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                    <data value="" name="signalsOnComplete" />
+                                                                    <data value="" name="signalsOnFail" />
+                                                                    <data value="0" name="createWaypoint" />
+                                                                    <data value="corellia" name="Planet" />
+                                                                    <data value="0.0" name="LocationX(m)" />
+                                                                    <data value="0.0" name="LocationY(m)" />
+                                                                    <data value="0.0" name="LocationZ(m)" />
+                                                                    <data value="" name="interiorWaypointAppearance" />
+                                                                    <data value="" name="buildingCellName" />
+                                                                    <data value="" name="waypointName" />
+                                                                    <data value="object/tangible/quest/corellian_slaver_access_terminal_07.iff" name="Server Object Template" />
+                                                                    <data value="1" name="Count" />
+                                                                    <data value="Prison Command Console" name="ItemName" />
+                                                                    <data value="100" name="LootDropPercent" />
+                                                                    <data value="Download Prison Camera Footage" name="retrieveMenuText" />
+                                                                    <data value="0" name="Time To Complete" />
+                                                                    <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                                                    <data value="-2141" name="EntranceLocationZ(m)" />
+                                                                    <data value="23" name="EntranceLocationY(m)" />
+                                                                    <data value="-6406" name="EntranceLocationX(m)" />
+                                                                    <data value="false" name="createEntranceWaypoint" />
+                                                                    <task type="Show Message Box" id="25" taskOnFail="false" >
+                                                                        <data value="CorSec Emergency Response" name="journalEntryTitle" />
+                                                                        <data value="You successfully linked the detention area console and the bunker's main computer. Using the bunker's own communications array you broadcast the slavers records to the CorSec emergency request channels. You turned the slaver's bunker into a beacon calling every CorSec police and security agent on the planet to it's location. CorSec arrived swiftly and begain rounding up the slavers and providing assistance to the slaves." name="journalEntryDescription" />
+                                                                        <data value="true" name="isVisible" />
+                                                                        <data value="" name="prerequisiteTasks" />
+                                                                        <data value="" name="exclusionTasks" />
+                                                                        <data value="0" name="allowRepeats" />
+                                                                        <data value="finale_msgbox_5b" name="taskName" />
+                                                                        <data value="0" name="showSystemMessages" />
+                                                                        <data value="" name="musicOnActivate" />
+                                                                        <data value="" name="musicOnComplete" />
+                                                                        <data value="" name="musicOnFail" />
+                                                                        <data value="" name="target" />
+                                                                        <data value="" name="parameter" />
+                                                                        <data value="" name="grantQuestOnComplete" />
+                                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                        <data value="" name="grantQuestOnFail" />
+                                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                        <data value="" name="signalsOnComplete" />
+                                                                        <data value="" name="signalsOnFail" />
+                                                                        <data value="0" name="createWaypoint" />
+                                                                        <data value="tatooine" name="Planet" />
+                                                                        <data value="0.0" name="LocationX(m)" />
+                                                                        <data value="0.0" name="LocationY(m)" />
+                                                                        <data value="0.0" name="LocationZ(m)" />
+                                                                        <data value="" name="interiorWaypointAppearance" />
+                                                                        <data value="" name="buildingCellName" />
+                                                                        <data value="" name="waypointName" />
+                                                                        <data value="0" name="createEntranceWaypoint" />
+                                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                        <data value="" name="entranceWaypointName" />
+                                                                        <data value="Incriminating Information Transmitted." name="messageBoxTitle" />
+                                                                        <data value="You successfully link the detention area console and the bunker's main computer. Using the bunker's own communications array, you begin broadcasting the slavers' records on the CorSec emergency request channels. This bunker is now a beacon calling every CorSec police and security agent on the planet to its location. It only takes a few seconds before all of the grisly details of the slavers records are uploaded to CorSec intelligence computers." name="messageBoxText" />
+                                                                        <data value="sound/mus_npe2_station_victory.snd" name="messageBoxSound" />
+                                                                        <data value="-1" name="messageBoxSizeWidth" />
+                                                                        <data value="-1" name="messageBoxSizeHeight" />
+                                                                        <data value="-1" name="messageBoxLocationX" />
+                                                                        <data value="-1" name="messageBoxLocationY" />
+                                                                        <task type="Immediately Complete Quest" id="22" taskOnFail="false" >
+                                                                            <data value="" name="journalEntryTitle" />
+                                                                            <data value="" name="journalEntryDescription" />
+                                                                            <data value="false" name="isVisible" />
+                                                                            <data value="" name="prerequisiteTasks" />
+                                                                            <data value="" name="exclusionTasks" />
+                                                                            <data value="0" name="allowRepeats" />
+                                                                            <data value="" name="taskName" />
+                                                                            <data value="0" name="showSystemMessages" />
+                                                                            <data value="" name="musicOnActivate" />
+                                                                            <data value="" name="musicOnComplete" />
+                                                                            <data value="" name="musicOnFail" />
+                                                                            <data value="" name="target" />
+                                                                            <data value="" name="parameter" />
+                                                                            <data value="quest/corellia_tyrena_return_kyran" name="grantQuestOnComplete" />
+                                                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                                            <data value="" name="grantQuestOnFail" />
+                                                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                                            <data value="" name="signalsOnComplete" />
+                                                                            <data value="" name="signalsOnFail" />
+                                                                            <data value="0" name="createWaypoint" />
+                                                                            <data value="tatooine" name="Planet" />
+                                                                            <data value="0.0" name="LocationX(m)" />
+                                                                            <data value="0.0" name="LocationY(m)" />
+                                                                            <data value="0.0" name="LocationZ(m)" />
+                                                                            <data value="" name="interiorWaypointAppearance" />
+                                                                            <data value="" name="buildingCellName" />
+                                                                            <data value="" name="waypointName" />
+                                                                            <data value="" name="entranceWaypointName" />
+                                                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                                                            <data value="0" name="createEntranceWaypoint" />
+                                                                        </task>
+                                                                    </task>
+                                                                </task>
+                                                                <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                                                <data value="-2141" name="EntranceLocationZ(m)" />
+                                                                <data value="23" name="EntranceLocationY(m)" />
+                                                                <data value="-6406" name="EntranceLocationX(m)" />
+                                                                <data value="false" name="createEntranceWaypoint" />
+                                                            </task>
+                                                            <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                                            <data value="-2141" name="EntranceLocationZ(m)" />
+                                                            <data value="23" name="EntranceLocationY(m)" />
+                                                            <data value="-6406" name="EntranceLocationX(m)" />
+                                                            <data value="false" name="createEntranceWaypoint" />
+                                                        </task>
+                                                        <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                                        <data value="-2141" name="EntranceLocationZ(m)" />
+                                                        <data value="23" name="EntranceLocationY(m)" />
+                                                        <data value="-6406" name="EntranceLocationX(m)" />
+                                                        <data value="false" name="createEntranceWaypoint" />
+                                                    </task>
+                                                    <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                                    <data value="-2141" name="EntranceLocationZ(m)" />
+                                                    <data value="23" name="EntranceLocationY(m)" />
+                                                    <data value="-6406" name="EntranceLocationX(m)" />
+                                                    <data value="false" name="createEntranceWaypoint" />
+                                                </task>
+                                                <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                                <data value="-2141" name="EntranceLocationZ(m)" />
+                                                <data value="23" name="EntranceLocationY(m)" />
+                                                <data value="-6406" name="EntranceLocationX(m)" />
+                                                <data value="false" name="createEntranceWaypoint" />
+                                            </task>
+                                            <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                            <data value="-2141" name="EntranceLocationZ(m)" />
+                                            <data value="23" name="EntranceLocationY(m)" />
+                                            <data value="-6406" name="EntranceLocationX(m)" />
+                                            <data value="false" name="createEntranceWaypoint" />
+                                        </task>
+                                    </task>
+                                    <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                    <data value="-2141" name="EntranceLocationZ(m)" />
+                                    <data value="23" name="EntranceLocationY(m)" />
+                                    <data value="-6406" name="EntranceLocationX(m)" />
+                                    <data value="false" name="createEntranceWaypoint" />
+                                </task>
+                                <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                                <data value="-2141" name="EntranceLocationZ(m)" />
+                                <data value="23" name="EntranceLocationY(m)" />
+                                <data value="-6406" name="EntranceLocationX(m)" />
+                                <data value="false" name="createEntranceWaypoint" />
+                            </task>
+                            <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                            <data value="-2141" name="EntranceLocationZ(m)" />
+                            <data value="23" name="EntranceLocationY(m)" />
+                            <data value="-6406" name="EntranceLocationX(m)" />
+                            <data value="false" name="createEntranceWaypoint" />
+                        </task>
+                        <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                        <data value="-2141" name="EntranceLocationZ(m)" />
+                        <data value="23" name="EntranceLocationY(m)" />
+                        <data value="-6406" name="EntranceLocationX(m)" />
+                        <data value="false" name="createEntranceWaypoint" />
+                    </task>
+                    <data value="Corellian Slaver Bunker" name="entranceWaypointName" />
+                    <data value="-2141" name="EntranceLocationZ(m)" />
+                    <data value="23" name="EntranceLocationY(m)" />
+                    <data value="-6406" name="EntranceLocationX(m)" />
+                    <data value="false" name="createEntranceWaypoint" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="37" name="Level" />
+            <data value="3" name="Tier" />
+            <data value="solo" name="Type" />
+            <data value="Incriminating Evidence" name="journalEntryTitle" />
+            <data value="Kyran says the bunker security is very tight. Use the information he gave you and any information you can gather once inside to secure the slaves' freedom. You must also find information that can be given to the authorities to bring this slave ring to justice." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="You have gained access to the most secure sections on the bunker and broadcast proof of the slaver's activities on the CorSec emergency response channels. It didn't take long for every available CorSec agent in the area to come secure the bunker and release the slaves." name="journalEntryCompletionSummary" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="0" name="Experience Amount" />
+            <data value="corsec" name="Faction Name" />
+            <data value="0" name="Faction Amount" />
+            <data value="0" name="Bank Credits" />
+            <data value="" name="lootName" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName2" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="exclusivelootName" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="Item" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountWeapon" />
+            <data value="0.1" name="Speed" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="" name="Armor" />
+            <data value="1" name="CountArmor" />
+            <data value="1" name="Quality" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+        </list>
+    </quest>

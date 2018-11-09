@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="19" >
+            <task type="Destroy Multiple" id="0" taskOnFail="false" >
+                <data value="Defeat Durr" name="journalEntryTitle" />
+                <data value="Find Durr in the White Thranta shipping office and defeat him." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="tat_eisley_drensbounty_e1" name="taskName" />
+                <data value="true" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="true" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="3727" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-4182" name="LocationZ(m)" />
+                <data value="White Thranta Shipping" name="waypointName" />
+                <data value="tatooine_opening_dren" name="Target Server Template" />
+                <data value="" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="1" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <data value="" name="buildingCellName" />
+                <data value="" name="buildingServerTemplateName" />
+                <data value="" name="interiorWaypointAppearance" />
+                <data value="0" name="Time To Complete" />
+                <data value="" name="signalsOnFail" />
+                <data value="" name="signalsOnComplete" />
+                <data value="" name="entranceWaypointName" />
+                <data value="0.0" name="EntranceLocationZ(m)" />
+                <data value="0.0" name="EntranceLocationY(m)" />
+                <data value="0.0" name="EntranceLocationX(m)" />
+                <data value="0" name="createEntranceWaypoint" />
+                <task type="Retrieve Item" id="5" taskOnFail="false" >
+                    <data value="Read Durr's Datapad" name="journalEntryTitle" />
+                    <data value="You just picked up Durr's datapad. Check your inventory and read it for more information." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="tat_eisley_drensbounty_e1a" name="taskName" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="signalsOnComplete" />
+                    <data value="" name="signalsOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="interiorWaypointAppearance" />
+                    <data value="" name="buildingCellName" />
+                    <data value="" name="waypointName" />
+                    <data value="0" name="createEntranceWaypoint" />
+                    <data value="0.0" name="EntranceLocationX(m)" />
+                    <data value="0.0" name="EntranceLocationY(m)" />
+                    <data value="0.0" name="EntranceLocationZ(m)" />
+                    <data value="" name="entranceWaypointName" />
+                    <data value="object/tangible/quest/tatooine_eisley_durr_datapad.iff" name="Server Object Template" />
+                    <data value="1" name="Count" />
+                    <data value="Durr's Datapad" name="ItemName" />
+                    <data value="100" name="LootDropPercent" />
+                    <data value="3" name="CountdownTimer" />
+                    <data value="Read Durr's Datapad" name="retrieveMenuText" />
+                    <data value="0" name="Time To Complete" />
+                    <task type="Comm Player" id="7" taskOnFail="false" >
+                        <data value="Durr's Folly" name="journalEntryTitle" />
+                        <data value="Durr wouldn't answer to reason, but his datapad mentions him stealing from a boss. Use the password found in the datapad to access the Payroll Terminal in the front office and see if you can find out who Durr's boss is." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tat_eisley_drensbounty_e1b" name="taskName" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="signalsOnComplete" />
+                        <data value="" name="signalsOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="interiorWaypointAppearance" />
+                        <data value="" name="buildingCellName" />
+                        <data value="" name="waypointName" />
+                        <data value="0" name="createEntranceWaypoint" />
+                        <data value="0.0" name="EntranceLocationX(m)" />
+                        <data value="0.0" name="EntranceLocationY(m)" />
+                        <data value="0.0" name="EntranceLocationZ(m)" />
+                        <data value="" name="entranceWaypointName" />
+                        <data value="So Durr was stealing from his own company? Maybe we can get this boss of his to answer for their shared crimes. Use the password on the Payroll Terminal in the front office and find out who Durr's boss is." name="Comm Message Text" />
+                        <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                        <task type="Wait for Signal" id="8" taskOnFail="false" >
+                            <data value="Slice the Company Payroll Terminal" name="journalEntryTitle" />
+                            <data value="Head to the base's front offices and use Durr's password on the Company Payroll Terminal and check his payment records. You can find this terminal in the first room with the secretary and the Public Access Terminal. It is on the north wall opposite the entrance." name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tat_eisley_drensbounty_e2" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="signalsOnComplete" />
+                            <data value="" name="signalsOnFail" />
+                            <data value="true" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="3727.89990234375" name="LocationX(m)" />
+                            <data value="4.30000019073486" name="LocationY(m)" />
+                            <data value="-4144" name="LocationZ(m)" />
+                            <data value="tatooine" name="interiorWaypointAppearance" />
+                            <data value="entryb" name="buildingCellName" />
+                            <data value="Payroll Terminal" name="waypointName" />
+                            <data value="true" name="createEntranceWaypoint" />
+                            <data value="3727" name="EntranceLocationX(m)" />
+                            <data value="0.0" name="EntranceLocationY(m)" />
+                            <data value="-4182" name="EntranceLocationZ(m)" />
+                            <data value="White Thranta Shipping" name="entranceWaypointName" />
+                            <data value="tat_eisley_drensbounty_e2" name="Signal Name" />
+                            <data value="0" name="waitMarkerCreate" />
+                            <data value="" name="waitMarkerTemplate" />
+                            <data value="" name="waitMarkerPlanetName" />
+                            <data value="0" name="waitMarkerBuilding" />
+                            <data value="" name="waitMarkerCellName" />
+                            <data value="0" name="waitMarkerX" />
+                            <data value="0" name="waitMarkerY" />
+                            <data value="0" name="waitMarkerZ" />
+                            <data value="0" name="Time To Complete" />
+                            <task type="Wait for Signal" id="13" taskOnFail="false" >
+                                <data value="Account Transfer" name="journalEntryTitle" />
+                                <data value="You found an open account of White Thranta funds. It's not like the criminals will be using the money after you shut this place down, might as well put it to good use. Using the payroll terminal, you might be able to transfer those funds to your own account. If you were so inclined." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tat_eisley_drensbounty_e2a" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="tatooine_eisley_appropriating_funds" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="interiorWaypointAppearance" />
+                                <data value="" name="buildingCellName" />
+                                <data value="" name="waypointName" />
+                                <data value="0" name="createEntranceWaypoint" />
+                                <data value="0.0" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="0.0" name="EntranceLocationZ(m)" />
+                                <data value="" name="entranceWaypointName" />
+                                <data value="tat_eisley_drensbounty_e2a" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="Time To Complete" />
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                            <task type="Wait for Signal" id="9" taskOnFail="false" >
+                                <data value="Slice the Security Terminal" name="journalEntryTitle" />
+                                <data value="Go to the Security Terminal and review the personnel records on Durr. The security terminal is located in the round room right after the entrance room of the building. It is located on the west wall." name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tat_eisley_drensbounty_e3" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="signalsOnComplete" />
+                                <data value="" name="signalsOnFail" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="3738.5" name="LocationX(m)" />
+                                <data value="0.300000011920929" name="LocationY(m)" />
+                                <data value="-4118.2001953125" name="LocationZ(m)" />
+                                <data value="tatooine" name="interiorWaypointAppearance" />
+                                <data value="guardroom" name="buildingCellName" />
+                                <data value="Security Terminal" name="waypointName" />
+                                <data value="true" name="createEntranceWaypoint" />
+                                <data value="3727" name="EntranceLocationX(m)" />
+                                <data value="0.0" name="EntranceLocationY(m)" />
+                                <data value="-4182" name="EntranceLocationZ(m)" />
+                                <data value="White Thranta Shipping" name="entranceWaypointName" />
+                                <data value="tat_eisley_drensbounty_e3" name="Signal Name" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="Time To Complete" />
+                                <task type="Wait for Signal" id="10" taskOnFail="false" >
+                                    <data value="Slice Durr's Personal Data Terminal" name="journalEntryTitle" />
+                                    <data value="Go to the dormitory and use the password you got from the Security Terminal on Durr's Personal Data Terminal. Try to find something that might help you investigate Brok Ziam, Durr's supervisor. Durr's Personal Data Terminal is located in the northwest corner of the dormitory, inside the partition." name="journalEntryDescription" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="tat_eisley_drensbounty_e4" name="taskName" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="signalsOnComplete" />
+                                    <data value="" name="signalsOnFail" />
+                                    <data value="true" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="3561.39990234375" name="LocationX(m)" />
+                                    <data value="-27.7000007629395" name="LocationY(m)" />
+                                    <data value="-4099.7998046875" name="LocationZ(m)" />
+                                    <data value="tatooine" name="interiorWaypointAppearance" />
+                                    <data value="generator" name="buildingCellName" />
+                                    <data value="Durr's Personal Data Terminal" name="waypointName" />
+                                    <data value="true" name="createEntranceWaypoint" />
+                                    <data value="3727" name="EntranceLocationX(m)" />
+                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                    <data value="-4182" name="EntranceLocationZ(m)" />
+                                    <data value="White Thranta Shipping" name="entranceWaypointName" />
+                                    <data value="tat_eisley_drensbounty_e4" name="Signal Name" />
+                                    <data value="0" name="waitMarkerCreate" />
+                                    <data value="" name="waitMarkerTemplate" />
+                                    <data value="" name="waitMarkerPlanetName" />
+                                    <data value="0" name="waitMarkerBuilding" />
+                                    <data value="" name="waitMarkerCellName" />
+                                    <data value="0" name="waitMarkerX" />
+                                    <data value="0" name="waitMarkerY" />
+                                    <data value="0" name="waitMarkerZ" />
+                                    <data value="0" name="Time To Complete" />
+                                    <task type="Wait for Signal" id="11" taskOnFail="false" >
+                                        <data value="Slice Brok's Personal Data Terminal" name="journalEntryTitle" />
+                                        <data value="Slice Brok's Personal Data Terminal in the dormitory and find out some clue about what he's doing. Brok's Personal Data Terminal is in the same room as Durr's Personal Data Terminal on the north wall, inside the largest partition." name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tat_eisley_drensbounty_e5" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="" name="signalsOnComplete" />
+                                        <data value="" name="signalsOnFail" />
+                                        <data value="true" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="3575.39990234375" name="LocationX(m)" />
+                                        <data value="-27.7000007629395" name="LocationY(m)" />
+                                        <data value="-4098.39990234375" name="LocationZ(m)" />
+                                        <data value="tatooine" name="interiorWaypointAppearance" />
+                                        <data value="generator" name="buildingCellName" />
+                                        <data value="Brok's Personal Data Terminal" name="waypointName" />
+                                        <data value="true" name="createEntranceWaypoint" />
+                                        <data value="3727" name="EntranceLocationX(m)" />
+                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                        <data value="-4182" name="EntranceLocationZ(m)" />
+                                        <data value="White Thranta Shipping" name="entranceWaypointName" />
+                                        <data value="tat_eisley_drensbounty_e5" name="Signal Name" />
+                                        <data value="0" name="waitMarkerCreate" />
+                                        <data value="" name="waitMarkerTemplate" />
+                                        <data value="" name="waitMarkerPlanetName" />
+                                        <data value="0" name="waitMarkerBuilding" />
+                                        <data value="" name="waitMarkerCellName" />
+                                        <data value="0" name="waitMarkerX" />
+                                        <data value="0" name="waitMarkerY" />
+                                        <data value="0" name="waitMarkerZ" />
+                                        <data value="0" name="Time To Complete" />
+                                        <task type="Comm Player" id="16" taskOnFail="false" >
+                                            <data value="Mission Update from Reimos" name="journalEntryTitle" />
+                                            <data value="According to Brok's journals he was planning to cross Jabba the Hutt. You could leave him alone and let him face Jabba's wrath, but considering Jabba's unpredictability there is no telling if he would be killed or promoted. It will be best if you take care of this yourself. Confront Brok and see if he is willing to face justice." name="journalEntryDescription" />
+                                            <data value="true" name="isVisible" />
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="tat_eisley_drensbounty_e6" name="taskName" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="musicOnComplete" />
+                                            <data value="" name="musicOnFail" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                            <data value="" name="signalsOnComplete" />
+                                            <data value="" name="signalsOnFail" />
+                                            <data value="0" name="createWaypoint" />
+                                            <data value="tatooine" name="Planet" />
+                                            <data value="0.0" name="LocationX(m)" />
+                                            <data value="0.0" name="LocationY(m)" />
+                                            <data value="0.0" name="LocationZ(m)" />
+                                            <data value="" name="interiorWaypointAppearance" />
+                                            <data value="" name="buildingCellName" />
+                                            <data value="" name="waypointName" />
+                                            <data value="0" name="createEntranceWaypoint" />
+                                            <data value="0.0" name="EntranceLocationX(m)" />
+                                            <data value="0.0" name="EntranceLocationY(m)" />
+                                            <data value="0.0" name="EntranceLocationZ(m)" />
+                                            <data value="" name="entranceWaypointName" />
+                                            <data value="Look's like we found the boss. He sounds like a real nice guy. I don't think it will happen, but try and get him to give up peacefully." name="Comm Message Text" />
+                                            <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                                            <task type="Destroy Multiple" id="17" taskOnFail="false" >
+                                                <data value="Defeat Brok" name="journalEntryTitle" />
+                                                <data value="Confront Brok Ziam and see if he will give up and face justice." name="journalEntryDescription" />
+                                                <data value="true" name="isVisible" />
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="tat_eisley_drensbounty_e6a" name="taskName" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="musicOnComplete" />
+                                                <data value="" name="musicOnFail" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                <data value="" name="signalsOnComplete" />
+                                                <data value="" name="signalsOnFail" />
+                                                <data value="false" name="createWaypoint" />
+                                                <data value="tatooine" name="Planet" />
+                                                <data value="10" name="LocationX(m)" />
+                                                <data value="10" name="LocationY(m)" />
+                                                <data value="10" name="LocationZ(m)" />
+                                                <data value="tatooine" name="interiorWaypointAppearance" />
+                                                <data value="entryb" name="buildingCellName" />
+                                                <data value="Brok Ziam" name="waypointName" />
+                                                <data value="false" name="createEntranceWaypoint" />
+                                                <data value="3727" name="EntranceLocationX(m)" />
+                                                <data value="0.0" name="EntranceLocationY(m)" />
+                                                <data value="-4182" name="EntranceLocationZ(m)" />
+                                                <data value="White Thranta Shipping" name="entranceWaypointName" />
+                                                <data value="tatooine_opening_brok" name="Target Server Template" />
+                                                <data value="" name="Social Group" />
+                                                <data value="" name="requiredRegion" />
+                                                <data value="1" name="Count" />
+                                                <data value="0" name="RewardCredits" />
+                                                <data value="0" name="Time To Complete" />
+                                                <task type="Comm Player" id="18" taskOnFail="false" >
+                                                    <data value="Package Found" name="journalEntryTitle" />
+                                                    <data value="Reimos has contacted you with information about the package you are looking for. It turns out both the Empire and Alliance have people assigned to find it. It would probably be best to pick one and see if you can help them follow up on their leads." name="journalEntryDescription" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="tat_eisley_drensbounty_e7" name="taskName" />
+                                                    <data value="0" name="showSystemMessages" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="musicOnComplete" />
+                                                    <data value="" name="musicOnFail" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                    <data value="" name="signalsOnComplete" />
+                                                    <data value="" name="signalsOnFail" />
+                                                    <data value="0" name="createWaypoint" />
+                                                    <data value="tatooine" name="Planet" />
+                                                    <data value="0.0" name="LocationX(m)" />
+                                                    <data value="0.0" name="LocationY(m)" />
+                                                    <data value="0.0" name="LocationZ(m)" />
+                                                    <data value="" name="interiorWaypointAppearance" />
+                                                    <data value="" name="buildingCellName" />
+                                                    <data value="" name="waypointName" />
+                                                    <data value="0" name="createEntranceWaypoint" />
+                                                    <data value="0.0" name="EntranceLocationX(m)" />
+                                                    <data value="0.0" name="EntranceLocationY(m)" />
+                                                    <data value="0.0" name="EntranceLocationZ(m)" />
+                                                    <data value="" name="entranceWaypointName" />
+                                                    <data value="It's too bad about Brok, but I didn't really think he would turn himself in. I used the data in his personal journal to try and find that package you're looking for. Apparently the Empire and the Alliance already have people assigned to find it. I'll give you their contact information. Go see what leads they might have for you." name="Comm Message Text" />
+                                                    <data value="object/mobile/dressed_tatooine_opening_reimos.iff" name="NPC Appearance Server Template" />
+                                                    <task type="Immediately Complete Quest" id="3" taskOnFail="false" >
+                                                        <data value="Complete" name="journalEntryTitle" />
+                                                        <data value="Good Work! You have defeated the monster Durr. It's now time to find out who is really in charge here." name="journalEntryDescription" />
+                                                        <data value="false" name="isVisible" />
+                                                        <data value="" name="prerequisiteTasks" />
+                                                        <data value="" name="exclusionTasks" />
+                                                        <data value="0" name="allowRepeats" />
+                                                        <data value="tat_eisley_drensbounty_e8" name="taskName" />
+                                                        <data value="true" name="showSystemMessages" />
+                                                        <data value="" name="musicOnActivate" />
+                                                        <data value="" name="musicOnComplete" />
+                                                        <data value="" name="musicOnFail" />
+                                                        <data value="" name="target" />
+                                                        <data value="" name="parameter" />
+                                                        <data value="legacy_button_start" name="grantQuestOnComplete" />
+                                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                                        <data value="" name="grantQuestOnFail" />
+                                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                                        <data value="0" name="createWaypoint" />
+                                                        <data value="tatooine" name="Planet" />
+                                                        <data value="0.0" name="LocationX(m)" />
+                                                        <data value="0.0" name="LocationY(m)" />
+                                                        <data value="0.0" name="LocationZ(m)" />
+                                                        <data value="" name="waypointName" />
+                                                        <data value="" name="buildingCellName" />
+                                                        <data value="" name="buildingServerTemplateName" />
+                                                        <data value="" name="interiorWaypointAppearance" />
+                                                        <data value="" name="signalsOnFail" />
+                                                        <data value="" name="signalsOnComplete" />
+                                                        <data value="" name="entranceWaypointName" />
+                                                        <data value="0.0" name="EntranceLocationZ(m)" />
+                                                        <data value="0.0" name="EntranceLocationY(m)" />
+                                                        <data value="0.0" name="EntranceLocationX(m)" />
+                                                        <data value="0" name="createEntranceWaypoint" />
+                                                        <data value="0" name="chanceToActivate" />
+                                                        <data value="none" name="questControlOnTaskFailure" />
+                                                        <data value="none" name="questControlOnTaskCompletion" />
+                                                    </task>
+                                                    <data value="0" name="chanceToActivate" />
+                                                    <data value="none" name="questControlOnTaskFailure" />
+                                                    <data value="none" name="questControlOnTaskCompletion" />
+                                                </task>
+                                                <data value="0" name="chanceToActivate" />
+                                                <data value="none" name="questControlOnTaskFailure" />
+                                                <data value="none" name="questControlOnTaskCompletion" />
+                                            </task>
+                                            <data value="0" name="chanceToActivate" />
+                                            <data value="none" name="questControlOnTaskFailure" />
+                                            <data value="none" name="questControlOnTaskCompletion" />
+                                        </task>
+                                        <data value="0" name="chanceToActivate" />
+                                        <data value="none" name="questControlOnTaskFailure" />
+                                        <data value="none" name="questControlOnTaskCompletion" />
+                                    </task>
+                                    <data value="0" name="chanceToActivate" />
+                                    <data value="none" name="questControlOnTaskFailure" />
+                                    <data value="none" name="questControlOnTaskCompletion" />
+                                </task>
+                                <data value="0" name="chanceToActivate" />
+                                <data value="none" name="questControlOnTaskFailure" />
+                                <data value="none" name="questControlOnTaskCompletion" />
+                            </task>
+                            <data value="0" name="chanceToActivate" />
+                            <data value="none" name="questControlOnTaskFailure" />
+                            <data value="none" name="questControlOnTaskCompletion" />
+                        </task>
+                        <data value="0" name="chanceToActivate" />
+                        <data value="none" name="questControlOnTaskFailure" />
+                        <data value="none" name="questControlOnTaskCompletion" />
+                    </task>
+                    <data value="0" name="chanceToActivate" />
+                    <data value="none" name="questControlOnTaskFailure" />
+                    <data value="none" name="questControlOnTaskCompletion" />
+                    <data value="0" name="GuaranteedSuccessMaximumAttempts" />
+                    <data value="0" name="GuaranteedSuccessMinumumAttempts" />
+                </task>
+                <data value="0" name="chanceToActivate" />
+                <data value="none" name="questControlOnTaskFailure" />
+                <data value="none" name="questControlOnTaskCompletion" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Shipping Out" name="journalEntryTitle" />
+            <data value="The White Thranta Shipping company is much more than it seems. Infiltrate the bunker and see if you can get to the bottom of their questionable activities." name="journalEntryDescription" />
+            <data value="Legacy" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="11" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="3450" name="Bank Credits" />
+            <data value="75" name="Faction Amount" />
+            <data value="jabba" name="Faction Name" />
+            <data value="5842" name="Experience Amount" />
+            <data value="quest_combat" name="Experience Type" />
+            <data value="Well done. You did your best to bring the criminals to justice, but they chose their own fate. You've probably earned some small amount of Jabba's respect for cleaning up some of his less loyal subjects, but then again probably not. In the end is it really a good idea to be Jabba's friend?" name="journalEntryCompletionSummary" />
+            <data value="" name="Reward Badge" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+            <data value="1" name="exclusivelootCount10" />
+            <data value="" name="exclusivelootName10" />
+            <data value="1" name="exclusivelootCount9" />
+            <data value="" name="exclusivelootName9" />
+            <data value="1" name="exclusivelootCount8" />
+            <data value="" name="exclusivelootName8" />
+            <data value="1" name="exclusivelootCount7" />
+            <data value="weapon_content_knuckler_tier_7_03_01" name="exclusivelootName7" />
+            <data value="1" name="exclusivelootCount6" />
+            <data value="weapon_content_polearm_tier_7_03_01" name="exclusivelootName6" />
+            <data value="1" name="exclusivelootCount4" />
+            <data value="weapon_content_2h_tier_7_03_01" name="exclusivelootName4" />
+            <data value="1" name="exclusivelootCount3" />
+            <data value="weapon_content_1h_tier_7_03_01" name="exclusivelootName3" />
+            <data value="1" name="exclusivelootCount2" />
+            <data value="weapon_content_rifle_tier_7_03_01" name="exclusivelootName2" />
+            <data value="1" name="exclusivelootCount1" />
+            <data value="weapon_content_carbine_tier_7_03_01" name="exclusivelootName1" />
+            <data value="1" name="exclusivelootCount" />
+            <data value="weapon_content_pistol_tier_7_03_01" name="exclusivelootName" />
+            <data value="1" name="lootCount3" />
+            <data value="" name="lootName3" />
+            <data value="1" name="lootCount2" />
+            <data value="" name="lootName2" />
+            <data value="6" name="Tier" />
+            <data value="0" name="penaltyFactionAmount" />
+            <data value="Rebel" name="penaltyFactionName" />
+        </list>
+    </quest>

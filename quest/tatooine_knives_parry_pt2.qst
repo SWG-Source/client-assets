@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="44" >
+            <task type="Nothing" id="2" taskOnFail="false" >
+                <data value="Parry Start" name="journalEntryTitle" />
+                <data value="Null node to hang the tasks off" name="journalEntryDescription" />
+                <data value="false" name="isVisible" />
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="0" name="allowRepeats" />
+                <data value="tatooine_knives_parry_e1" name="taskName" />
+                <data value="0" name="showSystemMessages" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <task type="Show Message Box" id="35" taskOnFail="false" >
+                    <data value="-1" name="messageBoxLocationY" />
+                    <data value="-1" name="messageBoxLocationX" />
+                    <data value="-1" name="messageBoxSizeHeight" />
+                    <data value="-1" name="messageBoxSizeWidth" />
+                    <data value="" name="messageBoxSound" />
+                    <data value="The gang has a 'hot tip' from someone inside Lady Valarian's organization. They are going to take out a smuggler coming into town. Protect the smuggler and get evidence that Kavas is behind the operation." name="messageBoxText" />
+                    <data value="The Gang's Plan" name="messageBoxTitle" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="parameter" />
+                    <data value="" name="target" />
+                    <data value="" name="musicOnFail" />
+                    <data value="" name="musicOnComplete" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="tatooine_knives_parry_e20" name="taskName" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="false" name="isVisible" />
+                    <data value="" name="journalEntryDescription" />
+                    <data value="" name="journalEntryTitle" />
+                    <task type="Wait for Tasks" id="37" taskOnFail="false" >
+                        <data value="Guard the Smuggler" name="journalEntryTitle" />
+                        <data value="The gang has a 'hot tip' from someone inside Lady Valarian's organization. They are going to take out a smuggler coming into town. Escort the smuggler into town, kill the ambush team and get evidence that Kavas is behind the operation." name="journalEntryDescription" />
+                        <data value="true" name="isVisible" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="tatooine_knives_parry_e101" name="taskName" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="tatooine_knives_parry_pt2" name="Task1 Quest Filename" />
+                        <data value="tatooine_knives_parry_e102" name="Task1 taskName" />
+                        <data value="Kill the Attackers" name="Task1 Display String" />
+                        <data value="tatooine_knives_parry_pt2" name="Task2 Quest Filename" />
+                        <data value="tatooine_knives_parry_e136" name="Task2 taskName" />
+                        <data value="Escort the Gunrunner" name="Task2 Display String" />
+                        <data value="" name="Task3 Quest Filename" />
+                        <data value="" name="Task3 taskName" />
+                        <data value="" name="Task3 Display String" />
+                        <data value="" name="Task4 Quest Filename" />
+                        <data value="" name="Task4 taskName" />
+                        <data value="" name="Task4 Display String" />
+                        <data value="" name="Task5 Quest Filename" />
+                        <data value="" name="Task5 taskName" />
+                        <data value="" name="Task5 Display String" />
+                        <data value="" name="Task6 Quest Filename" />
+                        <data value="" name="Task6 taskName" />
+                        <data value="" name="Task6 Display String" />
+                        <task type="Comm Player" id="42" taskOnFail="false" >
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="true" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tatooine_knives_parry_e102" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="What are you doing! Kavas set this operation up so that we would get the goods! What are you playing at? " name="Comm Message Text" />
+                            <data value="object/mobile/dressed_tatooine_kcur.iff" name="NPC Appearance Server Template" />
+                            <task type="Wait for Signal" id="30" taskOnFail="false" >
+                                <data value="0" name="waitMarkerZ" />
+                                <data value="0" name="waitMarkerY" />
+                                <data value="0" name="waitMarkerX" />
+                                <data value="" name="waitMarkerCellName" />
+                                <data value="0" name="waitMarkerBuilding" />
+                                <data value="" name="waitMarkerPlanetName" />
+                                <data value="" name="waitMarkerTemplate" />
+                                <data value="0" name="waitMarkerCreate" />
+                                <data value="tatoonie_knives_parry_launch_e97" name="Signal Name" />
+                                <data value="Ind" name="waypointName" />
+                                <data value="-4605" name="LocationZ(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="3367" name="LocationX(m)" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="true" name="createWaypoint" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="parameter" />
+                                <data value="" name="target" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="tatooine_knives_parry_e14" name="taskName" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="true" name="isVisible" />
+                                <data value="Return to Ind with your copy of the incriminating communication from K' Cur about Kavas setting up the hit on the smuggler." name="journalEntryDescription" />
+                                <data value="Finish it" name="journalEntryTitle" />
+                                <task type="Reward" id="31" taskOnFail="false" >
+                                    <data value="0.1" name="Quality" />
+                                    <data value="1" name="CountArmor" />
+                                    <data value="" name="Armor" />
+                                    <data value="0.5" name="Elemental Value" />
+                                    <data value="0.699999988079071" name="Efficiency" />
+                                    <data value="0.800000011920929" name="Damage" />
+                                    <data value="0.400000005960464" name="Speed" />
+                                    <data value="1" name="CountWeapon" />
+                                    <data value="object/weapon/ranged/carbine/carbine_e11.iff" name="Weapon" />
+                                    <data value="1" name="CountItem" />
+                                    <data value="" name="Item" />
+                                    <data value="10000" name="Bank Credits" />
+                                    <data value="500" name="Faction Amount" />
+                                    <data value="valarian" name="Faction Name" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="" name="waypointName" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                    <data value="tatooine_knives_fencing_reward" name="grantQuestOnComplete" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="target" />
+                                    <data value="" name="musicOnFail" />
+                                    <data value="" name="musicOnComplete" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="tatooine_knives_parry_e15" name="taskName" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="" name="journalEntryDescription" />
+                                    <data value="" name="journalEntryTitle" />
+                                    <task type="Immediately Complete Quest" id="32" taskOnFail="false" >
+                                        <data value="" name="journalEntryTitle" />
+                                        <data value="" name="journalEntryDescription" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="tatooine_knives_parry_e16" name="taskName" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="musicOnComplete" />
+                                        <data value="" name="musicOnFail" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                        <data value="0" name="createWaypoint" />
+                                        <data value="tatooine" name="Planet" />
+                                        <data value="0.0" name="LocationX(m)" />
+                                        <data value="0.0" name="LocationY(m)" />
+                                        <data value="0.0" name="LocationZ(m)" />
+                                        <data value="" name="waypointName" />
+                                    </task>
+                                </task>
+                                <data value="hall01" name="buildingCellName" />
+                                <data value="" name="interiorWaypointAppearance" />
+                            </task>
+                        </task>
+                    </task>
+                    <task type="Go to Location" id="39" taskOnFail="false" >
+                        <data value="15" name="Radius(m)" />
+                        <data value="Gunrunner" name="waypointName" />
+                        <data value="-5202" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="3745" name="LocationX(m)" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="parameter" />
+                        <data value="" name="target" />
+                        <data value="" name="musicOnFail" />
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="tatooine_knives_parry_e103" name="taskName" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="false" name="isVisible" />
+                        <data value="The gang has a 'hot tip' from someone inside Lady Valarian's organization. They are going to take out a smuggler coming into town. Protect the smuggler and get evidence that Kavas is behind the operation." name="journalEntryDescription" />
+                        <data value="Guard the Smuggler" name="journalEntryTitle" />
+                        <task type="Encounter" id="36" taskOnFail="false" >
+                            <data value="40" name="Spawn Offset Location Z(m)" />
+                            <data value="-40" name="Spawn Offset Location X(m)" />
+                            <data value="10" name="Max Distance" />
+                            <data value="1" name="Min Distance" />
+                            <data value="4" name="Count" />
+                            <data value="common_thief" name="Creature Type" />
+                            <data value="" name="waypointName" />
+                            <data value="-5160" name="LocationZ(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="3667" name="LocationX(m)" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="false" name="createWaypoint" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="parameter" />
+                            <data value="" name="target" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="tatooine_knives_parry_e102" name="taskName" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="Defeat the Attackers" name="journalEntryTitle" />
+                            <task type="Immediately Clear Quest" id="38" taskOnFail="true" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="false" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tatooine_knives_parry_e100" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                            </task>
+                        </task>
+                        <task type="Escort" id="41" taskOnFail="false" >
+                            <data value="Guard the Smuggler" name="journalEntryTitle" />
+                            <data value="The gang has a 'hot tip' from someone inside Lady Valarian's organization. They are going to take out a smuggler coming into town. Escort the smuggler into town, kill the ambush team and get evidence that Kavas is behind the operation." name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tatooine_knives_parry_e125" name="taskName" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="false" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="gunrunner" name="Escort Creature Type" />
+                            <task type="Immediately Clear Quest" id="33" taskOnFail="true" >
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="true" name="isVisible" />
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="tatooine_knives_parry_e13" name="taskName" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="musicOnComplete" />
+                                <data value="" name="musicOnFail" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                            </task>
+                        </task>
+                        <task type="Go to Location" id="43" taskOnFail="false" >
+                            <data value="Guard the Smuggler" name="journalEntryTitle" />
+                            <data value="The gang has a 'hot tip' from someone inside Lady Valarian's organization. They are going to take out a smuggler coming into town. Escort the smuggler into town, kill the ambush team and get evidence that Kavas is behind the operation." name="journalEntryDescription" />
+                            <data value="false" name="isVisible" />
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="tatooine_knives_parry_e136" name="taskName" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="musicOnComplete" />
+                            <data value="" name="musicOnFail" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="true" name="grantQuestOnCompleteShowSystemMessage" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="true" name="grantQuestOnFailShowSystemMessage" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="3745" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="-5202" name="LocationZ(m)" />
+                            <data value="Mos Eisley" name="waypointName" />
+                            <data value="10.0" name="Radius(m)" />
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Parry part 2" name="journalEntryTitle" />
+            <data value="You know that Kavas is using K' Cur and his gang to ambush Kavas? own smugglers. You now have to get the evidence that will convince Lady Valarian that her right hand woman is a traitor." name="journalEntryDescription" />
+            <data value="Tatooine" name="category" />
+            <data value="true" name="journalVisible" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="1" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="1" name="lootCount" />
+            <data value="" name="lootName" />
+            <data value="0" name="Bank Credits" />
+            <data value="0" name="Faction Amount" />
+            <data value="Rebel" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="" name="Experience Type" />
+            <data value="" name="conditionalQuestGrantQuestsThatMustBeCompleted" />
+            <data value="" name="conditionalQuestGrantQuestToGive" />
+        </list>
+    </quest>

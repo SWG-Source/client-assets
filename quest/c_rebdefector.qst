@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="17" >
+            <task type="Go to Location" id="0" name="Go to Location" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Find the Rebel Informant Outside Moenia" name="journalEntryTitle" />
+                <data value="Find the Rebel information outside Moenia." name="journalEntryDescription" />
+                <data value="gohiding" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="true" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="naboo" name="Planet" />
+                <data value="4653" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="-4412" name="LocationZ(m)" />
+                <data value="10.0" name="Radius(m)" />
+                <task type="Wait for Signal" id="14" name="Wait for Signal" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Talk to the Rebel Informant" name="journalEntryTitle" />
+                    <data value="Looks like the Rebel Informant won't follow you.  Talk to him and find out why." name="journalEntryDescription" />
+                    <data value="takephrase" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="true" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="c_rebdefector_code" name="Signal Name" />
+                    <task type="Timer" id="3" name="Timer" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Timer 3 (should be invis)" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="time3" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="790" name="Min Time" />
+                        <data value="850" name="Max Time" />
+                        <task type="Encounter" id="9" name="Encounter" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Third Ambush" name="journalEntryTitle" />
+                            <data value="Do these soldiers grow on trees?! You were attacked by hired mercenaries a third time." name="journalEntryDescription" />
+                            <data value="ambush3" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="0" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="mercenary_hireling_reb" name="Creature Type" />
+                            <data value="8" name="Count" />
+                            <data value="3" name="Min Distance" />
+                            <data value="8" name="Max Distance" />
+                            <data value="Any" name="Direction" />
+                        </task>
+                    </task>
+                    <task type="Timer" id="4" name="Timer" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Timer 2 (should be invis)" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="time2" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="340" name="Min Time" />
+                        <data value="380" name="Max Time" />
+                        <task type="Encounter" id="8" name="Encounter" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Ambushed again!" name="journalEntryTitle" />
+                            <data value="More soldiers attacked you." name="journalEntryDescription" />
+                            <data value="ambush2" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="mercenary_hireling_reb" name="Creature Type" />
+                            <data value="4" name="Count" />
+                            <data value="3" name="Min Distance" />
+                            <data value="8" name="Max Distance" />
+                            <data value="Any" name="Direction" />
+                        </task>
+                    </task>
+                    <task type="Wait for Signal" id="6" name="Wait for Signal" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Bring the Informant's Codephrase to Lt. Allard Lissara" name="journalEntryTitle" />
+                        <data value="Take the codephrase to Lt. Allard Lissara in the Emperor's Retreat." name="journalEntryDescription" />
+                        <data value="waitsignal" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="c_rebdefector_rdefectorarrived" name="Signal Name" />
+                        <task type="Reward" id="10" name="Reward" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="" name="taskName" />
+                            <data value="false" name="isVisible" />
+                            <data value="false" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="" name="Experience Type" />
+                            <data value="0" name="Experience Amount" />
+                            <data value="Imperial" name="Faction Name" />
+                            <data value="100" name="Faction Amount" />
+                            <data value="5000" name="Bank Credits" />
+                            <data value="" name="Item" />
+                            <task type="Reward" id="13" name="Reward" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="" name="journalEntryTitle" />
+                                <data value="" name="journalEntryDescription" />
+                                <data value="" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="true" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="" name="Experience Type" />
+                                <data value="0" name="Experience Amount" />
+                                <data value="Rebel" name="Faction Name" />
+                                <data value="-100" name="Faction Amount" />
+                                <data value="0" name="Bank Credits" />
+                                <data value="" name="Item" />
+                                <task type="Immediately Complete Quest" id="12" name="Immediately Complete Quest" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Mission Successful" name="journalEntryTitle" />
+                                    <data value="You successfully brought the Rebel informant to the Emperor's Retreat.  You have been rewarded with 5000 credits and Imperial faction." name="journalEntryDescription" />
+                                    <data value="complete" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="true" name="showSystemMessages" />
+                                    <data value="true" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                </task>
+                            </task>
+                        </task>
+                        <data value="" name="musicOnComplete" />
+                        <data value="" name="musicOnFail" />
+                        <data value="Lt. Allard Lissara" name="waypointName" />
+                        <data value="-3948" name="LocationZ(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="2415" name="LocationX(m)" />
+                        <data value="naboo" name="Planet" />
+                        <data value="true" name="createWaypoint" />
+                        <data value="0" name="waitMarkerZ" />
+                        <data value="0" name="waitMarkerY" />
+                        <data value="0" name="waitMarkerX" />
+                        <data value="" name="waitMarkerCellName" />
+                        <data value="0" name="waitMarkerBuilding" />
+                        <data value="" name="waitMarkerPlanetName" />
+                        <data value="" name="waitMarkerTemplate" />
+                        <data value="0" name="waitMarkerCreate" />
+                    </task>
+                    <task type="Timer" id="5" name="Timer" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Timer 1 (should be invis)" name="journalEntryTitle" />
+                        <data value="" name="journalEntryDescription" />
+                        <data value="time1" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="100" name="Min Time" />
+                        <data value="150" name="Max Time" />
+                        <task type="Encounter" id="7" name="Encounter" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Ambushed!" name="journalEntryTitle" />
+                            <data value="You were attacked by several hired soldiers." name="journalEntryDescription" />
+                            <data value="ambush1" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="mercenary_hireling_reb" name="Creature Type" />
+                            <data value="5" name="Count" />
+                            <data value="3" name="Min Distance" />
+                            <data value="5" name="Max Distance" />
+                            <data value="Any" name="Direction" />
+                        </task>
+                    </task>
+                    <task type="Timer" id="15" name="Timer" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="20 Minute Timer" name="journalEntryTitle" />
+                        <data value="You have 20 minutes to get the codephrase to Lt. Allard Lissara." name="journalEntryDescription" />
+                        <data value="timer20" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="false" name="showSystemMessages" />
+                        <data value="true" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="1200" name="Min Time" />
+                        <data value="1200" name="Max Time" />
+                        <task type="Immediately Clear Quest" id="16" name="Immediately Clear Quest" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Timer Expired: Mission Failed" name="journalEntryTitle" />
+                            <data value="" name="journalEntryDescription" />
+                            <data value="failed" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="true" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                        </task>
+                    </task>
+                </task>
+                <data value="" name="musicOnComplete" />
+                <data value="" name="musicOnFail" />
+                <data value="Informant's Hiding Spot" name="waypointName" />
+                <data value="true" name="createWaypoint" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Bring Information to the Emperor's Retreat" name="journalEntryTitle" />
+            <data value="Bring critical information about the rebels to the Emperor's Retreat west of Moenia." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Naboo" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

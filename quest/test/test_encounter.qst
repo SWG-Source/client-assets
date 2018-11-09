@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="4" >
+            <task type="Go to Location" id="0" name="Go to Location" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Find the womprat lair" name="journalEntryTitle" />
+                <data value="Go to (190, 190, 190) and kill all the womprats there." name="journalEntryDescription" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="tatooine" name="Planet" />
+                <data value="190" name="LocationX(m)" />
+                <data value="190" name="LocationY(m)" />
+                <data value="190" name="LocationZ(m)" />
+                <data value="10.0" name="Radius(m)" />
+                <task type="Encounter" id="3" name="Encounter" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Kill them!" name="journalEntryTitle" />
+                    <data value="Kill the womprats you found." name="journalEntryDescription" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="womprat" name="Creature Type" />
+                    <data value="3" name="Count" />
+                    <data value="2" name="Min Distance" />
+                    <data value="3" name="Max Distance" />
+                    <data value="Any" name="Direction" />
+                    <data value="" name="taskName" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                </task>
+                <data value="" name="taskName" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+            </task>
+        </tasks>
+        <list>
+            <data value="Test Encounter" name="journalEntryTitle" />
+            <data value="Encounter test" name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="true" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Test2" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+            <data value="25" name="Level" />
+            <data value="solo" name="Type" />
+            <data value="true" name="journalVisible" />
+            <data value="0.1" name="Quality" />
+            <data value="1" name="CountArmor" />
+            <data value="" name="Armor" />
+            <data value="0.1" name="Elemental Value" />
+            <data value="0.1" name="Efficiency" />
+            <data value="0.1" name="Damage" />
+            <data value="0.1" name="Speed" />
+            <data value="1" name="CountWeapon" />
+            <data value="" name="Weapon" />
+            <data value="1" name="CountItem" />
+            <data value="" name="Item" />
+            <data value="0" name="Bank Credits" />
+            <data value="5" name="Faction Amount" />
+            <data value="gungan" name="Faction Name" />
+            <data value="0" name="Experience Amount" />
+            <data value="" name="Experience Type" />
+        </list>
+    </quest>
