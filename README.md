@@ -1,6 +1,6 @@
 # README
 
-This repo is for the client assets that were added since 1.2.  If you would like to make a pull request, please do not add any new .tre files. Please just work with the plain directory structure for now. Thanks!
+This repo is for the CLIENT SIDE ONLY (i.e. this is NOT to be installed ON the server, only in your SWG Client folder) assets that were added since 1.2.  If you would like to make a pull request, please do not add any new .tre files. Please just work with the plain directory structure for now. Thanks!
 
 ## Instructions:
 Please download the Client for v1.2 from https://bit.ly/swgClient (or https://www.swgsource.com/forums/threads/swg-source-v1-2-linux-server-vm.829/)
