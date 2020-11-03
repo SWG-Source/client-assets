@@ -1,28 +1,17 @@
 # README
 
-This repo is for the CLIENT SIDE ONLY (i.e. this is NOT to be installed ON the server, only in your SWG Client folder) assets that were added since 1.2.  If you would like to make a pull request, please do not add any new .tre files. Please just work with the plain directory structure for now. Thanks!
+This repo is for the CLIENT SIDE ONLY (i.e. this is NOT to be installed ON the server, only in your SWG Client folder).  If you would like to make a pull request, please do not add any new .tre files. Please just work with the plain directory structure for now. Thanks!
 
 ## Instructions:
 
-You can download the v1.2.1 client from [here](https://bit.ly/SWGSourceClient121).
+You can download the v3.0 client from [here](https://drive.google.com/file/d/1ZNe6C2G00yypSfhPqiue8SWqz8F6fdd7/view?usp=sharing).
 
-If you haven't already, please install Git for Windows https://git-scm.com/download/win
+Unpack the zip wherever you'd like (You'll need 7-zip).
 
-You may now get updates to your client by opening a Git Bash in your client folder and running:
+Double-click on UpdateSwgClient.bat to get the rest of the stuff you need.
 
-	git pull
+That's it!
 
-## Instructions (v1.2):
-If you have the SWG Source Client v1.2, you can configure it to recieve updates
+Double-click on UpdateSwgClient.bat again to get updates.
 
-If you haven't already, please install Git for Windows https://git-scm.com/download/win
-
-Open a Git Bash in your client folder. Run the following commands: (For v1.2 only.)
-
-	git init .
-	git remote add -f origin https://github.com/SWG-Source/client-assets.git
-	git checkout master
-
-You may now get updates to your client by opening a Git Bash and running:
-
-	git pull
+Add a shortcut to it on your desktop or start menu or whatever to make updates super easy!
