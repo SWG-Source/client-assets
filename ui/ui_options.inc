@@ -36,7 +36,6 @@
 				pageSound='comp.target.sound'
 				pageTerrain='comp.target.terrain'
 				pageUI='comp.target.ui'
-				pageVoice='comp.target.voice'
 				tabOptions='comp.tabs'
 				tabs='comp.tabs'
 			/>
@@ -134,12 +133,6 @@
 						Target='target.sound'
 					/>
 					<Data
-						localName='[@ui_opt:b_voice]'
-						Name='@ui_opt:b_voice'
-						Size='128,64'
-						Target='target.voice'
-					/>
-					<Data
 						localName='[@ui_opt:b_combat]'
 						Name='@ui_opt:b_combat'
 						Size='128,64'
@@ -228,7 +221,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -258,7 +250,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -288,7 +279,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -307,36 +297,6 @@ activated=true'
 						Style='/Styles.New.buttons.hud.style'
 					>@ui_opt:b_sound</Button>
 					<Button
-						LocalText='[@ui_opt:b_voice]'
-						Location='4,87'
-						MaximumSize='16384,22'
-						MinimumSize='0,19'
-						Name='buttonVoice'
-						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=3
-parent.buttonGraphics.enabled=true
-parent.buttonCamera.enabled=true
-parent.buttonTerrain.enabled=true
-parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
-parent.buttonCombat.enabled=true
-parent.buttonChat.enabled=true
-parent.buttonChatColors.enabled=true
-parent.buttonAlarm.enabled=true
-parent.buttonAFK.enabled=true
-parent.buttonUI.enabled=true
-parent.buttonControls.enabled=true
-parent.buttonMisc.enabled=true
-parent.buttonKeymap.enabled=true
-enabled=false
-activated=true'
-						PackSize='a'
-						RStyleDefault='rs_default'
-						ScrollExtent='103,22'
-						Size='103,22'
-						Style='/Styles.New.buttons.hud.style'
-					>@ui_opt:b_voice</Button>
-					<Button
 						LocalText='[@ui_opt:b_combat]'
 						Location='4,115'
 						MaximumSize='16384,22'
@@ -348,7 +308,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -378,7 +337,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -408,7 +366,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -438,7 +395,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -468,7 +424,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -499,7 +454,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -529,7 +483,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -559,7 +512,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -590,7 +542,6 @@ parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
 parent.buttonSound.enabled=true
-parent.buttonVoice.enabled=true
 parent.buttonCombat.enabled=true
 parent.buttonChat.enabled=true
 parent.buttonChatColors.enabled=true
@@ -2936,826 +2887,6 @@ parent.slider.enabled=true'
 									>
 									</Sliderbar>
 								</Page>
-							</Composite>
-							<Scrollbar
-								Control='comp'
-								Enabled='false'
-								Location='498,45'
-								Name='scroll'
-								PackLocation='fff,fff'
-								PackSize='f,a'
-								ScrollExtent='11,483'
-								Size='11,483'
-								Style='/Styles.scrollbar.default.vHud4.style'
-							>
-							</Scrollbar>
-						</Page>
-						<Page
-							GetsInput='false'
-							Location='0,37'
-							Name='box'
-							PackLocation='nfn,nfn'
-							PackSize='a,a'
-							ScrollExtent='513,518'
-							Selectable='true'
-							Size='513,518'
-						>
-							<Page
-								BackgroundColor='#FFFFFF'
-								BackgroundOpacity='0.90'
-								BackgroundTint='#1CFFFF'
-								Name='outline'
-								PackLocation='nfn,nfn'
-								PackSize='a,a'
-								PalBgTint='line1'
-								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='513,518'
-								Size='513,518'
-							/>
-							<Page
-								BackgroundColor='#FFFFFF'
-								BackgroundOpacity='0.20'
-								BackgroundTint='#00D6FB'
-								Location='3,5'
-								Name='box'
-								PackLocation='nfn,nfn'
-								PackSize='a,a'
-								PalBgTint='back1'
-								RStyleDefault='/Styles.New.whitebox.rs_default'
-								ScrollExtent='507,512'
-								Size='507,512'
-							/>
-							<Page
-								BackgroundColor='#FFFFFF'
-								BackgroundOpacity='0.70'
-								BackgroundTint='#01687E'
-								Location='0,2'
-								Name='inFrame'
-								PackLocation='nfn,nfn'
-								PackSize='a,a'
-								PalBgTint='back2'
-								RStyleDefault='/Styles.New.fatFrameInside.rs_default'
-								ScrollExtent='512,516'
-								Size='512,516'
-							/>
-						</Page>
-					</Page>
-					<Page
-						comp.='false'
-						comp.enabled='true'
-						Enabled='false'
-						Name='voice'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						ScrollExtent='513,555'
-						Selectable='true'
-						Size='513,555'
-						UserMovable='true'
-						UserResizable='true'
-						Visible='false'
-					>
-						<Data
-							buttoncheckmic='main.comp.checkmic.check'
-							buttonDefaults='buttonDefaults'
-							buttonechoplayback='main.comp.echo.playback'
-							buttonechorecord='main.comp.echo.record'
-							buttonfixmic='main.comp.checkmic.fix'
-							buttonpolldevices='main.comp.device.poll'
-							buttonpttclearbinding='main.comp.pushToTalk.buttonclearbinding'
-							buttonpttrebind='main.comp.pushToTalk.buttonrebind'
-							buttonvumonitor='main.comp.echo.vumonitor'
-							checkautodeclineinvites='main.comp.checkAutoDeclineInvites'
-							checkautojoin='main.comp.checkAutoJoin'
-							checkEnable='main.checkEnable'
-							checkpushtotalk='main.comp.pushToTalk.checkUsePushToTalk'
-							checkshowflybar='main.comp.checkShowFlybar'
-							comboinputdevice='main.comp.device.input.combo'
-							combooutputdevice='main.comp.device.output.combo'
-							entrypage='/controls'
-							localPageName='[@ui_opt:page_voice]'
-							localstringechoplaybackstart='[@ui_opt:voice_echo_playbackstart]'
-							localstringechoplaybackstop='[@ui_opt:voice_echo_playbackstop]'
-							localstringechorecordstart='[@ui_opt:voice_echo_recordstart]'
-							localstringechorecordstop='[@ui_opt:voice_echo_recordstop]'
-							localstringvumonitorstart='[@ui_opt:voice_vumonitorstart]'
-							localstringvumonitorstop='[@ui_opt:voice_vumonitorstop]'
-							Name='CodeData'
-							PageName='@ui_opt:page_voice'
-							slideraudiofade='main.comp.audiofade.slider'
-							slidervolumemic='main.comp.micvolume.slider'
-							slidervolumespeaker='main.comp.speakervolume.slider'
-							slidervumonitor='main.comp.echo.vuslider'
-							stringechoplaybackstart='@ui_opt:voice_echo_playbackstart'
-							stringechoplaybackstop='@ui_opt:voice_echo_playbackstop'
-							stringechorecordstart='@ui_opt:voice_echo_recordstart'
-							stringechorecordstop='@ui_opt:voice_echo_recordstop'
-							stringvumonitorstart='@ui_opt:voice_vumonitorstart'
-							stringvumonitorstop='@ui_opt:voice_vumonitorstop'
-							textcheckmicresult='main.comp.checkmic.box.result'
-							textpttbinding='main.comp.pushToTalk.box.textbinding'
-						/>
-						<Button
-							LocalText='[@ui_opt:reset_defaults]'
-							LocalTooltip='[@ui_opt:tooltip_voice_reset_defaults]'
-							Location='109,532'
-							MinimumSize='0,19'
-							Name='ButtonDefaults'
-							PackLocation='cpc,fff'
-							PackSize='p,f'
-							ScrollExtent='294,19'
-							Size='294,19'
-							Style='/Styles.New.buttons.hud.style'
-							Tooltip='@ui_opt:tooltip_voice_reset_defaults'
-						>@ui_opt:reset_defaults</Button>
-						<Page
-							BackgroundColor='#FFFFFF'
-							BackgroundTint='#00FFFF'
-							Name='main'
-							OpacityRelativeMin='0.70'
-							PackLocation='nfn,nfn'
-							PackSize='a,a'
-							ScrollExtent='513,556'
-							Selectable='true'
-							Size='513,556'
-						>
-							<Text
-								BackgroundColor='#E05410'
-								BackgroundTint='#FF8000'
-								ColorCarat='#FFFFFF'
-								ColorSelection='#FFFFFF'
-								Font='bold_12'
-								LocalText='[@ui_opt:page_voice]'
-								MinimumSize='0,19'
-								Name='Label'
-								PackLocation='nfn,nfn'
-								PackSize='a,f'
-								PalText='header'
-								ScrollExtent='513,19'
-								Size='513,19'
-								TextColor='#97FFFF'
-							>@ui_opt:page_voice</Text>
-							<Checkbox
-								Checked='true'
-								Color='#96F4FC'
-								LocalTooltip='[@ui_opt:tooltip_voice_enable]'
-								Location='0,17'
-								MinimumSize='0,19'
-								Name='checkEnable'
-								OnDisable='opacity=0.25'
-								OnEnable='opacity=1.0'
-								OnSet='parent.comp.enabled=true'
-								OnUnset='parent.comp.enabled=false'
-								PackLocation='nfn,nfn'
-								PackSize='a,f'
-								PalColor='text1'
-								ScrollExtent='513,19'
-								Size='513,19'
-								Style='/Styles.New.Checkbox2.Style'
-								Tooltip='@ui_opt:tooltip_voice_enable'
-							>@ui_opt:voice_enable</Checkbox>
-							<Composite
-								Location='10,42'
-								Name='comp'
-								OnDisableEffector='/effectors.opacity.fast.fadequarter'
-								OnEnableEffector='/effectors.opacity.fast.fadefull'
-								PackLocation='nfn,nfn'
-								PackSize='a,a'
-								Padding='Both'
-								ScrollExtent='486,633'
-								ScrollSizeLine='1,16'
-								Size='486,484'
-								Spacing='8'
-								SpacingType='Constant'
-							>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#00D6FB'
-									Location='0,4'
-									MaximumSize='16384,200'
-									MinimumSize='0,39'
-									Name='pushToTalk'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back1'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,70'
-									Size='486,70'
-								>
-									<Checkbox
-										Checked='true'
-										Color='#96F4FC'
-										Font='bold_12'
-										LocalTooltip='[@ui_opt:tooltip_voice_use_push_to_talk]'
-										Location='-1,7'
-										MaximumSize='16384,20'
-										MinimumSize='0,20'
-										Name='checkUsePushToTalk'
-										PackLocation='nfn,npn'
-										PackSize='a,f'
-										PalColor='text1'
-										ScrollExtent='228,20'
-										Size='228,20'
-										Style='/Styles.New.Checkbox2.Style'
-										Tooltip='@ui_opt:tooltip_voice_use_push_to_talk'
-										Visible='false'
-									>@ui_opt:voice_use_push_to_talk</Checkbox>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_pttbinding]'
-										LocalTooltip='[@ui_opt:tooltip_voice_pttbinding]'
-										Location='3,31'
-										Margin='2,2,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,npn'
-										PackSize='p,f'
-										PalText='header'
-										ScrollExtent='182,19'
-										Size='182,19'
-										TextColor='#97FFFF'
-										Tooltip='@ui_opt:tooltip_voice_pttbinding'
-									>@ui_opt:voice_pttbinding</Text>
-									<Page
-										BackgroundColor='#FFFFFF'
-										BackgroundOpacity='0.80'
-										BackgroundTint='#00FFFF'
-										Location='186,27'
-										MaximumSize='2340,740'
-										Name='box'
-										PackLocation='fpf,npn'
-										PackSize='p,f'
-										PalBgTint='line2'
-										RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-										ScrollExtent='179,27'
-										Size='179,27'
-									>
-										<Text
-											BackgroundColor='#E05410'
-											BackgroundTint='#FF8000'
-											ColorCarat='#FFFFFF'
-											ColorSelection='#FFFFFF'
-											Font='bold_12'
-											LocalText='INS, F11'
-											Margin='6,4,6,4'
-											MaxLines='1'
-											MinimumSize='0,19'
-											Name='textbinding'
-											PackLocation='nfn,nfn'
-											PackSize='a,a'
-											PalText='header'
-											ScrollExtent='179,27'
-											Size='179,27'
-											TextColor='#97FFFF'
-										>INS, F11</Text>
-									</Page>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:keybind_rebind]'
-										Location='378,16'
-										MinimumSize='0,19'
-										Name='buttonrebind'
-										PackLocation='fff,npn'
-										PackSize='f,f'
-										ScrollExtent='105,19'
-										Size='105,19'
-										Style='/Styles.New.buttons.hud.style'
-									>@ui_opt:keybind_rebind</Button>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:keybind_clear_binding]'
-										Location='378,47'
-										MinimumSize='0,19'
-										Name='buttonclearbinding'
-										PackLocation='fff,npn'
-										PackSize='f,f'
-										ScrollExtent='105,19'
-										Size='105,19'
-										Style='/Styles.New.buttons.hud.style'
-									>@ui_opt:keybind_clear_binding</Button>
-								</Page>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#03546B'
-									Location='0,82'
-									MaximumSize='16384,34'
-									MinimumSize='0,34'
-									Name='speakervolume'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back3'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,34'
-									Size='486,34'
-								>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_speaker_volume]'
-										LocalTooltip='[@ui_opt:tooltip_voice_speaker_volume]'
-										Margin='2,0,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										PalText='header'
-										ScrollExtent='486,19'
-										Size='486,19'
-										TextColor='#97FFFF'
-										Tooltip='@ui_opt:tooltip_voice_speaker_volume'
-									>@ui_opt:voice_speaker_volume</Text>
-									<Sliderbar
-										Location='0,20'
-										Name='slider'
-										OnDisable='visible=false'
-										OnEnable='visible=true'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										ScrollExtent='486,14'
-										Size='486,14'
-										Style='/Styles.New.Slider.default.horizontal.style_test'
-										UpperLimit='100'
-										Value='73'
-									>
-									</Sliderbar>
-								</Page>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#03546B'
-									Location='0,124'
-									MaximumSize='16384,34'
-									MinimumSize='0,34'
-									Name='micvolume'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back3'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,34'
-									Size='486,34'
-								>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_mic_volume]'
-										LocalTooltip='[@ui_opt:tooltip_voice_mic_volume]'
-										Margin='2,0,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										PalText='header'
-										ScrollExtent='486,19'
-										Size='486,19'
-										TextColor='#97FFFF'
-										Tooltip='@ui_opt:tooltip_voice_mic_volume'
-									>@ui_opt:voice_mic_volume</Text>
-									<Sliderbar
-										Location='0,20'
-										Name='slider'
-										OnDisable='visible=false'
-										OnEnable='visible=true'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										ScrollExtent='486,14'
-										Size='486,14'
-										Style='/Styles.New.Slider.default.horizontal.style_test'
-										UpperLimit='100'
-										Value='73'
-									>
-									</Sliderbar>
-								</Page>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#03546B'
-									Location='0,166'
-									MaximumSize='16384,34'
-									MinimumSize='0,34'
-									Name='audiofade'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back3'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,34'
-									Size='486,34'
-								>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_audio_fade]'
-										LocalTooltip='[@ui_opt:tooltip_voice_audio_fade]'
-										Margin='2,0,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										PalText='header'
-										ScrollExtent='486,19'
-										Size='486,19'
-										TextColor='#97FFFF'
-										Tooltip='@ui_opt:tooltip_voice_audio_fade'
-									>@ui_opt:voice_audio_fade</Text>
-									<Sliderbar
-										Location='0,20'
-										Name='slider'
-										OnDisable='visible=false'
-										OnEnable='visible=true'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										ScrollExtent='486,14'
-										Size='486,14'
-										Style='/Styles.New.Slider.default.horizontal.style_test'
-										UpperLimit='100'
-										Value='73'
-									>
-									</Sliderbar>
-								</Page>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#00D6FB'
-									Location='0,208'
-									MaximumSize='16384,200'
-									MinimumSize='0,39'
-									Name='echo'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back1'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,110'
-									Size='486,110'
-								>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_echo]'
-										Margin='2,0,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										PalText='header'
-										ScrollExtent='486,19'
-										Size='486,19'
-										TextColor='#97FFFF'
-									>@ui_opt:voice_echo</Text>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:voice_echo_recordstart]'
-										LocalTooltip='[@ui_opt:tooltip_voice_echo_record]'
-										Location='23,25'
-										MinimumSize='0,19'
-										Name='record'
-										PackLocation='cpc,nfn'
-										PackSize='p,f'
-										ScrollExtent='196,19'
-										Size='196,19'
-										Style='/Styles.New.buttons.hud.style'
-										Tooltip='@ui_opt:tooltip_voice_echo_record'
-									>@ui_opt:voice_echo_recordstart</Button>
-									<Button
-										AutoRegister='true'
-										Enabled='false'
-										LocalText='[@ui_opt:voice_echo_playbackstart]'
-										LocalTooltip='[@ui_opt:tooltip_voice_echo_playback]'
-										Location='266,25'
-										MinimumSize='0,19'
-										Name='playback'
-										PackLocation='cpc,nfn'
-										PackSize='p,f'
-										ScrollExtent='196,19'
-										Size='196,19'
-										Style='/Styles.New.buttons.hud.style'
-										Tooltip='@ui_opt:tooltip_voice_echo_playback'
-									>@ui_opt:voice_echo_playbackstart</Button>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:voice_vumonitorstart]'
-										LocalTooltip='[@ui_opt:tooltip_voice_vumonitorbutton]'
-										Location='127,61'
-										MinimumSize='0,19'
-										Name='vumonitor'
-										PackLocation='cpc,fff'
-										PackSize='p,f'
-										ScrollExtent='232,19'
-										Size='232,19'
-										Style='/Styles.New.buttons.hud.style'
-										Tooltip='@ui_opt:tooltip_voice_vumonitorbutton'
-									>@ui_opt:voice_vumonitorstart</Button>
-									<Sliderbar
-										Enabled='false'
-										Location='43,92'
-										Name='vuslider'
-										OnDisableEffector='/effectors.opacity.fast.fadeQuarter'
-										OnEnableEffector='/effectors.opacity.fast.fadeFull'
-										Opacity='0.25'
-										PackLocation='cpc,fff'
-										PackSize='p,f'
-										ScrollExtent='400,14'
-										Size='400,14'
-										Style='/Styles.New.Slider.default.progressbar.style_test'
-										UpperLimit='100'
-										Value='51'
-									>
-									</Sliderbar>
-								</Page>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#00D6FB'
-									Location='0,326'
-									MaximumSize='16384,200'
-									MinimumSize='0,39'
-									Name='device'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back1'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,118'
-									Size='486,118'
-								>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_device]'
-										Margin='2,0,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										PalText='header'
-										ScrollExtent='486,19'
-										Size='486,19'
-										TextColor='#97FFFF'
-									>@ui_opt:voice_device</Text>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:voice_poll_devices]'
-										LocalTooltip='[@ui_opt:tooltip_voice_poll_devices]'
-										Location='121,17'
-										MinimumSize='0,19'
-										Name='poll'
-										PackLocation='cpc,nfn'
-										PackSize='p,f'
-										ScrollExtent='243,19'
-										Size='243,19'
-										Style='/Styles.New.buttons.hud.style'
-										Tooltip='@ui_opt:tooltip_voice_poll_devices'
-									>@ui_opt:voice_poll_devices</Button>
-									<Page
-										BackgroundColor='#FFFFFF'
-										BackgroundTint='#03546B'
-										Location='0,39'
-										MaximumSize='16384,33'
-										Name='input'
-										PackLocation='cpc,nfn'
-										PackSize='a,f'
-										PalBgTint='back3'
-										RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-										ScrollExtent='486,33'
-										Size='486,33'
-									>
-										<ComboBox
-											AutoRegister='true'
-											BackgroundOpacity='0.70'
-											ButtonMargin='2,2,2,0'
-											ButtonStyle='/Styles.New.buttons.combo_arrow.style'
-											ButtonWidth='10'
-											DataSource='ds'
-											DropDownHeight='256'
-											ListStyle='/Styles.list.combo.style_all'
-											Location='0,16'
-											MinimumSize='0,19'
-											Name='combo'
-											PackSize='a'
-											RStyleDefault='/Styles.New.combo.combo1.rs_default'
-											ScrollbarStyle='/Styles.scrollbar.default.vHud3.style'
-											ScrollbarWidth='13'
-											ScrollExtent='486,19'
-											Size='486,19'
-											TextboxMargin='0,1,0,0'
-											TextboxStyle='/Styles.textbox.combo.Style_new'
-										>
-										</ComboBox>
-										<DataSource
-											Name='ds'
-										>
-											<Data
-												Name='default'
-												Text='------'
-											/>
-										</DataSource>
-										<Text
-											Font='bold_12'
-											LocalText='[@ui_opt:voice_input_device]'
-											LocalTooltip='[@ui_opt:tooltip_voice_input_device]'
-											Margin='2,0,0,0'
-											MinimumSize='0,19'
-											Name='label'
-											PackLocation='nfn,nfn'
-											PackSize='h,f'
-											PalText='header'
-											ScrollExtent='370,19'
-											Size='370,19'
-											TextColor='#97FFFF'
-											Tooltip='@ui_opt:tooltip_voice_input_device'
-										>@ui_opt:voice_input_device</Text>
-									</Page>
-									<Page
-										BackgroundColor='#FFFFFF'
-										BackgroundTint='#03546B'
-										Location='0,77'
-										MaximumSize='16384,33'
-										Name='output'
-										PackLocation='cpc,nfn'
-										PackSize='a,f'
-										PalBgTint='back3'
-										RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-										ScrollExtent='486,33'
-										Size='486,33'
-									>
-										<ComboBox
-											AutoRegister='true'
-											BackgroundOpacity='0.70'
-											ButtonMargin='2,2,2,0'
-											ButtonStyle='/Styles.New.buttons.combo_arrow.style'
-											ButtonWidth='10'
-											DataSource='ds'
-											DropDownHeight='256'
-											ListStyle='/Styles.list.combo.style_all'
-											Location='0,16'
-											MinimumSize='0,19'
-											Name='combo'
-											PackSize='a'
-											RStyleDefault='/Styles.New.combo.combo1.rs_default'
-											ScrollbarStyle='/Styles.scrollbar.default.vHud3.style'
-											ScrollbarWidth='13'
-											ScrollExtent='486,19'
-											Size='486,19'
-											TextboxMargin='0,1,0,0'
-											TextboxStyle='/Styles.textbox.combo.Style_new'
-										>
-										</ComboBox>
-										<DataSource
-											Name='ds'
-										>
-											<Data
-												Name='default'
-												Text='------'
-											/>
-										</DataSource>
-										<Text
-											Font='bold_12'
-											LocalText='[@ui_opt:voice_output_device]'
-											LocalTooltip='[@ui_opt:tooltip_voice_output_device]'
-											Margin='2,0,0,0'
-											MinimumSize='0,19'
-											Name='label'
-											PackLocation='nfn,nfn'
-											PackSize='h,f'
-											PalText='header'
-											ScrollExtent='370,19'
-											Size='370,19'
-											TextColor='#97FFFF'
-											Tooltip='@ui_opt:tooltip_voice_output_device'
-										>@ui_opt:voice_output_device</Text>
-									</Page>
-								</Page>
-								<Page
-									BackgroundColor='#FFFFFF'
-									BackgroundTint='#00D6FB'
-									Location='0,452'
-									MaximumSize='16384,200'
-									MinimumSize='0,39'
-									Name='checkmic'
-									PackLocation='nfn,nfn'
-									PackSize='a,f'
-									PalBgTint='back1'
-									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='486,93'
-									Size='486,93'
-								>
-									<Text
-										Font='bold_12'
-										LocalText='[@ui_opt:voice_checkmic]'
-										Margin='2,2,0,0'
-										MinimumSize='0,19'
-										Name='label'
-										PackLocation='nfn,nfn'
-										PackSize='a,f'
-										PalText='header'
-										ScrollExtent='486,19'
-										Size='486,19'
-										TextColor='#97FFFF'
-									>@ui_opt:voice_checkmic</Text>
-									<Page
-										BackgroundColor='#FFFFFF'
-										BackgroundOpacity='0.80'
-										BackgroundTint='#00FFFF'
-										Location='233,13'
-										MaximumSize='2340,740'
-										MinimumSize='234,74'
-										Name='box'
-										PackLocation='fpf,fff'
-										PackSize='p,f'
-										PalBgTint='line2'
-										RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-										ScrollExtent='248,74'
-										Size='248,74'
-									>
-										<Text
-											BackgroundColor='#E05410'
-											BackgroundTint='#FF8000'
-											ColorCarat='#FFFFFF'
-											ColorSelection='#FFFFFF'
-											Font='bold_12'
-											LocalText='The results of the Windows audio settings check will be placed in this box. Lets be sure that the text will look good when there is a lot of it.'
-											Margin='6,4,6,4'
-											MinimumSize='0,19'
-											Name='result'
-											PackLocation='nfn,nfn'
-											PackSize='a,a'
-											PalText='header'
-											ScrollExtent='248,74'
-											Size='248,74'
-											TextColor='#97FFFF'
-										>The results of the Windows audio settings check will be placed in this box. Lets be sure that the text will look good when there is a lot of it.</Text>
-									</Page>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:voice_checkmic_check]'
-										LocalTooltip='[@ui_opt:tooltip_voice_checkmic_check]'
-										Location='23,30'
-										MinimumSize='0,19'
-										Name='check'
-										PackLocation='npn,nfn'
-										PackSize='p,f'
-										ScrollExtent='196,19'
-										Size='196,19'
-										Style='/Styles.New.buttons.hud.style'
-										Tooltip='@ui_opt:tooltip_voice_checkmic_check'
-									>@ui_opt:voice_checkmic_check</Button>
-									<Button
-										AutoRegister='true'
-										LocalText='[@ui_opt:voice_checkmic_fix]'
-										LocalTooltip='[@ui_opt:tooltip_voice_checkmic_fix]'
-										Location='23,60'
-										MinimumSize='0,19'
-										Name='fix'
-										PackLocation='npn,nfn'
-										PackSize='p,f'
-										ScrollExtent='196,19'
-										Size='196,19'
-										Style='/Styles.New.buttons.hud.style'
-										Tooltip='@ui_opt:tooltip_voice_checkmic_fix'
-									>@ui_opt:voice_checkmic_fix</Button>
-								</Page>
-								<Text
-									Font='bold_12'
-									LocalText='This is placeholder text for the voice chat options window. There will be controls here to allow the user to select their input and output hardware, adjust several volume parameters, and test their configuration.'
-									Location='0,4'
-									Name='placeholder'
-									ScrollExtent='485,39'
-									Size='485,39'
-									Visible='false'
-								>This is placeholder text for the voice chat options window. There will be controls here to allow the user to select their input and output hardware, adjust several volume parameters, and test their configuration.</Text>
-								<Checkbox
-									Checked='true'
-									Color='#96F4FC'
-									Font='bold_12'
-									LocalTooltip='[@ui_opt:tooltip_voice_show_flybar]'
-									Location='6,553'
-									MaximumSize='16384,20'
-									MinimumSize='0,20'
-									Name='checkShowFlybar'
-									PackSize='a,f'
-									PalColor='text1'
-									ScrollExtent='481,20'
-									Size='481,20'
-									Style='/Styles.New.Checkbox2.Style'
-									Tooltip='@ui_opt:tooltip_voice_show_flybar'
-								>@ui_opt:voice_show_flybar</Checkbox>
-								<Checkbox
-									Color='#96F4FC'
-									Font='bold_12'
-									LocalTooltip='[@ui_opt:tooltip_voice_auto_decline_invites]'
-									Location='6,581'
-									MaximumSize='16384,20'
-									MinimumSize='0,20'
-									Name='checkAutoDeclineInvites'
-									PackSize='a,f'
-									PalColor='text1'
-									ScrollExtent='481,20'
-									Size='481,20'
-									Style='/Styles.New.Checkbox2.Style'
-									Tooltip='@ui_opt:tooltip_voice_auto_decline_invites'
-								>@ui_opt:voice_auto_decline_invites</Checkbox>
-								<Checkbox
-									Color='#96F4FC'
-									Font='bold_12'
-									LocalTooltip='[@ui_opt:tooltip_voice_auto_join]'
-									Location='6,609'
-									MaximumSize='16384,20'
-									MinimumSize='0,20'
-									Name='checkAutoJoin'
-									PackSize='a,f'
-									PalColor='text1'
-									ScrollExtent='481,20'
-									Size='481,20'
-									Style='/Styles.New.Checkbox2.Style'
-									Tooltip='@ui_opt:tooltip_voice_auto_join'
-								>@ui_opt:voice_auto_join</Checkbox>
 							</Composite>
 							<Scrollbar
 								Control='comp'
