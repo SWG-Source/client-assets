@@ -89,7 +89,7 @@
 				Size='631,555'
 				Spacing='8'
 				SpacingType='Fill'
-				tabs.activetab='0'
+				tabs.activetab='9'
 			>
 				<TabbedPane
 					BackgroundColor='#FFFFFF'
@@ -105,7 +105,7 @@
 					TargetPage='target'
 					Visible='false'
 					DataSource='TabData'
-					ActiveTab='0'
+					ActiveTab='9'
 					Style='/Styles.New.tabs.horizontal_10.style'
 					TargetPage='target'
 				>
@@ -303,7 +303,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonCombat'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=4
+						OnPress='parent.parent.tabs.activetab=3
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -332,7 +332,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonChat'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=5
+						OnPress='parent.parent.tabs.activetab=4
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -361,7 +361,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonChatColors'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=6
+						OnPress='parent.parent.tabs.activetab=5
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -390,7 +390,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonAlarm'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=7
+						OnPress='parent.parent.tabs.activetab=6
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -419,7 +419,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonAFK'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=8
+						OnPress='parent.parent.tabs.activetab=7
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -449,7 +449,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonUI'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=9
+						OnPress='parent.parent.tabs.activetab=8
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -478,7 +478,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonControls'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=10
+						OnPress='parent.parent.tabs.activetab=9
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -507,7 +507,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonMisc'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=11
+						OnPress='parent.parent.tabs.activetab=10
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
@@ -537,7 +537,7 @@ activated=true'
 						MinimumSize='0,19'
 						Name='buttonKeymap'
 						OnEnable='activated=false'
-						OnPress='parent.parent.tabs.activetab=12
+						OnPress='parent.parent.tabs.activetab=11
 parent.buttonGraphics.enabled=true
 parent.buttonCamera.enabled=true
 parent.buttonTerrain.enabled=true
